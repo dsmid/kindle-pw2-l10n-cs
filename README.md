@@ -8,7 +8,7 @@ firmware version.
 I took a different approach than ixtab & Co.
 Instead of adding a new locale, I just 'replaced' en_GB specific files with Czech counterparts.
 I know that it is not POSIXly correct but it's safe and easy. Adding new files would be very difficult as
-many resources happen to dwell inside CRAMFS loopback files. One English locale is more than enough for a
+many resources happen to dwell inside CramFS loopback files. One English locale is more than enough for a
 non-English speaking user anyway.
 
 I've used Sir Alex' K3Translator to inject Czech phrases into the JARs instead of the British ones. It's
