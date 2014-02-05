@@ -2,7 +2,8 @@ Czech localization for Kindle Paperwhite 2
 ============================================
 
 This repository contains all that is needed to build a Czech localization package for Kindle PW2.
-It allows submitting translation in pure text files and using SQLite database to adapt the tree for a new firmware version.
+It allows submitting translation in pure text files and using SQLite database to adapt the tree for a new
+firmware version.
 
 I took a different approach than ixtab & Co.
 Instead of adding a new locale, I just 'replaced' en_GB specific files with Czech counterparts.
