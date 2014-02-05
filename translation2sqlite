@@ -39,3 +39,4 @@ find . -name '*.properties' -exec sh -c "awk 'BEGIN {FS="'"'"([[:space:]]*=[[:sp
     )
 echo "commit;" >> ../../trans_$VERSION.sql
 sqlite3 ../../kindle_loc.sqlite < ../../trans_$VERSION.sql
+rm -f ../../trans_$VERSION.sql
