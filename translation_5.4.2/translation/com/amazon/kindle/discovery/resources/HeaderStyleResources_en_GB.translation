@@ -1,0 +1,51 @@
+Updates	
+Friends	
+My Shelves	
+Following	
+Followers	
+Suggested	
+Follow	
+Stop Following	
+{0,plural,=0 {Comment} one {{0,number,###0} Comment} other {{0,number,###0} Comments}}	
+Share	
+Delete	Smazat
+{0,plural,=0 {{0,number,###0} days} one {{0,number,###0} day} other {{0,number,###0} days}} ago	
+Delete Comment	
+Are you sure you want to delete this comment?	
+Cancel	
+Shelved Books ({0})	
+Currently Reading ({0})	
+Read ({0})	
+Want to Read ({0})	
+Add Amazon Books 	
+Friends ({0})	
+Following ({0})	
+Followers ({0})	
+See More 	
+Find Readers to Follow 	
+✓ Friend	
+✓ Request Sent	
+✓ Following	
++ Follow	
+Edit	
+All Reviews	
+Friendsʼ Reviews	
+Following Reviews	
+{0,select,unrated {wrote a review} other {rated {1}}}	
+{0,plural,=0 {Comment} one {Comment ({0,number,integer})} other {{0,choice,0#Comments ({0,number,integer})|100#Comments (99+)}}}	
+{0,plural,=0 {} one {({0,number,integer})} other {{0,choice,0#({0,number,integer})|100#(99+)}}}	
+More…	
+{0,select, liked {{1,choice,0#✓ Like ({1,number,integer})|100#✓ Like (99+)}} other {{1,choice,0#Like|1#Like ({1,number,integer})|100#Like (99+)}}}	
+{0,select, liked {{1,choice,0#({1,number,integer})|100#(99+)}} other {{1,choice,0#|1#({1,number,integer})|100#(99+)}}}	
+My Recent Updates	
+Shelved Books ({0,number,integer})	
+Currently Reading ({0,number,integer})	
+Read ({0,number,integer})	
+Want to Read ({0,number,integer})	
+Want to Read	
+✓ Currently Reading	
+✓ Read	
+✓ Want to Read	
+Recent Updates by {0}	
+Remove Friend	
+Are you sure you would like to remove {0} from your friend list? Friends arenʼt notified when you remove them.	

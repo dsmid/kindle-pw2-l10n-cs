@@ -1,0 +1,45 @@
+#!/bin/bash
+
+. config
+
+VER="$VERSION"
+
+./translation2sqlite
+
+#rm -f overlay/LC_MESSAGES/*.mo
+#mkdir -p overlay/LC_MESSAGES
+
+#find translation_$VERSION/po -name '*.po' -exec sh -c "fn=\$(basename {}); fn=\${fn%.po}.mo; msgfmt {} -o overlay/LC_MESSAGES/\$fn" \;
+
+cd root_$VERSION
+
+while read orig overlay
+do
+    if [[ "$orig" =~  mesquite|pillow ]]
+    then
+	orig=./${orig#/}
+	[ -n "$overlay" ] || overlay=${orig##*/}
+	echo $orig $overlay
+	find "../overlay/$overlay" -name '*.js' -delete
+	find "../overlay/$overlay" -name '*.js.native' -delete
+	while read jsfile
+	do
+	    basen=$(basename "$jsfile")
+	    dest="../overlay/$overlay/${jsfile#$orig}"
+	    destdir=$(dirname "$dest")
+	    [ -d "$destdir" ] || mkdir -p "$destdir"
+	    cp -f "$jsfile" "$destdir/"
+	    trjsfile="$destdir/$basen"
+	    native2ascii -reverse "$trjsfile" "$trjsfile.native"
+	    OLDIFS=$IFS
+	    printf -v IFS "\t"
+	    while read src tran
+	    do
+		[ -n "$tran" ] && sed -i "s|'$src'|'$tran'|g; s|"$src"|"$tran"|g;" "$trjsfile.native"
+	    done < <(sqlite3 -separator "	" ../kindle_loc.sqlite "select src,tran from trans where file='""$jsfile""' and ver='""$VER""' ;")
+	    IFS=$OLDIFS
+	    native2ascii "$trjsfile.native" "$trjsfile"
+	    rm -f "$trjsfile.native"
+	done < <(find $orig -name '*.js')
+    fi
+done < ../overlay.list

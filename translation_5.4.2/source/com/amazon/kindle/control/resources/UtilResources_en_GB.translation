@@ -1,0 +1,76 @@
+Cancel	
+Delete This Book	
+{0}~~~~Are you sure you want to delete this book?	
+Delete This Sample	
+{0}~~~~Are you sure you want to delete this sample?	
+Delete This Collection	
+This collection is synced across all of your devices and will be deleted on all of them.~~~~Deleting a collection does not remove the content stored on your device or in the Cloud. Are you sure you want to delete this collection?	
+Delete This Document	
+{0}~~~~Are you sure you want to delete this document?	
+Delete This Issue	
+{0}: {1,date,EEE}, {1,date,medium}~~~~Are you sure you want to delete this issue?	
+Delete This Blog	
+{0}~~~~Are you sure you want to delete this blog?	
+Remove from Device	
+{0}~~~~This item will be moved to the Cloud but any application data or settings associated with it will be deleted permanently. Would you like to continue?	
+Delete This MP3	
+{0}~~~~Are you sure you want to delete this MP3?	
+Delete This Item	
+{0}~~~~Are you sure you want to delete this item?	
+Vocabulary Builder Turned Off	
+Vocabulary Builder has been turned off and will no longer appear on your Home screen. To turn it on, go to Settings, Reading Options, and Vocabulary Builder.	
+Turn Off FreeTime	
+Kindle FreeTime has been disabled and will no longer appear on your Home screen. To turn it on, go to Settings, Device Options, Parental Controls and FreeTime.	
+About Vocabulary Builder	
+Vocabulary Builder helps you learn new words as you read.~~~~Words that you look up in the dictionary whilst reading are added to Vocabulary Builder automatically. You can then view Flashcards or review usage examples for these words.	
+About Kindle FreeTime	
+Delete This Receipt	
+{0}~~~~Are you sure you want to delete this receipt?	
+Delete This Notice	
+{0}~~~~Are you sure you want to delete this notice?	
+Delete This Letter	
+{0}~~~~Are you sure you want to delete this letter?	
+Delete This Audiobook	
+{0}~~~~Are you sure you want to delete this audiobook?	
+Delete This Image Package	
+{0}~~~~Are you sure you want to delete this image package?	
+Delete This Image Folder	
+{0}~~~~Are you sure you want to delete this image folder?	
+Delete This Image	
+{0}~~~~Are you sure you want to delete this image?	
+Delete	
+ pending	
+pending	
+ Wi-Fi required	
+Wi-Fi required	
+ connection required	
+connection required	
+ insufficient space	
+insufficient space	
+on loan	
+licence at limit	
+ downloading - {0,choice,0.09# {0,number,#%}|0.09<{0,number,#%}}	
+downloading - {0,choice,0.09# {0,number,#%}|0.09<{0,number,#%}}	
+download complete	
+Tap to Open	
+ error	
+error	
+Wi-Fi Required	
+"{0}" cannot be delivered because of the file size. You can either cancel the download, transfer the item via USB or connect to Wi-Fi to download this item.	
+"{0}" cannot be delivered. You can either cancel the download or connect to Wi-Fi to download this item.	
+Connect	
+Turn On Wireless?	
+"{0}" cannot be downloaded because wireless is turned off. You can either cancel the download or turn on wireless.	
+Aeroplane Mode	
+"{0}" cannot be downloaded because Aeroplane Mode is turned on. You can either cancel the download or turn off Aeroplane Mode.	
+Turn Off	
+Network Connection Failed	
+"{0}" cannot be downloaded because your Kindle has lost connection to the network. You can either cancel the download or try connecting to a network again.	
+Memory is Full	
+"{0}" cannot be downloaded because your Kindle doesnʼt have enough free memory. You can either make more Kindle memory available by removing content from the Home screen or cancel the download.	
+Cancel Download	
+Content Not Synced	
+You have added items to this collection that will not be synced with the Cloud.	
+Unable to Sync	
+You are currently offline and your collection will not be updated until you connect to the Internet.~~~~Do you want to connect now?	
+Ignore	

@@ -1,0 +1,15 @@
+Notes	Poznámky
+Yours	
+Public	
+Chapter	
+Note	Poznámka
+{0}’s Note	Poznámka od {0}
+Edit	
+Delete	Smazat
+Share	
+View	
+{0,select, false{Page {1}} true{Loc {1}} other {}}	
+Go to Location	
+{0,plural,=0 {} =1 {1 highlighter} other {{0,number,integer} highlighters}}	
+{0}’s Highlight	Zvýraznění od {0}
+You do not have any notes or highlights.	

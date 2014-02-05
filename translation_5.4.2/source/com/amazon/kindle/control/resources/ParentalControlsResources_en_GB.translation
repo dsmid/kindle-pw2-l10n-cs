@@ -1,0 +1,26 @@
+Parental Controls	
+Restrictions	
+When Parental Controls are enabled, Deregistration and Reset Device are disabled.~~~~When the Kindle Store is locked, you can continue buying books from your computer and send them to your Kindle.	
+Web Browser	
+Access to Experimental Web Browser.	
+Cloud	
+Access to Cloud.	
+Change Password	
+Kindle Store	
+Access to Kindle Store.	
+Goodreads on Kindle	
+Access to the Goodreadsʼ network of readers.	
+Cancel	
+Incorrect Password	
+Invalid Password	
+When Parental Controls are enabled, Deregistration and Reset Device are disabled.	
+Set Parental Controls Password:	
+New Parental Controls Password:	
+Enter Parental Controls Password:	
+Current Parental Controls Password:	
+Incorrect password. Please try again:	
+Confirm Password:	
+Enter Password Hint: Enter a phrase that can help you remember your password.	
+{0,select, has_hint {Hint: {1}} other {}}~~~~If you have forgotten your password, please contact Kindle Customer Service at www.kindle.com/support to receive help resetting your device.	
+Passwords Do Not Match. Please try again.	
+Please enter a valid password.	

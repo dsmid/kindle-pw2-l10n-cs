@@ -1,0 +1,13 @@
+#!/bin/bash
+
+. config
+
+rm -f overlay/kug/*
+mkdir -p overlay/kug
+
+cp -f translation_$VERSION/kug/Kindle_Users_Guide.azw3 overlay/kug/
+
+cp -f translation_$VERSION/other/* overlay/
+
+cp -f translation_$VERSION/keymap/*.keymap overlay/
+gzip overlay/*.keymap

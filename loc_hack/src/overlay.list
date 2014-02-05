@@ -1,0 +1,43 @@
+/opt/amazon/ebook/config/locales/en.properties
+/usr/share/keyboard/en_GB/en_GB-1024x758.keymap.gz
+/usr/share/locale/en_GB/LC_MESSAGES
+/opt/amazon/ebook/lib/ReadingTimer-en_GB.jar
+/opt/amazon/ebook/lib/MediaPlayer-en_GB.jar
+/opt/amazon/ebook/lib/Mobi-drawing-en_GB.jar
+/opt/amazon/ebook/lib/MerchantManager-impl-en_GB.jar
+/opt/amazon/ebook/lib/discovery-en_GB.jar
+/opt/amazon/ebook/lib/utilities-en_GB.jar
+/opt/amazon/ebook/lib/HTMLReader-impl-en_GB.jar
+/opt/amazon/ebook/lib/PDFReader-impl-en_GB.jar
+/opt/amazon/ebook/lib/app_utilities-en_GB.jar
+/opt/amazon/ebook/lib/home-en_GB.jar
+/opt/amazon/ebook/lib/Reader-plugin-en_GB.jar
+/opt/amazon/ebook/lib/MobiReader-impl-en_GB.jar
+/opt/amazon/ebook/lib/ACXReaderPlugin-en_GB.jar
+/opt/amazon/ebook/lib/detail_view-en_GB.jar
+/opt/amazon/ebook/lib/VocabBuilderSDK-en_GB.jar
+/opt/amazon/ebook/lib/kaf-en_GB.jar
+/opt/amazon/ebook/lib/settings-en_GB.jar
+/opt/amazon/ebook/lib/ReaderSDK-en_GB.jar
+/opt/amazon/ebook/lib/oobe-en_GB.jar
+/opt/amazon/ebook/lib/Reader-utils-en_GB.jar
+/opt/amazon/ebook/lib/TopazReader-impl-en_GB.jar
+/opt/amazon/ebook/lib/ReaderSDK-impl-en_GB.jar
+/opt/amazon/ebook/lib/ReaderContentSDK-en_GB.jar
+/opt/amazon/ebook/lib/oobetutorial-en_GB.jar
+/opt/amazon/ebook/lib/kafui-en_GB.jar
+/opt/amazon/ebook/lib/imageviewer-en_GB.jar
+/opt/amazon/ebook/lib/AdManager-en_GB.jar
+/opt/amazon/ebook/lib/displaycontroller-en_GB.jar
+/opt/amazon/ebook/booklet/ad_booklet-en_GB.jar
+/opt/amazon/ebook/booklet/PeriodicalsBooklet-en_GB.jar
+/opt/amazon/ebook/booklet/BadgeBooklet-en_GB.jar
+/opt/amazon/ebook/booklet/VocabBuilderBooklet-en_GB.jar
+/opt/amazon/dtcp_backups/ov_default_activebutton_en_gb.png
+/usr/share/webkit-1.0/pillow/locales/en-GB			pillow
+/opt/var/local/mesquite/browser/locales/en-GB			browser
+/opt/var/local/mesquite/browser/readability/locales/en-GB	readability
+/opt/var/local/mesquite/shared/locales/en-GB			shared
+/opt/var/local/mesquite/adviewer/locales/en-GB			adviewer
+/opt/var/local/mesquite/store/locales/en-GB			store
+/opt/amazon/kug/en-GB						kug

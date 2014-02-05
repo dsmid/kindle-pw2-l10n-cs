@@ -1,0 +1,57 @@
+#!/bin/bash
+
+. config
+
+#cp -f kindle_loc.sqlite kindle_loc.sqlite.4.1.old
+#cp -f kindle_loc.sqlite.3.4 kindle_loc.sqlite
+
+cd strings
+
+VER="strings_$VERSION"
+echo "begin;" > ../strings_$VERSION.all.sql
+find . -name '*_en_GB.strings' -exec sh -c "awk 'BEGIN {FS="'"'"\\t|\\r"'"'"} { print "'"'"{}\t"'"'" \$1 "'"'"\t"'"'" \$2}' < '{}'" \; | \
+    sed "s/'/''/g" | \
+    (
+	printf -v IFS "\t"
+	while read file src tran
+	do
+#		echo "$file: $src"
+	    file=${file%.strings}
+	    file=$file.translation
+	    [[ "$src" =~ ^.$ ]] && continue
+	    [[ "$src" =~ java[/] ]] && continue
+	    [[ "$src" =~ com[/]amazon ]] && continue
+	    [[ "$src" =~ com[/]lab126 ]] && continue
+	    [[ "$src" =~ ^[(][)] ]] && continue
+#	    if [ "$(sqlite3 ../kindle_loc.sqlite "select * from trans where src = '$src' and ver='3.4'" | wc -l)" == "0" ]
+#            then
+#                continue
+#            fi
+
+	    echo "insert into trans values ('$src','', '$file', '$VER');" >> ../strings_$VERSION.all.sql
+#	    echo "insert into trans values ('$src','', '$file', '$VER');" | \
+#		sqlite3 ../kindle_loc.sqlite || \
+		    echo "             === insert into trans values ('$src','', '$file', '$VER');"
+	done
+    )
+
+find . -name '*_en_GB.properties' -exec sh -c "native2ascii -reverse '{}' '{}.native'; awk 'BEGIN {FS="'"'"([[:space:]]*=[[:space:]]*)|\\r"'"'"} { print "'"'"{}\t"'"'" \$1 "'"'"\t"'"'" \$2}' < '{}.native'; rm -f '{}.native'" \; | \
+    sed "s/'/''/g" | \
+    (
+	printf -v IFS "\t"
+	while read file src tran
+	do
+#		echo "$file: $src | $tran"
+	    [ -z "$src" ] && continue
+	    [ -z "$tran" ] && continue
+#	    if [ "$(sqlite3 ../kindle_loc.sqlite "select * from trans where src = '$src' and ver='3.4'" | wc -l)" == "0" ]
+#            then
+#                continue
+#            fi
+	    echo "insert into trans values ('$src','$tran', '$file', '$VER');"  >> ../strings_$VERSION.all.sql
+#	    echo "insert into trans values ('$src','$tran', '$file', '$VER');" | \
+#		sqlite3 ../kindle_loc.sqlite || \
+		    echo "             === insert trans strings values ('$src','$tran', '$file', '$VER');"
+	done
+    )
+echo "commit;" >> ../strings_$VERSION.all.sql

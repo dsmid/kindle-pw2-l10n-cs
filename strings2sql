@@ -1,0 +1,69 @@
+#!/bin/bash
+
+. config
+
+#cp -f kindle_loc.sqlite kindle_loc.sqlite.4.1.old
+#cp -f kindle_loc.sqlite.3.4 kindle_loc.sqlite
+
+report() {
+	[ "$src" == '“' ] && return 1
+	[ "$src" == '”' ] && return 1
+	echo "Filtered out: $src"
+	return 0
+}
+
+
+cd strings
+
+VER="strings_$VERSION"
+echo "begin;" > ../strings_$VERSION.sql
+find . -name '*_en_GB.strings' -exec sh -c "../diffs '{}' | awk 'BEGIN {FS="'"'"\\t|\\r"'"'"} { print "'"'"{}\t"'"'" \$1 "'"'"\t"'"'" \$2}' " \; | \
+    sed "s/'/''/g" | \
+    (
+	printf -v IFS "\t"
+	while read file src tran
+	do
+	    export src
+	    file=${file%.strings}
+	    file=$file.translation
+	    [[ "$src" =~ ^$ ]] && report && continue
+	    [[ "$src" =~ ^.$ ]] && report && continue
+	    [[ "$src" =~ ^[0-9a-zA-Z]+[.][0-9a-zA-Z]+ ]] && report && continue
+	    [[ "$src" =~ ^[qwrtpsdfghjklzxcvbnm]+$ ]] && report && continue
+	    [[ "$src" =~ java[/] ]] && report && continue
+	    [[ "$src" =~ javax[/] ]] && report && continue
+	    [[ "$src" =~ com[/]amazon ]] && report && continue
+	    [[ "$src" =~ com[/]lab126 ]] && report && continue
+	    [[ "$src" =~ ^[(][)] ]] && report && continue
+#	    [[ "$src" =~ ^[[:upper:]] ]] || continue
+#	    if [ "$(sqlite3 ../kindle_loc.sqlite "select * from trans where src = '$src' and ver='3.4'" | wc -l)" == "0" ]
+#            then
+#                continue
+#            fi
+
+	    echo "insert into trans values ('$src','', '$file', '$VER');" >> ../strings_$VERSION.sql
+#	    echo "insert into trans values ('$src','', '$file', '$VER');" | \
+#		sqlite3 ../kindle_loc.sqlite || \
+		    echo "             === insert into trans values ('$src','', '$file', '$VER');" >&2 
+	done
+    )
+
+find . -name '*_en_GB.properties' -exec sh -c "native2ascii -reverse '{}' '{}.native'; ../diffs '{}.native' | awk 'BEGIN {FS="'"'"([[:space:]]*=[[:space:]]*)|\\r"'"'"} { print "'"'"{}\t"'"'" \$1 "'"'"\t"'"'" \$2}' ; rm -f '{}.native'" \; | \
+    sed "s/'/''/g" | \
+    (
+	printf -v IFS "\t"
+	while read file src tran
+	do
+	    [ -z "$src" ] && continue
+	    [ -z "$tran" ] && continue
+#	    if [ "$(sqlite3 ../kindle_loc.sqlite "select * from trans where src = '$src' and ver='3.4'" | wc -l)" == "0" ]
+#            then
+#                continue
+#            fi
+	    echo "insert into trans values ('$src','$tran', '$file', '$VER');"  >> ../strings_$VERSION.sql
+#	    echo "insert into trans values ('$src','$tran', '$file', '$VER');" | \
+#		sqlite3 ../kindle_loc.sqlite || \
+		    echo "             === insert trans strings values ('$src','$tran', '$file', '$VER');" >&2
+	done
+    )
+echo "commit;" >> ../strings_$VERSION.sql

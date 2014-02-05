@@ -1,0 +1,26 @@
+#!/bin/bash
+
+base=${1%.native}
+base=${base%.properties}
+base2=${base%.strings}
+base2=${base2%_en_GB}
+if [ "$base" != "$1" ]
+then
+        fileB=${base2}_pt.properties
+else
+        fileB=${base2}_pt.strings
+fi
+while true; do
+  read -r lineA <&3
+  ret1=$?
+  read -r lineB <&4
+  ret2=$?
+  if [ "$ret1" != 0 -a "$ret2" != 0 ]; then
+    break
+  fi
+  if [ "$lineA" != "$lineB" ]
+  then
+        echo "$lineA"
+  fi
+done 3<"$1" 4<"$fileB"
+

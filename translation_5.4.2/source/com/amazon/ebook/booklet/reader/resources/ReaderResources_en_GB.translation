@@ -1,0 +1,88 @@
+Shop in Kindle Store	
+Buy This Book Now	
+Book Description	
+View in Store	
+Settings	
+Fonts	
+Contrast	
+Cancel	
+Publisher Font	
+Line spacing	
+Margins	
+lightest	
+lighter	
+default	
+darker	
+darkest	
+Go To	
+Table of Contents	
+Go to...	
+Table of Contents...	
+Cover	
+Beginning	
+End	
+Go to Page or Location	
+Page or Location	
+Page 	
+Location	
+Enter a page ({0}) or location ({1} - {2})	
+Enter a page (1 - {0}) or location ({1} - {2})	
+Enter a page or location ({1} - {2})	
+Enter a page ({0})	
+Enter a page (1 - {0})	
+Enter a page	
+Enter a location ({0} - {1})	
+Loc {0}	
+Page {0}	
+Loc {0} of {1}	
+Page {0} of {1}	
+More	
+More Options	
+Add Note	
+View Note	
+Edit Note	
+Delete Note	
+Highlight	
+Delete	
+Sync to Furthest Page Read	
+Sync	
+Sync Results	
+Already at furthest read location.	
+Unable to Sync	
+To sync to the furthest page read, Annotations Backup must be turned on. Go to Settings from the Home screen menu, select Reading Options, then Annotations Backup.	
+Unable to retrieve the furthest location read. If this is the first time you have opened this book, your device will update your location when you close the book or your device goes to sleep.	
+You are currently at location {0}. The furthest read location across all your devices is {2}. Go to that location?	
+You are currently on page {0}. The furthest read page across all your devices is {2}. Go to that page?	
+You are currently on page {0}. You have read further than this page across all your devices. Go to the furthest place read?	
+You are currently on an unnumbered page, {1,number,percent} into the book. The furthest read page across all your devices is an unnumbered page, {3,number,percent} into the book. Go to that page?	
+You are currently on an unnumbered page, {1,number,percent} into the book. You have read further in this book across all your devices. Go to the furthest place read?	
+You are currently on an unnumbered page, {1,number,percent} into the book. The furthest read page across all your devices is {2}, {3,number,percent} into the book. Go to that page?	
+You are currently on page {0}, {1,number,percent} into the book. The furthest read page across all your devices is an unnumbered page, {3,number,percent} into the book. Go to that page?	
+You are currently at location {0}. The furthest read location is {2} from "{4}" at {5,time,short} {6}. Go to that location?	
+You are currently on page {0}. The furthest page read is {2}, from "{4}" at {5,time,short} {6}. Go to that page?	
+You are currently on page {0}. You have read further on this page, from "{4}" at {5,time,short} {6}. Go to the furthest point read?	
+You are currently on an unnumbered page, {1,number,percent} into the book. The furthest page read is an unnumbered page, {3,number,percent} into the book, from "{4}" at {5,time,short} {6}. Go to that page?	
+You are currently on an unnumbered page, {1,number,percent} into the book. You have read further in this book, from "{4}" at {5,time,short} {6}. Go to the furthest point read?	
+You are currently on an unnumbered page, {1,number,percent} into the book. The furthest page read is {2}, {3,number,percent} into the book, from "{4}" at {5,time,short} {6}. Go to that page?	
+You are currently on page {0}, {1,number,percent} into the book. The furthest page read is an unnumbered page, {3,number,percent} into the book, from "{4}" at {5,time,short} {6}. Go to that page?	
+on {7,date,long}	
+yesterday	
+today	
+Retrieving furthest page read...	
+Close	
+Password-Protected	
+Incorrect Password	
+This PDF is password-protected.	
+Incorrect password. Please try again.	
+Enter password: 	
+Submit	
+Note	
+Save	
+Lock Rotation	
+Unlock Rotation	
+Lightest	
+Darkest	
+There is not enough Kindle memory to add or edit notes or marks on this document. Please make more Kindle memory available by removing content from the Home screen.	
+Low Memory	
+Share	
+Shared Notes & Highlights	

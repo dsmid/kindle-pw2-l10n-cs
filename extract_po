@@ -1,0 +1,17 @@
+#!/bin/bash
+
+. config
+
+VER="strings_$VERSION"
+
+if [ -d translation_$VERSION/po ]
+then
+	echo "translation_$VERSION/po already exists"
+	exit
+fi
+
+mkdir translation_$VERSION/po
+cd root_$VERSION
+
+#find . -name '*.mo' -exec sh -c "fn={}; fn=\${fn%.mo}; dr=\$(dirname '{}'); [ -d \$dr ] || mkdir -p ../translation_$VERSION/po/\$dr ; msgunfmt '{}' > '../translation_$VERSION/po/\$fn.po';" \;
+find . -name '*.mo' -exec sh -c "fn={}; fn=\${fn%.mo}; fn=\$(basename \$fn); msgunfmt '{}' | awk '/^msgstr/ {if (!prevent) start=1} END { print txt; print ctxt "'"'"\n\n"'"'";txt="'"'""'"'"; ctxt=txt} /^msgid|^msgctx/ && notfirst && txt != "'"'""'"'" { print txt; print ctxt; txt="'"'""'"'"; ctxt=txt} /^msgid|^msgctx/ && notfirst {print "'"'"\n\n"'"'"} /^msgid "'"'""'"'"/ {prevent=1} /^msgid "'"'"[^"'"'"]/ {start=0; prevent=0} /^\$/ { next}  /^msgctx/ {print; next} /^[^#]/ {notfirst=1; if (start==1) { if (txt != "'"'""'"'") { txt=txt "'"'"\n"'"'"; ctxt=ctxt "'"'"\n"'"'" } ; txt=txt \$0 ; ctxt=ctxt "'"'"# "'"'" \$0} else {print} }' > ../translation_$VERSION/po/\$fn.po;" \;

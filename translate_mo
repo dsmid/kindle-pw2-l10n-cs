@@ -1,0 +1,8 @@
+#!/bin/bash
+
+. config
+
+rm -f overlay/LC_MESSAGES/*.mo
+mkdir -p overlay/LC_MESSAGES
+
+find translation_$VERSION/po -name '*.po' -exec sh -c "fn=\$(basename {}); fn=\${fn%.po}.mo; msgfmt {} -o overlay/LC_MESSAGES/\$fn" \;

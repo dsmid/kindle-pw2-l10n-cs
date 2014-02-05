@@ -1,0 +1,31 @@
+#!/bin/bash
+
+. config
+
+VER="strings_$VERSION"
+cd root_$VERSION
+
+echo "begin;" > ../jsstrings_$VERSION.sql.temp
+
+while read orig overlay
+do
+    if [[ "$orig" =~  mesquite|pillow ]]
+    then
+	orig=./${orig#/}
+	echo $orig $overlay
+	find $orig -name '*.js' | xargs -if awk -v name=f 'BEGIN {FS="^[^\"'"'"']*[\"'"'"']|[\"'"'"'][^\"'"'"']*$"} $2 != "" {print name "\t" $2}' f | sort -u  | \
+        sed "s/'/''/g;s|\\\\|\\\\\\\\|g" | \
+	(
+    	    printf -v IFS "\t"
+	    while read file src
+    	    do
+        	export src
+            echo "insert into trans values ('$src','', '$file', '$VER');" >> ../jsstrings_$VERSION.sql.temp
+                    echo "             === insert into trans values ('$src','', '$file', '$VER');" >&2
+    	    done
+	)
+    fi
+done < ../overlay.list
+echo "commit;" >> ../jsstrings_$VERSION.sql.temp
+native2ascii -reverse ../jsstrings_$VERSION.sql.temp ../jsstrings_$VERSION.sql
+rm -f ../jsstrings_$VERSION.sql.temp

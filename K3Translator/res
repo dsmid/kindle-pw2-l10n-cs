@@ -1,0 +1,9 @@
+Translate Keyboard4 called:
+- Source JAR: lib/framework-api.jar
+- Keyb file folder: .
+- Lang From: es
+- Lang To: cs_CZ
+Using keyb file: /home/david/Kindle/pokusy/google-code/kindle-cs/localization-k4/K3Translator/./default.keyb
+Patching: lib/framework-api-cs_CZ.jar...
+Translating: com/amazon/ebook/framework/resources/KeyboardBaseResources.class... translated succesfully.
+Processed: 0

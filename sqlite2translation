@@ -1,0 +1,87 @@
+#!/bin/bash
+
+. config
+
+cd translation_$VERSION
+
+if [ -d "translation/com" ]
+then
+    echo "Delete translation_$VERSION/translation/com first"
+    exit
+fi
+
+if [ -d "translation_unfinished/com" ]
+then
+    echo "Delete translation_$VERSION/translation_unfinished/com first"
+    exit
+fi
+
+#cp -fR ru/* translation/
+cd source
+#find . -name '*.translation' -exec sed -i 's/^\([^\t]*\t\).*$/\1/g' {} \;
+find . \( -name '*.translation' -or -name '*.properties' -or -name '*.js' \) -print -exec sh -c '
+printf -v IFS "\t\r";
+(cat {};echo) | sed "s/'"'"'/'"''"'/g" | while read src rest;
+do
+echo "? $src";
+[ -n "$src" ] || continue;
+file={};
+if [ "${file%.properties}" != "$file" ];
+then
+    key=$(echo "$src" | awk "BEGIN {FS=\"([[:space:]]*=[[:space:]]*)|\\r\"} {print \$1}");
+    val=$(echo "$src" | awk "BEGIN {FS=\"([[:space:]]*=[[:space:]]*)|\\r\"} {print \$2}");
+    src="$key";
+    echo "key: $key";
+    echo "val: $val";
+    [ -n "$src" ] || continue;
+    tran=$(sqlite3 ../../kindle_loc.sqlite "select tran from trans where src='"'"'$src'"'"' and file='"'"'{}'"'"' and ver='"'"''$VERSION''"'"' ;" );
+    [ -n "$tran" ] || tran=$(sqlite3 ../../kindle_loc.sqlite "select tran from trans where src='"'"'$src'"'"' and file='"'"'{}'"'"' and ver='"'"'4.1'"'"' ;" );
+    [ -n "$tran" ] || tran=$(sqlite3 ../../kindle_loc.sqlite "select tran from trans where src='"'"'$src'"'"' and file='"'"'{}'"'"' and ver='"'"'3.4'"'"' ;" );
+    [ -n "$tran" ] || tran=$(sqlite3 ../../kindle_loc.sqlite "select tran from trans where src='"'"'$src'"'"' and file='"'"'{}'"'"' and ver='"'"'3.1'"'"' ;" );
+    [ -n "$tran" ] || tran=$(sqlite3 ../../kindle_loc.sqlite "select tran from trans where src='"'"'$src'"'"' and file='"'"'{}'"'"' and ver='"'"'3.0'"'"' ;" );
+    [ -n "$tran" ] || tran=$(sqlite3 ../../kindle_loc.sqlite "select tran from trans where src='"'"'$src'"'"' and ver='"'"'3.4'"'"' ;" | sort -u | sed  "s/$/#or#/g" | tr -d '"'"'\n'"'"');
+    [ -n "$tran" ] || tran=$(sqlite3 ../../kindle_loc.sqlite "select tran from trans where src='"'"'$src'"'"' and ver not like '"'"'strings_%'"'"' ;" | sort -u | sed  "s/$/#or#/g" | tr -d '"'"'\n'"'"');
+    src="$val";
+    [ -n "$tran" ] || tran=$(sqlite3 ../../kindle_loc.sqlite "select tran from trans where src='"'"'$src'"'"' and ver not like '"'"'strings_%'"'"' ;" | sort -u | sed  "s/$/#or#/g" | tr -d '"'"'\n'"'"');
+    [ -n "$tran" ] || tran="$val";
+else
+    tran=$(sqlite3 ../../kindle_loc.sqlite "select tran from trans where src='"'"'$src'"'"' and file='"'"'{}'"'"' and ver='"'"''$VERSION''"'"' ;" );
+    [ -n "$tran" ] || tran=$(sqlite3 ../../kindle_loc.sqlite "select tran from trans where src='"'"'$src'"'"' and file='"'"'{}'"'"' and ver='"'"'4.1'"'"' ;" );
+    [ -n "$tran" ] || tran=$(sqlite3 ../../kindle_loc.sqlite "select tran from trans where src='"'"'$src'"'"' and file='"'"'{}'"'"' and ver='"'"'3.4'"'"' ;" );
+    [ -n "$tran" ] || tran=$(sqlite3 ../../kindle_loc.sqlite "select tran from trans where src='"'"'$src'"'"' and file='"'"'{}'"'"' and ver='"'"'3.1'"'"' ;" );
+    [ -n "$tran" ] || tran=$(sqlite3 ../../kindle_loc.sqlite "select tran from trans where src='"'"'$src'"'"' and file='"'"'{}'"'"' and ver='"'"'3.0'"'"' ;" );
+    [ -n "$tran" ] || tran=$(sqlite3 ../../kindle_loc.sqlite "select tran from trans where src='"'"'$src'"'"' and ver='"'"'3.4'"'"' ;" | sort -u | sed  "s/$/#or#/g" | tr -d '"'"'\n'"'"');
+    [ -n "$tran" ] || tran=$(sqlite3 ../../kindle_loc.sqlite "select tran from trans where src='"'"'$src'"'"' and ver not like '"'"'strings_%'"'"' ;" | sort -u | sed  "s/$/#or#/g" | tr -d '"'"'\n'"'"');
+fi;
+trantr=${tran###or#}
+trantr=${trantr%#or#}
+echo "-> $trantr";
+[ "${key:0:1}" == "#" ] || key="$key=";
+dir=$(dirname ../translation/{});
+untdir=$(dirname ../translation_unfinished/{});
+[ -d "$dir" ] || mkdir -p "$dir";
+if [ "${file%.properties}" != "$file" ];
+then
+    printf "%s%s\r\n" "$key" "$trantr" | sed "s/'"''"'/'"'"'/g"  >> ../translation/{};
+    [ -n "$val" ] || tran=x
+else
+    printf "%s\t%s\r\n" "$src" "$trantr" | sed "s/'"''"'/'"'"'/g"  >> ../translation/{};
+fi;
+if [ -z "$trantr" ] || printf "%s" "$trantr" | grep -q "#or#" ;
+then
+    [ -d "$untdir" ] || mkdir -p "$untdir";
+    if [ "${file%.properties}" != "$file" ];
+    then
+	printf "%s%s\r\n" "$key" "$trantr" | sed "s/'"''"'/'"'"'/g"  >> ../translation_unfinished/{};
+    else
+	printf "%s\t%s\r\n" "$src" "$trantr" | sed "s/'"''"'/'"'"'/g"  >> ../translation_unfinished/{};
+    fi;
+fi;
+done;
+' \;
+
+cd ../translation_unfinished
+rm -f nottranslated.zip
+zip -r nottranslated.zip com
+
+#[ -n "$tran" ] || tran=$(sqlite3 ../../kindle_loc.sqlite "select tran from trans where src='"'"'$src'"'"' and ver='"'"'3.0'"'"' ;" | sort -u | sed  "s/$/#or#/g" | tr -d '"'"'\n'"'"' | sed "s/#or#$//g");

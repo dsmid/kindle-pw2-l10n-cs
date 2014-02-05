@@ -1,0 +1,11 @@
+msgid "todo.message.checking"
+msgstr "Checking..."
+# msgstr "Checking..."
+
+
+
+msgid "todo.message.nonewitems"
+msgstr "No new items"
+# msgstr "No new items"
+
+

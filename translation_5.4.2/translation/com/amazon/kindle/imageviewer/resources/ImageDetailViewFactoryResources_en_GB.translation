@@ -1,0 +1,4 @@
+Delete This Image Folder	
+Delete This Image Package	
+Delete This Image	
+{0,choice,0#No Items | 1#{0,number,integer} Item | 2#{0,number,integer} Items}	

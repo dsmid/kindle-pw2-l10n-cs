@@ -1,0 +1,3 @@
+Connected	
+Connecting	
+ · 	

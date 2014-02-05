@@ -1,0 +1,5 @@
+msgid "cp.fonts.updated"
+msgstr "Fonts Updated"
+# msgstr "Fonts Updated"
+
+

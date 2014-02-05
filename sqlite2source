@@ -1,0 +1,38 @@
+#!/bin/sh
+
+. config
+
+cd translation_$VERSION
+
+
+if [ -d "source/com" ]
+then
+    echo "Delete translation_4.1/source/com first"
+    exit
+fi
+
+deeptouch ()
+{
+    dir="$2/$(dirname "$1")"
+    [ -d "$dir" ] || mkdir -p "$dir"
+    touch "$2/$1"
+}
+
+sqlite3 -list -separator '^' ../kindle_loc.sqlite "select src,tran,file from trans where ver = 'strings_$VERSION' order by file" | sed "s/'/''/g;s|\\\\|\\\\\\\\|g" | \
+{
+    IFS="^"
+    while read src tran file
+    do
+	deeptouch "$file" "source"
+	echo "src: $src"
+	echo "tran: $tran"
+	echo "file: $file"
+	echo "--------------------------------------------"
+	if [ "${file%.properties}" != "$file" ]
+	then
+	    echo -e "$src=$tran\r" | sed "s/''/'/g" >> "source/$file"
+	else
+	    echo -e "$src\t$tran\r" | sed "s/''/'/g" >> "source/$file"
+	fi
+    done
+}

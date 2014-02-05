@@ -1,0 +1,22 @@
+Add/Remove Items	Přidat/odstranit položky
+Rename This Collection	
+Delete This Collection	
+Edit Pronunciation	
+Total: {0,plural,=0 {No Items} one {{0,number,integer} Item} other {{0,number,integer} Items} }	
+In Cloud: {0,plural,=0 {No Items} one {{0,number,integer} Item} other {{0,number,integer} Items} }	
+On Device: {0,plural,=0 {No Items} one {{0,number,integer} Item} other {{0,number,integer} Items} }	
+{0,plural,=0 {Learning {0,number,integer} words} one {Learning {0,number,integer} word} other {Learning {0,number,integer} words} }	
+{0,plural,=0 {Mastered {0,number,integer} words} one {Mastered {0,number,integer} word} other {Mastered {0,number,integer} words} }	
+Add To Home	
+Date: 	
+Unknown	Neznámé
+Narrator: 	
+{0}	{0}
+Delete	Smazat
+Turn Off Vocabulary Builder	
+About Vocabulary Builder	
+Edit Child Profiles	
+Manage FreeTime Items	
+View Achievements	
+Learn more	
+Turn Off FreeTime	

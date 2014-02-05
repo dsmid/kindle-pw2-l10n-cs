@@ -1,0 +1,21 @@
+First Name	
+Date of Birth	
+Cancel	
+Gender	
+{0, select, male {Boy} female {Girl} other {Boy}}	
+{0, select, male {{1}ʼs Library} female {{1}ʼs Library} other {{1}ʼs Library}}	
+{0, plural, =0 {{0,number,integer} Books} one {{0,number,integer} Book} other {{0,number,integer} Books}}	
+Access Achievements	
+Let your child see their Achievement Reports.	
+Unrestricted Access to Wikipedia	
+Daily Reading Goal	
+Set how many minutes your child should read for each day.	
+Delete Profile	
+All progress and achievements will be lost upon deletion. The profile will also not be available on other devices. Are you sure you want to delete {0, select, male {<em>{1}ʼs</em> profile} female {<em>{1}ʼs</em> profile} other {<em>{1}ʼs</em> profile}}?	
+Delete	Smazat
+No Content	
+{0, select, male {You have not added any items to {1}ʼs FreeTime.} female {You have not added any items to {1}ʼs FreeTime.} other {You have not added any items to {1}ʼs FreeTime.}}	
+Ignore	
+Add Items	
+Finish	
+All progress and achievements will be lost upon removal, but will be available on other devices. Are you sure you want to delete the profile, <em>{0}</em>, from this device?	
