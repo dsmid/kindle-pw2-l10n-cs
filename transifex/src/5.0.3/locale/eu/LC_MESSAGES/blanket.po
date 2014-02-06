@@ -1,0 +1,159 @@
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# perconte <asier_goiko@hotmail.com>, 2012
+msgid ""
+msgstr ""
+"Project-Id-Version: Kindle Touch locale\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-03-23 15:43-0700\n"
+"PO-Revision-Date: 2012-01-02 16:08+0000\n"
+"Last-Translator: perconte <asier_goiko@hotmail.com>\n"
+"Language-Team: Basque (http://www.transifex.com/projects/p/kindle-touch-locale/language/eu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: eu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "langpicker.cancel.label"
+msgstr "Ezeztatu."
+
+msgid "langpicker.confirm.message %s"
+msgstr "Aukeratu %s zure gailuaren hizkuntza gisa?"
+
+msgid "langpicker.ok.label"
+msgstr "OK"
+
+msgid "ota.update.errorcode"
+msgstr "Eguneratze akatsa: %s"
+
+msgid "ota.update.failed"
+msgstr "Eguneratzea ez du arrakastarik izan.\n\nLaguntzarik behar baduzu, bisitatu www.kindle.com/support.\n\nKindle-a erabiltzen jarraitzeko, sakatu  botoia."
+
+msgid "ota.update.header"
+msgstr "Softwarearen eguneratzea"
+
+msgid "ota.update.initial"
+msgstr "Zure Kindle softwarea eguneratzen ari da. Minutu batzuk hartu ditzake.\n\nEZ itzali zure Kindle-a eguneratze-prozesu osoan zehar.\n\nZure Kindle-a automatikoki berrabiaraziko da eguneratzea bukatzerakoan."
+
+msgid "ota.update.success"
+msgstr "Eguneratze arrakastatsua.\n\nZure Kindle-a berrabiarazten..."
+
+msgid "shutdown.cust_service.header"
+msgstr "Konponketa beharrezkoa da"
+
+msgid "shutdown.cust_service.header.fontsize"
+msgstr "26"
+
+msgid "shutdown.cust_service.header.rect"
+msgstr "0,34,600,28"
+
+msgid "shutdown.cust_service.message"
+msgstr "Zure Kindle-ak konponketa behar du\n\nMesedez jar zaitez kontaktuan Bezeroentzako Arreta Zerbitzuan http://www.kindle.com/support web-gunean."
+
+msgid "shutdown.cust_service.message.fontsize"
+msgstr "26"
+
+msgid "shutdown.cust_service.message.rect"
+msgstr "68,384,464,416"
+
+msgid "shutdown.cust_service.message.spacing"
+msgstr "2.5"
+
+msgid "shutdown.reboot.message"
+msgstr "Mesedez, itxaron apur bat zure Kindle-a hasten den bitartean."
+
+msgid "shutdown.reboot.message.fontsize"
+msgstr "26"
+
+msgid "shutdown.reboot.message.rect"
+msgstr "124,640,352,160"
+
+msgid "shutdown.reboot.message.spacing"
+msgstr "2.5"
+
+msgid "test.draw.defaults"
+msgstr "Test Draw Defaults"
+
+msgid "test.draw.defaults.fontsize"
+msgstr "26"
+
+msgid "test.draw.defaults.rect"
+msgstr "0,34,600,28"
+
+msgid "test.draw.defaults.spacing"
+msgstr "2.5"
+
+msgid "test.no.fontsize"
+msgstr "Ez dago letra-tamaina sarrerarik"
+
+msgid "test.no.fontsize.rect"
+msgstr "0,34,600,28"
+
+msgid "test.no.fontsize.spacing"
+msgstr "2.5"
+
+msgid "test.no.rect"
+msgstr "No rect entry"
+
+msgid "test.no.rect.fontsize"
+msgstr "26"
+
+msgid "test.no.rect.spacing"
+msgstr "2.5"
+
+msgid "test.no.spacing"
+msgstr "Ez dago letra-tamaina sarrerarik"
+
+msgid "test.no.spacing.fontsize"
+msgstr "26"
+
+msgid "test.no.spacing.rect"
+msgstr "0,34,600,28"
+
+msgid "test.screen.header"
+msgstr "Proba modua"
+
+msgid "test.screen.header.rect"
+msgstr "10,42,580,32"
+
+msgid "usb.screen.charging.y_offset"
+msgstr "20"
+
+msgid "usb.screen.header"
+msgstr "USB Drive modua"
+
+msgid "usb.screen.header.fontsize"
+msgstr "26"
+
+msgid "usb.screen.header.rect"
+msgstr "0,34,600,28"
+
+msgid "usb.screen.message"
+msgstr "USB-ren bitartez kargatzen jarraitu nahi baduzu baina irakurri edo zerbait erosi nahi baduzu, mesedez ez kendu USB kablea baina ordenagailutik Kindle-a egotzi."
+
+msgid "usb.screen.message.fontsize"
+msgstr "26"
+
+msgid "usb.screen.message.rect"
+msgstr "68,384,464,200"
+
+msgid "usb.screen.message.spacing"
+msgstr "2.5"
+
+msgid "usb.screen.message_nc"
+msgstr "Zure Kindle-a erabili nahi baduzu, mesedez ordenagailutik egotzi edo segurtasunez kendu.\n\nMomentu honetan zure Kindle-a ez dago kargatzen."
+
+msgid "usb.screen.message_nc.fontsize"
+msgstr "26"
+
+msgid "usb.screen.message_nc.rect"
+msgstr "68,384,464,200"
+
+msgid "usb.screen.message_nc.spacing"
+msgstr "2.5"

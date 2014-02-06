@@ -13,7 +13,7 @@ msgstr ""
 
 
 msgid "Italian"
-msgstr "Italian"
+msgstr "Italská"
 # msgstr "Italian"
 
 

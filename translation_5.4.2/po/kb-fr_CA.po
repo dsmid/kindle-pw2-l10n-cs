@@ -13,7 +13,7 @@ msgstr ""
 
 
 msgid "French-Canada"
-msgstr "French (Canada)"
+msgstr "Francouzská (Kanada)"
 # msgstr "French (Canada)"
 
 

@@ -1,0 +1,161 @@
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Antoine Kamel <antoine12@gmail.com>, 2012
+# Antoine Kamel <antoine12@gmail.com>, 2012
+# shadowbr <shadowbr@gmail.com>, 2012
+msgid ""
+msgstr ""
+"Project-Id-Version: Kindle Touch locale\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-03-23 15:43-0700\n"
+"PO-Revision-Date: 2012-03-27 00:24+0000\n"
+"Last-Translator: Antoine Kamel <antoine12@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/kindle-touch-locale/language/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "langpicker.cancel.label"
+msgstr "Cancelar"
+
+msgid "langpicker.confirm.message %s"
+msgstr "Escolher %s como seu idioma?"
+
+msgid "langpicker.ok.label"
+msgstr "OK"
+
+msgid "ota.update.errorcode"
+msgstr "Erro de atualização: %s"
+
+msgid "ota.update.failed"
+msgstr "A atualização não foi bem sucedida.\n\nSe precisar de assistência, visite www.kindle.com/support.\n\nPara continuar usando seu Kindle, pressione o botão  ."
+
+msgid "ota.update.header"
+msgstr "Atualização de software"
+
+msgid "ota.update.initial"
+msgstr "O seu Kindle está sendo atualizado. Isso pode levar alguns minutos.\n\nNÃO DESLIGUE seu Kindle durante o processo de atualização.\n\nSeu Kindle será reiniciado automaticamente ao final da atualização."
+
+msgid "ota.update.success"
+msgstr "Atualização terminada.\n\nSeu Kindle está sendo reiniciado..."
+
+msgid "shutdown.cust_service.header"
+msgstr "Conserto necessário"
+
+msgid "shutdown.cust_service.header.fontsize"
+msgstr "26"
+
+msgid "shutdown.cust_service.header.rect"
+msgstr "0,34,600,28"
+
+msgid "shutdown.cust_service.message"
+msgstr "Seu Kindle precisa de conserto.\n\nPor favor, contate o suporte em\nhttp://www.kindle.com/support."
+
+msgid "shutdown.cust_service.message.fontsize"
+msgstr "26"
+
+msgid "shutdown.cust_service.message.rect"
+msgstr "68,384,464,416"
+
+msgid "shutdown.cust_service.message.spacing"
+msgstr "2.5"
+
+msgid "shutdown.reboot.message"
+msgstr "Seu Kindle está despertando. Aguarde..."
+
+msgid "shutdown.reboot.message.fontsize"
+msgstr "26"
+
+msgid "shutdown.reboot.message.rect"
+msgstr "124,640,352,160"
+
+msgid "shutdown.reboot.message.spacing"
+msgstr "2.5"
+
+msgid "test.draw.defaults"
+msgstr "Test Draw Defaults"
+
+msgid "test.draw.defaults.fontsize"
+msgstr "26"
+
+msgid "test.draw.defaults.rect"
+msgstr "0,34,600,28"
+
+msgid "test.draw.defaults.spacing"
+msgstr "2.5"
+
+msgid "test.no.fontsize"
+msgstr "Não há fonte disponível nesse tamanho"
+
+msgid "test.no.fontsize.rect"
+msgstr "0,34,600,28"
+
+msgid "test.no.fontsize.spacing"
+msgstr "2.5"
+
+msgid "test.no.rect"
+msgstr "No rect entry"
+
+msgid "test.no.rect.fontsize"
+msgstr "26"
+
+msgid "test.no.rect.spacing"
+msgstr "2.5"
+
+msgid "test.no.spacing"
+msgstr "Não há fonte disponível nesse tamanho"
+
+msgid "test.no.spacing.fontsize"
+msgstr "26"
+
+msgid "test.no.spacing.rect"
+msgstr "0,34,600,28"
+
+msgid "test.screen.header"
+msgstr "Modo de Teste"
+
+msgid "test.screen.header.rect"
+msgstr "10,42,580,32"
+
+msgid "usb.screen.charging.y_offset"
+msgstr "20"
+
+msgid "usb.screen.header"
+msgstr "Modo de transferência USB"
+
+msgid "usb.screen.header.fontsize"
+msgstr "26"
+
+msgid "usb.screen.header.rect"
+msgstr "0,34,600,28"
+
+msgid "usb.screen.message"
+msgstr "Para ler ou comprar algo pelo seu Kindle enquanto o carrega, mantenha o cabo conectado e ejete o Kindle pelo seu computador."
+
+msgid "usb.screen.message.fontsize"
+msgstr "26"
+
+msgid "usb.screen.message.rect"
+msgstr "68,384,464,200"
+
+msgid "usb.screen.message.spacing"
+msgstr "2.5"
+
+msgid "usb.screen.message_nc"
+msgstr "Se deseja utilizar seu Kindle, ejete-o pelo computador.\n\nNeste momento, seu Kindle não está carregando."
+
+msgid "usb.screen.message_nc.fontsize"
+msgstr "26"
+
+msgid "usb.screen.message_nc.rect"
+msgstr "68,384,464,200"
+
+msgid "usb.screen.message_nc.spacing"
+msgstr "2.5"

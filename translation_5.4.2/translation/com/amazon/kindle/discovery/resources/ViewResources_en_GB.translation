@@ -1,5 +1,5 @@
 Done	Hotovo
-Next	
+Next	Další
 Skip	
 Start Following	
 Stop Following	
@@ -34,7 +34,7 @@ shared an activity
 Edit Profile	
 Enter your full name or your first name here. This will be the name that appears on your public Amazon and Goodreads profiles.	
 Name	
-Save	
+Save	Uložit
 Edit About Me 	
 Edit About Me (modified) 	
 To update your name, sign in at Goodreads.com and select Edit Profile.	
@@ -42,7 +42,7 @@ Public Name
 Name for Friends	
 About Me	
 Rate this Book	
-By {0}	
+By {0}	Podle {0}
 We canʼt seem to find this book.	
 Shelved Books ({0,number,integer})	
 Currently Reading ({0,number,integer})	
@@ -91,7 +91,7 @@ Want to Read ({0})
 {0,select,empty {There arenʼt any books in your library. You can always add some later.} unknown {Loading Amazon books…} other {}}	
 Facebook E-mail	
 Facebook Password	
-Hide Password	
+Hide Password	Skrýt heslo
 Goodreads E-mail	
 Goodreads Password	
 By connecting, you will enable Goodreads to access your public profile, friend list, e-mail address, and likes from Facebook. Additionally, Goodreads will be able to send posts to your friends on your behalf. By proceeding, you agree to the Goodreadsʼ Terms of Service and Privacy Policy.	

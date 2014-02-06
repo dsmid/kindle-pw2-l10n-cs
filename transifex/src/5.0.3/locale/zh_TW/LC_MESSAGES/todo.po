@@ -1,0 +1,26 @@
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Jack Ho <>, 2012
+msgid ""
+msgstr ""
+"Project-Id-Version: Kindle Touch locale\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2012-02-19 13:39+0000\n"
+"Last-Translator: Jack Ho <>\n"
+"Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/kindle-touch-locale/language/zh_TW/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "todo.message.checking"
+msgstr "檢查中......"
+
+msgid "todo.message.nonewitems"
+msgstr "沒有新項目"

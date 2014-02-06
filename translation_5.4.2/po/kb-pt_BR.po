@@ -13,7 +13,7 @@ msgstr ""
 
 
 msgid "Portuguese-BR"
-msgstr "Portuguese (Brazil)"
+msgstr "Portugalská (Brazílie)"
 # msgstr "Portuguese (Brazil)"
 
 

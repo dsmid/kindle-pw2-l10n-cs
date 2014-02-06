@@ -1,0 +1,159 @@
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Tea Horvatic <teahorvatic@yahoo.co.uk>, 2012
+msgid ""
+msgstr ""
+"Project-Id-Version: Kindle Touch locale\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-03-23 15:43-0700\n"
+"PO-Revision-Date: 2012-01-06 12:12+0000\n"
+"Last-Translator: Tea Horvatic <teahorvatic@yahoo.co.uk>\n"
+"Language-Team: Croatian (Croatia) (http://www.transifex.com/projects/p/kindle-touch-locale/language/hr_HR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hr_HR\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+msgid "langpicker.cancel.label"
+msgstr "Odustani"
+
+msgid "langpicker.confirm.message %s"
+msgstr "Odabrati %s kao Vaš jezik uređaja?"
+
+msgid "langpicker.ok.label"
+msgstr "OK"
+
+msgid "ota.update.errorcode"
+msgstr "Greška u ažuriranju: %s"
+
+msgid "ota.update.failed"
+msgstr "Neuspješno ažuriranje.\n\nUkoliko Vam je potrebna pomoć, posjetite www.kindle.com/support.\n\nZa nastavak korištenja Vašeg Kindle, odaberite  tipku."
+
+msgid "ota.update.header"
+msgstr "Ažuriranje softwarea"
+
+msgid "ota.update.initial"
+msgstr "Vaš Kindle software se ažurira. To može potrajati nekoliko minuta.\n\nNEMOJTE isključiti svoj Kindle tijekom procesa ažuriranja.\n\nVaš će se Kindle automatski ponovno pokrenuti čim ažuriranje završi."
+
+msgid "ota.update.success"
+msgstr "Uspješno ažuriranje.\n\nVaš Kindle se ponovno pokreće..."
+
+msgid "shutdown.cust_service.header"
+msgstr "Potreban popravak"
+
+msgid "shutdown.cust_service.header.fontsize"
+msgstr "26"
+
+msgid "shutdown.cust_service.header.rect"
+msgstr "0,34,600,28"
+
+msgid "shutdown.cust_service.message"
+msgstr "Vešem Kindlu je potreban popravak.\n\nMolimo kontaktirajte Kindle Customer Service na \nhttp://www.kindle.com/support."
+
+msgid "shutdown.cust_service.message.fontsize"
+msgstr "26"
+
+msgid "shutdown.cust_service.message.rect"
+msgstr "68,384,464,416"
+
+msgid "shutdown.cust_service.message.spacing"
+msgstr "2.5"
+
+msgid "shutdown.reboot.message"
+msgstr "Molimo, pričekajte trenutak dok se Vaš Kindle pokreće."
+
+msgid "shutdown.reboot.message.fontsize"
+msgstr "26"
+
+msgid "shutdown.reboot.message.rect"
+msgstr "124,640,352,160"
+
+msgid "shutdown.reboot.message.spacing"
+msgstr "2.5"
+
+msgid "test.draw.defaults"
+msgstr "Test Draw Defaults"
+
+msgid "test.draw.defaults.fontsize"
+msgstr "26"
+
+msgid "test.draw.defaults.rect"
+msgstr "0,34,600,28"
+
+msgid "test.draw.defaults.spacing"
+msgstr "2.5"
+
+msgid "test.no.fontsize"
+msgstr "Nema zapisa veličine slova"
+
+msgid "test.no.fontsize.rect"
+msgstr "0,34,600,28"
+
+msgid "test.no.fontsize.spacing"
+msgstr "2.5"
+
+msgid "test.no.rect"
+msgstr "Nema primljenog zapisa"
+
+msgid "test.no.rect.fontsize"
+msgstr "26"
+
+msgid "test.no.rect.spacing"
+msgstr "2.5"
+
+msgid "test.no.spacing"
+msgstr "Nema zapisa veličine slova"
+
+msgid "test.no.spacing.fontsize"
+msgstr "26"
+
+msgid "test.no.spacing.rect"
+msgstr "0,34,600,28"
+
+msgid "test.screen.header"
+msgstr "Način rada: Test"
+
+msgid "test.screen.header.rect"
+msgstr "10,42,580,32"
+
+msgid "usb.screen.charging.y_offset"
+msgstr "20"
+
+msgid "usb.screen.header"
+msgstr "Način rada: USB pogon "
+
+msgid "usb.screen.header.fontsize"
+msgstr "26"
+
+msgid "usb.screen.header.rect"
+msgstr "0,34,600,28"
+
+msgid "usb.screen.message"
+msgstr "Ako želite čitati ili kupovati na svom Kindle i dalje puniti preko USB-a, molimo ostavite USB kabel priključen, ali izbacite Kindle s Vašeg računala."
+
+msgid "usb.screen.message.fontsize"
+msgstr "26"
+
+msgid "usb.screen.message.rect"
+msgstr "68,384,464,200"
+
+msgid "usb.screen.message.spacing"
+msgstr "2.5"
+
+msgid "usb.screen.message_nc"
+msgstr "Ako želite koristiti svoj Kindle, molimo izbacite ga s Vašeg računala.\n\nVaš Kindle se trenutno ne puni."
+
+msgid "usb.screen.message_nc.fontsize"
+msgstr "26"
+
+msgid "usb.screen.message_nc.rect"
+msgstr "68,384,464,200"
+
+msgid "usb.screen.message_nc.spacing"
+msgstr "2.5"

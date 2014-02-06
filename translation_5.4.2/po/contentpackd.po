@@ -1,5 +1,5 @@
 msgid "cp.fonts.updated"
-msgstr "Fonts Updated"
+msgstr "Písma aktualizována"
 # msgstr "Fonts Updated"
 
 

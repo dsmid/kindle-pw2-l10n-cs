@@ -1,17 +1,17 @@
 Opening...	Otevírám...
 {0,plural,=0 {No Items} one {{0,number,integer} Item} other {{0,number,integer} Items}}	
-Music	
-Personal	
-Notice	
-Receipt	
-New	
-Rental	
-Expired	
-Archived	
-On Loan	
-Expiring	
-Keep	
-Sample	
+Music	Hudba
+Personal	Osobní
+Notice	Noticka
+Receipt	Recept
+New	Nový
+Rental	Půjčovné
+Expired	Prošlé
+Archived	Archivováno
+On Loan	V zapůjčení
+Expiring	Vyprší
+Keep	Uchovat
+Sample	Ukázka
 Book	
 Collection	Kolekce
 Archived Items	Archivované položky
@@ -20,6 +20,6 @@ Dictionaries	Slovníky
 Newspaper	Noviny
 Magazine	Časopis
 Images	
-My Clippings	
+My Clippings	Mé výstřižky
 Letter	
 Dictionary	Slovník

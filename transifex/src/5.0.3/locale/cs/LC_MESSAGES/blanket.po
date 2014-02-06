@@ -1,0 +1,160 @@
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Danken <mage.gere@email.cz>, 2012
+# Martin Novak <martin.novak@seznam.cz>, 2012
+msgid ""
+msgstr ""
+"Project-Id-Version: Kindle Touch locale\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-03-23 15:43-0700\n"
+"PO-Revision-Date: 2012-03-18 10:02+0000\n"
+"Last-Translator: Danken <mage.gere@email.cz>\n"
+"Language-Team: Czech (http://www.transifex.com/projects/p/kindle-touch-locale/language/cs/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: cs\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+msgid "langpicker.cancel.label"
+msgstr "Storno"
+
+msgid "langpicker.confirm.message %s"
+msgstr "Vybrat %s jako jazyk pro Kindle?"
+
+msgid "langpicker.ok.label"
+msgstr "OK"
+
+msgid "ota.update.errorcode"
+msgstr "Chyba aktualizace: %s"
+
+msgid "ota.update.failed"
+msgstr "Aktualizace neproběhla správně.\n\nPokud potřebujete pomoc navštivte www.kindle.com/support.\n\nPro pokračování práce s Kindle, klepněte na tlačítko  ."
+
+msgid "ota.update.header"
+msgstr "Aktualizace softwaru."
+
+msgid "ota.update.initial"
+msgstr "Váš Kindle se aktualizuje. To může chvíli trvat.\n\nNEVYPÍNEJTE Kindle během procesu aktualizace.\n\nVáš Kindle se po dokončení aktualizace automaticky sám restartuje."
+
+msgid "ota.update.success"
+msgstr "Aktualizace proběhla úspěšně.\n\nVáš Kindle se právě restartuje..."
+
+msgid "shutdown.cust_service.header"
+msgstr "Je potřeba oprava"
+
+msgid "shutdown.cust_service.header.fontsize"
+msgstr "26"
+
+msgid "shutdown.cust_service.header.rect"
+msgstr "0,34,600,28"
+
+msgid "shutdown.cust_service.message"
+msgstr "Váš Kindle potřebuje opravit.\n\nProsím kontaktujte Kindle Customer Service na \nhttp://www.kindle.com/support."
+
+msgid "shutdown.cust_service.message.fontsize"
+msgstr "26"
+
+msgid "shutdown.cust_service.message.rect"
+msgstr "68,384,464,416"
+
+msgid "shutdown.cust_service.message.spacing"
+msgstr "2.5"
+
+msgid "shutdown.reboot.message"
+msgstr "Prosím, počkejte než Váš Kindle naběhne."
+
+msgid "shutdown.reboot.message.fontsize"
+msgstr "26"
+
+msgid "shutdown.reboot.message.rect"
+msgstr "124,640,352,160"
+
+msgid "shutdown.reboot.message.spacing"
+msgstr "2.5"
+
+msgid "test.draw.defaults"
+msgstr "Test Draw Defaults"
+
+msgid "test.draw.defaults.fontsize"
+msgstr "26"
+
+msgid "test.draw.defaults.rect"
+msgstr "0,34,600,28"
+
+msgid "test.draw.defaults.spacing"
+msgstr "2.5"
+
+msgid "test.no.fontsize"
+msgstr "Žádný záznam o velikosti písma"
+
+msgid "test.no.fontsize.rect"
+msgstr "0,34,600,28"
+
+msgid "test.no.fontsize.spacing"
+msgstr "2.5"
+
+msgid "test.no.rect"
+msgstr "No rect entry"
+
+msgid "test.no.rect.fontsize"
+msgstr "26"
+
+msgid "test.no.rect.spacing"
+msgstr "2.5"
+
+msgid "test.no.spacing"
+msgstr "Žádný záznam o velikosti písma"
+
+msgid "test.no.spacing.fontsize"
+msgstr "26"
+
+msgid "test.no.spacing.rect"
+msgstr "0,34,600,28"
+
+msgid "test.screen.header"
+msgstr "Testovací režim"
+
+msgid "test.screen.header.rect"
+msgstr "10,42,580,32"
+
+msgid "usb.screen.charging.y_offset"
+msgstr "20"
+
+msgid "usb.screen.header"
+msgstr "Mód USB disku"
+
+msgid "usb.screen.header.fontsize"
+msgstr "26"
+
+msgid "usb.screen.header.rect"
+msgstr "0,34,600,28"
+
+msgid "usb.screen.message"
+msgstr "Pokud chcete číst nebo nakupovat během nabíjení přes USB, prosím nechejte USB kabel připojený, ale odeberte Kindle ve Vašem počítači."
+
+msgid "usb.screen.message.fontsize"
+msgstr "26"
+
+msgid "usb.screen.message.rect"
+msgstr "68,384,464,200"
+
+msgid "usb.screen.message.spacing"
+msgstr "2.5"
+
+msgid "usb.screen.message_nc"
+msgstr "Pokud si přejete pracovat s Vašim Kindle, odeberte jej ve Vašem počítači.\n\nPrávě se Váš Kindle nenabíjí."
+
+msgid "usb.screen.message_nc.fontsize"
+msgstr "26"
+
+msgid "usb.screen.message_nc.rect"
+msgstr "68,384,464,200"
+
+msgid "usb.screen.message_nc.spacing"
+msgstr "2.5"
