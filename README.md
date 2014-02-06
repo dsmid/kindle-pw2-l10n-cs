@@ -52,7 +52,7 @@ Překlad i vše co je potřeba k tvorbě lokalizačního balíčku je na GitHubu
 Stačí si tam založit účet a vytvořit svůj fork projektu. Pak je možné editovat překlady buď přímo na webu nebo u sebe v počítači.
 Pokud budete pracovat na webu, ujistěte se prosím, že máte v editoru nastaven Indent mode na Tabs, ne Spaces.
 GitHub klient pro Windows se dá stáhnout [tady](http://windows.github.com/), fungují samozřejmě i běžné nástroje pro práci s gitem.
-Každou změnu (tzv. commit) můžete sloučit s hlavním repozitářem (poslat [nový pull request](https://github.com/dsmid/kindle-pw2-l10n-cs/pulls)). Doporučuji posílat pull requesty často, aby se nestalo, že budou dva lidé pracovat na překladu stejných frází.
+Každou změnu (tzv. commit) můžete sloučit s hlavním repozitářem (tj. poslat nový pull request v záložce ```Pull Requests``` vašeho forku). Doporučuji posílat pull requesty často, aby se nestalo, že budou dva lidé pracovat na překladu stejných frází.
 
 Hlavní část překladu je možné nalézt v adresáři [translation_5.4.2/translation](translation_5.4.2/translation)
 Je tam poměrně košatý strom souborů s příponou .translation .
