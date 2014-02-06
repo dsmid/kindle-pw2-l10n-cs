@@ -16,7 +16,7 @@ very similar to K3 localization process.
 To be on the safe side I don't overwrite stock files and dirs but bind-mount the Czech replacement instead.
 The only addition to the system is a simple upstart config file that performs the bindings listed in
 userstore.
-This approach should work on all Kindle models, even Touch and Paperwhite 1 but I can't localize these
+This approach should work on any Kindle model with touch screen, even Touch and Paperwhite 1 but I can't localize these
 because I don't own any of them.
 
 I'm looking for volunteers brave enough to test the localization or able to help with translation.
