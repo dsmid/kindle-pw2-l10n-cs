@@ -1,16 +1,16 @@
-Cancel	
+Cancel	Zrušit
 Close	Zavřít
-Connection Required	
-Edit	
-Lock Rotation	
+Connection Required	Vyžadováno připojení
+Edit	Upravit
+Lock Rotation	Zamknout otáčení
 Menu	
 OK	
-Register	
-Remove	
+Register	Registrovat
+Remove	Odstranit
 Shop in Kindle Store	Nakoupit v Kindle Store
-This action requires wireless to be turned on.	
-Turn Off Wireless	
-Turn On Wireless	
+This action requires wireless to be turned on.	Tato akce vyžaduje spuštění Wi-Fi
+Turn Off Wireless	Vypnout bezdrátové připojení
+Turn On Wireless	Zapnout bezdrátové připojení
 Unable to Connect	Není možné se připojit
-Unlock Rotation	
+Unlock Rotation	Odemknout otáčení
 Your Kindle is currently unable to connect.<br><br>Please try again later.	

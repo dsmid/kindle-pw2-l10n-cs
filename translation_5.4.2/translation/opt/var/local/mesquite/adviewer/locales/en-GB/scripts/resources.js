@@ -3,7 +3,7 @@ Close	Zavřít
 Details for this advert are no longer available.	
 Details for this advert are no longer available. Turn on wireless to receive the latest content.	
 Device Not Registered	
-Error	
+Error	Chyba
 Offer Expired	Platnost nabídky vypršela
 Order Cancelled	Objednávka zrušena
 Parental Controls are enabled on your Kindle. Purchases are not allowed.	

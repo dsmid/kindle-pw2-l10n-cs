@@ -1,0 +1,46 @@
+#!/bin/bash
+
+. config
+
+#cp -f kindle_loc.sqlite kindle_loc.sqlite.4.1.old
+#cp -f kindle_loc.sqlite.3.4 kindle_loc.sqlite
+
+report() {
+	[ "$src" == '“' ] && return 1
+	[ "$src" == '”' ] && return 1
+	echo "Filtered out: $src"
+	return 0
+}
+
+
+cd transifex/src/5.0.3/framework
+
+VER="5.0.3"
+echo "begin;" > ../../../../framework_$VER.sql
+find . -name "*_$LANG.properties" | while read item
+do
+    cs="$item"
+    en=${cs%_cs.properties}_en_US.properties
+    engb=${cs%_cs.properties}_en_GB.translation
+    OLDIFS=$IFS
+    IFS="="
+    echo "Processing $cs"
+    while read -u5 key1 czech;read -u6 key2 eng
+    do
+	[ -n "$key1" ] || continue
+	[ -n "$czech" ] || continue
+	[ "$czech" != "$eng" ] || continue
+	if [ "$key1" == "$key2" ]
+	then
+	    echo -e "\t$eng = $czech"
+            eng=$(sed "s/'/''/g" <<<"$eng")
+            czech=$(sed "s/'/''/g" <<<"$czech")
+	    echo "insert into trans values ('$eng','$czech', '$engb', '$VER');" >> ../../../../framework_$VER.sql
+	else
+	    echo "keys do not match: '$key1' vs '$key2'" >&2 
+	fi
+    done 5<"$cs" 6<"$en"
+    IFS=$OLDIFS
+    echo
+done
+echo "commit;" >> ../../../../framework_$VER.sql

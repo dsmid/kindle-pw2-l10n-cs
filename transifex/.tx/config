@@ -1,0 +1,784 @@
+# This is configuration file for transifex.net command-line client
+# http://help.transifex.net/features/client/index.html
+#
+# File contains [main] section that describes server to synchronize resources
+# and other sections that describes available resources.
+#
+# Configuration policy:
+# ---------------------
+# * don't use Transifex client for updating this file (i.e. use of
+#   '--auto-local' option is forbidden). Add/delete resource sections manually.
+#   Transifex client don't add all required fields in resource section.
+#
+# * always fill all needed fields in resource sections. List of these fields is
+#   provided below in 'Format of resource section'. Though some fields described
+#   there are not mandatory in basic configuration, resource section in this
+#   configuration file must contain all mentioned fields.
+#   Automatic deducing of some superfluous fields in Transifex client just don't
+#   works.
+#
+# * in filesystem paths use only forward slash ('/').
+#
+# (Transifex client quirks were found on v0.6)
+#
+# Format of resource section:
+# ---------------------------
+# * name of section contains slug of project and slug of specific resource of
+#   this project delimited by dot.
+#
+#   Slug is a short and unique label which identifies project/resource. Slug
+#   must contain only alphanumeric characters, hyphen characters ('-') or
+#   underscore characters ('_').
+#
+#   Example: [kindle-touch-framework.5-0-3--booklet-reader-plugin-Search] means
+#   project 'kindle-touch-framework' and resource
+#   '5-0-3--booklet-reader-plugin-Search'.
+#
+# * 'file_filter' field contains expression used to identify translation files
+#    under the specific project. It must contain '<lang>' parameter. Transifex
+#    client interprets '<lang>' as matching wildcard and extracts it's content
+#    as locale code for found translation file.
+#
+# * 'source_file' field points to the original file with strings in source
+#   language which are meant to be translated.
+#
+# * 'source_lang' field contains locale code of the source language of resource.
+#
+# * 'type' field contains the i18n type of the resource. A list of the available
+#    types can be found at
+#    http://help.transifex.net/features/formats.html#user-formats
+
+[main]
+host = https://www.transifex.com
+
+[kindle-touch-framework.5-0-3--c-a-a-s-r-Component]
+file_filter = src/5.0.3/framework/com/amazon/agui/swing/resources/ComponentResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/agui/swing/resources/ComponentResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-e-b-m-i-r-BestDefinitionHeuristic]
+file_filter = src/5.0.3/framework/com/amazon/ebook/booklet/mobireader/impl/resources/BestDefinitionHeuristicResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/ebook/booklet/mobireader/impl/resources/BestDefinitionHeuristicResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-e-b-p-i-r-PDFReaderImpl]
+file_filter = src/5.0.3/framework/com/amazon/ebook/booklet/pdfreader/impl/resources/PDFReaderImplResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/ebook/booklet/pdfreader/impl/resources/PDFReaderImplResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-e-b-p-b-u-v-h-r-BlogHome]
+file_filter = src/5.0.3/framework/com/amazon/ebook/booklet/periodicals/blogs/ui/views/home/resources/BlogHomeResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/ebook/booklet/periodicals/blogs/ui/views/home/resources/BlogHomeResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-e-b-p-i-d-r-PeriodicalsDetailView]
+file_filter = src/5.0.3/framework/com/amazon/ebook/booklet/periodicals/impl/detail/resources/PeriodicalsDetailViewResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/ebook/booklet/periodicals/impl/detail/resources/PeriodicalsDetailViewResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-e-b-p-m-u-v-c-r-CoverView]
+file_filter = src/5.0.3/framework/com/amazon/ebook/booklet/periodicals/magazines/ui/views/cover/resources/CoverViewResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/ebook/booklet/periodicals/magazines/ui/views/cover/resources/CoverViewResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-e-b-p-n-u-v-c-r-ContentView]
+file_filter = src/5.0.3/framework/com/amazon/ebook/booklet/periodicals/newspapers/ui/views/contentview/resources/ContentViewResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/ebook/booklet/periodicals/newspapers/ui/views/contentview/resources/ContentViewResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-e-b-p-u-r-PeriodicalReadingPane]
+file_filter = src/5.0.3/framework/com/amazon/ebook/booklet/periodicals/ui/resources/PeriodicalReadingPaneResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/ebook/booklet/periodicals/ui/resources/PeriodicalReadingPaneResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-e-b-p-u-r-PeriodicalsUI]
+file_filter = src/5.0.3/framework/com/amazon/ebook/booklet/periodicals/ui/resources/PeriodicalsUIResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/ebook/booklet/periodicals/ui/resources/PeriodicalsUIResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-e-b-p-u-r-ReadingPaneHeader]
+file_filter = src/5.0.3/framework/com/amazon/ebook/booklet/periodicals/ui/resources/ReadingPaneHeaderResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/ebook/booklet/periodicals/ui/resources/ReadingPaneHeaderResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-e-b-r-i-a-p-r-PersonalAnnotation]
+file_filter = src/5.0.3/framework/com/amazon/ebook/booklet/reader/impl/annotation/personal/resources/PersonalAnnotationResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/ebook/booklet/reader/impl/annotation/personal/resources/PersonalAnnotationResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-e-b-r-i-t-h-r-ContentToDoHandler]
+file_filter = src/5.0.3/framework/com/amazon/ebook/booklet/reader/impl/todo/handler/resources/ContentToDoHandlerResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/ebook/booklet/reader/impl/todo/handler/resources/ContentToDoHandlerResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-e-b-r-i-u-r-UI]
+file_filter = src/5.0.3/framework/com/amazon/ebook/booklet/reader/impl/ui/resources/UIResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/ebook/booklet/reader/impl/ui/resources/UIResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-e-b-r-p-a-u-r-Dialog]
+file_filter = src/5.0.3/framework/com/amazon/ebook/booklet/reader/plugin/acxreaderplugin/ui/resources/DialogResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/ebook/booklet/reader/plugin/acxreaderplugin/ui/resources/DialogResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-e-b-r-p-a-x-r-XRay]
+file_filter = src/5.0.3/framework/com/amazon/ebook/booklet/reader/plugin/acxreaderplugin/xray/resources/XRayResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/ebook/booklet/reader/plugin/acxreaderplugin/xray/resources/XRayResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-e-b-r-p-c-r-Clippings]
+file_filter = src/5.0.3/framework/com/amazon/ebook/booklet/reader/plugin/clippings/resources/ClippingsResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/ebook/booklet/reader/plugin/clippings/resources/ClippingsResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-e-b-r-p-i-r-IndexView]
+file_filter = src/5.0.3/framework/com/amazon/ebook/booklet/reader/plugin/indexview/resources/IndexViewResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/ebook/booklet/reader/plugin/indexview/resources/IndexViewResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-e-b-r-p-n-r-Annotation]
+file_filter = src/5.0.3/framework/com/amazon/ebook/booklet/reader/plugin/notesandmarks/resources/AnnotationResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/ebook/booklet/reader/plugin/notesandmarks/resources/AnnotationResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-e-b-r-p-p-r-SidecarPageNumberProvider]
+file_filter = src/5.0.3/framework/com/amazon/ebook/booklet/reader/plugin/pagenumbers/resources/SidecarPageNumberProviderResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/ebook/booklet/reader/plugin/pagenumbers/resources/SidecarPageNumberProviderResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-e-b-r-p-p-r-PublicNotes]
+file_filter = src/5.0.3/framework/com/amazon/ebook/booklet/reader/plugin/publicnotes/resources/PublicNotesResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/ebook/booklet/reader/plugin/publicnotes/resources/PublicNotesResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-e-b-r-p-s-r-SearchPlugin]
+file_filter = src/5.0.3/framework/com/amazon/ebook/booklet/reader/plugin/search/resources/SearchPluginResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/ebook/booklet/reader/plugin/search/resources/SearchPluginResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-e-b-r-p-s-r-SearchResultsPane]
+file_filter = src/5.0.3/framework/com/amazon/ebook/booklet/reader/plugin/search/resources/SearchResultsPaneResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/ebook/booklet/reader/plugin/search/resources/SearchResultsPaneResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-e-b-r-p-s-r-Sharing]
+file_filter = src/5.0.3/framework/com/amazon/ebook/booklet/reader/plugin/sharing/resources/SharingResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/ebook/booklet/reader/plugin/sharing/resources/SharingResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-e-b-r-p-s-r-SystemsCards]
+file_filter = src/5.0.3/framework/com/amazon/ebook/booklet/reader/plugin/systemcards/resources/SystemsCardsResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/ebook/booklet/reader/plugin/systemcards/resources/SystemsCardsResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-e-b-r-p-t-r-TTS]
+file_filter = src/5.0.3/framework/com/amazon/ebook/booklet/reader/plugin/tts/resources/TTSResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/ebook/booklet/reader/plugin/tts/resources/TTSResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-e-b-r-r-DetailViewFactory]
+file_filter = src/5.0.3/framework/com/amazon/ebook/booklet/reader/resources/DetailViewFactoryResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/ebook/booklet/reader/resources/DetailViewFactoryResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-e-b-r-r-Reader]
+file_filter = src/5.0.3/framework/com/amazon/ebook/booklet/reader/resources/ReaderResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/ebook/booklet/reader/resources/ReaderResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-e-b-r-s-e-r-ReaderException]
+file_filter = src/5.0.3/framework/com/amazon/ebook/booklet/reader/sdk/exception/resources/ReaderExceptionResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/ebook/booklet/reader/sdk/exception/resources/ReaderExceptionResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-e-u-r-DateUtil]
+file_filter = src/5.0.3/framework/com/amazon/ebook/util/resources/DateUtilResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/ebook/util/resources/DateUtilResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-e-u-r-NumberUtil]
+file_filter = src/5.0.3/framework/com/amazon/ebook/util/resources/NumberUtilResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/ebook/util/resources/NumberUtilResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-e-u-r-SimpleTextListFormat]
+file_filter = src/5.0.3/framework/com/amazon/ebook/util/resources/SimpleTextListFormatResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/ebook/util/resources/SimpleTextListFormatResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-e-u-r-StringUtil]
+file_filter = src/5.0.3/framework/com/amazon/ebook/util/resources/StringUtilResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/ebook/util/resources/StringUtilResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-e-u-r-TimeZoneMappings]
+file_filter = src/5.0.3/framework/com/amazon/ebook/util/resources/TimeZoneMappings_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/ebook/util/resources/TimeZoneMappings_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-e-u-r-TimeZoneUtil]
+file_filter = src/5.0.3/framework/com/amazon/ebook/util/resources/TimeZoneUtilResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/ebook/util/resources/TimeZoneUtilResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-a-r-Ad]
+file_filter = src/5.0.3/framework/com/amazon/kindle/ad/resources/AdResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/ad/resources/AdResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-a-u-r-Areas]
+file_filter = src/5.0.3/framework/com/amazon/kindle/apps/util/resources/AreasResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/apps/util/resources/AreasResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-a-u-r-Util]
+file_filter = src/5.0.3/framework/com/amazon/kindle/apps/util/resources/UtilResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/apps/util/resources/UtilResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-a-i-t-r-ToDoHandler]
+file_filter = src/5.0.3/framework/com/amazon/kindle/audiblehandler/impl/todo/resources/ToDoHandlerResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/audiblehandler/impl/todo/resources/ToDoHandlerResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-a-g-r-AudibleUI]
+file_filter = src/5.0.3/framework/com/amazon/kindle/audibleplayer/gui/resources/AudibleUIResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/audibleplayer/gui/resources/AudibleUIResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-a-r-AudibleException]
+file_filter = src/5.0.3/framework/com/amazon/kindle/audibleplayer/resources/AudibleExceptionResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/audibleplayer/resources/AudibleExceptionResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-a-r-DetailViewFactory]
+file_filter = src/5.0.3/framework/com/amazon/kindle/audibleplayer/resources/DetailViewFactoryResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/audibleplayer/resources/DetailViewFactoryResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-a-r-OTA]
+file_filter = src/5.0.3/framework/com/amazon/kindle/audibleplayer/resources/OTAResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/audibleplayer/resources/OTAResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-b-a-r-Ad]
+file_filter = src/5.0.3/framework/com/amazon/kindle/booklet/ad/resources/AdResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/booklet/ad/resources/AdResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-c-r-Dialog]
+file_filter = src/5.0.3/framework/com/amazon/kindle/control/resources/DialogResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/control/resources/DialogResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-c-r-DisplayController]
+file_filter = src/5.0.3/framework/com/amazon/kindle/control/resources/DisplayControllerResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/control/resources/DisplayControllerResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-c-r-Menu]
+file_filter = src/5.0.3/framework/com/amazon/kindle/control/resources/MenuResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/control/resources/MenuResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-c-r-Util]
+file_filter = src/5.0.3/framework/com/amazon/kindle/control/resources/UtilResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/control/resources/UtilResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-c-r-Widget]
+file_filter = src/5.0.3/framework/com/amazon/kindle/control/resources/WidgetResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/control/resources/WidgetResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-h-r-Action]
+file_filter = src/5.0.3/framework/com/amazon/kindle/home/resources/ActionResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/home/resources/ActionResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-h-r-AddToCollections]
+file_filter = src/5.0.3/framework/com/amazon/kindle/home/resources/AddToCollectionsResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/home/resources/AddToCollectionsResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-h-r-Archive]
+file_filter = src/5.0.3/framework/com/amazon/kindle/home/resources/ArchiveResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/home/resources/ArchiveResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-h-r-BackIssues]
+file_filter = src/5.0.3/framework/com/amazon/kindle/home/resources/BackIssuesResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/home/resources/BackIssuesResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-h-r-Behavior]
+file_filter = src/5.0.3/framework/com/amazon/kindle/home/resources/BehaviorResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/home/resources/BehaviorResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-h-r-Browse]
+file_filter = src/5.0.3/framework/com/amazon/kindle/home/resources/BrowseResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/home/resources/BrowseResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-h-r-Collection]
+file_filter = src/5.0.3/framework/com/amazon/kindle/home/resources/CollectionResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/home/resources/CollectionResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-h-r-DetailViewFactory]
+file_filter = src/5.0.3/framework/com/amazon/kindle/home/resources/DetailViewFactoryResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/home/resources/DetailViewFactoryResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-h-r-Dialog]
+file_filter = src/5.0.3/framework/com/amazon/kindle/home/resources/DialogResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/home/resources/DialogResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-h-r-Experimental]
+file_filter = src/5.0.3/framework/com/amazon/kindle/home/resources/ExperimentalResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/home/resources/ExperimentalResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-h-r-ImportCollections]
+file_filter = src/5.0.3/framework/com/amazon/kindle/home/resources/ImportCollectionsResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/home/resources/ImportCollectionsResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-h-r-ItemsToCollection]
+file_filter = src/5.0.3/framework/com/amazon/kindle/home/resources/ItemsToCollectionResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/home/resources/ItemsToCollectionResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-h-r-Menu]
+file_filter = src/5.0.3/framework/com/amazon/kindle/home/resources/MenuResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/home/resources/MenuResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-h-r-PendingPurchases]
+file_filter = src/5.0.3/framework/com/amazon/kindle/home/resources/PendingPurchasesResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/home/resources/PendingPurchasesResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-h-r-Renderer]
+file_filter = src/5.0.3/framework/com/amazon/kindle/home/resources/RendererResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/home/resources/RendererResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-h-r-SearchResults]
+file_filter = src/5.0.3/framework/com/amazon/kindle/home/resources/SearchResultsResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/home/resources/SearchResultsResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-h-r-Unindexed]
+file_filter = src/5.0.3/framework/com/amazon/kindle/home/resources/UnindexedResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/home/resources/UnindexedResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-k-i-KindletFactory]
+file_filter = src/5.0.3/framework/com/amazon/kindle/kindlet/internal/KindletFactoryResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/kindlet/internal/KindletFactoryResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-k-i-d-i-DeveloperCertificateInstaller]
+file_filter = src/5.0.3/framework/com/amazon/kindle/kindlet/internal/developer/install/DeveloperCertificateInstallerResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/kindlet/internal/developer/install/DeveloperCertificateInstallerResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-k-i-h-KindletDetailView]
+file_filter = src/5.0.3/framework/com/amazon/kindle/kindlet/internal/home/KindletDetailViewResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/kindlet/internal/home/KindletDetailViewResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-k-i-m-AudioErrorMessage]
+file_filter = src/5.0.3/framework/com/amazon/kindle/kindlet/internal/media/AudioErrorMessageResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/kindlet/internal/media/AudioErrorMessageResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-k-i-n-NetworkDisabledDetails]
+file_filter = src/5.0.3/framework/com/amazon/kindle/kindlet/internal/net/NetworkDisabledDetailsResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/kindlet/internal/net/NetworkDisabledDetailsResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-k-i-r-KindletBooklet]
+file_filter = src/5.0.3/framework/com/amazon/kindle/kindlet/internal/resources/KindletBookletResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/kindlet/internal/resources/KindletBookletResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-k-i-r-KindletToDoHandler]
+file_filter = src/5.0.3/framework/com/amazon/kindle/kindlet/internal/resources/KindletToDoHandlerResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/kindlet/internal/resources/KindletToDoHandlerResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-k-i-s-KindletClassLoader]
+file_filter = src/5.0.3/framework/com/amazon/kindle/kindlet/internal/security/KindletClassLoaderResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/kindlet/internal/security/KindletClassLoaderResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-k-u-r-KOptionPane]
+file_filter = src/5.0.3/framework/com/amazon/kindle/kindlet/ui/resources/KOptionPaneResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/kindlet/ui/resources/KOptionPaneResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-k-u-r-UI]
+file_filter = src/5.0.3/framework/com/amazon/kindle/kindlet/ui/resources/UIResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/kindlet/ui/resources/UIResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-p-r-Purchase]
+file_filter = src/5.0.3/framework/com/amazon/kindle/purchase/resources/PurchaseResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/purchase/resources/PurchaseResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-r-Catalog]
+file_filter = src/5.0.3/framework/com/amazon/kindle/resources/CatalogResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/resources/CatalogResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-r-CommunicationManager]
+file_filter = src/5.0.3/framework/com/amazon/kindle/resources/CommunicationManager_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/resources/CommunicationManager_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-r-SpeechOutput]
+file_filter = src/5.0.3/framework/com/amazon/kindle/resources/SpeechOutputResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/resources/SpeechOutputResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-r-StatusBar]
+file_filter = src/5.0.3/framework/com/amazon/kindle/resources/StatusBarResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/resources/StatusBarResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-r-SystemMessages]
+file_filter = src/5.0.3/framework/com/amazon/kindle/resources/SystemMessages_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/resources/SystemMessages_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-r-Widgets]
+file_filter = src/5.0.3/framework/com/amazon/kindle/resources/WidgetsResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/resources/WidgetsResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-r-c-c-r-CollectionsJournal]
+file_filter = src/5.0.3/framework/com/amazon/kindle/restricted/content/catalog/resources/CollectionsJournalResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/restricted/content/catalog/resources/CollectionsJournalResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-s-r-DeviceOptions]
+file_filter = src/5.0.3/framework/com/amazon/kindle/settings/resources/DeviceOptionsResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/settings/resources/DeviceOptionsResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-s-r-Dialog]
+file_filter = src/5.0.3/framework/com/amazon/kindle/settings/resources/DialogResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/settings/resources/DialogResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-s-r-Dictionary]
+file_filter = src/5.0.3/framework/com/amazon/kindle/settings/resources/DictionaryResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/settings/resources/DictionaryResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-s-r-International]
+file_filter = src/5.0.3/framework/com/amazon/kindle/settings/resources/InternationalResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/settings/resources/InternationalResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-s-r-Keyboard]
+file_filter = src/5.0.3/framework/com/amazon/kindle/settings/resources/KeyboardResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/settings/resources/KeyboardResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-s-r-Language]
+file_filter = src/5.0.3/framework/com/amazon/kindle/settings/resources/LanguageResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/settings/resources/LanguageResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-s-r-Legal]
+file_filter = src/5.0.3/framework/com/amazon/kindle/settings/resources/LegalResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/settings/resources/LegalResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-s-r-Menu]
+file_filter = src/5.0.3/framework/com/amazon/kindle/settings/resources/MenuResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/settings/resources/MenuResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-s-r-Passcode]
+file_filter = src/5.0.3/framework/com/amazon/kindle/settings/resources/PasscodeResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/settings/resources/PasscodeResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-s-r-Property]
+file_filter = src/5.0.3/framework/com/amazon/kindle/settings/resources/PropertyResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/settings/resources/PropertyResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-s-r-ReadingOptions]
+file_filter = src/5.0.3/framework/com/amazon/kindle/settings/resources/ReadingOptionsResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/settings/resources/ReadingOptionsResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-s-r-Registration]
+file_filter = src/5.0.3/framework/com/amazon/kindle/settings/resources/RegistrationResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/settings/resources/RegistrationResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-k-s-r-Settings]
+file_filter = src/5.0.3/framework/com/amazon/kindle/settings/resources/SettingsResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/kindle/settings/resources/SettingsResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-e-b-r-p-p-r-PopularHighlights]
+file_filter = src/5.0.3/framework/com/amazon/ebook/booklet/reader/plugin/phls/resources/PopularHighlightsResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/ebook/booklet/reader/plugin/phls/resources/PopularHighlightsResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-e-b-r-i-u-r-HighlightDrawer]
+file_filter = src/5.0.3/framework/com/amazon/ebook/booklet/reader/impl/ui/resources/HighlightDrawerResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/ebook/booklet/reader/impl/ui/resources/HighlightDrawerResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-e-b-r-s-r-ReaderSDK]
+file_filter = src/5.0.3/framework/com/amazon/ebook/booklet/reader/sdk/resources/ReaderSDKResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/ebook/booklet/reader/sdk/resources/ReaderSDKResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-e-b-p-u-r-ReadingPaneFooter]
+file_filter = src/5.0.3/framework/com/amazon/ebook/booklet/periodicals/ui/resources/ReadingPaneFooterResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/ebook/booklet/periodicals/ui/resources/ReadingPaneFooterResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-e-b-p-n-u-v-s-r-SectionStart]
+file_filter = src/5.0.3/framework/com/amazon/ebook/booklet/periodicals/newspapers/ui/views/sectionstart/resources/SectionStartResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/ebook/booklet/periodicals/newspapers/ui/views/sectionstart/resources/SectionStartResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-e-b-p-n-u-v-h-r-PeriodicalsHomeWidget]
+file_filter = src/5.0.3/framework/com/amazon/ebook/booklet/periodicals/newspapers/ui/views/home/resources/PeriodicalsHomeWidgetResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/ebook/booklet/periodicals/newspapers/ui/views/home/resources/PeriodicalsHomeWidgetResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-e-b-p-n-u-v-c-r-ContentViewMasthead]
+file_filter = src/5.0.3/framework/com/amazon/ebook/booklet/periodicals/newspapers/ui/views/contentview/resources/ContentViewMastheadResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/ebook/booklet/periodicals/newspapers/ui/views/contentview/resources/ContentViewMastheadResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-e-b-p-m-u-v-h-r-MagazineHome]
+file_filter = src/5.0.3/framework/com/amazon/ebook/booklet/periodicals/magazines/ui/views/home/resources/MagazineHomeResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/ebook/booklet/periodicals/magazines/ui/views/home/resources/MagazineHomeResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-e-b-p-m-u-v-h-r-MagazineHomeWidget]
+file_filter = src/5.0.3/framework/com/amazon/ebook/booklet/periodicals/magazines/ui/views/home/resources/MagazineHomeWidgetResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/ebook/booklet/periodicals/magazines/ui/views/home/resources/MagazineHomeWidgetResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-e-b-p-b-u-v-h-r-BlogHomeWidget]
+file_filter = src/5.0.3/framework/com/amazon/ebook/booklet/periodicals/blogs/ui/views/home/resources/BlogHomeWidgetResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/ebook/booklet/periodicals/blogs/ui/views/home/resources/BlogHomeWidgetResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-framework.5-0-3--c-a-e-b-p-b-u-v-h-r-BlogHomeSpecialWidget]
+file_filter = src/5.0.3/framework/com/amazon/ebook/booklet/periodicals/blogs/ui/views/home/resources/BlogHomeSpecialWidgetResources_<lang>.properties
+source_file = src/5.0.3/framework/com/amazon/ebook/booklet/periodicals/blogs/ui/views/home/resources/BlogHomeSpecialWidgetResources_en_US.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-locale.5-0-3--messages-blanket]
+file_filter = src/5.0.3/locale/<lang>/LC_MESSAGES/blanket.po
+source_file = src/5.0.3/locale/en_US/LC_MESSAGES/blanket.po
+source_lang = tr
+type = PO
+
+[kindle-touch-locale.5-0-3--messages-todo]
+file_filter = src/5.0.3/locale/<lang>/LC_MESSAGES/todo.po
+source_file = src/5.0.3/locale/en_US/LC_MESSAGES/todo.po
+source_lang = tr
+type = PO
+
+[kindle-touch-locale.5-0-3--messages-wua]
+file_filter = src/5.0.3/locale/<lang>/LC_MESSAGES/wua.po
+source_file = src/5.0.3/locale/en_US/LC_MESSAGES/wua.po
+source_lang = tr
+type = PO
+
+[kindle-touch-pillow.5-0-3--strings-default-status-bar]
+file_filter = src/5.0.3/pillow/<lang>/strings/default_status_bar_strings.properties
+source_file = src/5.0.3/pillow/en_US/strings/default_status_bar_strings.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-pillow.5-0-3--strings-media-player-bar]
+file_filter = src/5.0.3/pillow/<lang>/strings/media_player_bar_strings.properties
+source_file = src/5.0.3/pillow/en_US/strings/media_player_bar_strings.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-pillow.5-0-3--strings-password-dialog]
+file_filter = src/5.0.3/pillow/<lang>/strings/password_dialog_strings.properties
+source_file = src/5.0.3/pillow/en_US/strings/password_dialog_strings.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-pillow.5-0-3--strings-sample-custom-dialog]
+file_filter = src/5.0.3/pillow/<lang>/strings/sample_custom_dialog_strings.properties
+source_file = src/5.0.3/pillow/en_US/strings/sample_custom_dialog_strings.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-pillow.5-0-3--strings-search-bar]
+file_filter = src/5.0.3/pillow/<lang>/strings/search_bar_strings.properties
+source_file = src/5.0.3/pillow/en_US/strings/search_bar_strings.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-pillow.5-0-3--strings-search-domain]
+file_filter = src/5.0.3/pillow/<lang>/strings/search_domain_strings.properties
+source_file = src/5.0.3/pillow/en_US/strings/search_domain_strings.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-pillow.5-0-3--strings-simple-alert]
+file_filter = src/5.0.3/pillow/<lang>/strings/simple_alert_strings.properties
+source_file = src/5.0.3/pillow/en_US/strings/simple_alert_strings.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-pillow.5-0-3--strings-wifi-wizard-dialog]
+file_filter = src/5.0.3/pillow/<lang>/strings/wifi_wizard_dialog_strings.properties
+source_file = src/5.0.3/pillow/en_US/strings/wifi_wizard_dialog_strings.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-waf.5-0-3--adviewer-scripts-resources]
+file_filter = src/5.0.3/waf/<lang>/adviewer/scripts/resources.properties
+source_file = src/5.0.3/waf/en_US/adviewer/scripts/resources.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-waf.5-0-3--browser-js-strings]
+file_filter = src/5.0.3/waf/<lang>/browser/js/strings.properties
+source_file = src/5.0.3/waf/en_US/browser/js/strings.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-waf.5-0-3--shared-js-strings]
+file_filter = src/5.0.3/waf/<lang>/shared/js/strings.properties
+source_file = src/5.0.3/waf/en_US/shared/js/strings.properties
+source_lang = tr
+type = MOZILLAPROPERTIES
+
+[kindle-touch-waf.5-0-3--store-strings-strings]
+file_filter = src/5.0.3/waf/<lang>/store/strings/strings.properties
+source_file = src/5.0.3/waf/en_US/store/strings/strings.properties
+source_lang = tr
+type = MOZILLAPROPERTIES

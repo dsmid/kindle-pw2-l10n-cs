@@ -1,0 +1,26 @@
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# BlackHawk <hawkgotyou@gmail.com>, 2012
+msgid ""
+msgstr ""
+"Project-Id-Version: Kindle Touch locale\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2012-01-22 16:07+0000\n"
+"Last-Translator: ixtab <ixtab@fs-xtc.net>\n"
+"Language-Team: Italian (http://www.transifex.com/projects/p/kindle-touch-locale/language/it/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "todo.message.checking"
+msgstr "Sto controllando.."
+
+msgid "todo.message.nonewitems"
+msgstr "Nessun nuovo elemento"

@@ -1,0 +1,26 @@
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Aditya Goturu <aditya3098@gmail.com>, 2012
+msgid ""
+msgstr ""
+"Project-Id-Version: Kindle Touch locale\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2012-04-06 12:35+0000\n"
+"Last-Translator: Aditya Goturu <aditya3098@gmail.com>\n"
+"Language-Team: Hindi (India) (http://www.transifex.com/projects/p/kindle-touch-locale/language/hi_IN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hi_IN\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "todo.message.checking"
+msgstr "देखरहे है...."
+
+msgid "todo.message.nonewitems"
+msgstr "कोई नए चीज़ नहीं है"

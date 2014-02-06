@@ -3,9 +3,9 @@ Buy This Book Now	Koupit tuto knihu
 Book Description	Popis knihy
 View in Store	
 Settings	Nastavení
-Fonts	
+Fonts	Písma
 Contrast	Kontrast
-Cancel	
+Cancel	Zrušit
 Publisher Font	Písmo z knihy
 Line spacing	
 Margins	
@@ -17,55 +17,55 @@ darkest	+2
 Go To	Jít na
 Table of Contents	Obsah
 Go to...	Jít na...
-Table of Contents...	
+Table of Contents...	Obsah
 Cover	Obálka
-Beginning	
-End	
-Go to Page or Location	
-Page or Location	
+Beginning	Začátek
+End	Konec
+Go to Page or Location	Přejít na stránku nebo pozice
+Page or Location	Stránka nebo pozice
 Page 	Strana 
 Location	Umístění
-Enter a page ({0}) or location ({1} - {2})	
-Enter a page (1 - {0}) or location ({1} - {2})	
-Enter a page or location ({1} - {2})	
-Enter a page ({0})	
-Enter a page (1 - {0})	
-Enter a page	
-Enter a location ({0} - {1})	
-Loc {0}	
+Enter a page ({0}) or location ({1} - {2})	Zadejte stránku({0}) nebo pozici ({1} - {2})
+Enter a page (1 - {0}) or location ({1} - {2})	Zadejte stránku (1 - {0}) nebo pozici ({1} - {2})
+Enter a page or location ({1} - {2})	Zadejte stránku nebo místo ({1} - {2})
+Enter a page ({0})	Zadejte stránku ({0})
+Enter a page (1 - {0})	Zadejte stránku (1 - {0})
+Enter a page	Zadejte stránku
+Enter a location ({0} - {1})	Zadejte místo ({0} - {1})
+Loc {0}	Poz {0}
 Page {0}	Strana {0}
 Loc {0} of {1}	
 Page {0} of {1}	Strana {0} z {1}
 More	
 More Options	
 Add Note	Přidat poznámku
-View Note	
+View Note	Zobrazit poznámku
 Edit Note	Upravit poznámku
 Delete Note	Vymazat poznámku
 Highlight	Zvýraznění
 Delete	Smazat
 Sync to Furthest Page Read	Přejít na uloženou pozici
-Sync	
-Sync Results	
+Sync	Synchr.
+Sync Results	Výsledek synchr.
 Already at furthest read location.	Již jste na poslední čtené pozici.
-Unable to Sync	
+Unable to Sync	Nemohu synchronizovat
 To sync to the furthest page read, Annotations Backup must be turned on. Go to Settings from the Home screen menu, select Reading Options, then Annotations Backup.	
 Unable to retrieve the furthest location read. If this is the first time you have opened this book, your device will update your location when you close the book or your device goes to sleep.	
-You are currently at location {0}. The furthest read location across all your devices is {2}. Go to that location?	
-You are currently on page {0}. The furthest read page across all your devices is {2}. Go to that page?	
+You are currently at location {0}. The furthest read location across all your devices is {2}. Go to that location?	Právě jste na pozici {0}. Poslední přečtenou pozicí přes všechny Vaše zařízení je {2}. Jít na tuto pozici?
+You are currently on page {0}. The furthest read page across all your devices is {2}. Go to that page?	Právě jste na stránce {0}. Poslední přečtenou stránkou přes všechna Vaše zařízení je {2}. Jít na tuto stranu?
 You are currently on page {0}. You have read further than this page across all your devices. Go to the furthest place read?	
-You are currently on an unnumbered page, {1,number,percent} into the book. The furthest read page across all your devices is an unnumbered page, {3,number,percent} into the book. Go to that page?	
+You are currently on an unnumbered page, {1,number,percent} into the book. The furthest read page across all your devices is an unnumbered page, {3,number,percent} into the book. Go to that page?	Právě jste na neočíslované straně, {1,number,percent} v knize. Poslední přečtenou stranou přes všechna Vaše zařízení je neočíslovaná strana, {3,number,percent} v knize. Jít na tuto stranu?
 You are currently on an unnumbered page, {1,number,percent} into the book. You have read further in this book across all your devices. Go to the furthest place read?	
-You are currently on an unnumbered page, {1,number,percent} into the book. The furthest read page across all your devices is {2}, {3,number,percent} into the book. Go to that page?	
-You are currently on page {0}, {1,number,percent} into the book. The furthest read page across all your devices is an unnumbered page, {3,number,percent} into the book. Go to that page?	
-You are currently at location {0}. The furthest read location is {2} from "{4}" at {5,time,short} {6}. Go to that location?	
-You are currently on page {0}. The furthest page read is {2}, from "{4}" at {5,time,short} {6}. Go to that page?	
-You are currently on page {0}. You have read further on this page, from "{4}" at {5,time,short} {6}. Go to the furthest point read?	
-You are currently on an unnumbered page, {1,number,percent} into the book. The furthest page read is an unnumbered page, {3,number,percent} into the book, from "{4}" at {5,time,short} {6}. Go to that page?	
+You are currently on an unnumbered page, {1,number,percent} into the book. The furthest read page across all your devices is {2}, {3,number,percent} into the book. Go to that page?	Právě jste na neočíslované straně, {1,number,percent} v knize. Poslední přečtenou stranou přes všechna Vaše zařízení je {2}, {3,number,percent} v knize. Jít na tuto stranu?
+You are currently on page {0}, {1,number,percent} into the book. The furthest read page across all your devices is an unnumbered page, {3,number,percent} into the book. Go to that page?	Právě jste na stránce {0}, {1,number,percent} v knize. Poslední přečtenou stránkou přes všechna Vaše zařízení je neočíslovaná stránka, {3,number,percent} v knize. Jít na tuto stranu?
+You are currently at location {0}. The furthest read location is {2} from "{4}" at {5,time,short} {6}. Go to that location?	Právě jste na pozici {0}. Poslední přečtenou pozicí je  {2} ze "{4}" z {5,time,short} {6}. Jít na tuto pozici?
+You are currently on page {0}. The furthest page read is {2}, from "{4}" at {5,time,short} {6}. Go to that page?	Právě jste na stránce {0}. Poslední čtenou stránkou je  {2}, z "{4}" z {5,time,short} {6}. Přejít na tuto stránku?
+You are currently on page {0}. You have read further on this page, from "{4}" at {5,time,short} {6}. Go to the furthest point read?	Právě jste na straně {0}. Na této stránce jste dočetli již dále, z "{4}" z {5,time,short} {6}. Jít na toto místo?
+You are currently on an unnumbered page, {1,number,percent} into the book. The furthest page read is an unnumbered page, {3,number,percent} into the book, from "{4}" at {5,time,short} {6}. Go to that page?	Právě jste na neočíslované stránce, {1,number,percent} v knize. Poslední přečtenou stránkou je neočíslovaná stránka, {3,number,percent} v knize, z "{4}" z {5,time,short} {6}. Jít na tuto stranu?
 You are currently on an unnumbered page, {1,number,percent} into the book. You have read further in this book, from "{4}" at {5,time,short} {6}. Go to the furthest point read?	
-You are currently on an unnumbered page, {1,number,percent} into the book. The furthest page read is {2}, {3,number,percent} into the book, from "{4}" at {5,time,short} {6}. Go to that page?	
-You are currently on page {0}, {1,number,percent} into the book. The furthest page read is an unnumbered page, {3,number,percent} into the book, from "{4}" at {5,time,short} {6}. Go to that page?	
-on {7,date,long}	
+You are currently on an unnumbered page, {1,number,percent} into the book. The furthest page read is {2}, {3,number,percent} into the book, from "{4}" at {5,time,short} {6}. Go to that page?	Právě jste na neočíslované straně, {1,number,percent} v knize. Poslední přečtenou stranou je {2}, {3,number,percent} v knize, z "{4}" z {5,time,short} {6}. Jít na tuto stranou?
+You are currently on page {0}, {1,number,percent} into the book. The furthest page read is an unnumbered page, {3,number,percent} into the book, from "{4}" at {5,time,short} {6}. Go to that page?	Právě jste na straně {0}, {1,number,percent} v knize. Poslední přečtenou stranou je neočíslovaná stránka, {3,number,percent} v knize, z "{4}" z {5,time,short} {6}. Jít na tuto stranu?
+on {7,date,long}	 {7,date,long}
 yesterday	včera
 today	dnes
 Retrieving furthest page read...	Zjišťuji poslední čtenou stranu...
@@ -77,12 +77,12 @@ Incorrect password. Please try again.	Nesprávné heslo. Zkuste to prosím znovu
 Enter password: 	Zadejte heslo: 
 Submit	
 Note	Poznámka
-Save	
-Lock Rotation	
-Unlock Rotation	
-Lightest	
-Darkest	
+Save	Uložit
+Lock Rotation	Zamknout otáčení
+Unlock Rotation	Odemknout otáčení
+Lightest	Nejsvětlejší
+Darkest	Nejtmavší
 There is not enough Kindle memory to add or edit notes or marks on this document. Please make more Kindle memory available by removing content from the Home screen.	
-Low Memory	
-Share	
+Low Memory	Málo paměti
+Share	Sdílet
 Shared Notes & Highlights	

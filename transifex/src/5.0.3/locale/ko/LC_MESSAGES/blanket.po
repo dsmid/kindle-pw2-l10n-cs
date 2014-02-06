@@ -1,0 +1,159 @@
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# JH Kim <cwyh2838234@naver.com>, 2012
+msgid ""
+msgstr ""
+"Project-Id-Version: Kindle Touch locale\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-03-23 15:43-0700\n"
+"PO-Revision-Date: 2012-02-24 11:22+0000\n"
+"Last-Translator: JH Kim <cwyh2838234@naver.com>\n"
+"Language-Team: Korean (http://www.transifex.com/projects/p/kindle-touch-locale/language/ko/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "langpicker.cancel.label"
+msgstr "취소"
+
+msgid "langpicker.confirm.message %s"
+msgstr "선택한 %s 언어로 설정 하시겠습니까?"
+
+msgid "langpicker.ok.label"
+msgstr "확인"
+
+msgid "ota.update.errorcode"
+msgstr "업데이트 에러: %s"
+
+msgid "ota.update.failed"
+msgstr "업테이트가 성공적이지 못했습니다.\n\n도움이 필요하다면 www.kindle.com/support 를 방문하십시오.\n\n킨들 사용을 재개 하려면,  버튼을 누르십시오."
+
+msgid "ota.update.header"
+msgstr "소프트웨어 업데이트"
+
+msgid "ota.update.initial"
+msgstr "킨들이 업데이트 중입니다. 이것은 몇분이 걸릴수도 있습니다.\n\n업데이트중 절대로 킨들을 끄지 마십시오!\n\n킨들은 업데이트가 끝나면 자동적으로 재시작 됩니다."
+
+msgid "ota.update.success"
+msgstr "업데이트 성공\n\n킨들을 재시작 하는 중입나다..."
+
+msgid "shutdown.cust_service.header"
+msgstr "수리 필요!!!!!"
+
+msgid "shutdown.cust_service.header.fontsize"
+msgstr "26"
+
+msgid "shutdown.cust_service.header.rect"
+msgstr "0,34,600,28"
+
+msgid "shutdown.cust_service.message"
+msgstr "킨들이 수리가 필요합니다.\n\nKindle Customer Service 에 접속해 주십시오.\nhttp://www.kindle.com/support."
+
+msgid "shutdown.cust_service.message.fontsize"
+msgstr "26"
+
+msgid "shutdown.cust_service.message.rect"
+msgstr "68,384,464,416"
+
+msgid "shutdown.cust_service.message.spacing"
+msgstr "2.5"
+
+msgid "shutdown.reboot.message"
+msgstr "킨들을 시작 하는중입니다.잠시만 기다려 주세요."
+
+msgid "shutdown.reboot.message.fontsize"
+msgstr "26"
+
+msgid "shutdown.reboot.message.rect"
+msgstr "124,640,352,160"
+
+msgid "shutdown.reboot.message.spacing"
+msgstr "2.5"
+
+msgid "test.draw.defaults"
+msgstr "Test Draw Defaults"
+
+msgid "test.draw.defaults.fontsize"
+msgstr "26"
+
+msgid "test.draw.defaults.rect"
+msgstr "0,34,600,28"
+
+msgid "test.draw.defaults.spacing"
+msgstr "2.5"
+
+msgid "test.no.fontsize"
+msgstr "No fontsize entry"
+
+msgid "test.no.fontsize.rect"
+msgstr "0,34,600,28"
+
+msgid "test.no.fontsize.spacing"
+msgstr "2.5"
+
+msgid "test.no.rect"
+msgstr "No rect entry"
+
+msgid "test.no.rect.fontsize"
+msgstr "26"
+
+msgid "test.no.rect.spacing"
+msgstr "2.5"
+
+msgid "test.no.spacing"
+msgstr "No fontsize entry"
+
+msgid "test.no.spacing.fontsize"
+msgstr "26"
+
+msgid "test.no.spacing.rect"
+msgstr "0,34,600,28"
+
+msgid "test.screen.header"
+msgstr "Test Mode"
+
+msgid "test.screen.header.rect"
+msgstr "10,42,580,32"
+
+msgid "usb.screen.charging.y_offset"
+msgstr "20"
+
+msgid "usb.screen.header"
+msgstr "USB Drive Mode"
+
+msgid "usb.screen.header.fontsize"
+msgstr "26"
+
+msgid "usb.screen.header.rect"
+msgstr "0,34,600,28"
+
+msgid "usb.screen.message"
+msgstr "만약 USB로 충전 하면서 킨들로 읽거나 shop을 하고 싶다면,\nUSB는 그대로 둔채 컴퓨터로 하드웨어 안전하게 제거를 해주세요."
+
+msgid "usb.screen.message.fontsize"
+msgstr "26"
+
+msgid "usb.screen.message.rect"
+msgstr "68,384,464,200"
+
+msgid "usb.screen.message.spacing"
+msgstr "2.5"
+
+msgid "usb.screen.message_nc"
+msgstr "킨들을 사용하고 싶다면, 컴퓨터에서 분리 하여주세요.\n\n지금 킨들은 충전되고 있지 않습니다."
+
+msgid "usb.screen.message_nc.fontsize"
+msgstr "26"
+
+msgid "usb.screen.message_nc.rect"
+msgstr "68,384,464,200"
+
+msgid "usb.screen.message_nc.spacing"
+msgstr "2.5"

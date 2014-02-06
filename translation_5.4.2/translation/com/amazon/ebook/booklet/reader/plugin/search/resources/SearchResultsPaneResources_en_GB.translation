@@ -1,8 +1,8 @@
 Go To	Jít na
-Searching…	
-Search Results ({0,number,integer})	
+Searching…	Hledání…
+Search Results ({0,number,integer})	Výsledky hledání ({0,number,integer})
 {0,number,integer} of {1,number,integer}	{0,number,integer} z {1,number,integer}
-Title not yet indexed.	
-Search failed.	
+Title not yet indexed.	Titul není dosud indexován.
+Search failed.	Hledání se nezdařilo
 Location {0}	Pozice {0}
-Location {0} · Page {1}	
+Location {0} · Page {1}	Umístění {0} · Strana {1}

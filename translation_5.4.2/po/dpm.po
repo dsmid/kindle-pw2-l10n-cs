@@ -1,5 +1,5 @@
 msgid "dpm.default.contactinfo"
-msgstr "Your System Administrator"
+msgstr "Váš systemový administrátor"
 # msgstr "Your System Administrator"
 
 
