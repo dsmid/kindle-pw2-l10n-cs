@@ -25,13 +25,13 @@ Go to Page or Location	Jít na stránku nebo pozici
 Page or Location	Stránka nebo pozice
 Page 	Strana 
 Location	Umístění
-Enter a page ({0}) or location ({1} - {2})	Vložit stranu ({0}) nebo pozici ({1} - {2})
-Enter a page (1 - {0}) or location ({1} - {2})	Vložit stranu (1 - {0}) nebo pozici ({1} - {2})
-Enter a page or location ({1} - {2})	Vložit stranu nebo pozici ({1} - {2})
-Enter a page ({0})	Vložit stranu ({0})
-Enter a page (1 - {0})	Vložit stranu (1 - {0})
-Enter a page	Vložit stranu
-Enter a location ({0} - {1})	Vložit pozici ({0} - {1})
+Enter a page ({0}) or location ({1} - {2})	Zadat stranu ({0}) nebo pozici ({1} - {2})
+Enter a page (1 - {0}) or location ({1} - {2})	Zadat stranu (1 - {0}) nebo pozici ({1} - {2})
+Enter a page or location ({1} - {2})	Zadat stranu nebo pozici ({1} - {2})
+Enter a page ({0})	Zadat stranu ({0})
+Enter a page (1 - {0})	Zadat stranu (1 - {0})
+Enter a page	Zadat stranu
+Enter a location ({0} - {1})	Zadat pozici ({0} - {1})
 Loc {0}	Pozice {0}
 Page {0}	Strana {0}
 Loc {0} of {1}	Pozice {0} z {1}
@@ -44,7 +44,7 @@ Edit Note	Upravit poznámku
 Delete Note	Vymazat poznámku
 Highlight	Zvýraznění
 Delete	Smazat
-Sync to Furthest Page Read	Přejít na poslední přečtenou stránku
+Sync to Furthest Page Read	Přejít na poslední přečtenou stranu
 Sync	Synchronizovat
 Sync Results	Synchronizovat výsledky
 Already at furthest read location.	Již jste na poslední přečtené pozici.
