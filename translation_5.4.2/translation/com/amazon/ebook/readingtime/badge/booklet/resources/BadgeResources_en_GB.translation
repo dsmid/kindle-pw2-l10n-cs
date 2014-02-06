@@ -2,8 +2,8 @@ Badges	Hodnosti
 Books	Knihy
 Activity	Činnost
 Achievements	Ocenění
-Earned ({0,number,integer})	Dosaženo
-Challenges ({0,number,integer})	
+Earned ({0,number,integer}) Dosaženo ({0,number,integer})
+Challenges ({0,number,integer}) Cíle ({0,number,integer})
 Reset Badges	Vynulovat hodnosti
 {0,date,medium}	
 Read a Book {0,choice,0#|2#({0,number,integer})}	Čtení knihy {0,choice,0#|2#({0,number,integer})}
@@ -50,7 +50,7 @@ No Image	Bez obrázku
 {0,plural,=0{PAGES READ} one{PAGE READ} other{PAGES READ}}	{0,plural,=0{STRAN PŘEČTENO} one{STRANA PŘEČTENA} other{STRANY PŘEČTENY}}
 {0,select,true{{1,number,integer}} other{{2}}}	
 {0,select,DAILY{{1,select,goalNotMet{{3,number,integer}} goalMet{{2,select,0{----} other{OK}}} goalOverMet{+{3,number,integer}} other{}}} other{{4}}}	
-{0}ʼs Progress	Pokroky {0}
+{0}ʼs Progress	Pokroky čtenáře jménem {0}
 {0,date,MMMM}	
 Current Month	Tento měsíc
 Total	Celkem
