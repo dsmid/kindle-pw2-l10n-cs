@@ -70,3 +70,7 @@ Příklad: [translation_5.4.2/translation/com/amazon/agui/swing/resources/Compon
 
 Tj. stačí dále už jen stačí procházet strom, nalézat soubory s příponou .translation a v nich nepřeložené hlášky.
 V tom může pomoci [index nepřeložených hlášek](translation_5.4.2/translation_unfinished/nottranslated.zip) (```View raw``` pro stáhnutí).
+
+--------
+
+![Screenshot](https://lh3.googleusercontent.com/-ONM91ybPGzQ/Uu5SSsMi_aI/AAAAAAAACo8/0QmnVeX9tgY/w610-h824-no/screenshot_2014_02_02T15_10_42%252B0100.png)
