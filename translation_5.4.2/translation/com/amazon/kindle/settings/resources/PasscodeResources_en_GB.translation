@@ -1,16 +1,16 @@
-Device Passcode	
-Turn Off Passcode	
-Change Passcode	
-Cancel	
-Create Passcode	
-Passcodes Do Not Match	
-Incorrect Passcode	
-Passcode Invalid	
-Enter Passcode	
-Confirm Passcode	
-Please try again.	
-Enter Current Passcode	
-Enter New Passcode	
-Confirm New Passcode	
-Please enter a valid passcode.	
+Device Passcode	Heslo zařízení
+Turn Off Passcode	Vypnout ochranu heslem
+Change Passcode	Změnit heslo
+Cancel	Zrušit
+Create Passcode	Vytvořit heslo
+Passcodes Do Not Match	Nesprávné heslo
+Incorrect Passcode	Nesprávné heslo
+Passcode Invalid	Nesprávné heslo
+Enter Passcode	Zadejte heslo
+Confirm Passcode	Potvrdit heslo
+Please try again.	Prosím, zkuste znovu.
+Enter Current Passcode	Zadejte stávající heslo
+Enter New Passcode	Zadejte nové heslo
+Confirm New Passcode	Potvrdit nové heslo
+Please enter a valid passcode.	Prosím zadejte platné heslo.
 Your passcode must contain at least {0,number,integer} digits. Please try again.	

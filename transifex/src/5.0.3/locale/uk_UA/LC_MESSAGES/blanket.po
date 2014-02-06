@@ -1,0 +1,160 @@
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Romko <hrytsa@gmail.com>, 2012
+# sania kp <4post14@gmail.com>, 2012
+msgid ""
+msgstr ""
+"Project-Id-Version: Kindle Touch locale\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-03-23 15:43-0700\n"
+"PO-Revision-Date: 2012-04-27 07:16+0000\n"
+"Last-Translator: sania kp <4post14@gmail.com>\n"
+"Language-Team: Ukrainian (Ukraine) (http://www.transifex.com/projects/p/kindle-touch-locale/language/uk_UA/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk_UA\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "langpicker.cancel.label"
+msgstr "Відмінити"
+
+msgid "langpicker.confirm.message %s"
+msgstr "Встановити %s як мову Вашого пристрою?"
+
+msgid "langpicker.ok.label"
+msgstr "OK"
+
+msgid "ota.update.errorcode"
+msgstr "Помилка Оновлення: %s"
+
+msgid "ota.update.failed"
+msgstr "Оновлення не було успішно завершене.\n\nЯкщо Вам потрібна допомога відвідайте www.kindle.com/support.\n\nДля продовження використання свого Kindle натисніть кнопку ."
+
+msgid "ota.update.header"
+msgstr "Оновлення Програми"
+
+msgid "ota.update.initial"
+msgstr "Триває оновлення програми Kindle. Це може зайняти декілька хвилин.\n\nНЕ ВИКЛЮЧАЙТЕ Ваш Kindle під час оновлення програми.\n\nВаш Kindle автоматично перезавантажиться після завершення процесу оновлення програми."
+
+msgid "ota.update.success"
+msgstr "Оновлення успішне.\n\nВаш Kindle перезавантажується..."
+
+msgid "shutdown.cust_service.header"
+msgstr "Необхідний Ремонт"
+
+msgid "shutdown.cust_service.header.fontsize"
+msgstr "26"
+
+msgid "shutdown.cust_service.header.rect"
+msgstr "0,34,600,28"
+
+msgid "shutdown.cust_service.message"
+msgstr "Ваш Kindle Потребує Ремонту.\n\nPlease contact Kindle Customer Service at \nhttp://www.kindle.com/support."
+
+msgid "shutdown.cust_service.message.fontsize"
+msgstr "26"
+
+msgid "shutdown.cust_service.message.rect"
+msgstr "68,384,464,416"
+
+msgid "shutdown.cust_service.message.spacing"
+msgstr "2.5"
+
+msgid "shutdown.reboot.message"
+msgstr "Зачекайте будь ласка хвилинку, Ваш Kindle завантажується"
+
+msgid "shutdown.reboot.message.fontsize"
+msgstr "26"
+
+msgid "shutdown.reboot.message.rect"
+msgstr "124,640,352,160"
+
+msgid "shutdown.reboot.message.spacing"
+msgstr "2.5"
+
+msgid "test.draw.defaults"
+msgstr "Перевірка намалювання за замовчуванням"
+
+msgid "test.draw.defaults.fontsize"
+msgstr "26"
+
+msgid "test.draw.defaults.rect"
+msgstr "0,34,600,28"
+
+msgid "test.draw.defaults.spacing"
+msgstr "2.5"
+
+msgid "test.no.fontsize"
+msgstr "No fontsize entry"
+
+msgid "test.no.fontsize.rect"
+msgstr "0,34,600,28"
+
+msgid "test.no.fontsize.spacing"
+msgstr "2.5"
+
+msgid "test.no.rect"
+msgstr "No rect entry"
+
+msgid "test.no.rect.fontsize"
+msgstr "26"
+
+msgid "test.no.rect.spacing"
+msgstr "2.5"
+
+msgid "test.no.spacing"
+msgstr "No fontsize entry"
+
+msgid "test.no.spacing.fontsize"
+msgstr "26"
+
+msgid "test.no.spacing.rect"
+msgstr "0,34,600,28"
+
+msgid "test.screen.header"
+msgstr "Тестовий режим"
+
+msgid "test.screen.header.rect"
+msgstr "10,42,580,32"
+
+msgid "usb.screen.charging.y_offset"
+msgstr "20"
+
+msgid "usb.screen.header"
+msgstr "Режим USB диску"
+
+msgid "usb.screen.header.fontsize"
+msgstr "26"
+
+msgid "usb.screen.header.rect"
+msgstr "0,34,600,28"
+
+msgid "usb.screen.message"
+msgstr "Якщо ви хочете читати або робити покупки на вашому Kindle під час зарядки через USB, скористайтесь Безпечним видаленням USB устаткування, в системному треї, залишивши при цьому USB кабель підключеним до комп'ютера."
+
+msgid "usb.screen.message.fontsize"
+msgstr "26"
+
+msgid "usb.screen.message.rect"
+msgstr "68,384,464,200"
+
+msgid "usb.screen.message.spacing"
+msgstr "2.5"
+
+msgid "usb.screen.message_nc"
+msgstr "Для використання Kindle витягніть Ваш Kindle з комп'ютера\n\nВаш Kindle не заряджається."
+
+msgid "usb.screen.message_nc.fontsize"
+msgstr "26"
+
+msgid "usb.screen.message_nc.rect"
+msgstr "68,384,464,200"
+
+msgid "usb.screen.message_nc.spacing"
+msgstr "2.5"

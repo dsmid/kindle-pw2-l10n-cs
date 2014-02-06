@@ -1,0 +1,26 @@
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# perconte <asier_goiko@hotmail.com>, 2012
+msgid ""
+msgstr ""
+"Project-Id-Version: Kindle Touch locale\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2012-01-02 16:13+0000\n"
+"Last-Translator: perconte <asier_goiko@hotmail.com>\n"
+"Language-Team: Basque (http://www.transifex.com/projects/p/kindle-touch-locale/language/eu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: eu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "wua.userprompt.label.cancel"
+msgstr "Ezeztatu"
+
+msgid "wua.userprompt.label.ok"
+msgstr "OK"

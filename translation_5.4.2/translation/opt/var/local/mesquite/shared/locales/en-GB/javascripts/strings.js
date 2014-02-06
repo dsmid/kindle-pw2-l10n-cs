@@ -1,14 +1,14 @@
-Cancel	
+Cancel	Zrušit
 Close	Zavřít
-Connection Required	
-Edit	
+Connection Required	Vyžadováno připojení
+Edit	Upravit
 Menu	
 OK	
-Remove	
+Remove	Odstranit
 Screen Light	
 Shop in Kindle Store	Nakoupit v Kindle Store
 strings	
-Turn Off Wireless	
-Turn On Wireless	
+Turn Off Wireless	Vypnout bezdrátové připojení
+Turn On Wireless	Zapnout bezdrátové připojení
 Unable to Connect	Není možné se připojit
 Your Kindle is currently unable to connect.<br><br>Please try again later.	

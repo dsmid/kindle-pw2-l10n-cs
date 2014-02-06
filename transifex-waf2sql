@@ -1,0 +1,51 @@
+#!/bin/bash
+
+. config
+
+#cp -f kindle_loc.sqlite kindle_loc.sqlite.4.1.old
+#cp -f kindle_loc.sqlite.3.4 kindle_loc.sqlite
+
+report() {
+	[ "$src" == '“' ] && return 1
+	[ "$src" == '”' ] && return 1
+	echo "Filtered out: $src"
+	return 0
+}
+
+VER="5.0.3"
+
+cd transifex/src/$VER/waf
+
+echo "begin;" > ../../../../waf_$VER.sql
+find . -name "*.properties" -path './cs/*' | while read item
+do
+    cs="$item"
+    en=${cs//cs/en_US}
+    echo $en
+    project=${en#./en_US/}
+    prpath=${project#*/}
+    project=${project%%/*}
+    engb=./opt/var/local/mesquite/$project/locales/en-GB/$prpath
+    engb=${engb%.properties}.js
+    OLDIFS=$IFS
+    IFS="="
+    echo "Processing $cs"
+    while read -u5 key1 czech;read -u6 key2 eng
+    do
+	[ -n "$key1" ] || continue
+	[ -n "$czech" ] || continue
+	[ "$czech" != "$eng" ] || continue
+	if [ "$key1" == "$key2" ]
+	then
+	    echo -e "\t$eng = $czech"
+	    eng=$(sed "s/'/''/g" <<<"$eng")
+	    czech=$(sed "s/'/''/g" <<<"$czech")
+	    echo "insert into trans values ('$eng','$czech', '$engb', '$VER');" >> ../../../../waf_$VER.sql
+	else
+	    echo "keys do not match: '$key1' vs '$key2'" >&2 
+	fi
+    done 5<"$cs" 6<"$en"
+    IFS=$OLDIFS
+    echo
+done
+echo "commit;" >> ../../../../waf_$VER.sql

@@ -13,7 +13,7 @@ msgstr ""
 
 
 msgid "Spanish-Mexico"
-msgstr "Spanish (Mexico)"
+msgstr "Španělská (Mexiko)"
 # msgstr "Spanish (Mexico)"
 
 

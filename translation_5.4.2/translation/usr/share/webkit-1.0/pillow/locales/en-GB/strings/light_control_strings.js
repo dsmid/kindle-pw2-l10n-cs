@@ -1,4 +1,4 @@
-Advanced	
+Advanced	Pokročilé
 Auto Brightness	
 In brightly lit rooms, use a <u>high</u> setting.	
 Max.	

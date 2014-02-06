@@ -1,6 +1,6 @@
 First Name	
 Date of Birth	
-Cancel	
+Cancel	Zrušit
 Gender	
 {0, select, male {Boy} female {Girl} other {Boy}}	
 {0, select, male {{1}ʼs Library} female {{1}ʼs Library} other {{1}ʼs Library}}	

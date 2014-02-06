@@ -1,0 +1,26 @@
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# JH Kim <cwyh2838234@naver.com>, 2012
+msgid ""
+msgstr ""
+"Project-Id-Version: Kindle Touch locale\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2012-02-23 13:53+0000\n"
+"Last-Translator: JH Kim <cwyh2838234@naver.com>\n"
+"Language-Team: Korean (http://www.transifex.com/projects/p/kindle-touch-locale/language/ko/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "wua.userprompt.label.cancel"
+msgstr "취소"
+
+msgid "wua.userprompt.label.ok"
+msgstr "확인"

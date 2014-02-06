@@ -1,33 +1,33 @@
 View Notes & Marks	Zobrazit pozn. a zvýraznění
 Notes & Marks	Poznámky a značky
 Go To	Jít na
-Items {0,number,integer}-{1,number,integer} of {2,number,integer}	
-Items {0,number,integer} of {1,number,integer}	
-{0} · Page {1} - {2}	
+Items {0,number,integer}-{1,number,integer} of {2,number,integer}	Položky {0,number,integer}-{1,number,integer} z {2,number,integer}
+Items {0,number,integer} of {1,number,integer}	Položky {0,number,integer} z {1,number,integer}
+{0} · Page {1} - {2}	{0} · Strana {1} - {2}
 {0,number,integer} of {1,number,integer}	{0,number,integer} z {1,number,integer}
-Show...	
+Show...	Ukázat...
 Show	Ukázat
 Notes & Marks ({0,number,integer}) ·	
-All Notes & Marks ({0,number,integer})	
-Your Notes & Marks ({0,number,integer})	
-Your Notes ({0,number,integer})	
-Your Bookmarks ({0,number,integer})	
-Your Highlights ({0,number,integer})	
-Public Notes ({0,number,integer})	
-Popular Highlights ({0,number,integer})	
-All	
-Yours	
+All Notes & Marks ({0,number,integer})	Všechny poznámky a značky ({0,number,integer})
+Your Notes & Marks ({0,number,integer})	Vaše poznámky a značky({0,number,integer})
+Your Notes ({0,number,integer})	Vaše poznámky ({0,number,integer})
+Your Bookmarks ({0,number,integer})	Vaše záložky ({0,number,integer})
+Your Highlights ({0,number,integer})	Vaše zvýraznění ({0,number,integer})
+Public Notes ({0,number,integer})	Veřejné poznámky ({0,number,integer})
+Popular Highlights ({0,number,integer})	Oblíbené zvýraznění ({0,number,integer})
+All	Vše
+Yours	Vaše
 Notes	Poznámky
 Bookmarks	Záložky
 Highlights	Zvýraznění
 Public Notes	Veřejné poznámky
 Popular Highlights	Oblíbená zvýraznění
-Go	
+Go	Přejít
 Delete	Smazat
-Edit	
+Edit	Upravit
 {0}’s Note	Poznámka od {0}
 Note {0}	Poznámka {0}
-Go to Location	
+Go to Location	Jít na místo
 {0}’s Highlight	Zvýraznění od {0}
-{0} highlighted this passage.	
-Public Notes from {0}.	
+{0} highlighted this passage.	{0} zvýrazněno touto pasáží.
+Public Notes from {0}.	Veřejná poznámka z {0}.

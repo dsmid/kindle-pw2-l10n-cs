@@ -1,25 +1,25 @@
 Enter Your Message	Vložte komentář
-A link to the passage will be included with your message.	
-A link to the book will be included with your message.	
-Share	
-Cancel	
+A link to the passage will be included with your message.	Odkaz na pasáž bude zahrnut do Vaší zprávy.
+A link to the book will be included with your message.	Odkaz na na knihu bude zahrnut do Vaší zprávy.
+Share	Sdílet
+Cancel	Zrušit
 {0,select, left {{1,plural, =0 {No characters left} one {{1} character left} other {{1} characters left}}} over {{1,plural, one {{1} character over} other {{1} characters over}}} other {}}	
-Manage	
-Register	
+Manage	Spravovat
+Register	Registrovat
 Close	Zavřít
-Message Shared	
+Message Shared	Zpráva sdílena
 Social Networks Not Registered	Neregistrován k sociálním sítím
 Your Kindle is not registered with any social networks. Selecting Register below will open the Manage Your Social Networks web page so you can enter your account information. When your registration is complete, select Continue Reading to return to this item.	
 Invalid Social Networks	Chyba konfigurace
 One or more of the social networks registered on your Kindle are not configured properly. Selecting Manage below will open the Manage Your Social Networks web page so you can enter your account information. When your changes are complete, select Continue Reading to return to this item.	
-Sharing Unavailable	
+Sharing Unavailable	Sdílení je nedostupné
 The sharing service is currently unavailable. Please try again later.	Služba sdílení není momentálně k dispozici. Zkuste to prosím později.
 Sharing Not Supported	Sdílení nepodporováno
 This content does not support sharing.	Tento dokument nepodporuje sdílení.
-Communication Error	
+Communication Error	Chyba v komunikaci
 The sharing service encountered a communication error. Please try again later.	Při sdílení došlo k chybě připojení. Zkuste to prosím později.
 Sharing Failed	Sdílení se nezdařilo
-The sharing service encountered an unrecoverable error. Sharing cancelled.	
+The sharing service encountered an unrecoverable error. Sharing cancelled.	Služba sdílení narazila na neopravitelnou chybu. Sdílení bylo zrušeno.
 Clipping Error	
 Unable to share. You have reached the clipping limit for this item.	Sdílení není možné. Dosáhli jste maximálního počtu povolených výstřižků pro tuto položku.
 Unable to share. You have reached the clipping limit for this item set by the publisher.	Sdílení není možné. Dosáhli jste maximálního počtu výstřižků povolených pro tuto položku vydavatelem.
