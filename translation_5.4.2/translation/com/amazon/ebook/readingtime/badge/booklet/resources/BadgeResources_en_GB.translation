@@ -2,8 +2,8 @@ Badges	Hodnosti
 Books	Knihy
 Activity	Činnost
 Achievements	Ocenění
-Earned ({0,number,integer}) Dosaženo ({0,number,integer})
-Challenges ({0,number,integer}) Cíle ({0,number,integer})
+Earned ({0,number,integer})	
+Challenges ({0,number,integer})	
 Reset Badges	Vynulovat hodnosti
 {0,date,medium}	
 Read a Book {0,choice,0#|2#({0,number,integer})}	Čtení knihy {0,choice,0#|2#({0,number,integer})}

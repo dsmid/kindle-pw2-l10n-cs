@@ -32,13 +32,13 @@ OK
 Parental Controls are enabled on your Kindle. Access to Cloud is locked.	
 Parental Controls are enabled on your Kindle. Access to Goodreads on Kindle is locked.	
 Parental Controls are enabled on your Kindle. Kindle Store is locked.	
-Parental Controls are enabled on your Kindle. Purchases are not allowed.	
+Parental Controls are enabled on your Kindle. Purchases are not allowed.	Na vašem Kindle je rodičovský zámek. Nákupy nejsou povoleny.
 Parental Controls are enabled on your Kindle. Web Browser is locked.	
 Please select from the following options:	
 Power	
 Purchase Limit Reached	Bylo dosaženo nákupního limitu
 Purchases Pending	
-Purchasing Locked	
+Purchasing Locked	Nakupování uzamčeno
 Restart	Restartovat
 Restarting your Kindle	Restartování Vašeho Kindle
 Restart Required	
@@ -84,12 +84,12 @@ Wi-Fi Login Required	Je vyžadováno se přihlásit k Wi-Fi
 Wi-Fi Settings Locked	
 Wireless is turned off. Do you want to turn on wireless?	Bezdrátové připojení je vypnuto. Chcete ho zapnout?
 You already have {count,plural,=0 {no orders pending} one {an order pending} other { # orders pending}} for this special offer.	
-You must register your Kindle to make a purchase.	
+You must register your Kindle to make a purchase.	K nákupům musíte svůj Kindle zaregistrovat.
 Your battery is almost depleted and your Kindle will soon shut down. To continue using your Kindle, connect it to a power source.	Vaše baterie je již téměř vybitá a Váš Kindle se v blízké době vypne. Pro pokračování práce, připojte Kindle ke zdroji energie.
 Your battery is running low. Please charge your Kindle.	Stav baterie dosáhl nízké úrovně. Nabijte svůj Kindle, prosím.
 Your battery is running low. Please charge your Kindle. If your wireless is turned on, try turning it off to extend your reading time.	
 Your Kindle fonts are updating. This can take a moment...	
 Your Kindle is unable to establish a wireless connection. Do you want to turn off Aeroplane Mode?	
-Your purchase could not be completed. This offer has expired.	
+Your purchase could not be completed. This offer has expired.	Váš nákup nemohl být dokončen. Tato nabídka vypršela.
 Your purchase could not be completed. We are experiencing technical difficulties. Please try again later.	Váš nákup nemohl být dokončen kvůli technickým potížím. Zkuste to později, prosím.
 Your purchase could not be completed. You have reached the maximum purchase quantity.	Váš nákup nebylo možné dokončit. Dosáhli jste limitu pro maximální počet nakoupených položek.

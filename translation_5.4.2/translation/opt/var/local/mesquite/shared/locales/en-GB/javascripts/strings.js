@@ -5,7 +5,7 @@ Edit	Upravit
 Menu	
 OK	
 Remove	Odstranit
-Screen Light	
+Screen Light	Osvětlení displeje
 Shop in Kindle Store	Nakoupit v Kindle Store
 strings	
 Turn Off Wireless	Vypnout bezdrátové připojení

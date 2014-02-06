@@ -22,7 +22,7 @@ Error	Chyba
 Forget	Smazat
 Forget Network?	Smazat profil sítě?
 Hide Password	Skrýt heslo
-Incorrect Password	
+Incorrect Password	Nesprávné heslo
 IP Address	IP adresa
 MSCHAPv2	
 Network Name	Název sítě
