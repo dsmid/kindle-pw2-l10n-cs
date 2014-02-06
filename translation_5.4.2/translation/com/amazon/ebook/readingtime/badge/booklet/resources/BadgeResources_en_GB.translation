@@ -1,58 +1,58 @@
-Badges	
+Badges	Hodnosti
 Books	Knihy
-Activity	
-Achievements	
-Earned ({0,number,integer})	
-Challenges ({0,number,integer})	
-Reset Badges	
+Activity	Činnost
+Achievements	Ocenění
+Earned ({0,number,integer}) Dosaženo ({0,number,integer})
+Challenges ({0,number,integer}) Cíle ({0,number,integer})
+Reset Badges	Vynulovat hodnosti
 {0,date,medium}	
-Read a Book {0,choice,0#|2#({0,number,integer})}	
-Bookworm {0,choice,0#|2#({0,number,integer})}	
-Super-Bookworm {0,choice,0#|2#({0,number,integer})}	
-Elite Bookworm {0,choice,0#|2#({0,number,integer})}	
-High-Flyer {0,choice,0#|2#({0,number,integer})}	
-Just Getting Started {0,choice,0#|2#({0,number,integer})}	
-On a Roll {0,choice,0#|2#({0,number,integer})}	
-Serious Reader {0,choice,0#|2#({0,number,integer})}	
-Kilo-Pages! {0,choice,0#|2#({0,number,integer})}	
-Unstoppable! {0,choice,0#|2#({0,number,integer})}	
-Finish a book to earn this achievement.	
-Reach your daily reading goal.~~{0, select, false{To earn this achievement, ask your parents to give you a daily reading goal.} other{Read for at least {1, plural, =0{{1, number, integer} minutes} one{{1, number, integer} minute} other{{1, number, integer} minutes}} today.}}	
-Reach your daily reading goal 7 days in a row.~~Youʼve reached your daily reading goal {0, plural, =0{{0, number, integer} days in a row.} one{{0, number, integer} day in a row.} other{{0, number, integer} days in a row.}} {1, plural, =0{Only {1, number, integer} more to go!} one{Only {1, number, integer} more to go!} other{Only {1, number, integer} more to go!}}	
-Reach your daily reading goal 30 days in a row.~~Youʼve reached your daily reading goal {0, plural, =0{{0, number, integer} days in a row.} one{{0, number, integer} day in a row.} other{{0, number, integer} days in a row.}} {1, plural, =0{Only {1, number, integer} more to go!} one{Only {1, number, integer} more to go!} other{Only {1, number, integer} more to go!}}	
-Beat your daily reading goal.~~{0, select, false{To earn this achievement, ask your parents to give you a daily reading goal.} other{Read for at least {1, plural, =0{{1, number, integer} minutes} one{{1, number, integer} minute} other{{1, number, integer} minutes}} today.}}	
-Read 50 pages.~~Youʼve read {0, number, integer} of 50 pages.	
-Read 100 pages.~~Youʼve read {0, number, integer} of 100 pages.	
-Read 500 pages.~~Youʼve read {0, number, integer} of 500 pages.	
-Read 1,000 pages.~~Youʼve read {0, number, integer} of 1,000 pages.	
-Read 10,000 pages.~~Youʼve read {0, number, integer} of 10,000 pages.	
-Congratulations, you’ve finished a book.	
-Reach your daily reading goal.~~Congratulations, you’ve reached your daily reading goal.	
-Beat your daily reading goal.~~Congratulations, you’ve read more than your daily reading goal.	
-Read 50 pages.~~Congratulations, you’ve read 50 pages.	
-Read 100 pages.~~Congratulations, you’ve read 100 pages.	
-Read 500 pages.~~Congratulations, you’ve read 500 pages.	
-Read 1,000 pages.~~Congratulations, you’ve read 1,000 pages.	
-Read 10,000 pages.~~Congratulations, you’ve read 10,000 pages.	
-Time	
-Progress	
-Total Reading Time	
-Average Reading Time	
-Looked-Up Words	
+Read a Book {0,choice,0#|2#({0,number,integer})}	Čtení knihy {0,choice,0#|2#({0,number,integer})}
+Bookworm {0,choice,0#|2#({0,number,integer})}	Knihomol {0,choice,0#|2#({0,number,integer})}
+Super-Bookworm {0,choice,0#|2#({0,number,integer})}	Super knihomol {0,choice,0#|2#({0,number,integer})}
+Elite Bookworm {0,choice,0#|2#({0,number,integer})}	Špičkový knihomol {0,choice,0#|2#({0,number,integer})}
+High-Flyer {0,choice,0#|2#({0,number,integer})}	Ctižádostivec {0,choice,0#|2#({0,number,integer})}
+Just Getting Started {0,choice,0#|2#({0,number,integer})}	Začátečník {0,choice,0#|2#({0,number,integer})}
+On a Roll {0,choice,0#|2#({0,number,integer})}	Jedu! {0,choice,0#|2#({0,number,integer})}
+Serious Reader {0,choice,0#|2#({0,number,integer})}	Vážný čtenář {0,choice,0#|2#({0,number,integer})}
+Kilo-Pages! {0,choice,0#|2#({0,number,integer})}	Těžkotonážní! {0,choice,0#|2#({0,number,integer})}
+Unstoppable! {0,choice,0#|2#({0,number,integer})}	Nezadržitelný! {0,choice,0#|2#({0,number,integer})}
+Finish a book to earn this achievement.	Dočíst knihu a získat toto ocenění.
+Reach your daily reading goal.~~{0, select, false{To earn this achievement, ask your parents to give you a daily reading goal.} other{Read for at least {1, plural, =0{{1, number, integer} minutes} one{{1, number, integer} minute} other{{1, number, integer} minutes}} today.}}	Přečtěte svou denní porci.~~{0, select, false{K získání tohto ocenění požádejte své rodiče o stanovení denní porce čtení} other{Čtěte alespoň {1, plural, =0{{1, number, integer} minut} one{{1, number, integer} minut} other{{1, number, integer} minut}} dnes.}}
+Reach your daily reading goal 7 days in a row.~~Youʼve reached your daily reading goal {0, plural, =0{{0, number, integer} days in a row.} one{{0, number, integer} day in a row.} other{{0, number, integer} days in a row.}} {1, plural, =0{Only {1, number, integer} more to go!} one{Only {1, number, integer} more to go!} other{Only {1, number, integer} more to go!}}	Přečtěte svou denní porci 7 dní za sebou.~~Dosáhli jste své denní porce {0, plural, =0{{0, number, integer} dní za sebou.} one{{0, number, integer} den v řadě.} other{{0, number, integer} dní v řadě.}} {1, plural, =0{Zbývá už jen {1, number, integer} !} one{Zbývá už jen {1, number, integer} !} other{Zbývá už jen {1, number, integer} !}}
+Reach your daily reading goal 30 days in a row.~~Youʼve reached your daily reading goal {0, plural, =0{{0, number, integer} days in a row.} one{{0, number, integer} day in a row.} other{{0, number, integer} days in a row.}} {1, plural, =0{Only {1, number, integer} more to go!} one{Only {1, number, integer} more to go!} other{Only {1, number, integer} more to go!}}	Přečtěte svou denní porci 30 dní za sebou.~~Dosáhli jste své denní porce {0, plural, =0{{0, number, integer} dní za sebou.} one{{0, number, integer} den v řadě.} other{{0, number, integer} dní v řadě.}} {1, plural, =0{Zbývá už jen {1, number, integer} !} one{Zbývá už jen {1, number, integer} !} other{Zbývá už jen {1, number, integer} !}}
+Beat your daily reading goal.~~{0, select, false{To earn this achievement, ask your parents to give you a daily reading goal.} other{Read for at least {1, plural, =0{{1, number, integer} minutes} one{{1, number, integer} minute} other{{1, number, integer} minutes}} today.}}	Překonejte svůj denní rekord ve čtení~~{0, select, false{K získání tohto ocenění požádejte své rodiče o stanovení denní porce čtení} other{Čtěte alespoň {1, plural, =0{{1, number, integer} minut} one{{1, number, integer} minuta} other{{1, number, integer} minut}} dnes.}}
+Read 50 pages.~~Youʼve read {0, number, integer} of 50 pages.	Přečtěte 50 stran.~~Přečetli jste {0, number, integer} z 50 stran.
+Read 100 pages.~~Youʼve read {0, number, integer} of 100 pages.	Přečtěte 100 stran.~~Přečetli jste {0, number, integer} ze 100 stran.
+Read 500 pages.~~Youʼve read {0, number, integer} of 500 pages.	Přečtěte 500 stran.~~Přečetli jste {0, number, integer} z 500 stran.
+Read 1,000 pages.~~Youʼve read {0, number, integer} of 1,000 pages.	Přečtěte 1000 stran.~~Přečetli jste {0, number, integer} z 1000 stran.
+Read 10,000 pages.~~Youʼve read {0, number, integer} of 10,000 pages.	Přečtěte 10.000 stran.~~Přečetli jste {0, number, integer} z 10.000 stran.
+Congratulations, you’ve finished a book.	Blahopřeji, dočetl jsi knihu.
+Reach your daily reading goal.~~Congratulations, you’ve reached your daily reading goal.	Přečtěte svou denní porci. ~~Blahopřejeme, dosažena vaše denní porce čtení.
+Beat your daily reading goal.~~Congratulations, you’ve read more than your daily reading goal.	Překonejte svůj denní rekord ve čtení.~~Blahopřejeme, překonali jste svůj deení rekord ve čtení.
+Read 50 pages.~~Congratulations, you’ve read 50 pages.	Přečti 50 stránek. Blahopřejeme, přečetli jste 50 stránek.
+Read 100 pages.~~Congratulations, you’ve read 100 pages.	Přečti 100 stránek. Blahopřejeme, přečetli jste 100 stránek.
+Read 500 pages.~~Congratulations, you’ve read 500 pages.	Přečti 500 stránek. Blahopřejeme, přečetli jste 500 stránek.
+Read 1,000 pages.~~Congratulations, you’ve read 1,000 pages.	Přečti 1.000 stránek. Blahopřejeme, přečetli jste 1.000 stránek.
+Read 10,000 pages.~~Congratulations, you’ve read 10,000 pages.	Přečti 10.000 stránek. Blahopřejeme, přečetli jste 10.000 stránek.
+Time	Čas
+Progress	Pokroky
+Total Reading Time	Celkový čas čtení
+Average Reading Time	Průměrný čas čtení
+Looked-Up Words	Kontrolovaná slova
 No Title	Bez názvu
-No Image	
-{0, select, true{{1, select, true{Ask your parents to add books to your library so you can start reading.} other{Go to your Home screen, choose a book and start reading it. Then come back to this page to see your progress!}}} other{{1, select, true{Add books to your childʼs library so {2, select, Male{he} other{she}} can start reading.} other{Your child has not begun reading any of the books in {2, select, Male{his} other{her}} library yet.}}}}	
-{0,select,true{{1,plural,=0{MINUTES READ} one{MINUTE READ} other{MINUTES READ}}} other{{1,plural,=0{HOURS READ} one{HOUR READ} other{HOURS READ}}}}	
-{0,plural,=0{LOOKED-UP WORDS} one{LOOKED-UP WORD} other{LOOKED-UP WORDS}}	
-{0,plural,=0{ACHIEVEMENTS} one{ACHIEVEMENT} other{ACHIEVEMENTS}}	
-{0,plural,=0{BOOKS FINISHED} one{BOOK FINISHED} other{BOOKS FINISHED}}	
-{0,select,DAILY{{1,select,goalNotMet{{3,plural,=0{MINUTES LEFT TO DAILY GOAL} one{MINUTE LEFT TO DAILY GOAL} other{MINUTES LEFT TO DAILY GOAL}}} goalMet{{2,select,0{{5, select, false{NO ACTIVITY} other{NO GOALS SET}}} other{DAILY GOAL REACHED}}} goalOverMet{{3,plural,=0{MINUTES OVER DAILY GOAL} one{MINUTE OVER DAILY GOAL} other{MINUTES OVER DAILY GOAL}}} other{}}} other{{3,plural,=0{DAILY GOALS MET} one{DAILY GOAL MET} other{DAILY GOALS MET}}}}	
-{0,plural,=0{PAGES READ} one{PAGE READ} other{PAGES READ}}	
+No Image	Bez obrázku
+{0, select, true{{1, select, true{Ask your parents to add books to your library so you can start reading.} other{Go to your Home screen, choose a book and start reading it. Then come back to this page to see your progress!}}} other{{1, select, true{Add books to your childʼs library so {2, select, Male{he} other{she}} can start reading.} other{Your child has not begun reading any of the books in {2, select, Male{his} other{her}} library yet.}}}}	{0, select, true{{1, select, true{Ask your parents to add books to your library so you can start reading.} other{Go to your Home screen, choose a book and start reading it. Then come back to this page to see your progress!}}} other{{1, select, true{Add books to your childʼs library so {2, select, Male{he} other{she}} can start reading.} other{Your child has not begun reading any of the books in {2, select, Male{his} other{her}} library yet.}}}}
+{0,select,true{{1,plural,=0{MINUTES READ} one{MINUTE READ} other{MINUTES READ}}} other{{1,plural,=0{HOURS READ} one{HOUR READ} other{HOURS READ}}}}	{0,select,true{{1,plural,=0{MINUT ČTENÍ} one{MINUTA ČTENÍ} other{MINUTY ČTENÍ}}} other{{1,plural,=0{HODIN ČTENÍ} one{HODINA ČTENÍ} other{HODINY ČTENÍ}}}}
+{0,plural,=0{LOOKED-UP WORDS} one{LOOKED-UP WORD} other{LOOKED-UP WORDS}}	{0,plural,=0{ZKONTROLOVANÝCH SLOV} one{ZKONTROLOVANÉ SLOVO} other{ZKONTROLOVANÁ SLOVA}}
+{0,plural,=0{ACHIEVEMENTS} one{ACHIEVEMENT} other{ACHIEVEMENTS}}	{0,plural,=0{ÚSPĚCHY} one{ÚSPĚCH} other{ÚSPĚCHŮ}}
+{0,plural,=0{BOOKS FINISHED} one{BOOK FINISHED} other{BOOKS FINISHED}}	{0,plural,=0{KNIH PŘEČTENO} one{KNIHA PŘEČTENA} other{KNIHY PŘEČTENY}}
+{0,select,DAILY{{1,select,goalNotMet{{3,plural,=0{MINUTES LEFT TO DAILY GOAL} one{MINUTE LEFT TO DAILY GOAL} other{MINUTES LEFT TO DAILY GOAL}}} goalMet{{2,select,0{{5, select, false{NO ACTIVITY} other{NO GOALS SET}}} other{DAILY GOAL REACHED}}} goalOverMet{{3,plural,=0{MINUTES OVER DAILY GOAL} one{MINUTE OVER DAILY GOAL} other{MINUTES OVER DAILY GOAL}}} other{}}} other{{3,plural,=0{DAILY GOALS MET} one{DAILY GOAL MET} other{DAILY GOALS MET}}}}	{0,select,DENNĚ{{1,select,goalNotMet{{3,plural,=0{MINUT ZBÝVÁ DO DENNÍ PORCE} one{MINUTA ZBÝVÁ DO DENNÍ PORCE} other{MINUT ZBÝVÁ DO DENNÍ PORCE}}} goalMet{{2,select,0{{5, select, false{NEČINNOST} other{PORCE NEURČENY}}} other{DENNÍ PORCE DOSAŽENA}}} goalOverMet{{3,plural,=0{MINUT PŘESČAS} one{MINUTA PŘESČAS} other{MINUTY PŘESČAS}}} other{}}} other{{3,plural,=0{DENNÍCH PORCÍ DOSAŽENO} one{DENNÍ PORCE DOSAŽENA} other{DENNÍ PORCE DOSAŽENY}}}}
+{0,plural,=0{PAGES READ} one{PAGE READ} other{PAGES READ}}	{0,plural,=0{STRAN PŘEČTENO} one{STRANA PŘEČTENA} other{STRANY PŘEČTENY}}
 {0,select,true{{1,number,integer}} other{{2}}}	
 {0,select,DAILY{{1,select,goalNotMet{{3,number,integer}} goalMet{{2,select,0{----} other{OK}}} goalOverMet{+{3,number,integer}} other{}}} other{{4}}}	
-{0}ʼs Progress	
+{0}ʼs Progress	Pokroky čtenáře jménem {0}
 {0,date,MMMM}	
-Current Month	
-Total	
-Day	
-Month	
+Current Month	Tento měsíc
+Total	Celkem
+Day	Den
+Month	Měsíc
