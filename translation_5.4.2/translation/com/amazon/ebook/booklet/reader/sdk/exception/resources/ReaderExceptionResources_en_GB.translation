@@ -6,7 +6,7 @@ The selected item could not be opened. If you purchased this item from Amazon, y
 Cannot Load Data	Nemohu nahrát data
 File Not Supported	Soubor není podporován
 Unable to save clipping. You have reached the clipping limit for this book.	Nemohu uložit výstřižek. Dosáhli jste limitu výstřižku pro tuto knihu.
-Clipping Error	
+Clipping Error	Chyba při připínání
 Unable to save clipping. You have reached the clipping limit set by the publisher{0,choice,0#|1#, {1}}.	Nelze uložit výstřižek. Překročili jste limit výstřižků stanovený vydavatelem {0,choice,0#|1#, {1}}.
 This item cannot be opened because it is licensed to a different user. Delete the item and download it from the Cloud or purchase a copy from the Kindle Store.	
 Unable to Open Item	Nemohu otevřít položku

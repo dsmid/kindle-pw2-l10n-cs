@@ -4,5 +4,5 @@ Title Pronunciation
 Title	Název
 Author	Autor
 {0,plural,=0 {No Items} one {{0,number,integer} Item} other {{0,number,integer} Items}}	
-Edit Kana	
-Edit Pronunciation	
+Edit Kana	Upravit Kana
+Edit Pronunciation	Upravit Výslovnost

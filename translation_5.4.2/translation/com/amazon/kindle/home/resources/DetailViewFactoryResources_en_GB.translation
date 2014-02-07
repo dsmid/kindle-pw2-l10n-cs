@@ -1,14 +1,14 @@
 Add/Remove Items	Přidat/odstranit položky
 Rename This Collection	Přejmenovat kolekci
 Delete This Collection	Smazat kolekci
-Edit Pronunciation	
+Edit Pronunciation	Upravit Výslovnost
 Total: {0,plural,=0 {No Items} one {{0,number,integer} Item} other {{0,number,integer} Items} }	
 In Cloud: {0,plural,=0 {No Items} one {{0,number,integer} Item} other {{0,number,integer} Items} }	
 On Device: {0,plural,=0 {No Items} one {{0,number,integer} Item} other {{0,number,integer} Items} }	
 {0,plural,=0 {Learning {0,number,integer} words} one {Learning {0,number,integer} word} other {Learning {0,number,integer} words} }	
 {0,plural,=0 {Mastered {0,number,integer} words} one {Mastered {0,number,integer} word} other {Mastered {0,number,integer} words} }	
 Add To Home	Přidat na dom.stránku
-Date: 	
+Date: 	Datum:
 Unknown	Neznámé
 Narrator: 	
 {0}	{0}
