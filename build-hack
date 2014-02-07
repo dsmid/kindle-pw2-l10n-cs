@@ -1,0 +1,8 @@
+#!/bin/bash
+
+./translate_jars
+./translate_js
+./translate_mo
+./translate_rest
+cd loc_hack/src/
+./build-updates.sh

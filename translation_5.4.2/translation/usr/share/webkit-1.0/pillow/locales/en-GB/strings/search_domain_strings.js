@@ -1,4 +1,4 @@
-All Text	
+All Text	Celý text
 Baidu	
 Baidu Baike	
 Dictionary	Slovník

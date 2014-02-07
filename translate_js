@@ -20,8 +20,8 @@ do
 	orig=./${orig#/}
 	[ -n "$overlay" ] || overlay=${orig##*/}
 	echo $orig $overlay
-	find "../overlay/$overlay" -name '*.js' -delete
-	find "../overlay/$overlay" -name '*.js.native' -delete
+	[ -d "../overlay/$overlay" ] && find "../overlay/$overlay" -name '*.js' -delete
+	[ -d "../overlay/$overlay" ] && find "../overlay/$overlay" -name '*.js.native' -delete
 	while read jsfile
 	do
 	    basen=$(basename "$jsfile")
@@ -35,7 +35,7 @@ do
 	    printf -v IFS "\t"
 	    while read src tran
 	    do
-		[ -n "$tran" ] && sed -i "s|'$src'|'$tran'|g; s|"$src"|"$tran"|g;" "$trjsfile.native"
+		[ -n "$tran" ] && sed -i "s|'$src'|'$tran'|g; s|"'"'"$src"'"'"|"'"'"$tran"'"'"|g;" "$trjsfile.native"
 	    done < <(sqlite3 -separator "	" ../kindle_loc.sqlite "select src,tran from trans where file='""$jsfile""' and ver='""$VER""' ;")
 	    IFS=$OLDIFS
 	    native2ascii "$trjsfile.native" "$trjsfile"

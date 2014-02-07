@@ -3,11 +3,12 @@
 . config
 
 rm -f overlay/kug/*
-mkdir -p overlay/kug
+[ -d overlay/kug ] || mkdir -p overlay/kug
 
 cp -f translation_$VERSION/kug/Kindle_Users_Guide.azw3 overlay/kug/
 
 cp -f translation_$VERSION/other/* overlay/
 
+rm -f overlay/*.keymap.gz
 cp -f translation_$VERSION/keymap/*.keymap overlay/
-gzip overlay/*.keymap
+gzip -f overlay/*.keymap

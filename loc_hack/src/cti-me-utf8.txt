@@ -1,0 +1,42 @@
+Česká lokalizace pro nedotykový Kindle s firmwarem 4.1.0 a 4.1.1
+================================================================
+
+Určeno pro modely označované jako Kindle NT, Kindle 4 šedý, Kindle 4 černý (v Česku nesprávně označovaný jako Kindle 5)
+
+Nejnovější verze vždy na http://code.google.com/p/kindle-cs/downloads/list?can=3&q=LOCFW41
+
+Více viz tento článek: http://www.eboocek.cz/2013/01/ceska-lokalizace-pro-nedotykovy-kindle-s-firmwarem-4-1-0-a-4-1-1/
+
+
+1) Ujistěte se, že máte nainstalovaný jailbreak, případně ho nainstalujte odsud:
+   http://code.google.com/p/kindle-cs/downloads/list?can=3&q=kindle-jailbreak+FW41
+
+2) Po rozbalení zipu vyberte soubor končící na _install.bin.
+   Ten nakopírujte přes USB do kořenu Kindlu (tj. tam, kde se nachází i složka documents).
+
+3) Bezpečně odeberte Kindle z počítače ("Bezpečně odebrat" či "Vysunout") a odpojte
+
+4) Pak už jen ve čtečce zvolte Menu->Settings, Menu->Update Your Kindle a čekejte,
+   než se instalace dokončí.
+
+Aktualizace firmwaru na Kindlu s nainstalovanou češtinou může mít nepředvídatelné důsledky,
+proto jsem do lokalizace zabudoval pojistku, jež by měla aktivně bránit tichým vnuceným
+aktualizacím ze strany Amazonu.
+Ruční aktualizace zůstane funkční, nicméně důrazně před ní varuji. 
+Pokud skutečně chcete svůj Kindle aktualizovat, odinstalujte nejprve češtinu s použitím
+odinstalačního balíčku (končícího na _uninstall.bin), aktualizujte firmware a pak
+nainstalujte českou lokalizaci znova. Jailbreak odinstalovávat nemusíte, naopak doporučuji
+ho před aktualizací firmwaru zachovat, protože nikdy nevíte, zda půjde na nový firmware
+opět nainstalovat.
+
+Pokud chcete nainstalovat novou verzi češtiny a ve čtečce již máte starší verzi, není
+třeba tuto starší verzi odinstalovávat, stačí prostě jen instalovat tu novou.
+
+Čeština se nainstaluje jen jako další jazyk k těm, které už v čtečce jsou od výrobce
+a nebude tak problém přepnout zpátky na angličtinu či jiný jazyk, aniž by bylo nutné
+cokoliv odinstalovávat.
+
+Součástí lokalizace je i uživatelská příručka v češtině a česká klávesnice.
+
+David Šmíd
+david@smidovi.eu

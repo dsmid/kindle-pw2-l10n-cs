@@ -2,7 +2,7 @@
 
 . config
 
-mkdir overlay
+[ -d overlay ] || mkdir overlay
 rm -f overlay/*.jar
 
 ./translation2transjar

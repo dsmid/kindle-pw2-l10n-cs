@@ -17,7 +17,7 @@ cd transifex/src/5.0.3/framework
 
 VER="5.0.3"
 echo "begin;" > ../../../../framework_$VER.sql
-find . -name "*_$LANG.properties" | while read item
+find . -name "*_$HACKLANG.properties" | while read item
 do
     cs="$item"
     en=${cs%_cs.properties}_en_US.properties
