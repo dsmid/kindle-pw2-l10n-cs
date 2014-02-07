@@ -1,18 +1,18 @@
 Turn On Text-to-Speech	Zapnout Předčítání textu
 Turn Off Text-to-Speech	Vypnout Předčítání textu
-Show Options	
-Hide Options	
-Voice	
-Rate	
-Speaking Voice:	
-Female	
-Male	
-Speech Rate:	
+Show Options	Ukázat volby
+Hide Options	Skrýt volby
+Voice	Hlas
+Rate	Tempo
+Speaking Voice:	Předčítající hlas:
+Female	Žena
+Male	Muž
+Speech Rate:	Tempo řeči:
 Slower	Pomaleji
 Default	Výchozí
 Faster	Rychleji
 Off	Vypnuto
 Text-to-Speech Alert	Upozornění Předčítání textu
 Text-to-Speech encountered an unexpected error. If the problem persists, please restart your Kindle from Menu in Settings.	Předčítání textu narazilo na neočekávanou chybu. Pokud problém přetrvává, restartujte prosím Váš Kindle z Menu v Nastavení.
-There isnʼt any more text to read in this item. Text-to-Speech is now exiting.	
-Text-to-Speech encountered an error. Please restart your Kindle from Menu in Settings. If the problem persists, contact Kindle Customer Service at http://www.kindle.com/support	
+There isnʼt any more text to read in this item. Text-to-Speech is now exiting.	V této položce už nezbývá žádný text ke čtení. Předčítání je zastaveno.
+Text-to-Speech encountered an error. Please restart your Kindle from Menu in Settings. If the problem persists, contact Kindle Customer Service at http://www.kindle.com/support	Předčítání textu narazilo na chybu. Prosíme restartujte svůj Kindle z nabídky Nastavení. Pokud problém přetrvává, kontaktujte zákaznickou podporu Kindle na http://www.kindle.com/support

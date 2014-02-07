@@ -1,2 +1,2 @@
-{2,select,page {Page {0} of {1}} loc {Loc {0} of {1}} other {{0} of {1}}}	
-Other Info	
+{2,select,page {Page {0} of {1}} loc {Loc {0} of {1}} other {{0} of {1}}}	{2,select,page {Strana {0} z {1}} pozice {Loc {0} z {1}} other {{0} z {1}}}
+Other Info	Další informace

@@ -1,19 +1,19 @@
-Turn On Reading Timer	
-Turn Off Reading Timer	
-Updating...	
-Learning reading speed...	
-Learning reading speed ({0, number, percent})	
-section	
+Turn On Reading Timer	Zapnout stopky
+Turn Off Reading Timer	Vypnout stopky
+Updating...	Aktualizuji...
+Learning reading speed...	Zaznamenávám rychlost čtení...
+Learning reading speed ({0, number, percent})	Zaznamenávám rychlost čtení ({0, number, percent})
+section	oddíl
 Page {0}	Strana {0}
 Page {0} of {1}	Strana {0} z {1}
 Loc {0} of {1}	Pozice {0} z {1}
-{0, plural,=0 {Chapter completed} one {Time left in chapter: {1}} other {Time left in chapter: {1}}}	
-{0, plural,=0 {Book completed} one {Time left in book: {1}} other {Time left in book: {1}}}	
-{0,select,TimeLeftInGoal {{1, plural,=0 {You have reached the goal} one {{1,number,integer} min left until you reach your reading goal} other {{1,number,integer} mins left until you reach your reading goal}}} GoalReached {You have reached the goal} other {{1, plural,=0{You have reached the goal} one{Daily goal reached {1,number,integer} min ago} other{Daily goal reached {1,number,integer} mins ago}}}}	
-Reset Reading Timer	
-Reading Progress	
-Select Reading Progress	
-Location in book	
-Page in book	
-Time left in book	
-Time left in chapter	
+{0, plural,=0 {Chapter completed} one {Time left in chapter: {1}} other {Time left in chapter: {1}}}	{0, plural,=0 {Kapitola dokončena} one {V kapitole zbývá: {1}} other {V kapitole zbývá: {1}}}
+{0, plural,=0 {Book completed} one {Time left in book: {1}} other {Time left in book: {1}}}	{0, plural,=0 Kniha dokončena} one {V knize zbývá: {1}} other {V knize zbývá: {1}}}
+{0,select,TimeLeftInGoal {{1, plural,=0 {You have reached the goal} one {{1,number,integer} min left until you reach your reading goal} other {{1,number,integer} mins left until you reach your reading goal}}} GoalReached {You have reached the goal} other {{1, plural,=0{You have reached the goal} one{Daily goal reached {1,number,integer} min ago} other{Daily goal reached {1,number,integer} mins ago}}}}	{0,select,TimeLeftInGoal {{1, plural,=0 {Splnili jste normu} one {Zbývá {1,number,integer} minuta do splnění vaší normy} other {Zbývá {1,number,integer} minut do splnění vaší normy}}} GoalReached {Splnili jste normu} other {{1, plural,=0{Splnili jste normu} one{Denní norma splněna před {1,number,integer} minutou} other{Denní norma splněna před {1,number,integer} minutami}}}}	
+Reset Reading Timer	Vynulovat stopky
+Reading Progress	Pokroky ve čtení
+Select Reading Progress	vybrat pokroky ve čtení
+Location in book	Místo v knize
+Page in book	Strana v knize
+Time left in book	Zbývající čas v knize
+Time left in chapter	Zbývající čas v kapitole

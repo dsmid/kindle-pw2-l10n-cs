@@ -9,9 +9,9 @@ Register	Registrovat
 Close	Zavřít
 Message Shared	Zpráva sdílena
 Social Networks Not Registered	Neregistrován k sociálním sítím
-Your Kindle is not registered with any social networks. Selecting Register below will open the Manage Your Social Networks web page so you can enter your account information. When your registration is complete, select Continue Reading to return to this item.	
-Invalid Social Networks	Chyba konfigurace
-One or more of the social networks registered on your Kindle are not configured properly. Selecting Manage below will open the Manage Your Social Networks web page so you can enter your account information. When your changes are complete, select Continue Reading to return to this item.	
+Your Kindle is not registered with any social networks. Selecting Register below will open the Manage Your Social Networks web page so you can enter your account information. When your registration is complete, select Continue Reading to return to this item.	Váš Kindle není registrován v žádné sociální síti. Volbou Registrace níže se otevře webová stránka správce vašich sociálních sítí, kam můžete zadat informace o svém účtu. Po dokončení registrace vyberte Pokračovat ve čtení pro návrat sem.
+Invalid Social Networks	Neplatná sociální síť
+One or more of the social networks registered on your Kindle are not configured properly. Selecting Manage below will open the Manage Your Social Networks web page so you can enter your account information. When your changes are complete, select Continue Reading to return to this item.	Jedna nebo více sociálních sítí zaregistrovaných k vašemu Kindle není správně nastavena. Volbou Správa níže se otevře webová stránka správce vašich sociálních sítí, kam můžete zadat informace o svém účtu. Po dokončení registrace vyberte Pokračovat ve čtení pro návrat sem.
 Sharing Unavailable	Sdílení je nedostupné
 The sharing service is currently unavailable. Please try again later.	Služba sdílení není momentálně k dispozici. Zkuste to prosím později.
 Sharing Not Supported	Sdílení nepodporováno
@@ -20,7 +20,7 @@ Communication Error	Chyba v komunikaci
 The sharing service encountered a communication error. Please try again later.	Při sdílení došlo k chybě připojení. Zkuste to prosím později.
 Sharing Failed	Sdílení se nezdařilo
 The sharing service encountered an unrecoverable error. Sharing cancelled.	Služba sdílení narazila na neopravitelnou chybu. Sdílení bylo zrušeno.
-Clipping Error	
+Clipping Error	Chyba při připínání
 Unable to share. You have reached the clipping limit for this item.	Sdílení není možné. Dosáhli jste maximálního počtu povolených výstřižků pro tuto položku.
 Unable to share. You have reached the clipping limit for this item set by the publisher.	Sdílení není možné. Dosáhli jste maximálního počtu výstřižků povolených pro tuto položku vydavatelem.
 Unable to share. You have reached the clipping limit for this item set by the publisher, {0}.	Sdílení není možné. Dosáhli jste maximálního počtu výstřižků povolených pro tuto položku vydavatelem {0}.
