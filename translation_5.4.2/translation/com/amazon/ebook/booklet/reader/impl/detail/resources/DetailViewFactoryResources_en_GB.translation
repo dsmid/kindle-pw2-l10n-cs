@@ -1,15 +1,15 @@
 Add to Collection	Přidat do kolekce
 View Notes & Marks	Zobrazit pozn. a zvýraznění
-View Bookmarks	
+View Bookmarks	Ukázat záložky
 Go To...	Jít na...
 Book Description	Popis knihy
 Remove from Device	Odstranit ze zařízení
-Add to FreeTime Library	
+Add to FreeTime Library	Přidat do knihovny FreeTime
 Add To Home	Přidat na dom.stránku
 Item Description	Popis položky
 Search This Book	Prohledat tuto knihu
-Look Up in Dictionary	
-Share That Youʼve Finished This Book	
+Look Up in Dictionary	Podívat se do slovníku
+Share That Youʼve Finished This Book	Oznamte že jste přečetli tuto knihu
 Delete This Book	Smazat tuto knihu
 Buy This Book Now	Koupit tuto knihu
 Delete This Sample	Smazat tuto ukázku
@@ -17,11 +17,11 @@ Search This Sample	Prohledat tuto ukázku
 Search This Document	Prohledat tento dokument
 Delete This Document	Smazat tento dokument
 Search This Receipt	Prohledat tento recept
-Delete This Receipt	Smazat potvrzení
-Search This Notice	Prohledat poznámku
-Delete This Notice	Smazat poznámku
+Delete This Receipt	Smazat toto potvrzení
+Search This Notice	Prohledat tuto poznámku
+Delete This Notice	Smazat tuto poznámku
 Search This Letter	Prohledat tento dopis
-Delete This Letter	Smazat dopis
-Title: {0}	
-Edit Kana	
-Edit Pronunciation	
+Delete This Letter	Smazat tento dopis
+Title: {0}	Název: {0}
+Edit Kana	Upravit Kana
+Edit Pronunciation	Upravit Výslovnost
