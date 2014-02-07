@@ -35,6 +35,7 @@ do
 	    printf -v IFS "\t"
 	    while read src tran
 	    do
+		tran=$(sed 's|&|\\&|g' <<<"$tran")
 		[ -n "$tran" ] && sed -i "s|'$src'|'$tran'|g; s|"'"'"$src"'"'"|"'"'"$tran"'"'"|g;" "$trjsfile.native"
 	    done < <(sqlite3 -separator "	" ../kindle_loc.sqlite "select src,tran from trans where file='""$jsfile""' and ver='""$VER""' ;")
 	    IFS=$OLDIFS
