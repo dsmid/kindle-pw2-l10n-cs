@@ -1,25 +1,25 @@
 Opening...	Otevírám...
-{0,plural,=0 {No Items} one {{0,number,integer} Item} other {{0,number,integer} Items}}	
+{0,plural,=0 {No Items} one {{0,number,integer} Item} other {{0,number,integer} Items}}	{0,plural,=0 {Žádné položky} one {{0,number,integer} položka} few {{0,number,integer} položky} other {{0,number,integer} položek}}
 Music	Hudba
 Personal	Osobní
-Notice	Noticka
-Receipt	Recept
+Notice	Oznámení
+Receipt	Potvrzení
 New	Nový
-Rental	Půjčovné
+Rental	Půjčené
 Expired	Prošlé
 Archived	Archivováno
-On Loan	V zapůjčení
+On Loan	Zapůjčené
 Expiring	Vyprší
 Keep	Uchovat
 Sample	Ukázka
-Book	
+Book	Kniha
 Collection	Kolekce
 Archived Items	Archivované položky
-Periodical Back Issues	
+Periodical Back Issues	Starší vydání periodik
 Dictionaries	Slovníky
 Newspaper	Noviny
 Magazine	Časopis
 Images	Obrázky
 My Clippings	Mé výstřižky
-Letter	
+Letter	Dopis
 Dictionary	Slovník

@@ -28,7 +28,7 @@ Low Memory	Málo paměti
 MP3 Player Locked	
 No MP3 Files Found	Nebyla nalezena žádná MP3
 Offer Expired	Platnost nabídky vypršela
-OK	
+OK	OK
 Parental Controls are enabled on your Kindle. Access to Cloud is locked.	
 Parental Controls are enabled on your Kindle. Access to Goodreads on Kindle is locked.	
 Parental Controls are enabled on your Kindle. Kindle Store is locked.	

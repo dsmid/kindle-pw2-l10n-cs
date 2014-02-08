@@ -1,8 +1,8 @@
 Collection Name	Jméno kolekce
 The collection name that you entered already exists. Please enter a different name.	Název kolekce, který jste zadali již existuje. Zadejte prosím jiný název.
-Title Pronunciation	
+Title Pronunciation	Výslovnost názvu
 Title	Název
 Author	Autor
-{0,plural,=0 {No Items} one {{0,number,integer} Item} other {{0,number,integer} Items}}	
+{0,plural,=0 {No Items} one {{0,number,integer} Item} other {{0,number,integer} Items}}	{0,plural,=0 {Žádné položky} one {{0,number,integer} položka} few {{0,number,integer} položky} other {{0,number,integer} položek}}
 Edit Kana	Upravit Kana
-Edit Pronunciation	Upravit Výslovnost
+Edit Pronunciation	Upravit výslovnost

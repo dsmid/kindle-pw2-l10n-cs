@@ -1,31 +1,31 @@
-Register Your Kindle	Zaregistrujte Váš Kindle
-Enter your Amazon account information.	
+Register Your Kindle	Zaregistrujte svůj Kindle
+Enter your Amazon account information.	Zadejte informace o vašem účtu u Amazonu
 E-mail Address	E-mailová adresa
 Password	Heslo
 Register	Registrovat
 Registration Help	Pomoc při registraci
-The e-mail address and password you entered do not match any Amazon accounts on record. Please make sure that you have correctly entered the e-mail address associated with your Amazon account. For further details please contact Kindle Customer Service at www.kindle.com/support.	E-mailová adresa a heslo, které jste zadali, neodpovídá žádnému účtu na Amazon. Prosím, zkontrolujte, zda jste správně zadali e-mailovou adresu. Pro další podrobnosti, prosím, kontaktujte Kindle Customer Service na www.kindle.com/support.
+The e-mail address and password you entered do not match any Amazon accounts on record. Please make sure that you have correctly entered the e-mail address associated with your Amazon account. For further details please contact Kindle Customer Service at www.kindle.com/support.	E-mailová adresa a heslo, které jste zadali, neodpovídá žádnému účtu u Amazonu. Prosím, zkontrolujte, zda jste správně zadali e-mailovou adresu. Pro další podrobnosti, prosím, kontaktujte Kindle Customer Service na www.kindle.com/support.
 Cancel	Zrušit
 Try Again	Zkusit znovu
 Unable to Connect	Není možné se připojit
-There was an error whilst registering your Kindle. Please try again later.	
-Registering Your Kindle…	Registruji Váš Kindle…
-Registration Failed	
+There was an error whilst registering your Kindle. Please try again later.	Vyskytla se chyba během registrace vašeho Kindlu. Prosím zkuste to později znovu.
+Registering Your Kindle…	Registruji váš Kindle…
+Registration Failed	Registrace se nezdařila
 Hide Password	Skrýt heslo
-Deregister Your Kindle	Zrušit registraci Kindle
-Your Kindle will be deregistered from your Amazon account and many features will not work. After deregistering, you can register your Kindle with another Amazon account.~~Are you sure you want to deregister?	
+Deregister Your Kindle	Zrušit registraci Kindlu
+Your Kindle will be deregistered from your Amazon account and many features will not work. After deregistering, you can register your Kindle with another Amazon account.~~Are you sure you want to deregister?	Registrace vašeho Kindlu k účtu u Amazonu bude zrušena a mnohé věci přestanou fungovat. Po odregistraci můžete Kindle zaregistrovat k jinému účtu u Amazonu.~~Skutečně chcete Kindle odregistrovat?
 Deregister	Zrušit registraci
-Deregistering Your Kindle…	Zrušit registraci Vašeho Kindle…
-There was an error whilst deregistering your device. Please try again later.	
+Deregistering Your Kindle…	Zrušit registraci vašeho Kindle…
+There was an error whilst deregistering your device. Please try again later.	Vyskytla se chyba během odregistrování vašeho Kindlu. Prosím zkuste to později znovu.
 Device Info	Informace o zařízení
-<html><b>Wi-Fi MAC Address:</b>&nbsp;{1}<br/><b>Serial Number:</b>&nbsp;{2}<br/><b>Network Capability:</b>&nbsp;{3}<br/><b>Firmware Version:</b>&nbsp;{4}<br/><b>Space Available:</b>&nbsp;{0,choice, -1#Unknown|0#{0,number,integer} MB free}{5,select, 0 {} 1 {<br/><b>Policy ID:</b>&nbsp;{6}} other{}}</html>	
+<html><b>Wi-Fi MAC Address:</b>&nbsp;{1}<br/><b>Serial Number:</b>&nbsp;{2}<br/><b>Network Capability:</b>&nbsp;{3}<br/><b>Firmware Version:</b>&nbsp;{4}<br/><b>Space Available:</b>&nbsp;{0,choice, -1#Unknown|0#{0,number,integer} MB free}{5,select, 0 {} 1 {<br/><b>Policy ID:</b>&nbsp;{6}} other{}}</html>	<html><b>Wi-Fi MAC adresa:</b>&nbsp;{1}<br/><b>Sériové číslo:</b>&nbsp;{2}<br/><b>Síťové možnosti:</b>&nbsp;{3}<br/><b>Verze firmwaru:</b>&nbsp;{4}<br/><b>Volné místo:</b>&nbsp;{0,choice, -1#Unknown|0#{0,number,integer} MB volných}{5,select, 0 {} 1 {<br/><b>Policy ID:</b>&nbsp;{6}} other{}}</html>
 Unavailable	Nedostupné
 Device Name	Jméno zařízení
-Personalise your Kindle by giving it a name that appears on the Home screen.	
+Personalise your Kindle by giving it a name that appears on the Home screen.	Označte si svůj Kindle - dejte mu jméno, jenž se bude objevovat na domovské obrazovce.
 Save	Uložit
 Your Kindle is currently unable to connect. Please make sure you are within wireless range and try again. If the problem persists, restart your Kindle from Menu in Settings and try again.	
-Unlink Account	
-Your Amazon account will no longer be linked to your {0} account.	
-Unlink	
-First Name	
-Gender	
+Unlink Account	Zrušit propojení účtu
+Your Amazon account will no longer be linked to your {0} account.	Váš účet u Amazonu nebude více propojen s vaším účtem {0}.
+Unlink	Zrušit propojení
+First Name	Křestní jméno
+Gender	Pohlaví

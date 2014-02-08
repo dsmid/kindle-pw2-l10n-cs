@@ -4,7 +4,7 @@ Connection Required	Vyžadováno připojení
 Edit	Upravit
 Lock Rotation	Zamknout otáčení
 Menu	
-OK	
+OK	OK
 Register	Registrovat
 Remove	Odstranit
 Shop in Kindle Store	Nakoupit v Kindle Store

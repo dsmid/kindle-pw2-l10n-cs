@@ -3,7 +3,7 @@ Close	Zavřít
 Connection Required	Vyžadováno připojení
 Edit	Upravit
 Menu	
-OK	
+OK	OK
 Remove	Odstranit
 Screen Light	Osvětlení displeje
 Shop in Kindle Store	Nakoupit v Kindle Store
