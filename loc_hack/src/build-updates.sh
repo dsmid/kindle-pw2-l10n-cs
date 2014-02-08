@@ -3,7 +3,7 @@
 source config
 
 PKGNAME="$HACKNAME"
-PKGVER="${VERSION}r${RELEASE}"
+PKGVER="${VERSION}-${RELEASE}"
 
 # Prepare our files for this specific kindle model...
 ARCH=${PKGNAME}_${PKGVER}

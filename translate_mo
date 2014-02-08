@@ -5,4 +5,4 @@
 rm -f overlay/LC_MESSAGES/*.mo
 [ -d overlay/LC_MESSAGES ] || mkdir -p overlay/LC_MESSAGES
 
-find translation_$VERSION/po -name '*.po' -exec sh -c "fn=\$(basename {}); fn=\${fn%.po}.mo; msgfmt {} -o overlay/LC_MESSAGES/\$fn" \;
+find translation_$VERSION/po -name '*.po' -exec sh -c "fn=\$(basename {}); fn=\${fn%.po}.mo; cat {} | sed 's/^\\(.Language: \\)[-_.A-Za-z]\\+\\(...\\)\$/\\1en\\2/g' | msgfmt /dev/stdin -o overlay/LC_MESSAGES/\$fn" \;

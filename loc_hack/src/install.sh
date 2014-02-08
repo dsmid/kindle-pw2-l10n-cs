@@ -32,11 +32,16 @@ then
     rm -rf /mnt/us/localization
 fi
 
-progress 60 "Unpacking language files to user store"
+progress 50 "Unpacking language files to user store"
 tar xzf localization.tar.gz -C /mnt/us/
+
+progress 70 "Copying manual to Kindle"
+cp -f /mnt/us/localization/overlay/kug/Kindle_Users_Guide.azw3 /mnt/us/documents/
+[ -d /mnt/us/documents/Kindle_Users_Guide.sdr ] && rm -rf /mnt/us/documents/Kindle_Users_Guide.sdr
 
 progress 80 "Setting system locale"
 echo -e "LANG=en_GB.UTF-8\nLC_ALL=en_GB.UTF-8" > /var/local/system/locale
+sed -i 's/^locale=.*$/locale=en-GB/' /var/local/java/prefs/com.amazon.ebook.framework/prefs
 
 progress 90 "Disabling autoupdates"
 if [ -f /etc/todo/handler_registry.conf ]

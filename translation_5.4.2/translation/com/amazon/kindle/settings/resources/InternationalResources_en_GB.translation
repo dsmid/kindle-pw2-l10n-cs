@@ -1,8 +1,8 @@
-Language and Dictionaries	
+Language and Dictionaries	Jazyk a slovníky
 Language	Jazyk
-Set the language on your Kindle.	
+Set the language on your Kindle.	Nastavit jazyk vašeho Kindlu.
 Keyboards	Klávesnice
 Add keyboards for different languages.	Přidat klávesnici pro jiný jazyk
-{0,plural, =0 {No Keyboards} one {{0, number, integer} Keyboard} other {{0, number, integer} Keyboards}}	
+{0,plural, =0 {No Keyboards} one {{0, number, integer} Keyboard} other {{0, number, integer} Keyboards}}	{0,plural, =0 {Žádné klávesnice} one {{0, number, integer} klávesnice} other {{0, number, integer} klávesnice}}
 Dictionaries	Slovníky
-Set the default dictionary for each language.	
+Set the default dictionary for each language.	Nastavit výchozí slovník pro každý jazyk.

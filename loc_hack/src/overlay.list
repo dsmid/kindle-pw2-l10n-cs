@@ -1,5 +1,4 @@
 /opt/amazon/ebook/config/locales/en.properties
-/usr/share/keyboard/en_GB/en_GB-1024x758.keymap.gz
 /usr/share/locale/en_GB/LC_MESSAGES
 /opt/amazon/ebook/lib/ReadingTimer-en_GB.jar
 /opt/amazon/ebook/lib/MediaPlayer-en_GB.jar
@@ -41,3 +40,4 @@
 /opt/var/local/mesquite/adviewer/locales/en-GB			adviewer
 /opt/var/local/mesquite/store/locales/en-GB			store
 /opt/amazon/kug/en-GB						kug
+/usr/share/keyboard/en_GB					keymap
