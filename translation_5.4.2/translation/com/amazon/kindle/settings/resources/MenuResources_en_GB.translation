@@ -1,11 +1,12 @@
-Reset Device	
+Reset Device	Resetovat do továrního nastavení
 Restart	Restartovat
 Update Your Kindle	Aktualizovat Kindle
 Device Info	Informace o zařízení
-Change Password	
-This action will remove all downloaded or transferred content from your Kindle. You will still be able to download items from the Cloud. Do you want to reset your Kindle?	
-Reset Device Locked	
+Change Password	Změnit heslo
+This action will remove all downloaded or transferred content from your Kindle. You will still be able to download items from the Cloud. Do you want to reset your Kindle?	Tato akce způsobí smazání veškerého obsahu ve vašem Kindlu. Budete si však moci opět stáhnout položky umístěné v internetovém úložišti. Opravdu resetovat váš Kindle?
+Reset Device Locked	Resetování Kindlu je uzamčeno
 You are about to update the software on your Kindle. Do you wish to continue?	Rozhodli jste se zaktualizovat software ve Vašem Kindle. Přejete si pokračovat?
 Alert	Upozornění
 No update file is present.	Nelze najít aktualizační soubor.
-Your battery level is too low to install this update safely. Please charge your Kindle fully and try again.	
+Your battery level is too low to install this update safely. Please charge your Kindle fully and try again.	Baterie je příliš slabá pro bezpečnou instalaci aktualizace. Prosím nabijte svůj Kindle a zkuste to znovu.
+Legal	Licenční ujednání
