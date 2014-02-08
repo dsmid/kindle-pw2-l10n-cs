@@ -1,15 +1,16 @@
-Česká lokalizace pro nedotykový Kindle s firmwarem 4.1.0 a 4.1.1
-================================================================
+Česká lokalizace pro Kindle Paperwhite 2 s firmwarem 5.4.2 a 5.4.2.1
+====================================================================
 
-Určeno pro modely označované jako Kindle NT, Kindle 4 šedý, Kindle 4 černý (v Česku nesprávně označovaný jako Kindle 5)
+Určeno pro model označovaný jako Paperwhite 2, All-New Paperwhite či Paperwhite (2013)
+_Není_ určeno pro starší model označovaný jako Paperwhite či Paperwhite (2012)
 
-Nejnovější verze vždy na http://code.google.com/p/kindle-cs/downloads/list?can=3&q=LOCFW41
+Nejnovější verze vždy na https://github.com/dsmid/kindle-pw2-l10n-cs/releases
 
-Více viz tento článek: http://www.eboocek.cz/2013/01/ceska-lokalizace-pro-nedotykovy-kindle-s-firmwarem-4-1-0-a-4-1-1/
-
+Více viz tento článek: http://www.eboocek.cz/2013/01/ceska-lokalizace-pro-kindle-paperwhite-2/
+V případě problémů se obraťte na autora v diskusi pod článkem: http://www.eboocek.cz/2013/01/ceska-lokalizace-pro-kindle-paperwhite-2/#comments
 
 1) Ujistěte se, že máte nainstalovaný jailbreak, případně ho nainstalujte odsud:
-   http://code.google.com/p/kindle-cs/downloads/list?can=3&q=kindle-jailbreak+FW41
+   https://github.com/dsmid/kindle-pw2-l10n-cs/releases/tag/jailbreak
 
 2) Po rozbalení zipu vyberte soubor končící na _install.bin.
    Ten nakopírujte přes USB do kořenu Kindlu (tj. tam, kde se nachází i složka documents).
@@ -24,10 +25,9 @@ proto jsem do lokalizace zabudoval pojistku, jež by měla aktivně bránit tich
 aktualizacím ze strany Amazonu.
 Ruční aktualizace zůstane funkční, nicméně důrazně před ní varuji. 
 Pokud skutečně chcete svůj Kindle aktualizovat, odinstalujte nejprve češtinu s použitím
-odinstalačního balíčku (končícího na _uninstall.bin), aktualizujte firmware a pak
-nainstalujte českou lokalizaci znova. Jailbreak odinstalovávat nemusíte, naopak doporučuji
-ho před aktualizací firmwaru zachovat, protože nikdy nevíte, zda půjde na nový firmware
-opět nainstalovat.
+odinstalačního balíčku (končícího na _uninstall.bin) a aktualizujte firmware.
+Jailbreak odinstalovávat nemusíte, naopak doporučuji ho před aktualizací firmwaru zachovat,
+protože nikdy nevíte, zda půjde na nový firmware opět nainstalovat.
 
 Pokud chcete nainstalovat novou verzi češtiny a ve čtečce již máte starší verzi, není
 třeba tuto starší verzi odinstalovávat, stačí prostě jen instalovat tu novou.
@@ -37,6 +37,16 @@ a nebude tak problém přepnout zpátky na angličtinu či jiný jazyk, aniž by
 cokoliv odinstalovávat.
 
 Součástí lokalizace je i uživatelská příručka v češtině a česká klávesnice.
+
+Dalším vylepšením, které lokalizace přináší, je zmenšení nesmyslně širokých okrajů.
+Pokud by vám přesto vyhovovaly ty původní, přepište soubor "localization/overlay/ReaderSDK-impl-en_GB.jar"
+souborem "localization/overlay/ReaderSDK-impl-en_GB.puvodni_okraje.jar" a pak čtečku
+restartujte.
+
+Pokud budete čtečku s nainstalovanou lokalizací restartovat s připojeným USB kabelem,
+lokalizace se jednorázově deaktivuje. To je záměrná bezpečnostní pojistka, nejedná se
+o chybu. Po odpojení kabelu a dalším restartu bude Kindle opět v češtině.
+
 
 David Šmíd
 david@smidovi.eu
