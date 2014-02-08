@@ -1,0 +1,20 @@
+Jailbreak pro Kindle Paperwhite a Kindle Paperwhite 2
+=====================================================
+
+Urcen pro model oznacovany jako Kindle Paperwhite 2, All-New Kindle Paperwhite ci Kindle Paperwhite (2013).
+Funguje i pro model oznacovany jako Kindle Paperwhite ci Kindle Paperwhite (2012).
+
+Tento jailbreak pochazi od autora NiLuJe, jeho verze je 1.8.N.
+
+Nejnovejsi verze vzdy na https://github.com/dsmid/kindle-pw2-l10n-cs/releases
+
+Prosim PRESNE nasledujte tyto instrukce, nedelejte nic jineho:
+
+1)  Nakopirujte soubory "bridge.sh", "jb.sh" a "update_jb_$(cd mnt && cd us && sh jb.sh).bin" do korene vaseho Kindlu (tj. ne do slozky documents, ale na jeji uroven)
+2)  Bezpecne odeberte Kindle z pocitace ("Bezpecne odebrat" ci "Vysunout") a odpojte
+3)  Aktualizujte Kindle (Menu -> Settings, Menu -> Update Your Kindle)
+4)  Po chvili uvidite ve spodni casti obrazovky napis "**** JAILBREAK ****"
+5)  Hotovo, muzete podle chuti instalovat rozsireni
+
+David Smid
+david@smidovi.eu
