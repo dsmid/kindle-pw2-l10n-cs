@@ -34,7 +34,7 @@ http://www.amazon.co.uk/
 http://www.dailymail.co.uk/	
 http://www.google.co.uk/	
 http://www.google.co.uk/search?q=	
-In order to browse, you must first register your Kindle with your Amazon user account.	
+In order to browse, you must first register your Kindle with your Amazon user account.	K prohlížení musíte nejprve zaregistrovat váš Kindle vaším uživatelským účtem Amazon.
 Internet Movie DB	Čs. filmová databáze
 Invalid Certificate	Neplatný certifikát
 Invalid File Type	Neplatný typ souboru
@@ -44,17 +44,17 @@ Remove a Bookmark	Odstranit záložku
 Search	Hledat
 Settings	Nastavení
 s go function	
-Sorry, access to Whispernet is blocked.	
+Sorry, access to Whispernet is blocked.	Promiňte, přístup k Whispernet je blokován.
 Sorry, application is invalid.	Promiňte, aplikace není platná.
 Sorry, roaming is not allowed.	Promiňte, roaming není povolen.
 Sorry, the application has exceeded its quota.	Promiňte, aplikace přesáhla svou kvótu.
 Sorry, the application was blocked.	Promiňte, aplikace byla zablokována.
 Sorry, the browser cannot access this website.	Promiňte, prohlížeč nemůže k této stránce přistoupit.
-Sorry, the browser cannot access this website currently. &nbsp;Please try again later.	
+Sorry, the browser cannot access this website currently. &nbsp;Please try again later.	Promiňte, prohlížeč nemůže momentálně k této stránce přistoupit. &nbsp;Zkuste to prosím později.
 Sorry, the device was blocked.	Promiňte, zařízení bylo zablokováno.
 strings', 'object	
 The Daily Mail	iDNES
-There is a problem with your Kindle account.<p>Please contact Customer Service at www.kindle.com/support.</p>	
+There is a problem with your Kindle account.<p>Please contact Customer Service at www.kindle.com/support.</p>	Nastal problém s vaším účtem Kindle.<p>Navštivte prosím zákaznickou podporu na www.kindle.com/support.</p>
 Today - {date}	Dnes - {date}
 Twitter	Twitter
 Upload File	Nahraj soubor
@@ -63,13 +63,12 @@ Web
 Web Address	Webová adresa
 Web Browser cannot download files using this protocol. &nbsp;Only HTTP and HTTPS protocols are supported.	Webový prohlížeč nemůže stáhnout soubor přes tento prokol. &nbsp;Pouze HTTP a HTTPS jsou podporovány.
 Web Browser cannot download this kind of file.<p>Only files with the extension .AZW, .PRC, .MOBI or .TXT can be downloaded to your Kindle.</p>	Webový prohlížeč nemůže stáhnout tento typ souboru.<p>Pouze soubory s příponou .AZW, .PRC, .MOBI nebo .TXT můžou být do Vašeho Kindle staženy.</p>
-Web Browser does not support file uploads.	Webový prohlížeč nepodporuje nahrávání souborů.
-Web Browser downloaded {filename} successfully.	
+Web Browser does not support file uploads.	Webový prohlížeč nepodporuje nahrávání souborů.Web Browser downloaded {filename} successfully.	
 Web Browser is unable to establish a secure connection. Do you still want to proceed?	
-Web Browser requires a Wi-Fi connection. &nbsp;Tap OK to establish a Wi-Fi connection.	
+Web Browser requires a Wi-Fi connection. &nbsp;Tap OK to establish a Wi-Fi connection.	Prohlížeč vyžaduje Wi-Fi připojení. &nbsp;Klepněte na OK k navázání Wi-Fi připojení.
 Web Browser was unable to download {filename}. &nbsp;Please try again later.	Webový prohlížeč nemohl stáhnout {filename}. &nbsp;Zkuste to, prosím, později.
 Web Mode	Zobrazovat jako web
-Website Inaccessible	
+Website Inaccessible	Webová stránka je nepřístupná
 Wi-Fi Connection Required	Vyžadováno Wi-Fi připojení
 Wikipedia	Wikipedie
 Yahoo	Seznam

@@ -1,8 +1,8 @@
 Close	Zavřít
-{customerName}, you have nearly finished.	
-Details for this advert are no longer available.	
-Details for this advert are no longer available. Turn on wireless to receive the latest content.	
-Device Not Registered	
+{customerName}, you have nearly finished.	{customerName}, máte téměř hotovo.
+Details for this advert are no longer available.	Podrobnosti tohoto inzerátu už nejsou k dipozici.
+Details for this advert are no longer available.	Turn on wireless to receive the latest content. Abyste obdrželi nejnovější obsah, zapněte bezdrátové připojení.
+Device Not Registered	Zařízení není registrováno
 Error	Chyba
 Offer Expired	Platnost nabídky vypršela
 Order Cancelled	Objednávka zrušena
