@@ -13,3 +13,4 @@ Go to Location
 {0,plural,=0 {} =1 {1 highlighter} other {{0,number,integer} highlighters}}	
 {0}’s Highlight	
 You do not have any notes or highlights.	
+Popular	

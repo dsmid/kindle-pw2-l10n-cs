@@ -1,5 +1,6 @@
 /opt/amazon/ebook/config/locales/en.properties
 /usr/share/locale/en_GB/LC_MESSAGES
+/opt/amazon/ebook/lib/ReadingTimer.jar
 /opt/amazon/ebook/lib/ReadingTimer-en_GB.jar
 /opt/amazon/ebook/lib/MediaPlayer-en_GB.jar
 /opt/amazon/ebook/lib/Mobi-drawing-en_GB.jar

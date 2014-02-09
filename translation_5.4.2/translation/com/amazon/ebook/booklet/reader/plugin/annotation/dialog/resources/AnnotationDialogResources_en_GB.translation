@@ -13,3 +13,4 @@ Go to Location	Jít na místo
 {0,plural,=0 {} =1 {1 highlighter} other {{0,number,integer} highlighters}}	
 {0}’s Highlight	Zvýraznění od {0}
 You do not have any notes or highlights.	Nemáte žádné poznámky ani zvýraznění.
+Popular	Oblíbené
