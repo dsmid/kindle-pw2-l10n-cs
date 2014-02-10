@@ -4,8 +4,6 @@
 
 VER="$VERSION"
 
-./translation2sqlite
-
 #rm -f overlay/LC_MESSAGES/*.mo
 #mkdir -p overlay/LC_MESSAGES
 
@@ -15,7 +13,7 @@ cd root_$VERSION
 
 while read orig overlay
 do
-    if [[ "$orig" =~  mesquite|pillow ]]
+    if [[ "$orig" =~  /mesquite|/pillow ]]
     then
 	orig=./${orig#/}
 	[ -n "$overlay" ] || overlay=${orig##*/}

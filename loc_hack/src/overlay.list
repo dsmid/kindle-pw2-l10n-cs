@@ -42,3 +42,6 @@
 /opt/var/local/mesquite/store/locales/en-GB			store
 /opt/amazon/kug/en-GB						kug
 /usr/share/keyboard/en_GB					keymap
+/opt/amazon/ebook/security/keystore_mesquite.xml
+/opt/amazon/ebook/security/defaultPolicies.json
+/opt/amazon/acw

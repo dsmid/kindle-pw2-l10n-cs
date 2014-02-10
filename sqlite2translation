@@ -19,7 +19,7 @@ fi
 #cp -fR ru/* translation/
 cd source
 #find . -name '*.translation' -exec sed -i 's/^\([^\t]*\t\).*$/\1/g' {} \;
-find . \( -name '*.translation' -or -name '*.properties' -or -name '*.js' \) -print -exec sh -c '
+find . \( -name '*.translation' -or -name '*.properties' -or -name '*.js' -or -name '*.xml' \) -print -exec sh -c '
 printf -v IFS "\t\r";
 (cat {};echo) | sed "s/'"'"'/'"''"'/g" | while read src rest;
 do

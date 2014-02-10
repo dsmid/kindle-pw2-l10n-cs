@@ -1,0 +1,71 @@
+#!/bin/bash
+
+. config
+
+VER="strings_$VERSION"
+
+rm -rf build/acx
+
+cd root_$VERSION
+root=$PWD
+
+
+echo "begin;" > $root/../acxstrings_$VERSION.sql.temp
+
+while read orig overlay
+do
+    if [[ "$orig" =~  /acw ]]
+    then
+	orig=./${orig#/}
+	echo Overlay item: $orig $overlay
+	while read acx
+	do
+		echo ACX: $acx
+		[ -d "$root/../build/acx/$acx" ] || mkdir -p "$root/../build/acx/$acx"
+		cp -f $acx $root/../build/acx/$acx/
+		cd $root/../build/acx/$acx/
+		unzip $(basename "$acx")
+		cd $root
+	done < <(find $orig -name '*.acx')
+        cd $root/../translation_$VERSION/acx_tweaks
+        while read tweak
+        do
+            echo "Copying tweak $tweak"
+            tdir=$(dirname "$tweak")
+            [ -d "$root/../build/acx/$tdir" ] || mkdir -p "$root/../build/acx/$tdir"
+            cp -f "$tweak" $root/../build/acx/"$tweak"
+        done < <(find . -type f )
+	cd $root/../build/acx
+	find $orig -path '*/locales/en-gb/*.js' -exec bash -c 'js={}; mv -f {} {}.ee; js-beautify -o {} {}.ee; rm -f {}.ee' \; -print | xargs -if awk -v name=f 'BEGIN {FS="^[^\"'"'"']*[\"'"'"']|[\"'"'"'][^\"'"'"']*$"} $2 != "" {print name "\t" $2}' f | sort -u  | \
+    		sed "s/'/''/g;s|\\\\|\\\\\\\\|g" | \
+		(
+		    cd $root
+    		    printf -v IFS "\t"
+		    while read file src
+    		    do
+        		export src
+	                echo "insert into trans values ('$src','', '$file', '$VER');" >> $root/../acxstrings_$VERSION.sql.temp
+        	        echo "             === insert into trans values ('$src','', '$file', '$VER');" >&2
+        	    done
+		)
+	cd $root/../build/acx
+	find $orig -path '*/config.xml' -print | xargs -if awk -v name=f 'BEGIN {FS="^[^<]*<name [^>]*xml:lang=\"en-gb\">|</name>.*$"} $2 != "" {print name "\t" $2}' f | sort -u  | \
+    		sed "s/'/''/g;s|\\\\|\\\\\\\\|g" | \
+		(
+		    cd $root
+    		    printf -v IFS "\t"
+		    while read file src
+    		    do
+        		export src
+			[ -n "$src" ] || continue
+	                echo "insert into trans values ('$src','', '$file', '$VER');" >> $root/../acxstrings_$VERSION.sql.temp
+        	        echo "             === insert into trans values ('$src','', '$file', '$VER');" >&2
+        	    done
+		)
+	cd $root
+    fi
+    cd $root
+done < ../overlay.list
+echo "commit;" >> $root/../acxstrings_$VERSION.sql.temp
+native2ascii -reverse $root/../acxstrings_$VERSION.sql.temp $root/../acxstrings_$VERSION.sql
+rm -f $root/../acxstrings_$VERSION.sql.temp

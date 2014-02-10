@@ -63,7 +63,8 @@ Web
 Web Address	Webová adresa
 Web Browser cannot download files using this protocol. &nbsp;Only HTTP and HTTPS protocols are supported.	Webový prohlížeč nemůže stáhnout soubor přes tento prokol. &nbsp;Pouze HTTP a HTTPS jsou podporovány.
 Web Browser cannot download this kind of file.<p>Only files with the extension .AZW, .PRC, .MOBI or .TXT can be downloaded to your Kindle.</p>	Webový prohlížeč nemůže stáhnout tento typ souboru.<p>Pouze soubory s příponou .AZW, .PRC, .MOBI nebo .TXT můžou být do Vašeho Kindle staženy.</p>
-Web Browser does not support file uploads.	Webový prohlížeč nepodporuje nahrávání souborů.Web Browser downloaded {filename} successfully.	
+Web Browser does not support file uploads.	Webový prohlížeč nepodporuje nahrávání souborů.Web Browser downloaded {filename} successfully.
+Web Browser downloaded {filename} successfully.	
 Web Browser is unable to establish a secure connection. Do you still want to proceed?	
 Web Browser requires a Wi-Fi connection. &nbsp;Tap OK to establish a Wi-Fi connection.	Prohlížeč vyžaduje Wi-Fi připojení. &nbsp;Klepněte na OK k navázání Wi-Fi připojení.
 Web Browser was unable to download {filename}. &nbsp;Please try again later.	Webový prohlížeč nemohl stáhnout {filename}. &nbsp;Zkuste to, prosím, později.

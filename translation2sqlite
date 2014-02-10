@@ -10,7 +10,7 @@ cd translation_$VERSION
 VER="$VERSION"
 cd translation
 echo "begin;" > ../../trans_$VERSION.sql
-find . \( -name '*.translation' -or -name '*.js' \) -exec sh -c "awk 'BEGIN {FS="'"'"\\t|\\r"'"'"} { print "'"'"{}\t"'"'" \$1 "'"'"\t"'"'" \$2}' < {}" \; | \
+find . \( -name '*.translation' -or -name '*.js' -or -name '*.xml' \) -exec sh -c "awk 'BEGIN {FS="'"'"\\t|\\r"'"'"} { print "'"'"{}\t"'"'" \$1 "'"'"\t"'"'" \$2}' < {}" \; | \
     sed "s/'/''/g" | \
     (
 	printf -v IFS "\t"

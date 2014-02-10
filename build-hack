@@ -1,7 +1,9 @@
 #!/bin/bash
 
+./translation2sqlite
 ./translate_jars
 ./translate_js
+./translate_acx
 ./translate_mo
 ./translate_rest
 cd loc_hack/src/
