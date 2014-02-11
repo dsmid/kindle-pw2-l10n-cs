@@ -1,7 +1,7 @@
 My Kindle	Můj Kindle
-{0, select, male {{1}ʼs FreeTime} female {{1}ʼs FreeTime} other {{1}ʼs FreeTime}}	
+{0, select, male {{1}ʼs FreeTime} female {{1}ʼs FreeTime} other {{1}ʼs FreeTime}}	{0, select, male {FreeTime pro {1}} female {FreeTime pro {1}} other {FreeTime pro {1}}}
 Your Kindle is not registered. Please go to Settings to register. For help, contact Kindle Customer Service at www.kindle.com/support.	Váš Kindle není registrován.Proveďte prosím registraci v menu Nastavení. Pro pomoc kontaktujte zákaznický servis na www.kindle.com/support.
 Close	Zavřít
-Your Kindle is currently unable to connect. Please try again later. If the problem persists, please restart your Kindle from Menu in Settings and try again.	
+Your Kindle is currently unable to connect. Please try again later. If the problem persists, please restart your Kindle from Menu in Settings and try again.	Váš Kindle se teď nemůže připojit. Zkuste to prosím znovu později. Pokud problém přetrvává, restartujte svůj Kindle z menu Nastavení a zkuste to znovu.
 Error	Chyba
 My Clippings	Mé výstřižky
