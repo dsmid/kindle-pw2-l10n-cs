@@ -3,5 +3,5 @@ Master	Zvládnuto
 Dictionary	Slovník
 Usage	Použití
 {0,select,learning {Learning} mastered {Mastered} other {}}	{0,select,learning {K naučení} mastered {Zvládnuto} other {}}
-About Vocabulary Builder	O tvůrci slovníku
-Vocabulary Builder helps you learn new words as you read.~~~~Words that you looked up in the dictionary whilst reading appear here automatically. You can then view Flashcards or review usage examples for those words.~~~~To turn it off, go to Settings, Reading Options, and Vocabulary Builder.	Tvůrce slovníku vám pomůže učit se při čtení nová slova.~~~~Slova, která jste si při čtení kontrolovali ve slovníku, se zde objevují automaticky. Potom můžete zobrazit jejich kartičky nebo příklady použití těchto slov.~~~~Chcete-li tuto funkci vypnout, přejděte na příkaz Nastavení, Možnosti čtení a Tvůrce slovníku.
+About Vocabulary Builder	O Procvičování slov ze slovníku
+Vocabulary Builder helps you learn new words as you read.~~~~Words that you looked up in the dictionary whilst reading appear here automatically. You can then view Flashcards or review usage examples for those words.~~~~To turn it off, go to Settings, Reading Options, and Vocabulary Builder.	Procvičování slov ze slovníku vám pomůže učit se při čtení nová slova.~~~~Slova, která jste si při čtení kontrolovali ve slovníku, se zde objevují automaticky. Potom můžete zobrazit jejich kartičky nebo příklady použití těchto slov.~~~~Chcete-li tuto funkci vypnout, přejděte na příkaz Nastavení, Možnosti čtení a Procvičování slov ze slovníku.
