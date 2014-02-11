@@ -1,9 +1,9 @@
 Go To	Jít na
-Page number (1 to {0, choice, 0#1|1#{0,number,integer}}):	
-Titles starting with:	
-Authors starting with:	
+Page number (1 to {0, choice, 0#1|1#{0,number,integer}}):	Strana číslo (1 to {0, choice, 0#1|1#{0,number,integer}}):
+Titles starting with:	Názvy začínající na:
+Authors starting with:	Autoři začínající na:
 Go	Přejít
-Hint	
+Hint	Nápověda
 Device Time	Nastavení času
 Set Automatically	Nastavit automaticky
-Select Child	
+Select Child	Vybrat dítě
