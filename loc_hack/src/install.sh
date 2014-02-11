@@ -1,4 +1,5 @@
 #!/bin/sh
+
 OTA=com.lab126.blanket.ota
 
 progress()
@@ -18,7 +19,6 @@ fail()
 	exit 1;
 }
 
-
 progress 10 "Mounting main partition r/w"
 mntroot rw || fail "Unable to mount main partition r/w".
 
@@ -26,25 +26,27 @@ progress 20 "Copying upstart config to main partition"
 cp localization.conf /etc/upstart/ || fail "Unable to copy upstart config"
 
 
-if [ -d /mnt/us/localization ]
+if [ -d /mnt/base-us/localization ]
 then
     progress 30 "Removing existing language files"
-    rm -rf /mnt/us/localization
+    mv -f /mnt/base-us/localization /mnt/base-us/tmp.$$
+    rm -rf /mnt/base-us/tmp.$$
 fi
 
 progress 40 "Unpacking language files to user store"
-tar xzf localization.tar.gz -C /mnt/us/
+tar xzf localization.tar.gz -C /mnt/base-us/
 
-bookmarks=/mnt/us/.active_content_sandbox/browser/resource/LocalStorage/file__0.localstorage
-if echo "e97836b4b5a37a608ff01208542ac870 $bookmarks" | md5sum --status -c - 2>/dev/null || echo "6a5d715e7411f4958da84927fbbc100b $bookmarks" | md5sum --status -c - 2>/dev/null
+bookmarks=/mnt/base-us/.active_content_sandbox/browser/resource/LocalStorage/file__0.localstorage
+md5=$(md5sum $bookmarks 2>/dev/null | (read md file; echo $md))
+if [ "$md5" == "e97836b4b5a37a608ff01208542ac870" -o "$md5" == "6a5d715e7411f4958da84927fbbc100b" ]
 then
     progress 60 "Resetting bookmarks"
     rm -f $bookmarks
 fi
 
 progress 70 "Copying manual to Kindle"
-cp -f /mnt/us/localization/overlay/kug/Kindle_Users_Guide.azw3 /mnt/us/documents/
-[ -d /mnt/us/documents/Kindle_Users_Guide.sdr ] && rm -rf /mnt/us/documents/Kindle_Users_Guide.sdr
+cp -f /mnt/base-us/localization/overlay/kug/Kindle_Users_Guide.azw3 /mnt/base-us/documents/
+[ -d /mnt/base-us/documents/Kindle_Users_Guide.sdr ] && rm -rf /mnt/base-us/documents/Kindle_Users_Guide.sdr
 
 progress 80 "Setting system locale"
 echo -e "LANG=en_GB.UTF-8\nLC_ALL=en_GB.UTF-8" > /var/local/system/locale

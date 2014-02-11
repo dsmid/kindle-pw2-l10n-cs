@@ -14,11 +14,11 @@ unix2dos cti-me.txt
 
 # Build install update
 cp -f install.sh run.ffs
-./kindletool create ota2 --device paperwhite2 run.ffs localization.conf localization.tar.gz update_${ARCH}_install.bin
+./kindletool create ota2 --device paperwhite2 run.ffs localization.conf localization.tar.gz Update_${ARCH}_install.bin
 
 # Build uninstall update
 cp -f uninstall.sh run.ffs
-./kindletool create ota2 --device paperwhite2 run.ffs update_${ARCH}_uninstall.bin
+./kindletool create ota2 --device paperwhite2 run.ffs Update_${ARCH}_uninstall.bin
 
 rm -f run.ffs
 rm -f localization.tar.gz
