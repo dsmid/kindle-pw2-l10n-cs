@@ -1,26 +1,26 @@
 Parental Controls	Rodičovská nastavení
-Restrictions	
-When Parental Controls are enabled, Deregistration and Reset Device are disabled.~~~~When the Kindle Store is locked, you can continue buying books from your computer and send them to your Kindle.	
+Restrictions	Omezení
+When Parental Controls are enabled, Deregistration and Reset Device are disabled.~~~~When the Kindle Store is locked, you can continue buying books from your computer and send them to your Kindle.	Při aktivním rodičovském zámku není povolena odregistrace ani návrat do továrního nastavení.~~~~Pokud je přístup do Kindle Store uzamčen, můžete pokračovat v nákupu knih na počítači a posílat je do Kindlu.
 Web Browser	Webový prohlížeč
-Access to Experimental Web Browser.	
-Cloud	Na Internetu
-Access to Cloud.	
+Access to Experimental Web Browser.	Přístup k internetovému prohlížeči.
+Cloud	Internetové úložiště
+Access to Cloud.	Přístup k internetovému úložišti.
 Change Password	Změnit heslo
 Kindle Store	Kindle store
-Access to Kindle Store.	
-Goodreads on Kindle	
-Access to the Goodreadsʼ network of readers.	
+Access to Kindle Store.	Přístup do obchodu Kindle Store.
+Goodreads on Kindle	Síť Goodreads
+Access to the Goodreadsʼ network of readers.	Přístup k čtenářské síti Goodreads.
 Cancel	Zrušit
 Incorrect Password	Nesprávné heslo
-Invalid Password	
-When Parental Controls are enabled, Deregistration and Reset Device are disabled.	
-Set Parental Controls Password:	
-New Parental Controls Password:	
-Enter Parental Controls Password:	
-Current Parental Controls Password:	
-Incorrect password. Please try again:	
-Confirm Password:	
-Enter Password Hint: Enter a phrase that can help you remember your password.	
-{0,select, has_hint {Hint: {1}} other {}}~~~~If you have forgotten your password, please contact Kindle Customer Service at www.kindle.com/support to receive help resetting your device.	
-Passwords Do Not Match. Please try again.	
-Please enter a valid password.	
+Invalid Password	Neplatné heslo
+When Parental Controls are enabled, Deregistration and Reset Device are disabled.	Při aktivním rodičovském zámku není povolena odregistrace ani návrat do továrního nastavení.
+Set Parental Controls Password:	Nastavte heslo pro rodičovský zámek:
+New Parental Controls Password:	Nové heslo pro rodičovský zámek:
+Enter Parental Controls Password:	Zadejte heslo pro rodičovský zámek:
+Current Parental Controls Password:	Stávající heslo pro rodičovský zámek:
+Incorrect password. Please try again:	Nesprávné heslo. Prosím zkuste to znovu:
+Confirm Password:	Potvrďte heslo:
+Enter Password Hint: Enter a phrase that can help you remember your password.	Zadejte pomůcku hesla: Zadejte slovní spojení, jenž vám připomene vaše heslo.
+{0,select, has_hint {Hint: {1}} other {}}~~~~If you have forgotten your password, please contact Kindle Customer Service at www.kindle.com/support to receive help resetting your device.	{0,select, has_hint {Pomůcka: {1}} other {}}~~~~Pokud jste zapomněli své heslo, kontaktujte prosím oddělení péče o zákazníky na www.kindle.com/support, kde vám pomohou s návratem Kindlu do továrního nastavení.
+Passwords Do Not Match. Please try again.	Zadaná hesla jsou různá. Prosím zkuste to znovu.
+Please enter a valid password.	Zadejte prosím platné heslo.

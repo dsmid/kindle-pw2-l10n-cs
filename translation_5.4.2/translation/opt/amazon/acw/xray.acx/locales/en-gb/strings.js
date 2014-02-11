@@ -1,51 +1,51 @@
 All	Vše
-Artists	
+Artists	Umělci
 Book	Kniha
-(cont.)	
-Creatures	
-Current Chapter	
-Current Page	
-Dates	
-en-gb	
-Entire Book	
-Equations	
-Events	
+(cont.)	(pokr.)
+Creatures	Tvorové
+Current Chapter	Aktuální kapitola
+Current Page	Aktuální stránka
+Dates	Data
+en-gb	en-gb
+Entire Book	Celá kniha
+Equations	Rovnice
+Events	Události
 Full Wikipedia Article	Celý článek z Wikipedie
 Highlights	Zvýraznění
-Holidays	
-Hotels	
-http://creativecommons.org/licenses/by-sa/3.0/	
+Holidays	Svátky
+Hotels	Hotely
+http://creativecommons.org/licenses/by-sa/3.0/	http://creativecommons.org/licenses/by-sa/3.0/
 Chapter	Kapitola
-Ingredients	
-Location ${location}	
-Locations ${start} - ${end}	
-loc.${location}	
-loc.${start} - ${end}	
-Monsters	
+Ingredients	Přísady
+Location ${location}	Pozice ${location}
+Locations ${start} - ${end}	Pozice ${start} - ${end}
+loc.${location}	poz.${location}
+loc.${start} - ${end}	poz.${start} - ${end}
+Monsters	Příšery
 More	Více
 More on Shelfari	Více v katalogu Shelfari
-Organisations	
+Organisations	Organizace
 Page	Stránka
-Page ${page}	
-Page ${start} - ${end}	
-People	
-Places	
-Potions	
-p.${page}	
-p.${start} - ${end}	
-Quotes	
-Recipes	
-Restaurants	
-See more about this book.	
-Showing ${range} of ${total}	
-Spells	
-Subject to a <span class="license">Creative Commons Licence</span>	
-Terms	
-Theorems	
-This book does not contain X-Ray concepts.	
-This chapter does not contain X-Ray concepts.	
-This page does not contain X-Ray concepts.	
-Works	
-X-Ray	
-X-Ray concepts are not yet available for this book. See additional book information.	
-X-Ray is not available for this book	
+Page ${page}	Stránka ${page}
+Page ${start} - ${end}	Stránky ${start} - ${end}
+People	Lidé
+Places	Místa
+Potions	Lektvary
+p.${page}	str.${page}
+p.${start} - ${end}	str.${start} - ${end}
+Quotes	Citáty
+Recipes	Recepty
+Restaurants	Restaurace
+See more about this book.	Více o této knize.
+Showing ${range} of ${total}	Zobrazuji ${range} z ${total}
+Spells	Kouzla
+Subject to a <span class="license">Creative Commons Licence</span>	Podléha licenci <span class="license">Creative Commons</span>
+Terms	Termíny
+Theorems	Teorémy
+This book does not contain X-Ray concepts.	Tato kniha neobsahuje žádné údaje pro X-Ray.
+This chapter does not contain X-Ray concepts.	Tato kapitola neobsahuje žádné údaje pro X-Ray.
+This page does not contain X-Ray concepts.	Tato stránka neobsahuje žádné údaje pro X-Ray.
+Works	Díla
+X-Ray	X-Ray
+X-Ray concepts are not yet available for this book. See additional book information.	Tato kniha ještě nedisponuje údaji pro X-Ray. Více viz dotatečné informace o knize.
+X-Ray is not available for this book	Tato kniha nedisponuje údaji pro X-Ray

@@ -24,7 +24,7 @@ End	Konec
 Go to Page or Location	Jít na stránku nebo pozici
 Page or Location	Stránka nebo pozice
 Page 	Strana 
-Location	Umístění
+Location	Pozice
 Enter a page ({0}) or location ({1} - {2})	Zadat stranu ({0}) nebo pozici ({1} - {2})
 Enter a page (1 - {0}) or location ({1} - {2})	Zadat stranu (1 - {0}) nebo pozici ({1} - {2})
 Enter a page or location ({1} - {2})	Zadat stranu nebo pozici ({1} - {2})
@@ -43,11 +43,11 @@ View Note	Zobrazit poznámku
 Edit Note	Upravit poznámku
 Delete Note	Vymazat poznámku
 Highlight	Zvýraznění
-Delete	Smazat
-Sync to Furthest Page Read	Přejít na poslední přečtenou stranu
+Delete	Odstranit
+Sync to Furthest Page Read	Přejít na nejzazší dosaženou pozici
 Sync	Synchronizovat
 Sync Results	Synchronizovat výsledky
-Already at furthest read location.	Již jste na poslední přečtené pozici.
+Already at furthest read location.	Již jste na nejzazší dosažené pozici.
 Unable to Sync	Nelze synchronizovat
 To sync to the furthest page read, Annotations Backup must be turned on. Go to Settings from the Home screen menu, select Reading Options, then Annotations Backup.	Chcete-li synchronizovat poslední přečtenou stránku, musí být zapnuto zálohování poznámek. Přejděte na Nastavení v nabídce domovské obrazovky, zvolte možnost Volby čtení, pak Zálohování poznámek.
 Unable to retrieve the furthest location read. If this is the first time you have opened this book, your device will update your location when you close the book or your device goes to sleep.	Nelze načíst poslední přečtenou pozici. Pokud je to poprvé, co jste otevřeli tuto knihu, bude vaše čtečka aktualizovat vaši pozici když zavřete knihu nebo čtečka přejde do režimu spánku.
@@ -68,11 +68,11 @@ You are currently on page {0}, {1,number,percent} into the book. The furthest pa
 on {7,date,long}	dne {7,date,long}
 yesterday	včera
 today	dnes
-Retrieving furthest page read...	Zjišťuji poslední čtenou stranu...
+Retrieving furthest page read...	Zjišťuji nejzazší dosaženou pozici...
 Close	Zavřít
 Password-Protected	Chráněno heslem
 Incorrect Password	Nesprávné heslo
-This PDF is password-protected.	Tento PDF je chráněn heslem.
+This PDF is password-protected.	Toto PDF je chráněno heslem.
 Incorrect password. Please try again.	Nesprávné heslo. Zkuste to prosím znovu.
 Enter password: 	Zadejte heslo: 
 Submit	Odeslat
@@ -86,3 +86,4 @@ There is not enough Kindle memory to add or edit notes or marks on this document
 Low Memory	Málo paměti
 Share	Sdílení
 Shared Notes & Highlights	Sdílené poznámky a zvýraznění
+Normal	Normální

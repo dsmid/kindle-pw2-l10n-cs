@@ -1,15 +1,15 @@
-Aeroplane Mode must be turned off to use this feature.	
-An error occurred. Please try again.	
-Launch Wikipedia	
-No network detected. Please check your connection and try again.	
-No text was selected.	
-No Wikipedia results were found for your selection.	
-Open Wikipedia ▶	
-Searching Wikipedia...	
-Turn Off Aeroplane Mode	
+Aeroplane Mode must be turned off to use this feature.	Pro použití je třeba vypnout zákaz bezdrátového připojení.
+An error occurred. Please try again.	Někde se stala chyba. Zkuste to znovu prosím.
+Launch Wikipedia	Přejít na Wikipedii
+No network detected. Please check your connection and try again.	Připojení k síti nenalezeno. Prosím ověřte své připojení a zkuste to znovu.
+No text was selected.	Nebyl vybrán žádný text.
+No Wikipedia results were found for your selection.	Pro váš výběr nebyl nalezen žádný článek na Wikipedii.
+Open Wikipedia ▶	Otevřít na Wikipedii ▶
+Searching Wikipedia...	Vyhledávám na Wikipedii...
+Turn Off Aeroplane Mode	Vypnout zákaz bezdrátového připojení
 Turn On Wireless	Zapnout bezdrátové připojení
-Unable to contact the server. Please try again later.	
-Waiting for connection...	
+Unable to contact the server. Please try again later.	Server je nedostupný. Prosím zkuste to později.
+Waiting for connection...	Čekám na připojení...
 Wikipedia	Wikipedie
-Wikipedia lookups are not available when using FreeTime.	
-Wireless must be turned on to use this feature.	
+Wikipedia lookups are not available when using FreeTime.	Vyhledávání ve Wikipedii není možné, když je aktivní FreeTime.
+Wireless must be turned on to use this feature.	Je třeba funkční bezdrátové připojení

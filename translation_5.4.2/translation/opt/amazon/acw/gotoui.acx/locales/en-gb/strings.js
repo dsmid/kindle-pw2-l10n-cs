@@ -1,6 +1,6 @@
 Beginning	Začátek
 Cover	Obálka
-Cover Page	
+Cover Page	Předsádka
 End	Konec
 Front Matter	Titulní část
 Page or Location	Stránka nebo pozice
