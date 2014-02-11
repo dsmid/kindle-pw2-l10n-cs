@@ -22,18 +22,25 @@ fail()
 progress 10 "Mounting main partition r/w"
 mntroot rw || fail "Unable to mount main partition r/w".
 
-progress 30 "Copying upstart config to main partition"
+progress 20 "Copying upstart config to main partition"
 cp localization.conf /etc/upstart/ || fail "Unable to copy upstart config"
 
 
 if [ -d /mnt/us/localization ]
 then
-    progress 40 "Removing existing language files"
+    progress 30 "Removing existing language files"
     rm -rf /mnt/us/localization
 fi
 
-progress 50 "Unpacking language files to user store"
+progress 40 "Unpacking language files to user store"
 tar xzf localization.tar.gz -C /mnt/us/
+
+bookmarks=/mnt/us/.active_content_sandbox/browser/resource/LocalStorage/file__0.localstorage
+if echo "e97836b4b5a37a608ff01208542ac870 $bookmarks" | md5sum --status -c - 2>/dev/null || echo "6a5d715e7411f4958da84927fbbc100b $bookmarks" | md5sum --status -c - 2>/dev/null
+then
+    progress 60 "Resetting bookmarks"
+    rm -f $bookmarks
+fi
 
 progress 70 "Copying manual to Kindle"
 cp -f /mnt/us/localization/overlay/kug/Kindle_Users_Guide.azw3 /mnt/us/documents/

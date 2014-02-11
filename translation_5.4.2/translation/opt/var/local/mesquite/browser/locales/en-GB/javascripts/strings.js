@@ -31,7 +31,7 @@ http://news.bbc.co.uk/	http://www.eboocek.cz/
 http://uk.imdb.com/	http://www.csfd.cz/
 http://uk.yahoo.com/	http://www.seznam.cz
 http://www.amazon.co.uk/	http://www.amazon.com/
-http://www.dailymail.co.uk/	http://t.idnes.cz/
+http://www.dailymail.co.uk/	http://www.idnes.cz/?setver=touch
 http://www.google.co.uk/	http://www.google.cz/
 http://www.google.co.uk/search?q=	http://www.google.cz/search?q=
 In order to browse, you must first register your Kindle with your Amazon user account.	K prohlížení musíte nejprve zaregistrovat váš Kindle vaším uživatelským účtem Amazon.
