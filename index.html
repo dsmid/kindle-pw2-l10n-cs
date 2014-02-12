@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>Kindle-pw2-l10n-cs by dsmid</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>Kindle-pw2-l10n-cs</h1>
+          <h2>Czech localization for Kindle Paperwhite 2</h2>
+        </header>
+
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/dsmid/kindle-pw2-l10n-cs/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/dsmid/kindle-pw2-l10n-cs/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/dsmid/kindle-pw2-l10n-cs" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
+
+        <hr>
+
+        <section id="main_content">
+          <h2>
+<a name="pro-instalaci-do-kindlu-stahujte-zde" class="anchor" href="#pro-instalaci-do-kindlu-stahujte-zde"><span class="octicon octicon-link"></span></a>Pro instalaci do Kindlu stahujte <a href="https://github.com/dsmid/kindle-pw2-l10n-cs/releases">zde</a>.</h2>
+
+<hr><h1>
+<a name="czech-localization-for-kindle-paperwhite-2" class="anchor" href="#czech-localization-for-kindle-paperwhite-2"><span class="octicon octicon-link"></span></a>Czech localization for Kindle Paperwhite 2</h1>
+
+<p>This repository contains all that is needed to build a Czech localization package for Kindle PW2.
+It allows submitting translation in pure text files and using SQLite database to adapt the tree for a new
+firmware version.</p>
+
+<p>I took a different approach than ixtab &amp; Co.
+Instead of adding a new locale, I just 'replaced' en_GB specific files with Czech counterparts.
+I know that it is not POSIXly correct but it's safe and easy. Adding new files would be very difficult as
+many resources happen to dwell inside CramFS loopback files. One English locale is more than enough for a
+non-English speaking user anyway.</p>
+
+<p>I've used Sir Alex' K3Translator to inject Czech phrases into the JARs instead of the British ones. It's
+very similar to K3 localization process.
+To be on the safe side I don't overwrite stock files and dirs but bind-mount the Czech replacement instead.
+The only addition to the system is a simple upstart config file that performs the bindings listed in
+userstore.
+This approach should work on any Kindle model with touch screen, even Touch and Paperwhite 1 but I can't localize these
+because I don't own any of them.</p>
+
+<p>I'm looking for volunteers brave enough to test the localization or able to help with translation.
+When the Czech localization is ready I will be prepared to help with localizing to other languages.</p>
+
+<p>Here's a FAQ in Czech, you can safely ignore it if you can't speak Czech:</p>
+
+<hr><h2>
+<a name="faq" class="anchor" href="#faq"><span class="octicon octicon-link"></span></a>FAQ</h2>
+
+<h3>
+<a name="1-jak-mohu-p%C5%99isp%C4%9Bt" class="anchor" href="#1-jak-mohu-p%C5%99isp%C4%9Bt"><span class="octicon octicon-link"></span></a>1. Jak mohu přispět</h3>
+
+<p>Potřebuji pomoci jednak s překladem (k tomu stačí dobrá znalost angličtiny a češtiny + práce s čistě textovými soubory na PC) a také s testováním přímo na Kindlu (k čemuž stačí pouze šťouravost a malý kousek odvahy).</p>
+
+<h3>
+<a name="2-je-mo%C5%BEn%C3%A9-po-experimentech-vr%C3%A1tit-%C4%8Dte%C4%8Dku-do-p%C5%AFvodn%C3%ADho-stavu" class="anchor" href="#2-je-mo%C5%BEn%C3%A9-po-experimentech-vr%C3%A1tit-%C4%8Dte%C4%8Dku-do-p%C5%AFvodn%C3%ADho-stavu"><span class="octicon octicon-link"></span></a>2. Je možné po experimentech vrátit čtečku do původního stavu?</h3>
+
+<p>Ano je. Jediné co v systému přibude bude jailbreak (tj. jeden soubor s certifikátem navíc) a zavaděč lokalizace (opět jeden soubor navíc).
+Obojí bude možné odinstalovat.</p>
+
+<h3>
+<a name="3-nep%C5%99ijdu-o-z%C3%A1ruku" class="anchor" href="#3-nep%C5%99ijdu-o-z%C3%A1ruku"><span class="octicon octicon-link"></span></a>3. Nepřijdu o záruku?</h3>
+
+<p>Ne. Amazon vrácené Kindly nijak nezkoumá a v aktuálních reklamačních podmínkách se žádný zákaz manipulace s firmwarem nevyskytuje.
+Jedině snad český prodejce by mohl zásah do firmware použít jako záminku pro neuznání reklamace - ale to by se to musel nejdříve nějak dozvědět. I to by však bylo po právní stránce velice sporné, zvlášť pokud byste reklamovali fyzickou závadu.</p>
+
+<h3>
+<a name="4-jak%C3%BDm-zp%C5%AFsobem-p%C5%99isp%C4%9Bt-k-p%C5%99ekladu" class="anchor" href="#4-jak%C3%BDm-zp%C5%AFsobem-p%C5%99isp%C4%9Bt-k-p%C5%99ekladu"><span class="octicon octicon-link"></span></a>4. Jakým způsobem přispět k překladu?</h3>
+
+<p>Překlad i vše co je potřeba k tvorbě lokalizačního balíčku je na GitHubu: <a href="https://github.com/dsmid/kindle-pw2-l10n-cs">https://github.com/dsmid/kindle-pw2-l10n-cs</a>
+Stačí si tam založit účet a vytvořit svůj fork projektu. Pak je možné editovat překlady buď přímo na webu nebo u sebe v počítači.
+Pokud budete pracovat na webu, ujistěte se prosím, že máte v editoru nastaven Indent mode na Tabs, ne Spaces.
+GitHub klient pro Windows se dá stáhnout <a href="http://windows.github.com/">tady</a>, fungují samozřejmě i běžné nástroje pro práci s gitem.
+Každou změnu (tzv. commit) můžete sloučit s hlavním repozitářem (tj. poslat nový pull request v záložce <code>Pull Requests</code> vašeho forku). Doporučuji posílat pull requesty často, aby se nestalo, že budou dva lidé pracovat na překladu stejných frází.</p>
+
+<p>Hlavní část překladu je možné nalézt v adresáři <a href="translation_5.4.2/translation">translation_5.4.2/translation</a>
+Je tam poměrně košatý strom souborů s příponou .translation .
+Ty mají následující formát:</p>
+
+<pre><code>&lt;fráze v angličtine&gt;&lt;TAB&gt;&lt;fráze v češtině&gt;
+&lt;fráze v angličtine&gt;&lt;TAB&gt;&lt;fráze v češtině&gt;
+...
+</code></pre>
+
+<p>Příklad: <a href="translation_5.4.2/translation/com/amazon/agui/swing/resources/ComponentResources_en_GB.translation">translation_5.4.2/translation/com/amazon/agui/swing/resources/ComponentResources_en_GB.translation</a></p>
+
+<p><code>&lt;TAB&gt;</code> je ASCII znak 09h, tj. tabelátor, není možné místo něj použít mezery a na každé řádce by měl být pouze jednou. Pokud chybí český překlad, ve výsledku se zachová anglický výraz.</p>
+
+<p>Tj. stačí dále už jen stačí procházet strom, nalézat soubory s příponou .translation a v nich nepřeložené hlášky.
+V tom může pomoci <a href="translation_5.4.2/translation_unfinished/nottranslated.zip">index nepřeložených hlášek</a> (<code>View raw</code> pro stáhnutí).</p>
+
+<hr><p><img src="https://lh3.googleusercontent.com/-ONM91ybPGzQ/Uu5SSsMi_aI/AAAAAAAACo8/0QmnVeX9tgY/w610-h824-no/screenshot_2014_02_02T15_10_42%252B0100.png" alt="Screenshot"></p>
+        </section>
+
+        <footer>
+          Kindle-pw2-l10n-cs is maintained by <a href="https://github.com/dsmid">dsmid</a><br>
+          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+        
+      </div>
+    </div>
+  </body>
+</html>
