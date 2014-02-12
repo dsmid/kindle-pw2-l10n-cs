@@ -32,3 +32,5 @@ Unknown	Neznámý
 Waiting for connection...	Čekám na připojení...
 Wireless must be turned on to use this feature.	Je třeba funkční bezdrátové připojení
 Czech	Čeština
+Slovak	Slovenština
+Polish	Polština
