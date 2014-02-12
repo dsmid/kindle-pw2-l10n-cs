@@ -30,7 +30,7 @@
                 },
                 {
                     "width": 426,
-                    "label": "space",
+                    "label": "mezera",
                     "value": " ",
                     "x": 130,
                     "y": 222 
@@ -76,7 +76,7 @@
                 },
                 {
                     "width": 355,
-                    "label": "space",
+                    "label": "mezera",
                     "value": " ",
                     "x": 201,
                     "y": 222 
@@ -114,7 +114,7 @@
                 },
                 {
                     "width": 426,
-                    "label": "space",
+                    "label": "mezera",
                     "value": " ",
                     "x": 130,
                     "y": 222 
@@ -160,7 +160,7 @@
                 },
                 {
                     "width": 355,
-                    "label": "space",
+                    "label": "mezera",
                     "value": " ",
                     "x": 201,
                     "y": 222 
@@ -210,19 +210,21 @@
                     "y": 9 
                 },
                 {
+                    "hold": 11,
                     "label": "r",
                     "value": "r",
                     "x": 237,
                     "y": 9 
                 },
                 {
+                    "hold": 12,
                     "label": "t",
                     "value": "t",
                     "x": 308,
                     "y": 9 
                 },
                 {
-                    "hold" : 9,
+                    "hold" : 14,
                     "label": "z",
                     "value": "z",
                     "x": 379,
@@ -307,6 +309,7 @@
                     "y": 80 
                 },
                 {
+                    "hold": 13,
                     "label": "l",
                     "value": "l",
                     "x": 627,
@@ -321,6 +324,7 @@
                     "y": 151 
                 },
                 {
+                    "hold" : 9,
                     "label": "y",
                     "value": "y",
                     "x": 130,
@@ -402,19 +406,21 @@
                     "y": 9 
                 },
                 {
+                    "hold" : 111,
                     "label": "R",
                     "value": "R",
                     "x": 237,
                     "y": 9 
                 },
                 {
+                    "hold" : 112,
                     "label": "T",
                     "value": "T",
                     "x": 308,
                     "y": 9 
                 },
                 {
-                    "hold" : 109,
+                    "hold" : 114,
                     "label": "Z",
                     "value": "Z",
                     "x": 379,
@@ -499,12 +505,14 @@
                     "y": 80 
                 },
                 {
+                    "hold" : 113,
                     "label": "L",
                     "value": "L",
                     "x": 627,
                     "y": 80 
                 },
                 {
+                    "hold" : 109,
                     "label": "Y",
                     "value": "Y",
                     "x": 130,
@@ -661,8 +669,8 @@
                     "y": 9 
                 },
                 {
-                    "label": "£",
-                    "value": "£",
+                    "label": "$",
+                    "value": "$",
                     "x": 59,
                     "y": 80 
                 },
@@ -998,8 +1006,8 @@
                 },
                 {
                     "modifier" : 1,
-                    "label": "$",
-                    "value": "$",
+                    "label": "£",
+                    "value": "£",
                     "x": 556,
                     "y": 151 
                 },
@@ -1045,8 +1053,8 @@
                 {
                     "hold" : 300,
                     "width": 99,
-                    "label": ".co.uk",
-                    "value": ".co.uk",
+                    "label": ".cz",
+                    "value": ".cz",
                     "x": 329,
                     "y": 222 
                 },
@@ -1114,8 +1122,8 @@
                 {
                     "hold" : 300,
                     "width": 86,
-                    "label": ".co.uk",
-                    "value": ".co.uk",
+                    "label": ".cz",
+                    "value": ".cz",
                     "x": 371,
                     "y": 222 
                 },
@@ -1175,8 +1183,8 @@
                 {
                     "hold" : 300,
                     "width": 99,
-                    "label": ".co.uk",
-                    "value": ".co.uk",
+                    "label": ".cz",
+                    "value": ".cz",
                     "x": 329,
                     "y": 222 
                 },
@@ -1244,8 +1252,8 @@
                 {
                     "hold" : 300,
                     "width": 86,
-                    "label": ".co.uk",
-                    "value": ".co.uk",
+                    "label": ".cz",
+                    "value": ".cz",
                     "x": 371,
                     "y": 222 
                 },
@@ -1283,14 +1291,14 @@
             "modifier" : 0,
             "keys": [
                 {
-                    "label": "à",
-                    "value": "à",
+                    "label": "á",
+                    "value": "á",
                     "x": 95,
                     "y": -50 
                 },
                 {
-                    "label": "á",
-                    "value": "á",
+                    "label": "ä",
+                    "value": "ä",
                     "x": 166,
                     "y": -50 
                 },
@@ -1307,8 +1315,8 @@
                     "y": -50 
                 },
                 {
-                    "label": "ä",
-                    "value": "ä",
+                    "label": "à",
+                    "value": "à",
                     "x": 379,
                     "y": -50 
                 },
@@ -1342,8 +1350,8 @@
             "modifier" : 0,
             "keys": [
                 {
-                    "label": "ç",
-                    "value": "ç",
+                    "label": "č",
+                    "value": "č",
                     "x": 201,
                     "y": -50 
                 },
@@ -1360,8 +1368,8 @@
                     "y": -50 
                 },
                 {
-                    "label": "č",
-                    "value": "č",
+                    "label": "ç",
+                    "value": "ç",
                     "x": 414,
                     "y": -50 
                 },
@@ -1383,14 +1391,14 @@
             "modifier" : 0,
             "keys": [
                 {
-                    "label": "è",
-                    "value": "è",
+                    "label": "é",
+                    "value": "é",
                     "x": 201,
                     "y": -50 
                 },
                 {
-                    "label": "é",
-                    "value": "é",
+                    "label": "ě",
+                    "value": "ě",
                     "x": 272,
                     "y": -50 
                 },
@@ -1407,9 +1415,15 @@
                     "y": -50 
                 },
                 {
+                    "label": "è",
+                    "value": "è",
+                    "x": 485,
+                    "y": -50 
+                },
+                {
                     "label": "e",
                     "value": "e",
-                    "x": 485,
+                    "x": 556,
                     "y": -50 
                 }
             ] 
@@ -1424,14 +1438,14 @@
             "modifier" : 0,
             "keys": [
                 {
-                    "label": "ì",
-                    "value": "ì",
+                    "label": "í",
+                    "value": "í",
                     "x": 166,
                     "y": -50 
                 },
                 {
-                    "label": "í",
-                    "value": "í",
+                    "label": "ì",
+                    "value": "ì",
                     "x": 237,
                     "y": -50 
                 },
@@ -1471,20 +1485,20 @@
             "modifier" : 0,
             "keys": [
                 {
+                    "label": "ň",
+                    "value": "ň",
+                    "x": 237,
+                    "y": -50 
+                },
+                {
                     "label": "ǹ",
                     "value": "ǹ",
-                    "x": 237,
+                    "x": 308,
                     "y": -50 
                 },
                 {
                     "label": "ñ",
                     "value": "ñ",
-                    "x": 308,
-                    "y": -50 
-                },
-                {
-                    "label": "ň",
-                    "value": "ň",
                     "x": 379,
                     "y": -50 
                 },
@@ -1506,32 +1520,32 @@
             "modifier" : 0,
             "keys": [
                 {
-                    "label": "ò",
-                    "value": "ò",
-                    "x": 95,
-                    "y": -50 
-                },
-                {
                     "label": "ó",
                     "value": "ó",
-                    "x": 166,
+                    "x": 95,
                     "y": -50 
                 },
                 {
                     "label": "ô",
                     "value": "ô",
-                    "x": 237,
-                    "y": -50 
-                },
-                {
-                    "label": "õ",
-                    "value": "õ",
-                    "x": 308,
+                    "x": 166,
                     "y": -50 
                 },
                 {
                     "label": "ö",
                     "value": "ö",
+                    "x": 237,
+                    "y": -50 
+                },
+                {
+                    "label": "ò",
+                    "value": "ò",
+                    "x": 308,
+                    "y": -50 
+                },
+                {
+                    "label": "õ",
+                    "value": "õ",
                     "x": 379,
                     "y": -50 
                 },
@@ -1565,14 +1579,14 @@
             "modifier" : 0,
             "keys": [
                 {
-                    "label": "ś",
-                    "value": "ś",
+                    "label": "š",
+                    "value": "š",
                     "x": 201,
                     "y": -50 
                 },
                 {
-                    "label": "š",
-                    "value": "š",
+                    "label": "ś",
+                    "value": "ś",
                     "x": 272,
                     "y": -50 
                 },
@@ -1606,33 +1620,39 @@
             "modifier" : 0,
             "keys": [
                 {
-                    "label": "ù",
-                    "value": "ù",
+                    "label": "ú",
+                    "value": "ú",
                     "x": 201,
                     "y": -50 
                 },
                 {
-                    "label": "ú",
-                    "value": "ú",
+                    "label": "ů",
+                    "value": "ů",
                     "x": 272,
-                    "y": -50 
-                },
-                {
-                    "label": "û",
-                    "value": "û",
-                    "x": 343,
                     "y": -50 
                 },
                 {
                     "label": "ü",
                     "value": "ü",
+                    "x": 343,
+                    "y": -50 
+                },
+                {
+                    "label": "ù",
+                    "value": "ù",
                     "x": 414,
+                    "y": -50 
+                },
+                {
+                    "label": "û",
+                    "value": "û",
+                    "x": 485,
                     "y": -50 
                 },
                 {
                     "label": "u",
                     "value": "u",
-                    "x": 485,
+                    "x": 556,
                     "y": -50 
                 }
             ] 
@@ -1682,6 +1702,12 @@
             "modifier" : 0,
             "keys": [
                 {
+                    "label": "ď",
+                    "value": "ď",
+                    "x": 201,
+                    "y": -50 
+                },
+                {
                     "label": "ð",
                     "value": "ð",
                     "x": 272,
@@ -1702,6 +1728,146 @@
             ]
         },
         {
+            "comment": "diacritical R lowercase",
+            "type": 8192,
+            "diacritical": 11,
+            "height": 71,
+            "width" : 71,
+            "font" : "Futura 11",
+            "modifier" : 0,
+            "keys": [
+                {
+                    "label": "ř",
+                    "value": "ř",
+                    "x": 201,
+                    "y": -50 
+                },
+                {
+                    "label": "ŕ",
+                    "value": "ŕ",
+                    "x": 272,
+                    "y": -50 
+                },
+                {
+                    "label": "ŗ",
+                    "value": "ŗ",
+                    "x": 343,
+                    "y": -50 
+                },
+                {
+                    "label": "r",
+                    "value": "r",
+                    "x": 414,
+                    "y": -50 
+                }
+            ]
+        },
+        {
+            "comment": "diacritical T lowercase",
+            "type": 8192,
+            "diacritical": 12,
+            "height": 71,
+            "width" : 71,
+            "font" : "Futura 11",
+            "modifier" : 0,
+            "keys": [
+                {
+                    "label": "ť",
+                    "value": "ť",
+                    "x": 201,
+                    "y": -50 
+                },
+                {
+                    "label": "ț",
+                    "value": "ț",
+                    "x": 272,
+                    "y": -50 
+                },
+                {
+                    "label": "ţ",
+                    "value": "ţ",
+                    "x": 343,
+                    "y": -50 
+                },
+                {
+                    "label": "t",
+                    "value": "t",
+                    "x": 414,
+                    "y": -50 
+                }
+            ]
+        },
+        {
+            "comment": "diacritical L lowercase",
+            "type": 8192,
+            "diacritical": 13,
+            "height": 71,
+            "width" : 71,
+            "font" : "Futura 11",
+            "modifier" : 0,
+            "keys": [
+                {
+                    "label": "ľ",
+                    "value": "ľ",
+                    "x": 201,
+                    "y": -50 
+                },
+                {
+                    "label": "ĺ",
+                    "value": "ĺ",
+                    "x": 272,
+                    "y": -50 
+                },
+                {
+                    "label": "ł",
+                    "value": "ł",
+                    "x": 343,
+                    "y": -50 
+                },
+                {
+                    "label": "l",
+                    "value": "l",
+                    "x": 414,
+                    "y": -50 
+                }
+            ]
+        },
+        {
+            "comment": "diacritical Z lowercase",
+            "type": 8192,
+            "diacritical": 14,
+            "height": 71,
+            "width" : 71,
+            "font" : "Futura 11",
+            "modifier" : 0,
+            "keys": [
+                {
+                    "label": "ž",
+                    "value": "ž",
+                    "x": 201,
+                    "y": -50 
+                },
+                {
+                    "label": "ź",
+                    "value": "ź",
+                    "x": 272,
+                    "y": -50 
+                },
+                {
+                    "label": "ż",
+                    "value": "ż",
+                    "x": 343,
+                    "y": -50 
+                },
+                {
+                    "label": "z",
+                    "value": "z",
+                    "x": 414,
+                    "y": -50 
+                }
+            ]
+        },
+        {
             "comment": "diacritical A uppercase",
             "type": 8192,
             "diacritical": 101,
@@ -1711,20 +1877,20 @@
             "modifier" : 1,
             "keys": [
                 {
-                    "label": "À",
-                    "value": "à",
+                    "label": "Á",
+                    "value": "á",
                     "x": 95,
                     "y": -50 
                 },
                 {
-                    "label": "Á",
-                    "value": "á",
+                    "label": "Ä",
+                    "value": "ä",
                     "x": 166,
                     "y": -50 
                 },
                 {
-                    "label": "Â",
-                    "value": "â",
+                    "label": "À",
+                    "value": "à",
                     "x": 237,
                     "y": -50 
                 },
@@ -1735,8 +1901,8 @@
                     "y": -50 
                 },
                 {
-                    "label": "Ä",
-                    "value": "ä",
+                    "label": "Â",
+                    "value": "â",
                     "x": 379,
                     "y": -50 
                 },
@@ -1770,8 +1936,8 @@
             "modifier" : 1,
             "keys": [
                 {
-                    "label": "Ç",
-                    "value": "ç",
+                    "label": "Č",
+                    "value": "Č",
                     "x": 201,
                     "y": -50 
                 },
@@ -1788,8 +1954,8 @@
                     "y": -50 
                 },
                 {
-                    "label": "Č",
-                    "value": "Č",
+                    "label": "Ç",
+                    "value": "ç",
                     "x": 414,
                     "y": -50 
                 },
@@ -1811,20 +1977,20 @@
             "modifier" : 1,
             "keys": [
                 {
-                    "label": "È",
-                    "value": "è",
+                    "label": "É",
+                    "value": "é",
                     "x": 201,
                     "y": -50 
                 },
                 {
-                    "label": "É",
-                    "value": "é",
+                    "label": "Ě",
+                    "value": "ě",
                     "x": 272,
                     "y": -50 
                 },
                 {
-                    "label": "Ê",
-                    "value": "ê",
+                    "label": "È",
+                    "value": "è",
                     "x": 343,
                     "y": -50 
                 },
@@ -1835,9 +2001,15 @@
                     "y": -50 
                 },
                 {
+                    "label": "Ê",
+                    "value": "ê",
+                    "x": 485,
+                    "y": -50 
+                },
+                {
                     "label": "E",
                     "value": "e",
-                    "x": 485,
+                    "x": 556,
                     "y": -50 
                 }
             ] 
@@ -1852,14 +2024,14 @@
             "modifier" : 1,
             "keys": [
                 {
-                    "label": "Ì",
-                    "value": "ì",
+                    "label": "Í",
+                    "value": "í",
                     "x": 166,
                     "y": -50 
                 },
                 {
-                    "label": "Í",
-                    "value": "í",
+                    "label": "Ì",
+                    "value": "ì",
                     "x": 237,
                     "y": -50 
                 },
@@ -1899,9 +2071,8 @@
             "modifier" : 1,
             "keys": [
                 {
-                    "modifier": 3,
-                    "label": "Ǹ",
-                    "value": "Ǹ",
+                    "label": "Ň",
+                    "value": "Ň",
                     "x": 237,
                     "y": -50 
                 },
@@ -1912,8 +2083,9 @@
                     "y": -50 
                 },
                 {
-                    "label": "Ň",
-                    "value": "Ň",
+                    "modifier": 3,
+                    "label": "Ǹ",
+                    "value": "Ǹ",
                     "x": 379,
                     "y": -50 
                 },
@@ -1935,20 +2107,20 @@
             "modifier" : 1,
             "keys": [
                 {
-                    "label": "Ò",
-                    "value": "ò",
-                    "x": 95,
-                    "y": -50 
-                },
-                {
                     "label": "Ó",
                     "value": "ó",
-                    "x": 166,
+                    "x": 95,
                     "y": -50 
                 },
                 {
                     "label": "Ô",
                     "value": "ô",
+                    "x": 166,
+                    "y": -50 
+                },
+                {
+                    "label": "Ö",
+                    "value": "ö",
                     "x": 237,
                     "y": -50 
                 },
@@ -1959,8 +2131,8 @@
                     "y": -50 
                 },
                 {
-                    "label": "Ö",
-                    "value": "ö",
+                    "label": "Ò",
+                    "value": "ò",
                     "x": 379,
                     "y": -50 
                 },
@@ -1994,14 +2166,14 @@
             "modifier" : 1,
             "keys": [
                 {
-                    "label": "Ś",
-                    "value": "Ś",
+                    "label": "Š",
+                    "value": "Š",
                     "x": 237,
                     "y": -50 
                 },
                 {
-                    "label": "Š",
-                    "value": "Š",
+                    "label": "Ś",
+                    "value": "Ś",
                     "x": 308,
                     "y": -50 
                 },
@@ -2029,33 +2201,39 @@
             "modifier" : 1,
             "keys": [
                 {
-                    "label": "Ù",
-                    "value": "ù",
+                    "label": "Ú",
+                    "value": "ú",
                     "x": 201,
                     "y": -50 
                 },
                 {
-                    "label": "Ú",
-                    "value": "ú",
+                    "label": "Ů",
+                    "value": "ů",
                     "x": 272,
-                    "y": -50 
-                },
-                {
-                    "label": "Û",
-                    "value": "û",
-                    "x": 343,
                     "y": -50 
                 },
                 {
                     "label": "Ü",
                     "value": "ü",
+                    "x": 343,
+                    "y": -50 
+                },
+                {
+                    "label": "Û",
+                    "value": "û",
                     "x": 414,
+                    "y": -50 
+                },
+                {
+                    "label": "Ù",
+                    "value": "ù",
+                    "x": 485,
                     "y": -50 
                 },
                 {
                     "label": "U",
                     "value": "u",
-                    "x": 485,
+                    "x": 556,
                     "y": -50 
                 }
             ] 
@@ -2105,6 +2283,12 @@
             "modifier" : 1,
             "keys": [
                 {
+                    "label": "Ď",
+                    "value": "Ď",
+                    "x": 201,
+                    "y": -50 
+                },
+                {
                     "label": "Ð",
                     "value": "Ð",
                     "x": 272,
@@ -2119,6 +2303,146 @@
                 {
                     "label": "D",
                     "value": "D",
+                    "x": 414,
+                    "y": -50 
+                }
+            ]
+        },
+        {
+            "comment": "diacritical R uppercase",
+            "type": 8192,
+            "diacritical": 111,
+            "height": 71,
+            "width" : 71,
+            "font" : "Futura 11",
+            "modifier" : 1,
+            "keys": [
+                {
+                    "label": "Ř",
+                    "value": "Ř",
+                    "x": 201,
+                    "y": -50 
+                },
+                {
+                    "label": "Ŕ",
+                    "value": "Ŕ",
+                    "x": 272,
+                    "y": -50 
+                },
+                {
+                    "label": "Ŗ",
+                    "value": "Ŗ",
+                    "x": 343,
+                    "y": -50 
+                },
+                {
+                    "label": "R",
+                    "value": "R",
+                    "x": 414,
+                    "y": -50 
+                }
+            ]
+        },
+        {
+            "comment": "diacritical T uppercase",
+            "type": 8192,
+            "diacritical": 112,
+            "height": 71,
+            "width" : 71,
+            "font" : "Futura 11",
+            "modifier" : 1,
+            "keys": [
+                {
+                    "label": "Ť",
+                    "value": "Ť",
+                    "x": 201,
+                    "y": -50 
+                },
+                {
+                    "label": "Ț",
+                    "value": "Ț",
+                    "x": 272,
+                    "y": -50 
+                },
+                {
+                    "label": "Ţ",
+                    "value": "Ţ",
+                    "x": 343,
+                    "y": -50 
+                },
+                {
+                    "label": "T",
+                    "value": "T",
+                    "x": 414,
+                    "y": -50 
+                }
+            ]
+        },
+        {
+            "comment": "diacritical L uppercase",
+            "type": 8192,
+            "diacritical": 113,
+            "height": 71,
+            "width" : 71,
+            "font" : "Futura 11",
+            "modifier" : 1,
+            "keys": [
+                {
+                    "label": "Ľ",
+                    "value": "Ľ",
+                    "x": 201,
+                    "y": -50 
+                },
+                {
+                    "label": "Ĺ",
+                    "value": "Ĺ",
+                    "x": 272,
+                    "y": -50 
+                },
+                {
+                    "label": "Ł",
+                    "value": "Ł",
+                    "x": 343,
+                    "y": -50 
+                },
+                {
+                    "label": "L",
+                    "value": "L",
+                    "x": 414,
+                    "y": -50 
+                }
+            ]
+        },
+        {
+            "comment": "diacritical Z uppercase",
+            "type": 8192,
+            "diacritical": 114,
+            "height": 71,
+            "width" : 71,
+            "font" : "Futura 11",
+            "modifier" : 1,
+            "keys": [
+                {
+                    "label": "Ž",
+                    "value": "Ž",
+                    "x": 201,
+                    "y": -50 
+                },
+                {
+                    "label": "Ź",
+                    "value": "Ź",
+                    "x": 272,
+                    "y": -50 
+                },
+                {
+                    "label": "Ż",
+                    "value": "Ż",
+                    "x": 343,
+                    "y": -50 
+                },
+                {
+                    "label": "Z",
+                    "value": "Z",
                     "x": 414,
                     "y": -50 
                 }
@@ -2152,9 +2476,15 @@
                     "y": -50 
                 },
                 {
+                    "label": "“",
+                    "value": "“",
+                    "x": 450,
+                    "y": -50 
+                },
+                {
                     "label": "\"",
                     "value": "\"",
-                    "x": 450,
+                    "x": 521,
                     "y": -50 
                 }
             ]
@@ -2333,21 +2663,21 @@
                     "y": -50 
                 },
                 {
-                    "label": ".gov",
-                    "value": ".gov",
+                    "label": ".com",
+                    "value": ".com",
                     "x": 429,
                     "y": -50 
                 },
                 {
-                    "label": ".com",
-                    "value": ".com",
+                    "label": ".sk",
+                    "value": ".sk",
                     "x": 528,
                     "y": -50 
                 },
                 {
                     "width" : 114,
-                    "label": ".co.uk",
-                    "value": ".co.uk",
+                    "label": ".cz",
+                    "value": ".cz",
                     "x": 627,
                     "y": -50 
                 }
