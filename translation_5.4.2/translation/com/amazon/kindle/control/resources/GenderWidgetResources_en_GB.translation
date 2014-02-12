@@ -1,1 +1,1 @@
-{0, select, male {Boy} female {Girl} other {Boy}}	
+{0, select, male {Boy} female {Girl} other {Boy}}	{0, select, male {Chlapec} female {Dívka} other {Chlapec}}
