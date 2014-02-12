@@ -1,7 +1,7 @@
-Unsupported Characters	
-The name you entered included characters that are not supported. Please enter the name again.	
-Limit Reached	
-You have reached the limit on the number of children who can register with FreeTime.	
-You have reached the limit on the number of adult profiles allowed for FreeTime.	
-Server Error	
-{0, select, create { Weʼre currently experiencing problems creating new profiles. Please try again later.}  udpate { Weʼre currently experiencing problems editing profiles. Please try again later.} remove { Weʼre currently experiencing problems deleting profiles. Please try again later.}  other { Weʼre currently experiencing problems editing profiles. Please try again later.} }	
+Unsupported Characters	Nepodporované znaky
+The name you entered included characters that are not supported. Please enter the name again.	Vámi vložený název obsahuje znaky, které nejsou podporovány. Prosím, zadejte název znovu.
+Limit Reached	Dosažen limit
+You have reached the limit on the number of children who can register with FreeTime.	Dosáhli jste limitu v počtu dětí, které se mohou registrovat na FreeTime.
+You have reached the limit on the number of adult profiles allowed for FreeTime.	Dosáhli jste limitu pro počet dospělých profilů povolených pro FreeTime.
+Server Error	Chyba serveru
+{0, select, create { Weʼre currently experiencing problems creating new profiles. Please try again later.}  udpate { Weʼre currently experiencing problems editing profiles. Please try again later.} remove { Weʼre currently experiencing problems deleting profiles. Please try again later.}  other { Weʼre currently experiencing problems editing profiles. Please try again later.} }	{0, select, create { Momentálně je problém s tvorbou nových profilů. Zkuste to prosím znovu později.}  udpate { Momentálně je problém s úpravou profilů. Zkuste to prosím znovu později.} remove { Momentálně je problém s rušením profilů. Zkuste to prosím znovu později.}  other { Momentálně je problém s úpravou profilů. Zkuste to prosím znovu později.} }
