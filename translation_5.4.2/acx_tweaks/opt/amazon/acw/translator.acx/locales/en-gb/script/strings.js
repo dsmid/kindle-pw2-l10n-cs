@@ -28,6 +28,8 @@ TranslatorData.strings = {
     lang_hi: "Hindi",
     lang_da: "Danish",
     lang_cs: "Czech",
+    lang_sk: "Slovak",
+    lang_pl: "Polish",
     turn_off_airplane_mode: "Turn Off Aeroplane Mode",
     airplane_mode_message: "Aeroplane Mode must be turned off to use this feature.",
     turn_on_wireless: "Turn On Wireless",
