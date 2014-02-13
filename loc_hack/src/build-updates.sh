@@ -8,7 +8,7 @@ PKGVER="${VERSION}-${RELEASE}"
 # Prepare our files for this specific kindle model...
 ARCH=${PKGNAME}_${PKGVER}
 
-tar cvz --xform "s|^|localization/|" --show-transformed-names -f localization.tar.gz overlay.list -C ../.. overlay
+tar cvz --xform "s|^|localization/|" --show-transformed-names -f localization.tar.gz overlay.list rsync -C ../.. overlay
 recode -f utf8..flat < cti-me-utf8.txt > cti-me.txt
 unix2dos cti-me.txt
 
