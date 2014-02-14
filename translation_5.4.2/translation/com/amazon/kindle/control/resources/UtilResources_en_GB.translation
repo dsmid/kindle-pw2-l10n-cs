@@ -1,54 +1,54 @@
 Cancel	Zrušit
 Delete This Book	Smazat tuto knihu
-{0}~~~~Are you sure you want to delete this book?	
+{0}~~~~Are you sure you want to delete this book?	{0}~~~~Opravdu chcete smazat tuto knihu?
 Delete This Sample	Smazat tuto ukázku
-{0}~~~~Are you sure you want to delete this sample?	
+{0}~~~~Are you sure you want to delete this sample?	{0}~~~~Opravdu chcete smazat tuto ukázku?
 Delete This Collection	Smazat kolekci
-This collection is synced across all of your devices and will be deleted on all of them.~~~~Deleting a collection does not remove the content stored on your device or in the Cloud. Are you sure you want to delete this collection?	
+This collection is synced across all of your devices and will be deleted on all of them.~~~~Deleting a collection does not remove the content stored on your device or in the Cloud. Are you sure you want to delete this collection?	Tato kolekce je synchronizována na všech vašich zařízeních a bude na všechodstraněna.~~~~Odstranění kolekce neodstraní obsah uložený ve vašem zařízení nebo v cloudu. Opravdu chcete smazat tuto kolekci?
 Delete This Document	Smazat tento dokument
-{0}~~~~Are you sure you want to delete this document?	
+{0}~~~~Are you sure you want to delete this document?	{0}~~~~Opravdu chcete smazat tento dokument?
 Delete This Issue	Smazat toto vydání
-{0}: {1,date,EEE}, {1,date,medium}~~~~Are you sure you want to delete this issue?	
+{0}: {1,date,EEE}, {1,date,medium}~~~~Are you sure you want to delete this issue?	{0}: {1,date,EEE}, {1,date,medium}~~~~Opravdu chcete smazat toto vydání?
 Delete This Blog	Smazat tento blog
-{0}~~~~Are you sure you want to delete this blog?	
+{0}~~~~Are you sure you want to delete this blog?	{0}~~~~Opravdu chcete smazat tento blog?
 Remove from Device	Odstranit ze zařízení
-{0}~~~~This item will be moved to the Cloud but any application data or settings associated with it will be deleted permanently. Would you like to continue?	
+{0}~~~~This item will be moved to the Cloud but any application data or settings associated with it will be deleted permanently. Would you like to continue?	{0}~~~~Tato položka bude přesunuta do cloudu, ale všechna data aplikací a nastavení s ní spojená budou trvale odstraněna. Chcete pokračovat?
 Delete This MP3	Smazat MP3 soubor
-{0}~~~~Are you sure you want to delete this MP3?	
+{0}~~~~Are you sure you want to delete this MP3?	{0}~~~~Opravdu chcete smazat tento MP3 soubor?
 Delete This Item	Smazat položku
-{0}~~~~Are you sure you want to delete this item?	
-Vocabulary Builder Turned Off	
-Vocabulary Builder has been turned off and will no longer appear on your Home screen. To turn it on, go to Settings, Reading Options, and Vocabulary Builder.	
-Turn Off FreeTime	
-Kindle FreeTime has been disabled and will no longer appear on your Home screen. To turn it on, go to Settings, Device Options, Parental Controls and FreeTime.	
+{0}~~~~Are you sure you want to delete this item?	{0}~~~~Opravdu chcete smazat tuto pložku?
+Vocabulary Builder Turned Off	Procvičování slov ze slovníku vypnuto
+Vocabulary Builder has been turned off and will no longer appear on your Home screen. To turn it on, go to Settings, Reading Options, and Vocabulary Builder.	Procvičování slov ze slovníku bylo vypnuto a nebude se již nadále ukazovat na Domovské obrazovce. Chcete-li ho zapnout, přejděte do Nastavení, Možnosti čtení a Procvičování slov ze slovníku.
+Turn Off FreeTime	Vypnout FreeTime
+Kindle FreeTime has been disabled and will no longer appear on your Home screen. To turn it on, go to Settings, Device Options, Parental Controls and FreeTime.	Kindle FreeTime byl vypnut a nebude se už ukazovat na Domovské obrazovce. Chcete-li ho zapnout, přejděte do Nastavení, Možnosti zařízení, Rodičovské kontroly a FreeTime
 About Vocabulary Builder	O Procvičování slov ze slovníku
-Vocabulary Builder helps you learn new words as you read.~~~~Words that you look up in the dictionary whilst reading are added to Vocabulary Builder automatically. You can then view Flashcards or review usage examples for these words.	
-About Kindle FreeTime	
+Vocabulary Builder helps you learn new words as you read.~~~~Words that you look up in the dictionary whilst reading are added to Vocabulary Builder automatically. You can then view Flashcards or review usage examples for these words.	Procvičování slov ze slovníku vám pomáhá učit se při čtení nová slova.~~~~Slova, která jse si kontrolovali ve slovníku během čtení, jsou automaticky přidána do Procvičování. Poté si můžete prohlédnout kartičky nebo příklady použití těchto slov.
+About Kindle FreeTime	O Kindle FreeTime
 Delete This Receipt	Smazat potvrzení
-{0}~~~~Are you sure you want to delete this receipt?	
-Delete This Notice	Smazat poznámku
-{0}~~~~Are you sure you want to delete this notice?	
+{0}~~~~Are you sure you want to delete this receipt?	{0}~~~~Opravdu chcete smazat toto potvrzení?
+Delete This Notice	Smazat oznámení
+{0}~~~~Are you sure you want to delete this notice?	{0}~~~~Opravdu chcete smazat toto oznámení?
 Delete This Letter	Smazat dopis
-{0}~~~~Are you sure you want to delete this letter?	
+{0}~~~~Are you sure you want to delete this letter?	{0}~~~~Opravdu chcete smazat tento dopis?
 Delete This Audiobook	Smazat audioknihu
-{0}~~~~Are you sure you want to delete this audiobook?	
-Delete This Image Package	
-{0}~~~~Are you sure you want to delete this image package?	
-Delete This Image Folder	
-{0}~~~~Are you sure you want to delete this image folder?	
-Delete This Image	
-{0}~~~~Are you sure you want to delete this image?	
+{0}~~~~Are you sure you want to delete this audiobook?	{0}~~~~Opravdu chcete smazat tuto audioknihu?
+Delete This Image Package	Smazat tento balíček obrázků
+{0}~~~~Are you sure you want to delete this image package?	{0}~~~~Opravdu chcete smazat tento balíček obrázků?
+Delete This Image Folder	Smazat tuto složku
+{0}~~~~Are you sure you want to delete this image folder?	{0}~~~~Opravdu chcete smazat tuto složku?
+Delete This Image	Smazat tento obrázek
+{0}~~~~Are you sure you want to delete this image?	{0}~~~~Opravdu chcete smazat tento obrázek?
 Delete	Smazat
- pending	
+ pending	 probíhá
 pending	čekání
- Wi-Fi required	
+ Wi-Fi required	 vyžadováno Wi-Fi připojení
 Wi-Fi required	vyžadováno Wi-Fi připojení
- connection required	
-connection required	
- insufficient space	
+ connection required	 vyžadováno připojení
+connection required	vyžadováno připojení
+ insufficient space	 nedostatek místa
 insufficient space	nedostatek místa
-on loan	
-licence at limit	
+on loan	na úvěr
+licence at limit	licence končí
  downloading - {0,choice,0.09# {0,number,#%}|0.09<{0,number,#%}}	
 downloading - {0,choice,0.09# {0,number,#%}|0.09<{0,number,#%}}	
 download complete	stahování dokončeno
