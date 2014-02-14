@@ -13,9 +13,8 @@ non-English speaking user anyway.
 
 I've used Sir Alex' K3Translator to inject Czech phrases into the JARs instead of the British ones. It's
 very similar to K3 localization process.
-To be on the safe side I don't overwrite stock files and dirs but bind-mount the Czech replacement instead.
-The only addition to the system is a simple upstart config file that performs the bindings listed in
-userstore.
+An upstart config file unpacks localized files on boot, making backup when needed.
+
 This approach should work on any Kindle model with touch screen, even Touch and Paperwhite 1 but I can't localize these
 because I don't own any of them.
 
