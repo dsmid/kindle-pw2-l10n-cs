@@ -2,14 +2,15 @@
 
 . config
 
-[ -d overlay/kug ] || mkdir -p overlay/kug
-rm -f overlay/kug/*
-cp -f translation_$VERSION/kug/Kindle_Users_Guide.azw3 overlay/kug/
+dest=install/opt/amazon/kug/en-GB
+[ -d "$dest" ] || mkdir -p "$dest"
+rm -f "$dest"/*
+cp -f translation_$VERSION/kug/Kindle_Users_Guide.azw3 "$dest"/
 
-cp -f translation_$VERSION/other/* overlay/
+dest=install/opt/keymap
+[ -d "$dest" ] || mkdir -p "$dest"
+rm -f "$dest"/*
+cp -f translation_$VERSION/keymap/* "$dest"/
+gzip -f "$dest"/*.keymap
 
-
-[ -d overlay/keymap ] || mkdir -p overlay/keymap
-rm -f overlay/keymap/*
-cp -f translation_$VERSION/keymap/* overlay/keymap/
-gzip -f overlay/keymap/*.keymap
+tar c -C translation_$VERSION --xform "s|^other||" other | tar xv -C install

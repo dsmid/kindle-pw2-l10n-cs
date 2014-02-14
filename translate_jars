@@ -2,9 +2,16 @@
 
 . config
 
-[ -d overlay ] || mkdir overlay
-rm -f overlay/*.jar
-
 ./translation2transjar
-java -cp K3Translator.jar:bcel-5.2.jar Translator td root_$VERSION/opt/amazon/ebook/lib translation.jar overlay .
-java -cp K3Translator.jar:bcel-5.2.jar Translator td root_$VERSION/opt/amazon/ebook/booklet translation.jar overlay .
+
+dest=install/opt/amazon/ebook/lib
+src=${dest#*/}
+[ -d $dest ] & rm -rf $dest
+mkdir -p $dest
+java -cp K3Translator.jar:bcel-5.2.jar Translator td root_$VERSION/$src translation.jar $dest .
+
+dest=install/opt/amazon/ebook/booklet
+src=${dest#*/}
+[ -d $dest ] & rm -rf $dest
+mkdir -p $dest
+java -cp K3Translator.jar:bcel-5.2.jar Translator td root_$VERSION/$src translation.jar $dest .

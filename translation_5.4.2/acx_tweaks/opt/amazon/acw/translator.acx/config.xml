@@ -7,12 +7,12 @@
         xmlns:kindle  = "http://kindle.amazon.com"
         xmlns:ui    = "http://kindle.amazon.com/ns/ui">
 
-    <name short="Translation">Přeložit</name>
+    <name short="Translation">Translation</name>
     <name short="翻译" xml:lang="zh-cn">&#32763;&#35793;</name>
     <name short="Übersetzung" xml:lang="de">&#220;bersetzung</name>
     <name short="Traduzione" xml:lang="it">Traduzione</name>
     <name short="Traducción" xml:lang="es">Traducci&#243;n</name>
-    <name short="Translation" xml:lang="en-gb">Přeložit</name>
+    <name short="Translation" xml:lang="en-gb">Translation</name>
     <name short="Traduction" xml:lang="fr">Traduction</name>
     <name short="Перевод" xml:lang="ru">&#1055;&#1077;&#1088;&#1077;&#1074;&#1086;&#1076;</name>
     <name short="翻訳" xml:lang="ja">&#32763;&#35379;</name>
