@@ -1,1 +1,1 @@
-displayname': 'Next	
+displayname': 'Next	displayname': 'Další

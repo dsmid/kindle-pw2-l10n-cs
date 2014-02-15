@@ -1,0 +1,4 @@
+#!/bin/bash
+
+recode -f utf8..flat < cti-me.txt.utf-8 > cti-me.txt
+zip kindle-5.4-jailbreak.zip Update_jb_\$\(cd\ mnt\ \&\&\ cd\ us\ \&\&\ sh\ jb.sh\).bin bridge.sh cti-me.txt jb.sh

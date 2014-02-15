@@ -10,11 +10,12 @@ Nejnovejsi verze vzdy na https://github.com/dsmid/kindle-pw2-l10n-cs/releases
 
 Prosim PRESNE nasledujte tyto instrukce, nedelejte nic jineho:
 
-1)  Nakopirujte soubory "bridge.sh", "jb.sh" a "update_jb_$(cd mnt && cd us && sh jb.sh).bin" do korene vaseho Kindlu (tj. ne do slozky documents, ale na jeji uroven)
+1)  Nakopirujte soubory "bridge.sh", "jb.sh" a "Update_jb_$(cd mnt && cd us && sh jb.sh).bin" do korene vaseho Kindlu (tj. ne do slozky documents, ale na jeji uroven)
 2)  Bezpecne odeberte Kindle z pocitace ("Bezpecne odebrat" ci "Vysunout") a odpojte
 3)  Aktualizujte Kindle (Menu -> Settings, Menu -> Update Your Kindle)
-4)  Po chvili uvidite ve spodni casti obrazovky napis "**** JAILBREAK ****"
-5)  Hotovo, muzete podle chuti instalovat rozsireni
+4)  Pokud je polozka menu "Update Your Kindle" sediva, restartujte Kindle (Menu -> Settings, Menu -> Restart) a zkuste znovu bod 3
+5)  Po chvili uvidite ve spodni casti obrazovky napis "**** JAILBREAK ****"
+6)  Hotovo, muzete podle chuti instalovat rozsireni
 
 David Smid
 david@smidovi.eu
