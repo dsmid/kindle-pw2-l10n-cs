@@ -24,5 +24,5 @@ rm -f run.ffs
 rm -f localization.pack
 
 [ -f ../${PKGNAME}_${PKGVER}.zip ] && rm -f ../${PKGNAME}_${PKGVER}.zip
-zip ../${PKGNAME}_${PKGVER}.zip *.bin cti-me.txt
+zip ../${PKGNAME}_${PKGVER}.zip *.bin cti-me.txt original_margins
 rm -f *.bin

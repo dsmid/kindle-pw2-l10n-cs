@@ -7,7 +7,8 @@ _Není_ určeno pro starší model označovaný jako Paperwhite či Paperwhite (
 Nejnovější verze vždy na https://github.com/dsmid/kindle-pw2-l10n-cs/releases
 
 Více viz tento článek: http://www.eboocek.cz/2013/01/ceska-lokalizace-pro-kindle-paperwhite-2/
-V případě problémů se obraťte na autora v diskusi pod článkem: http://www.eboocek.cz/2013/01/ceska-lokalizace-pro-kindle-paperwhite-2/#comments
+V případě problémů se obraťte na autora v diskusi pod článkem:
+http://www.eboocek.cz/2013/01/ceska-lokalizace-pro-kindle-paperwhite-2/#comments
 
 1) Ujistěte se, že máte nainstalovaný jailbreak, případně ho nainstalujte odsud:
    https://github.com/dsmid/kindle-pw2-l10n-cs/releases/tag/jailbreak
@@ -19,6 +20,9 @@ V případě problémů se obraťte na autora v diskusi pod článkem: http://ww
 
 4) Pak už jen ve čtečce zvolte Menu->Settings, Menu->Update Your Kindle a čekejte,
    než se instalace dokončí.
+
+5) Pokud je položka menu "Update Your Kindle" šedivá, restartujte Kindle (Menu -> Settings,
+   Menu -> Restart) a zkuste znovu bod 4.
 
 Aktualizace firmwaru na Kindlu s nainstalovanou češtinou může mít nepředvídatelné důsledky,
 proto jsem do lokalizace zabudoval pojistku, jež by měla aktivně bránit tichým vnuceným
@@ -39,9 +43,8 @@ cokoliv odinstalovávat.
 Součástí lokalizace je i uživatelská příručka v češtině a česká klávesnice.
 
 Dalším vylepšením, které lokalizace přináší, je zmenšení nesmyslně širokých okrajů.
-Pokud by vám přesto vyhovovaly ty původní, přepište soubor "localization/overlay/ReaderSDK-impl-en_GB.jar"
-souborem "localization/overlay/ReaderSDK-impl-en_GB.puvodni_okraje.jar" a pak čtečku
-restartujte.
+Pokud by vám přesto vyhovovaly ty původní, nakopírujte soubor original_margins do
+složky localization na Kindlu a pak čtečku restartujte.
 
 Pokud budete čtečku s nainstalovanou lokalizací restartovat s připojeným USB kabelem,
 lokalizace se jednorázově deaktivuje. To je záměrná bezpečnostní pojistka, nejedná se
