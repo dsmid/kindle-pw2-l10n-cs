@@ -1,7 +1,7 @@
 Active Content Locked	Aktivní obsah je uzamčen
 Aeroplane Mode	Zákaz bezdrátového připojení
 Aeroplane Mode Locked	Uzamčen zákaz bezdrátového připojení
-An unexpected error has occurred. This can happen if you recently disconnected your Kindle from a computer without ejecting it safely. Please wait while your Kindle attempts to resolve this error.	Objevila se nečekaná chyba. To se stává, pokud odpojíte váš Kindle od počítače jinak než "Bezpečně vysunout". Počkejte prosím, než se váš Kindle pokusí vyřešit tuto chybu.
+An unexpected error has occurred. This can happen if you recently disconnected your Kindle from a computer without ejecting it safely. Please wait while your Kindle attempts to resolve this error.	Objevila se nečekaná chyba. To se stává, pokud odpojíte váš Kindle od počítače jinak než 'Bezpečně odebrat'. Počkejte prosím, než se váš Kindle pokusí vyřešit tuto chybu.
 An update is available for the following fonts: ({language}). Your Kindle must restart to complete the update.	Je k dispozici aktualizace pro tato písma: ({language}). Pro dokončení aktualizace je třeba restartovat váš Kindle.
 Application Error	Chyba aplikace
 Battery Level is Low	Baterie je skoro vybitá
