@@ -2,7 +2,7 @@ First Name	Křestní jméno
 Date of Birth	
 Cancel	Zrušit
 Gender	Pohlaví
-{0, select, male {Boy} female {Girl} other {Boy}}	
+{0, select, male {Boy} female {Girl} other {Boy}}	{0, select, male {Chlapec} female {Dívka} other {Chlapec}}
 {0, select, male {{1}ʼs Library} female {{1}ʼs Library} other {{1}ʼs Library}}	
 {0, plural, =0 {{0,number,integer} Books} one {{0,number,integer} Book} other {{0,number,integer} Books}}	
 Access Achievements	

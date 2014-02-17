@@ -1,6 +1,6 @@
 Done	Hotovo
 Next	Další
-Skip	
+Skip	Přeskočit
 Start Following	
 Stop Following	
 {0,plural,=0 {{0,number,integer} books} one {{0,number,integer} book} other {{0,number,integer} books}} | {1,choice,0#{1,plural,=0 {{1,number,integer} friends} one {{1,number,integer} friend} other {{1,number,integer} friends}}|1000#999+ friends}	
@@ -33,7 +33,7 @@ shared a highlight
 shared an activity	
 Edit Profile	
 Enter your full name or your first name here. This will be the name that appears on your public Amazon and Goodreads profiles.	
-Name	
+Name	Jméno
 Save	Uložit
 Edit About Me 	
 Edit About Me (modified) 	
@@ -89,13 +89,13 @@ Want to Read ({0})
 {0,select,empty {You have not shelved any books yet. View your Amazon book purchases to add books to Goodreads } unknown {Loading books…} other {}}	
 {0,select,empty {There arenʼt any books in your library yet.~~See what your friends are reading } unknown {Loading Amazon books…} other {}}	
 {0,select,empty {There arenʼt any books in your library. You can always add some later.} unknown {Loading Amazon books…} other {}}	
-Facebook E-mail	
-Facebook Password	
+Facebook E-mail	E-mail pro Facebook
+Facebook Password	Heslo do Facebooku
 Hide Password	Skrýt heslo
-Goodreads E-mail	
-Goodreads Password	
-By connecting, you will enable Goodreads to access your public profile, friend list, e-mail address, and likes from Facebook. Additionally, Goodreads will be able to send posts to your friends on your behalf. By proceeding, you agree to the Goodreadsʼ Terms of Service and Privacy Policy.	
-See what your friends are reading and share your reading activity on Facebook.	
+Goodreads E-mail	Goodreads e-mail
+Goodreads Password	Heslo do Goodreads
+By connecting, you will enable Goodreads to access your public profile, friend list, e-mail address, and likes from Facebook. Additionally, Goodreads will be able to send posts to your friends on your behalf. By proceeding, you agree to the Goodreadsʼ Terms of Service and Privacy Policy.	Po připojení umožníte Goodreads přistupovat k vašemu veřejnému profilu, seznamu přátel, e-mailové adrese a lajkům z Facebooku. Kromě toho budou Goodreads moci vaším jménem posílat příspěvky vašim přátelům. Pokud budete pokračovat, souhlasíte s podmínkami služby Goodreads a zásadami ochrany osobních údajů.
+See what your friends are reading and share your reading activity on Facebook.	Podívejte se, co čtou vaši přátelé na Facebooku a sdílejte své čtenářské aktivity.
 By connecting, you will enable Goodreads to access your public profile, friend list, e-mail address, and likes from Facebook. Additionally, Goodreads will be able to send posts to your friends on your behalf.	
 Welcome to the worldʼs largest network of readers, where you can find book recommendations to find and share the books you love with your friends.	
 Get Started	
