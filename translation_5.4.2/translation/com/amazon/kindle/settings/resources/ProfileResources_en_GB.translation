@@ -15,7 +15,7 @@ All progress and achievements will be lost upon deletion. The profile will also 
 Delete	Smazat
 No Content	
 {0, select, male {You have not added any items to {1}ʼs FreeTime.} female {You have not added any items to {1}ʼs FreeTime.} other {You have not added any items to {1}ʼs FreeTime.}}	
-Ignore	
+Ignore	Ignorovat
 Add Items	
 Finish	
 All progress and achievements will be lost upon removal, but will be available on other devices. Are you sure you want to delete the profile, <em>{0}</em>, from this device?	
