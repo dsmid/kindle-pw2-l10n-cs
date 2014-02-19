@@ -1,10 +1,10 @@
-Learning ({0,number,integer})	
-Mastered ({0,number,integer})	
-{0,select,true {Learning ({1,number,integer}) } false {Learning ({1,number,integer})} other {}}	
-{0,select,true {Mastered ({1,number,integer}) } false {Mastered ({1,number,integer})} other {}}	
-Words	
+Learning ({0,number,integer})	K naučení ({0,number,integer})
+Mastered ({0,number,integer})	Zvládnuto ({0,number,integer})
+{0,select,true {Learning ({1,number,integer}) } false {Learning ({1,number,integer})} other {}}	{0,select,true {K naučení ({1,number,integer}) } false {K naučení ({1,number,integer})} other {}}
+{0,select,true {Mastered ({1,number,integer}) } false {Mastered ({1,number,integer})} other {}}	{0,select,true {Zvládnuto ({1,number,integer}) } false {Zvládnuto ({1,number,integer})} other {}}
+Words	Slova
 Books	Knihy
- Any Book	
+ Any Book	 Jakákoli kniha
 Words mastered: {0}	Zvládnuto slov: {0}
 About Vocabulary Builder	O Procvičování slov ze slovníku
 Vocabulary Builder	Procvičování slov ze slovníku

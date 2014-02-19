@@ -24,7 +24,7 @@ Forget Network?	Smazat profil sítě?
 Hide Password	Skrýt heslo
 Incorrect Password	Nesprávné heslo
 IP Address	IP adresa
-MSCHAPv2	
+MSCHAPv2	MSCHAPv2
 Network Name	Název sítě
 Network Name Too Long	Název sítě je příliš dlouhý
 None	Žádné

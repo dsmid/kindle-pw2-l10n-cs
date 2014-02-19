@@ -7,7 +7,7 @@ Application Error	Chyba aplikace
 Battery Level is Low	Baterie je skoro vybitá
 Cancel	Zrušit
 Close	Zavřít
-Cloud Locked	
+Cloud Locked	Internetové úložiště uzamčeno
 Debugging Scripts	Ladění skriptů
 Details for this Special Offer are no longer available.	Podrobnosti této speciální nabídky už nejsou k dspozici.
 Details for this Special Offer are no longer available. Turn on wireless to receive the latest content.	Podrobnosti této speciální nabídky už nejsou k dspozici. Zapněte bezdrátové připojení k získání nejnovějšího obsahu.
@@ -21,7 +21,7 @@ Error Starting Content	Chyba při načítání obsahu
 Extended debugging scripts are currently enabled	Rozšířené ladění skriptů je nyní povoleno
 Framework Error	Rámcová chyba
 Goodreads on Kindle Locked	Gooodreads na Kindle uzamčeny
-Java Heap Low	
+Java Heap Low	Dochází paměť pro Javu
 Kindle Special Offers	Speciální nabídky Kindle
 Kindle Store Locked	Obchod Kindle store uzamčen
 Low Memory	Málo paměti

@@ -1,2 +1,2 @@
-Buy ▶	
-Read for Free time remaining: {0,plural,=0 {Expired} one {<1 min.} other {{0,number,integer} mins.}}	
+Buy ▶	Koupit ▶
+Read for Free time remaining: {0,plural,=0 {Expired} one {<1 min.} other {{0,number,integer} mins.}}	Zbývá přečíst v rámcí FreeTime: {0,plural,=0 {nic} one {<1 min.} other {{0,number,integer} min.}}

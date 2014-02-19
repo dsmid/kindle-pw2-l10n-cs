@@ -1,3 +1,3 @@
 Connected	Připojeno
 Connecting	Připojuji
- · 	
+ · 	 · 

@@ -3,7 +3,7 @@ Close	Zavřít
 Connection Required	Vyžadováno připojení
 Edit	Upravit
 Lock Rotation	Zamknout otáčení
-Menu	
+Menu	Menu
 OK	OK
 Register	Registrovat
 Remove	Odstranit

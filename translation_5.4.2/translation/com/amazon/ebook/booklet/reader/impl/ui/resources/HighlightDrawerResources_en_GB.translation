@@ -1,2 +1,2 @@
 {0} highlighters	{0} zvýrazňujících
-{1}, {0,plural,=0 {no others} one {1 other} other {{0,number,integer} others}}	
+{1}, {0,plural,=0 {no others} one {1 other} other {{0,number,integer} others}}	{1}, {0,plural,=0 {nikdo další} one {1 další} other {{0,number,integer} dalších}}
