@@ -9,7 +9,7 @@ browserStrings	browserStrings
 Clear Cookies	Smazat cookies
 Clear History	Smazat historii
 Disable Images	Zakázat obrázky
-Disable JavaScript	Blokovat Java skripty
+Disable JavaScript	Blokovat JavaScript
 Download Failed	Stahování selhalo
 Download File	Stažení souboru
 Download {filename}?<br><br>Once the download is complete, the file will appear on the Home screen. &nbsp;Are you sure you wish to proceed?	Stáhnout {filename}?<br><br>Až se soubor stáhne, objeví se na domovské obrazovce.
@@ -17,7 +17,7 @@ Due to local restrictions, web browsing is not available for all countries.	Z d�
 Duplicate Bookmark	Duplicitní záložka
 Edit Bookmark	Upravit záložku
 Enable Images	Povolit obrázky
-Enable JavaScript	Povolit Java skripty
+Enable JavaScript	Povolit JavaScript
 Facebook	Facebook
 Gmail	Gmail
 Google	Google
