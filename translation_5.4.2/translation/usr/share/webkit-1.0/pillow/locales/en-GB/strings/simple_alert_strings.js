@@ -85,7 +85,7 @@ Wi-Fi Settings Locked	Nastevení Wi-Fi je uzamčeno
 Wireless is turned off. Do you want to turn on wireless?	Bezdrátové připojení je vypnuto. Chcete ho zapnout?
 You already have {count,plural,=0 {no orders pending} one {an order pending} other { # orders pending}} for this special offer.	K této speciální nabídce {count,plural,=0 {ještě nemáte žádné objednávky} one {už máte objednávku} other {už máte # probíhajících objednávek}}
 You must register your Kindle to make a purchase.	K nákupům musíte svůj Kindle zaregistrovat.
-Your battery is almost depleted and your Kindle will soon shut down. To continue using your Kindle, connect it to a power source.	Vaše baterie je již téměř vybitá a Váš Kindle se v blízké době vypne. Pro pokračování práce, připojte Kindle ke zdroji energie.
+Your battery is almost depleted and your Kindle will soon shut down. To continue using your Kindle, connect it to a power source.	Vaše baterie je již téměř vybitá a váš Kindle se v blízké době vypne. Pro pokračování práce, připojte Kindle ke zdroji energie.
 Your battery is running low. Please charge your Kindle.	Stav baterie dosáhl nízké úrovně. Nabijte svůj Kindle, prosím.
 Your battery is running low. Please charge your Kindle. If your wireless is turned on, try turning it off to extend your reading time.	Baterie je téměř vybitá, dobijte ji prosím. Pokud je zapnuto bezdrátové připojení, jeho vypnutím prodloužíte čas ke čtení.
 Your Kindle fonts are updating. This can take a moment...	Písma ve vašem Kindle se aktualizují. Může to chvíli trvat...

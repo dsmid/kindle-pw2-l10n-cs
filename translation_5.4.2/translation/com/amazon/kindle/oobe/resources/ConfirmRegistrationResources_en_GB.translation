@@ -1,8 +1,8 @@
-Hello {0}	Vítejte {0}
-Continue setup	
-Use a different account	
-Your Kindleʼs time is set to {0,time,short}.	
-Your Kindleʼs time has been adjusted to {0,time,short}.	
-Tap here to adjust this.	
-The local time zone will be set using the Wi-Fi or mobile networks detected by your Kindle.	
-here	
+Hello {0}	Vítejte, uživateli jménem {0}
+Continue setup	Pokračovat v nastavení
+Use a different account	Použít jiný účet
+Your Kindleʼs time is set to {0,time,short}.	Čas vašeho Kindlu byl nastaven na {0,time,short}.
+Your Kindleʼs time has been adjusted to {0,time,short}.	Čas vašeho Kindlu byl upraven na  {0,time,short}.
+Tap here to adjust this.	Klikněte sem pro úpravu.
+The local time zone will be set using the Wi-Fi or mobile networks detected by your Kindle.	Časové pásmo bude nastaveno podle Wi-Fi či mobilních sítí detekovaných vaším Kindlem.
+here	zde

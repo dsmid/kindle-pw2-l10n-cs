@@ -1,20 +1,20 @@
 Available Wireless Providers	Dostupní poskytovatelé připojení
 Cancel	Zrušit
-Scanning for available wireless providers. This may take several minutes...	
-Currently you are connected to: {0}~~Select Switch Automatically to allow your Kindle to automatically choose the best wireless provider (default).	
+Scanning for available wireless providers. This may take several minutes...	Vyhledávám dostupné poskytovatele připojení. Tato operace může trvat několik minut...
+Currently you are connected to: {0}~~Select Switch Automatically to allow your Kindle to automatically choose the best wireless provider (default).	Váš současný poskytovatel je {0}.~~Pokud zvolíte "Přepínat automaticky", Kindle bude automaticky vybírat nejlepšího poskytovatele připojení (výchozí).
 Unknown	Neznámé
 Switching Wireless Providers	Změnit poskytovatele připojení
-Your Kindle will lose its connection during this process. Manually switching wireless providers may take several minutes to complete, and your Kindle may not reconnect successfully to the Amazon Whispernet network.~~~~Do you wish to continue?	
+Your Kindle will lose its connection during this process. Manually switching wireless providers may take several minutes to complete, and your Kindle may not reconnect successfully to the Amazon Whispernet network.~~~~Do you wish to continue?	Váš Kindle během této operace ztratí připojení k Internetu. Manuální změna poskytovatele připojení může trvat několik minut a připojení Vašeho Kindle k Amazon Whispernet se nemusí zdařit.~~~~Chcete pokračovat?
 Switch automatically (recommended)	Přepínat automaticky (doporučeno)
 Page {0,number,integer} of {1,number,integer}	Strana {0,number,integer} z {1,number,integer}
-Retrieving data…	
+Retrieving data…	Získávám data…
 Close	Zavřít
 411 Page	Strana 411
 611 Page	Strana 611
 711 Page	Strana 711
-URL to ping	
-URL to traceroute	
-URL to download file from	
-Tcpdump is not running	
-Tcpdump is running	
-{0,date,full} {1,time,full}~~Downloading from {2}	
+URL to ping	URL pro ping
+URL to traceroute	URL pro traceroute
+URL to download file from	URL pro stažení souboru
+Tcpdump is not running	Tcpdump neběží
+Tcpdump is running	Tcpdump běží
+{0,date,full} {1,time,full}~~Downloading from {2}	{0,date,full} {1,time,full}~~Stahuji z {2}

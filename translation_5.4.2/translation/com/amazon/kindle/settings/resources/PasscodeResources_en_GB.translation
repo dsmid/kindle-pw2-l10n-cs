@@ -3,9 +3,9 @@ Turn Off Passcode	Vypnout ochranu heslem
 Change Passcode	Změnit heslo
 Cancel	Zrušit
 Create Passcode	Vytvořit heslo
-Passcodes Do Not Match	Nesprávné heslo
+Passcodes Do Not Match	Hesla nesouhlasí
 Incorrect Passcode	Nesprávné heslo
-Passcode Invalid	Nesprávné heslo
+Passcode Invalid	Neplatné heslo
 Enter Passcode	Zadejte heslo
 Confirm Passcode	Potvrdit heslo
 Please try again.	Prosím, zkuste znovu.
@@ -13,4 +13,4 @@ Enter Current Passcode	Zadejte stávající heslo
 Enter New Passcode	Zadejte nové heslo
 Confirm New Passcode	Potvrdit nové heslo
 Please enter a valid passcode.	Prosím zadejte platné heslo.
-Your passcode must contain at least {0,number,integer} digits. Please try again.	
+Your passcode must contain at least {0,number,integer} digits. Please try again.	Heslo musí obsahovat alespoň {0,number,integer} číslic. Zkuste to znovu prosím.

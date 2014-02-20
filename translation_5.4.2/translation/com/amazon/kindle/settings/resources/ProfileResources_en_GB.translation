@@ -1,21 +1,21 @@
 First Name	Křestní jméno
-Date of Birth	
+Date of Birth	Datum narození
 Cancel	Zrušit
 Gender	Pohlaví
 {0, select, male {Boy} female {Girl} other {Boy}}	{0, select, male {Chlapec} female {Dívka} other {Chlapec}}
-{0, select, male {{1}ʼs Library} female {{1}ʼs Library} other {{1}ʼs Library}}	
-{0, plural, =0 {{0,number,integer} Books} one {{0,number,integer} Book} other {{0,number,integer} Books}}	
-Access Achievements	
-Let your child see their Achievement Reports.	
-Unrestricted Access to Wikipedia	
-Daily Reading Goal	
-Set how many minutes your child should read for each day.	
-Delete Profile	
-All progress and achievements will be lost upon deletion. The profile will also not be available on other devices. Are you sure you want to delete {0, select, male {<em>{1}ʼs</em> profile} female {<em>{1}ʼs</em> profile} other {<em>{1}ʼs</em> profile}}?	
+{0, select, male {{1}ʼs Library} female {{1}ʼs Library} other {{1}ʼs Library}}	{0, select, male {{1}: jeho knihovna} female {{1}: její knihovna} other {{1}: jeho knihovna}}
+{0, plural, =0 {{0,number,integer} Books} one {{0,number,integer} Book} other {{0,number,integer} Books}}	{0, plural, =0 {{0,number,integer} Knih} one {{0,number,integer} Kniha} other {{0,number,integer} Knih}}
+Access Achievements	Zobrazovat úspěchy
+Let your child see their Achievement Reports.	Umožněte dětem vidět záznam o jejich úspěších.
+Unrestricted Access to Wikipedia	Neomezený přístup k Wikipedii
+Daily Reading Goal	Denní čtenářský cíl
+Set how many minutes your child should read for each day.	Nastavte kolik minut musí vaše dítě každý den strávit čtením.
+Delete Profile	Smazat profil
+All progress and achievements will be lost upon deletion. The profile will also not be available on other devices. Are you sure you want to delete {0, select, male {<em>{1}ʼs</em> profile} female {<em>{1}ʼs</em> profile} other {<em>{1}ʼs</em> profile}}?	Všechny pokroky a úspěchy budou tímto ztraceny. Tento profil není dostupný na žádném dalším zařízení. Jste si jistí, že chcete smazat profil {0, select, male {chlapce jménem <em>{1}</em>} female {dívky jménem <em>{1}</em>} other {dítěte jménem <em>{1}</em>}}?
 Delete	Smazat
-No Content	
-{0, select, male {You have not added any items to {1}ʼs FreeTime.} female {You have not added any items to {1}ʼs FreeTime.} other {You have not added any items to {1}ʼs FreeTime.}}	
+No Content	Žádný obsah
+{0, select, male {You have not added any items to {1}ʼs FreeTime.} female {You have not added any items to {1}ʼs FreeTime.} other {You have not added any items to {1}ʼs FreeTime.}}	{0, select, male {Nepřidali jste žádné položky do FreeTime profilu pro chlapce jménem {1}.} female {Nepřidali jste žádné položky do FreeTime profilu pro dívku jménem {1}.} other {Nepřidali jste žádné položky do FreeTime profilu pro dítě jménem {1}.}}
 Ignore	Ignorovat
-Add Items	
-Finish	
-All progress and achievements will be lost upon removal, but will be available on other devices. Are you sure you want to delete the profile, <em>{0}</em>, from this device?	
+Add Items	Přidat položky
+Finish	Konec
+All progress and achievements will be lost upon removal, but will be available on other devices. Are you sure you want to delete the profile, <em>{0}</em>, from this device?	Všechny pokroky a úspěchy budou tímto ztraceny, ale na dalších zařízeních zůstanou zachovány. Jste si jistí, že chcete smazat profil <em>{0}</em> z tohoto zařízení?

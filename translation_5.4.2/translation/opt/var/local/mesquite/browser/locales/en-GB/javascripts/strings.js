@@ -66,7 +66,7 @@ Web Browser cannot download this kind of file.<p>Only files with the extension .
 Web Browser does not support file uploads.	Webový prohlížeč nepodporuje nahrávání souborů.
 Web Browser downloaded {filename} successfully.	Webový prohlížeč úspěšně stáhl soubor {filename}.
 Web Browser is unable to establish a secure connection. Do you still want to proceed?	Webový prohlížeč není schopen navázat zabezpečené spojení. Přejete si i přesto pokračovat?
-Web Browser requires a Wi-Fi connection. &nbsp;Tap OK to establish a Wi-Fi connection.	Prohlížeč vyžaduje Wi-Fi připojení. &nbsp;Klepněte na OK k navázání Wi-Fi připojení.
+Web Browser requires a Wi-Fi connection. &nbsp;Tap OK to establish a Wi-Fi connection.	Prohlížeč vyžaduje Wi-Fi připojení. &nbsp;Klikněte na OK k navázání Wi-Fi připojení.
 Web Browser was unable to download {filename}. &nbsp;Please try again later.	Webový prohlížeč nemohl stáhnout {filename}. &nbsp;Zkuste to prosím později.
 Web Mode	Zobrazovat jako web
 Website Inaccessible	Webová stránka je nepřístupná
