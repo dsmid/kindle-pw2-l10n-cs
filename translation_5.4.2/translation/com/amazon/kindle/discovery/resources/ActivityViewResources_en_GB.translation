@@ -1,19 +1,19 @@
-Loading…	
-We canʼt seem to find this update.	
-This update was deleted.	
-Request Failed	
+Loading…	Nahrávám…
+We canʼt seem to find this update.	Nemůžeme nalézt tuto aktualizaci.
+This update was deleted.	Tato aktualizace byla smazána.
+Request Failed	Požadavek selhal
 {0} by {1}	{0} od {1}
-{0,select, amazon {Comment deleted by Amazon {1}.} comment_creator {Comment deleted by the author {1}.} other {Comment deleted {1}.}}	
-We canʼt seem to find this comment.	
-{0} made a comment	
-{0,select, BookRating {'{0}' liked a rating} BookStatusReading {'{0}' liked an update} BookStatusRead {'{0}' liked an update} BookStatusWantToRead {'{0}' liked an update} Comment {'{0}' liked a comment} GoodreadsReview {'{0}' liked a review} Like {'{0}' liked a comment} Note {'{0}' liked a note} QuoteWithNote {'{0}' liked a quote} Quote {'{0}' liked a quote} ReadingProgressWithNote {'{0}' liked an update} ReadingProgress {'{0}' liked an update} Recommend {'{0}' liked a recommendation} other {'{0}' liked an update}}	
-{0} is currently reading~~{1}	
-{0} rated it {1}~~{2}	
-{0} wrote a review	
-{0} shared a note	
-{0} shared a quote	
-{0,select, BookStatusReading {'{0}' is currently reading~~'{1}'} BookStatusRead {'{0}' read~~'{1}'} other {'{0}' wants to read~~'{1}'}}	
-{0} recommended to {1}~~{2}	
-Add Comment	
-Comment	
-Also share on:	
+{0,select, amazon {Comment deleted by Amazon {1}.} comment_creator {Comment deleted by the author {1}.} other {Comment deleted {1}.}}	{0,select, amazon {Komentář smazán Amazonem {1}.} comment_creator {Komentář smazán autorem {1}.} other {Komentář smazán {1}.}}
+We canʼt seem to find this comment.	Nemůžeme nalézt tento komentář.
+{0} made a comment	{0} přidal komentář
+{0,select, BookRating {'{0}' liked a rating} BookStatusReading {'{0}' liked an update} BookStatusRead {'{0}' liked an update} BookStatusWantToRead {'{0}' liked an update} Comment {'{0}' liked a comment} GoodreadsReview {'{0}' liked a review} Like {'{0}' liked a comment} Note {'{0}' liked a note} QuoteWithNote {'{0}' liked a quote} Quote {'{0}' liked a quote} ReadingProgressWithNote {'{0}' liked an update} ReadingProgress {'{0}' liked an update} Recommend {'{0}' liked a recommendation} other {'{0}' liked an update}}	{0,select, BookRating {čtenáři '{0}' se hodnocení líbilo} BookStatusReading {čtenáři '{0}' se aktualizace líbila} BookStatusRead {čtenáři '{0}' se aktualizace líbila} BookStatusWantToRead {čtenáři '{0}' se aktualizace líbila} Comment {čtenáři '{0}' se komentář líbil} GoodreadsReview {čtenáři '{0}' se recenze líbila} Like {čtenáři '{0}' se komentář líbil} Note {čtenáři '{0}' se poznámka líbila} QuoteWithNote {čtenáři '{0}' se citace líbila} Quote {čtenáři '{0}' se citace líbila} ReadingProgressWithNote {čtenáři '{0}' se aktualizace líbila} ReadingProgress {čtenáři '{0}' se aktualizace líbila} Recommend {čtenáři '{0}' se doporučení líbilo} other {čtenáři '{0}' se aktualizace líbila}}
+{0} is currently reading~~{1}	{0} právě čte~~{1}
+{0} rated it {1}~~{2}	{0} ji ohodnotil(a) jako {1}~~{2}
+{0} wrote a review	{0} napsal(a) recenzi
+{0} shared a note	{0} sdílel(a) poznámku
+{0} shared a quote	{0} sdílel(a) citaci
+{0,select, BookStatusReading {'{0}' is currently reading~~'{1}'} BookStatusRead {'{0}' read~~'{1}'} other {'{0}' wants to read~~'{1}'}}	{0,select, BookStatusReading {'{0}' právě čte~~'{1}'} BookStatusRead {'{0}' přečetl(a)~~'{1}'} other {'{0}' si chce přečíst~~'{1}'}}
+{0} recommended to {1}~~{2}	{0} doporučil(a) čtenáři {1}~~{2}
+Add Comment	Přidat komentář
+Comment	Komentář
+Also share on:	Také můžete sdílet na:

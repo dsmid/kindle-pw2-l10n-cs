@@ -1,0 +1,14 @@
+#!/bin/sh
+
+# Give users at least a minimal amount of time to clean up
+# this shouldn't be too low, because it would be impossible
+# to remove the ENABLE_DIAGS file otherwise.
+# Then again, it shouldn't be too high either, because a bricked device
+# could reboot before we have the chance to perform our stuff..
+# classic dilemma :-)
+sleep 3
+if [ -f /mnt/us/ENABLE_DIAGS ]; then
+	rm -f /mnt/us/ENABLE_DIAGS
+	/usr/sbin/idme -d --bootmode diags
+	/sbin/reboot
+fi

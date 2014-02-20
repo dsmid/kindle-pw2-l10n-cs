@@ -1,13 +1,13 @@
-Get Sample or Buy...	
-Buy…	
-Read Now	
+Get Sample or Buy...	Stáhnout ukázku nebo koupit...
+Buy…	Koupit…
+Read Now	Pustit se do čtení
 View in Store	Ukázat v obchodě
-Search Store	
-View Book Activity	
-View Reviews	
-Refresh	
-{0,plural,=0 {Comment} one {Comment ({0,number,integer})} other {Comments ({0,number,integer})}}	
+Search Store	Hledat v obchodě
+View Book Activity	Zobrazit aktivitu okolo knihy
+View Reviews	Zobrazit recenze
+Refresh	Obnovit
+{0,plural,=0 {Comment} one {Comment ({0,number,integer})} other {Comments ({0,number,integer})}}	{0,plural,=0 {Komentářů} one {Komentář ({0,number,integer})} other {Komentářů ({0,number,integer})}}
 Delete	Smazat
-Delete Activity	
-If others have commented on this update, it will not be removed from their activity feed. Are you sure you want to delete this update?	
+Delete Activity	Smazat aktivitu
+If others have commented on this update, it will not be removed from their activity feed. Are you sure you want to delete this update?	Pokud někdo jiný okomentoval tuto aktualizaci, pak z jeho seznamu aktivit nezmizí. Skutečně smazat tuto aktualizaci?
 Cancel	Zrušit

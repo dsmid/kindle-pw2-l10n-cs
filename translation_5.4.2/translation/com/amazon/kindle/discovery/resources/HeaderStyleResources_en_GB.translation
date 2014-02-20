@@ -1,51 +1,51 @@
-Updates	
-Friends	
-My Shelves	
-Following	
-Followers	
-Suggested	
-Follow	
-Stop Following	
-{0,plural,=0 {Comment} one {{0,number,###0} Comment} other {{0,number,###0} Comments}}	
+Updates	Aktualizace
+Friends	Přátelé
+My Shelves	Mé regály
+Following	Sledovaní
+Followers	Sledující
+Suggested	Navržení
+Follow	Sledovat
+Stop Following	Přestat sledovat
+{0,plural,=0 {Comment} one {{0,number,###0} Comment} other {{0,number,###0} Comments}}	{0,plural,=0 {Komentářů} one {{0,number,###0} Komentář} other {{0,number,###0} Komentářů}}
 Share	Sdílet
 Delete	Smazat
-{0,plural,=0 {{0,number,###0} days} one {{0,number,###0} day} other {{0,number,###0} days}} ago	
-Delete Comment	
-Are you sure you want to delete this comment?	
+{0,plural,=0 {{0,number,###0} days} one {{0,number,###0} day} other {{0,number,###0} days}} ago	před {0,plural,=0 {{0,number,###0} dny} one {{0,number,###0} dnem} other {{0,number,###0} dny}}
+Delete Comment	Smazat komentář
+Are you sure you want to delete this comment?	Jste si jistí, že chcete smazat tento komentář?
 Cancel	Zrušit
-Shelved Books ({0})	
-Currently Reading ({0})	
-Read ({0})	
-Want to Read ({0})	
-Add Amazon Books 	
-Friends ({0})	
-Following ({0})	
-Followers ({0})	
-See More 	
-Find Readers to Follow 	
-✓ Friend	
-✓ Request Sent	
-✓ Following	
-+ Follow	
+Shelved Books ({0})	Knihy v regálu ({0})
+Currently Reading ({0})	Rozečtené ({0})
+Read ({0})	Přečtené ({0})
+Want to Read ({0})	K přečtení ({0})
+Add Amazon Books 	Přidat knihy od Amazonu
+Friends ({0})	Přátelé ({0})
+Following ({0})	Sledovaní ({0})
+Followers ({0})	Sledující ({0})
+See More 	Zobrazit více 
+Find Readers to Follow 	Najít čtenáře pro sledování 
+✓ Friend	✓ Přítel
+✓ Request Sent	✓ Požadavek odeslán
+✓ Following	✓ Sledovaný
++ Follow	+ Sledovat
 Edit	Upravit
-All Reviews	
-Friendsʼ Reviews	
-Following Reviews	
-{0,select,unrated {wrote a review} other {rated {1}}}	
-{0,plural,=0 {Comment} one {Comment ({0,number,integer})} other {{0,choice,0#Comments ({0,number,integer})|100#Comments (99+)}}}	
-{0,plural,=0 {} one {({0,number,integer})} other {{0,choice,0#({0,number,integer})|100#(99+)}}}	
-More…	
-{0,select, liked {{1,choice,0#✓ Like ({1,number,integer})|100#✓ Like (99+)}} other {{1,choice,0#Like|1#Like ({1,number,integer})|100#Like (99+)}}}	
-{0,select, liked {{1,choice,0#({1,number,integer})|100#(99+)}} other {{1,choice,0#|1#({1,number,integer})|100#(99+)}}}	
-My Recent Updates	
-Shelved Books ({0,number,integer})	
-Currently Reading ({0,number,integer})	
-Read ({0,number,integer})	
-Want to Read ({0,number,integer})	
-Want to Read	
-✓ Currently Reading	
-✓ Read	
-✓ Want to Read	
-Recent Updates by {0}	
-Remove Friend	
-Are you sure you would like to remove {0} from your friend list? Friends arenʼt notified when you remove them.	
+All Reviews	Všechny recenze
+Friendsʼ Reviews	Recenze přátel
+Following Reviews	Recenze sledovaných
+{0,select,unrated {wrote a review} other {rated {1}}}	{0,select,unrated {napsal(a) recenzi} other {ohodnotil(a) {1}}}
+{0,plural,=0 {Comment} one {Comment ({0,number,integer})} other {{0,choice,0#Comments ({0,number,integer})|100#Comments (99+)}}}	{0,plural,=0 {Komentářů} one {Komentář ({0,number,integer})} other {{0,choice,0#Komentářů ({0,number,integer})|100#Komentářů (99+)}}}
+{0,plural,=0 {} one {({0,number,integer})} other {{0,choice,0#({0,number,integer})|100#(99+)}}}	{0,plural,=0 {} one {({0,number,integer})} other {{0,choice,0#({0,number,integer})|100#(99+)}}}
+More…	Více…
+{0,select, liked {{1,choice,0#✓ Like ({1,number,integer})|100#✓ Like (99+)}} other {{1,choice,0#Like|1#Like ({1,number,integer})|100#Like (99+)}}}	{0,select, liked {{1,choice,0#✓ Libilo se ({1,number,integer})|100#✓ Líbilo se (99+)}} other {{1,choice,0#Líbilo se|1#Líbilo se ({1,number,integer})|100#Líbilo se (99+)}}}
+{0,select, liked {{1,choice,0#({1,number,integer})|100#(99+)}} other {{1,choice,0#|1#({1,number,integer})|100#(99+)}}}	{0,select, liked {{1,choice,0#({1,number,integer})|100#(99+)}} other {{1,choice,0#|1#({1,number,integer})|100#(99+)}}}
+My Recent Updates	Moje nedávné aktualizace
+Shelved Books ({0,number,integer})	Knihy v regálu ({0,number,integer})
+Currently Reading ({0,number,integer})	Rozečtené ({0,number,integer})
+Read ({0,number,integer})	Přečtené ({0,number,integer})
+Want to Read ({0,number,integer})	K přečtení ({0,number,integer})
+Want to Read	K přečtení
+✓ Currently Reading	✓ Rozečtené
+✓ Read	✓ Přečtené
+✓ Want to Read	✓ K přečtení
+Recent Updates by {0}	Nedávné aktualizace od {0}
+Remove Friend	Odebrat přítele
+Are you sure you would like to remove {0} from your friend list? Friends arenʼt notified when you remove them.	Skutečně si přejete odebrat čtenáře {0} ze seznamu vašich přátel? Přátelé nejsou o odebrání informováni.
