@@ -26,3 +26,5 @@ rm -f localization.pack
 [ -f ../${PKGNAME}_${PKGVER}.zip ] && rm -f ../${PKGNAME}_${PKGVER}.zip
 zip ../${PKGNAME}_${PKGVER}.zip *.bin cti-me.txt original_margins
 rm -f *.bin
+
+rm -f cti-me.txt
