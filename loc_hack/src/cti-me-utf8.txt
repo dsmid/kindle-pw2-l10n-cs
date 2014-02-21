@@ -6,9 +6,9 @@ _Není_ určeno pro starší model označovaný jako Paperwhite či Paperwhite (
 
 Nejnovější verze vždy na https://github.com/dsmid/kindle-pw2-l10n-cs/releases
 
-Více viz tento článek: http://www.eboocek.cz/2013/01/cestina-pro-kindle-paperwhite-2/
+Více viz tento článek: http://www.eboocek.cz/2014/02/cestina-pro-kindle-paperwhite-2/
 V případě problémů se obraťte na autora v diskusi pod článkem:
-http://www.eboocek.cz/2013/01/cestina-pro-kindle-paperwhite-2/#comments
+http://www.eboocek.cz/2014/02/cestina-pro-kindle-paperwhite-2/#comments
 
 1) Ujistěte se, že máte nainstalovaný jailbreak, případně ho nainstalujte odsud:
    https://github.com/dsmid/kindle-pw2-l10n-cs/releases/tag/jailbreak
