@@ -487,7 +487,7 @@ var onLookupCallback = function(json) {
     elementGMoreLink.onclick = kindle.reader.onexternal = function() {
         var selection = kindle.reader.getCurrentSelection();
         if (selection !== undefined && selection.text !== null) {
-            kindle.applicationlauncher.launchApplication("https://www.google.cz/search?q=" + selection.text);
+            kindle.applicationlauncher.launchApplication("https://www.google.cz/search?hl=cs&q=" + selection.text);
             metricLogger("BrowserOpened", widget.id, "NA");
         }
     };

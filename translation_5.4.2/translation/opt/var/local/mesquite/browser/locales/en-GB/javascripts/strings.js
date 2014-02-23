@@ -32,8 +32,8 @@ http://uk.imdb.com/	http://www.csfd.cz/
 http://uk.yahoo.com/	http://www.seznam.cz
 http://www.amazon.co.uk/	http://www.amazon.com/
 http://www.dailymail.co.uk/	http://www.idnes.cz/?setver=touch
-http://www.google.co.uk/	http://www.google.cz/
-http://www.google.co.uk/search?q=	http://www.google.cz/search?q=
+http://www.google.co.uk/	http://www.google.cz/?hl=cs
+http://www.google.co.uk/search?q=	http://www.google.cz/search?hl=cs&q=
 In order to browse, you must first register your Kindle with your Amazon user account.	K prohlížení musíte nejprve zaregistrovat váš Kindle vaším uživatelským účtem Amazon.
 Internet Movie DB	Čs. filmová databáze
 Invalid Certificate	Neplatný certifikát
