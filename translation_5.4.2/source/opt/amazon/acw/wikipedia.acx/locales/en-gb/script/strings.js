@@ -5,6 +5,7 @@ No network detected. Please check your connection and try again.
 No text was selected.	
 No Wikipedia results were found for your selection.	
 Open Wikipedia ▶	
+Search Google ▶	
 Searching Wikipedia...	
 Turn Off Aeroplane Mode	
 Turn On Wireless	

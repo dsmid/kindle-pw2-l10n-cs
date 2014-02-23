@@ -621,7 +621,9 @@ var supportedLanguages = {
     da: "lang_da",
     cs: "lang_cs",
     sk: "lang_sk",
-    pl: "lang_pl"
+    pl: "lang_pl",
+    uk: "lang_uk",
+    la: "lang_la"
 };
 var sortedLanguageArray;
 var populateLanguageOptions = function(selectElement, selectionOptionValue, includeAutoDetect) {

@@ -36,6 +36,7 @@
                     "y" : 222 
                 },
                 {
+                    "hold": 207,
                     "width" : 97,
                     "label": ".",
                     "value": ".",
@@ -82,6 +83,7 @@
                     "y" : 222 
                 },
                 {
+                    "hold": 207,
                     "width" : 97,
                     "label": ".",
                     "value": ".",
@@ -120,6 +122,7 @@
                     "y" : 222 
                 },
                 {
+                    "hold": 207,
                     "width" : 97,
                     "label": ".",
                     "value": ".",
@@ -166,6 +169,7 @@
                     "y" : 222 
                 },
                 {
+                    "hold": 207,
                     "width" : 97,
                     "label": ".",
                     "value": ".",
@@ -1067,6 +1071,7 @@
                     "y" : 222 
                 },
                 {
+                    "hold": 207,
                     "width" : 135,
                     "label": ".",
                     "value": ".",
@@ -1136,6 +1141,7 @@
                     "y" : 222 
                 },
                 {
+                    "hold": 207,
                     "width" : 116,
                     "label": ".",
                     "value": ".",
@@ -1197,6 +1203,7 @@
                     "y" : 222 
                 },
                 {
+                    "hold": 207,
                     "width" : 135,
                     "label": ".",
                     "value": ".",
@@ -1266,6 +1273,7 @@
                     "y" : 222 
                 },
                 {
+                    "hold": 207,
                     "width" : 116,
                     "label": ".",
                     "value": ".",
@@ -2629,6 +2637,65 @@
                     "y": -49 
                 }
             ]
+        },
+        {
+            "comment": "diacritical marks",
+            "type": 8192,
+            "diacritical": 207,
+            "height" : 71,
+            "width" : 97,
+            "font" : "Futura 11",
+            "modifier" : 0,
+            "keys": [
+                {
+                    "label": ".",
+                    "value": ".",
+                    "x" : 125,
+                    "y": -49 
+                },
+                {
+                    "label": ",",
+                    "value": ",",
+                    "x" : 222,
+                    "y": -49 
+                },
+                {
+                    "label": ":",
+                    "value": ":",
+                    "x" : 319,
+                    "y": -49 
+                },
+                {
+                    "label": ";",
+                    "value": ";",
+                    "x" : 416,
+                    "y": -49 
+                },
+                {
+                    "label": "–",
+                    "value": "–",
+                    "x" : 513,
+                    "y": -49 
+                },
+                {
+                    "label": "-",
+                    "value": "-",
+                    "x" : 610,
+                    "y": -49 
+                },
+                {
+                    "label": "?",
+                    "value": "?",
+                    "x" : 707,
+                    "y": -49 
+                },
+                {
+                    "label": "!",
+                    "value": "!",
+                    "x" : 804,
+                    "y": -49 
+                }
+            ] 
         },
         {
             "comment": "diacritical domain names",

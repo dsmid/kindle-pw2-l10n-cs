@@ -34,3 +34,5 @@ Wireless must be turned on to use this feature.	Je třeba funkční bezdrátové
 Czech	Čeština
 Slovak	Slovenština
 Polish	Polština
+Latin	Latina
+Ukrainian	Ukrajinština

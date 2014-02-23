@@ -5,6 +5,7 @@ No network detected. Please check your connection and try again.	Připojení k s
 No text was selected.	Nebyl vybrán žádný text.
 No Wikipedia results were found for your selection.	Pro váš výběr nebyl nalezen žádný článek na Wikipedii.
 Open Wikipedia ▶	Otevřít na Wikipedii ▶
+Search Google ▶	Hledat na Googlu ▶
 Searching Wikipedia...	Vyhledávám na Wikipedii...
 Turn Off Aeroplane Mode	Vypnout zákaz bezdrátového připojení
 Turn On Wireless	Zapnout bezdrátové připojení

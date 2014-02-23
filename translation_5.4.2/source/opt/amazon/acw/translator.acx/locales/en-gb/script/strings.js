@@ -34,3 +34,5 @@ Wireless must be turned on to use this feature.
 Czech	
 Slovak	
 Polish	
+Latin	
+Ukrainian	
