@@ -36,3 +36,6 @@ Slovak	Slovenština
 Polish	Polština
 Latin	Latina
 Ukrainian	Ukrajinština
+Greek	Řečtina
+Hebrew	Hebrejština
+Turkish	Turečtina

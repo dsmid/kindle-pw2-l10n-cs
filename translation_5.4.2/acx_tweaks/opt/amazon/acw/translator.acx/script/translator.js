@@ -623,7 +623,10 @@ var supportedLanguages = {
     sk: "lang_sk",
     pl: "lang_pl",
     uk: "lang_uk",
-    la: "lang_la"
+    la: "lang_la",
+    el: "lang_el",
+    iw: "lang_iw",
+    tr: "lang_tr"
 };
 var sortedLanguageArray;
 var populateLanguageOptions = function(selectElement, selectionOptionValue, includeAutoDetect) {

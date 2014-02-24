@@ -36,3 +36,6 @@ Slovak
 Polish	
 Latin	
 Ukrainian	
+Greek	
+Hebrew	
+Turkish	
