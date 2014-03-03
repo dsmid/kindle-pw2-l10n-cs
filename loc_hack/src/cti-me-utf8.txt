@@ -45,6 +45,10 @@ Součástí lokalizace je i uživatelská příručka v češtině a česká kl�
 Dalším vylepšením, které lokalizace přináší, je zmenšení nesmyslně širokých okrajů.
 Pokud by vám přesto vyhovovaly ty původní, nakopírujte soubor original_margins do
 složky localization na Kindlu a pak čtečku restartujte.
+Podobně je upraven i výběr velikostí písma, který obsahuje trochu užitečnější hodnoty.
+Tato úprava přináší i možnost zalomení PDF pomocí volby menu "Pouze textové zobrazení".
+Pro navrácení původního výběru nakopírujte do složky localization na Kindlu soubor
+original_fontsizes a čtečku restartujte.
 
 Pokud budete čtečku s nainstalovanou lokalizací restartovat s připojeným USB kabelem,
 lokalizace se jednorázově deaktivuje. To je záměrná bezpečnostní pojistka, nejedná se
