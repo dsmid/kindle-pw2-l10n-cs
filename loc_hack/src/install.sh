@@ -27,14 +27,14 @@ cp -f localization.conf /etc/upstart/ || fail "Unable to copy upstart config"
 
 
 progress 20 "Copying l10n pack to user store"
-[ -d /mnt/base-us/localization ] || mkdir /mnt/base-us/localization || fail "Unable to create l10n dir"
-cp -f localization.pack /mnt/base-us/localization/ || fail "Unable to copy l10n pack"
-cp -f version.txt /mnt/base-us/localization/
+[ -d /mnt/us/localization ] || mkdir /mnt/us/localization || fail "Unable to create l10n dir"
+cp -f localization.pack /mnt/us/localization/ || fail "Unable to copy l10n pack"
+cp -f version.txt /mnt/us/localization/
 
 progress 30 "Cleaning stock ACXs cache"
-rm -f /mnt/base-us/system/acw/stock-*
+rm -f /mnt/us/system/acw/stock-*
 
-bookmarks=/mnt/base-us/.active_content_sandbox/browser/resource/LocalStorage/file__0.localstorage
+bookmarks=/mnt/us/.active_content_sandbox/browser/resource/LocalStorage/file__0.localstorage
 md5=$(md5sum $bookmarks 2>/dev/null | (read md file; echo $md))
 if [ "$md5" == "e97836b4b5a37a608ff01208542ac870" -o "$md5" == "6a5d715e7411f4958da84927fbbc100b" ]
 then

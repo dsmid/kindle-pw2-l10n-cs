@@ -1,6 +1,6 @@
 #!/bin/sh
 OTA=com.lab126.blanket.ota
-USERROOT="/mnt/base-us/localization"
+USERROOT="/mnt/us/localization"
 BACKUPROOT="/opt/backup/localization"
 
 progress()
