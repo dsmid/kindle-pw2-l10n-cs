@@ -7,7 +7,7 @@ Go	Přejít
 Hint	Nápověda
 Page number (1 to {0, choice, 0#1|1#{0,number,integer}}):	Strana číslo (1 to {0, choice, 0#1|1#{0,number,integer}}):
 Remove Sample From	
-Remove This Sample	
+Remove This Sample	Odstranit tuto ukázku
 Remove	Odstranit
 Removing a sample from the Cloud will also remove it from all devices.	
 Select Child	Vybrat dítě

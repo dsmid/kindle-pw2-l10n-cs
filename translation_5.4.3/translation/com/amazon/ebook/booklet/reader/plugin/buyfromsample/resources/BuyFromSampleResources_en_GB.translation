@@ -1,11 +1,11 @@
 Buy Now	Zakoupit
 Buy for {0}	Koupit za {0}
-Download Error	
+Download Error	Chyba stahování
 Downloading - {0,number,percent}	Stahuje se - {0,number,percent}
 Downloading	Stahuji
-Network connection required. Tap here to connect.	
-Problem Cancelling Purchase	
-Purchase Cancelled	
+Network connection required. Tap here to connect.	Vyžadováno připojení k Internetu. Klikněte sem pro připojení.
+Problem Cancelling Purchase	Problém se zrušením nákupu
+Purchase Cancelled	Nákup zrušen
 Thank you for your purchase	Děkujeme za váš nákup
-There was a problem cancelling your purchase. To check the status of your purchase, go to {0}.	
-Your purchase has been cancelled. To view the status of your orders, go to {0}.	
+There was a problem cancelling your purchase. To check the status of your purchase, go to {0}.	Vyskytl se problém se zrušením vašeho nákupu. Přejděte na {0} pro kontrolu stavu nákupu.
+Your purchase has been cancelled. To view the status of your orders, go to {0}.	Váš nákup byl zrušen. Přejděte na {0} pro zobrazení stavu nákupu.
