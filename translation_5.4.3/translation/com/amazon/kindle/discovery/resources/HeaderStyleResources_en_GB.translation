@@ -1,0 +1,51 @@
++ Follow	+ Sledovat
+Add Amazon Books 	Přidat knihy od Amazonu
+All Reviews	Všechny recenze
+Are you sure you want to delete this comment?	Jste si jistí, že chcete smazat tento komentář?
+Are you sure you would like to remove {0} from your friend list? Friends arenʼt notified when you remove them.	Skutečně si přejete odebrat čtenáře {0} ze seznamu vašich přátel? Přátelé nejsou o odebrání informováni.
+Cancel	Zrušit
+Currently Reading ({0,number,integer})	Rozečtené ({0,number,integer})
+Currently Reading ({0})	Rozečtené ({0})
+Delete Comment	Smazat komentář
+Delete	Smazat
+Edit	Upravit
+Find Readers to Follow 	Najít čtenáře pro sledování 
+Follow	Sledovat
+Followers ({0})	Sledující ({0})
+Followers	Sledující
+Following ({0})	Sledovaní ({0})
+Following Reviews	Recenze sledovaných
+Following	Sledovaní
+Friends ({0})	Přátelé ({0})
+Friends	Přátelé
+Friendsʼ Reviews	Recenze přátel
+More…	Více…
+My Recent Updates	Moje nedávné aktualizace
+My Shelves	Mé regály
+Read ({0,number,integer})	Přečtené ({0,number,integer})
+Read ({0})	Přečtené ({0})
+Recent Updates by {0}	Nedávné aktualizace od {0}
+Remove Friend	Odebrat přítele
+See More 	Zobrazit více 
+Share	Sdílet
+Shelved Books ({0,number,integer})	Knihy v regálu ({0,number,integer})
+Shelved Books ({0})	Knihy v regálu ({0})
+Stop Following	Přestat sledovat
+Suggested	Navržení
+Updates	Aktualizace
+Want to Read ({0,number,integer})	K přečtení ({0,number,integer})
+Want to Read ({0})	K přečtení ({0})
+Want to Read	K přečtení
+{0,plural,=0 {Comment} one {Comment ({0,number,integer})} other {{0,choice,0#Comments ({0,number,integer})|100#Comments (99+)}}}	{0,plural,=0 {Komentářů} one {Komentář ({0,number,integer})} other {{0,choice,0#Komentářů ({0,number,integer})|100#Komentářů (99+)}}}
+{0,plural,=0 {Comment} one {{0,number,###0} Comment} other {{0,number,###0} Comments}}	{0,plural,=0 {Komentářů} one {{0,number,###0} Komentář} other {{0,number,###0} Komentářů}}
+{0,plural,=0 {{0,number,###0} days} one {{0,number,###0} day} other {{0,number,###0} days}} ago	před {0,plural,=0 {{0,number,###0} dny} one {{0,number,###0} dnem} other {{0,number,###0} dny}}
+{0,plural,=0 {} one {({0,number,integer})} other {{0,choice,0#({0,number,integer})|100#(99+)}}}	{0,plural,=0 {} one {({0,number,integer})} other {{0,choice,0#({0,number,integer})|100#(99+)}}}
+{0,select, liked {{1,choice,0#({1,number,integer})|100#(99+)}} other {{1,choice,0#|1#({1,number,integer})|100#(99+)}}}	{0,select, liked {{1,choice,0#({1,number,integer})|100#(99+)}} other {{1,choice,0#|1#({1,number,integer})|100#(99+)}}}
+{0,select, liked {{1,choice,0#✓ Like ({1,number,integer})|100#✓ Like (99+)}} other {{1,choice,0#Like|1#Like ({1,number,integer})|100#Like (99+)}}}	{0,select, liked {{1,choice,0#✓ Libilo se ({1,number,integer})|100#✓ Líbilo se (99+)}} other {{1,choice,0#Líbilo se|1#Líbilo se ({1,number,integer})|100#Líbilo se (99+)}}}
+{0,select,unrated {wrote a review} other {rated {1}}}	{0,select,unrated {napsal(a) recenzi} other {ohodnotil(a) {1}}}
+✓ Currently Reading	✓ Rozečtené
+✓ Following	✓ Sledovaný
+✓ Friend	✓ Přítel
+✓ Read	✓ Přečtené
+✓ Request Sent	✓ Požadavek odeslán
+✓ Want to Read	✓ K přečtení

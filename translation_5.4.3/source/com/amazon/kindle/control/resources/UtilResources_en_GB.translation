@@ -1,0 +1,80 @@
+"{0}" cannot be delivered because of the file size. You can either cancel the download, transfer the item via USB or connect to Wi-Fi to download this item.	
+"{0}" cannot be delivered. You can either cancel the download or connect to Wi-Fi to download this item.	
+"{0}" cannot be downloaded because Aeroplane Mode is turned on. You can either cancel the download or turn off Aeroplane Mode.	
+"{0}" cannot be downloaded because wireless is turned off. You can either cancel the download or turn on wireless.	
+"{0}" cannot be downloaded because your Kindle doesnʼt have enough free memory. You can either make more Kindle memory available by removing content from the Home screen or cancel the download.	
+"{0}" cannot be downloaded because your Kindle has lost connection to the network. You can either cancel the download or try connecting to a network again.	
+About Kindle FreeTime	
+About Vocabulary Builder	
+Aeroplane Mode	
+Cancel Download	
+Cancel	
+Collections that appear in all views on this device are displayed with a star.	
+Connect	
+Content Not Synced	
+Delete This Audiobook	
+Delete This Blog	
+Delete This Book	
+Delete This Collection	
+Delete This Document	
+Delete This Image Folder	
+Delete This Image Package	
+Delete This Image	
+Delete This Issue	
+Delete This Item	
+Delete This Letter	
+Delete This MP3	
+Delete This Notice	
+Delete This Receipt	
+Delete This Sample	
+Delete	
+Ignore	
+Kindle FreeTime has been disabled and will no longer appear on your Home screen. To turn it on, go to Settings, Device Options, Parental Controls and FreeTime.	
+Memory is Full	
+Network Connection Failed	
+Remove from Device	
+Show Only in Collections	
+Show in All Views	
+Tap to Open	
+This collection is synced across all of your devices and will be deleted on all of them.~~~~Deleting a collection does not remove the content stored on your device or in the Cloud. Are you sure you want to delete this collection?	
+This collection will only be shown in the Collections View. Select Collections under My Items to see it. You can press and hold on a collection to change viewing options for that collection.	
+Turn Off FreeTime	
+Turn Off	
+Turn On Wireless?	
+Unable to Sync	
+Vocabulary Builder Turned Off	
+Vocabulary Builder has been turned off and will no longer appear on your Home screen. To turn it on, go to Settings, Reading Options, and Vocabulary Builder.	
+Vocabulary Builder helps you learn new words as you read.~~~~Words that you look up in the dictionary whilst reading are added to Vocabulary Builder automatically. You can then view Flashcards or review usage examples for these words.	
+Wi-Fi Required	
+Wi-Fi required	
+You are currently offline and your collection will not be updated until you connect to the Internet.~~~~Do you want to connect now?	
+You have added items to this collection that will not be synced with the Cloud.	
+connection required	
+download complete	
+downloading - {0,choice,0.09# {0,number,#%}|0.09<{0,number,#%}}	
+error	
+insufficient space	
+licence at limit	
+on loan	
+pending	
+{0}: {1,date,EEE}, {1,date,medium}~~~~Are you sure you want to delete this issue?	
+{0}~~~~Are you sure you want to delete this MP3?	
+{0}~~~~Are you sure you want to delete this audiobook?	
+{0}~~~~Are you sure you want to delete this blog?	
+{0}~~~~Are you sure you want to delete this book?	
+{0}~~~~Are you sure you want to delete this document?	
+{0}~~~~Are you sure you want to delete this image folder?	
+{0}~~~~Are you sure you want to delete this image package?	
+{0}~~~~Are you sure you want to delete this image?	
+{0}~~~~Are you sure you want to delete this item?	
+{0}~~~~Are you sure you want to delete this letter?	
+{0}~~~~Are you sure you want to delete this notice?	
+{0}~~~~Are you sure you want to delete this receipt?	
+{0}~~~~Are you sure you want to delete this sample?	
+{0}~~~~This item will be moved to the Cloud but any application data or settings associated with it will be deleted permanently. Would you like to continue?	
+ Wi-Fi required	
+ connection required	
+ downloading - {0,choice,0.09# {0,number,#%}|0.09<{0,number,#%}}	
+ error	
+ insufficient space	
+ pending	

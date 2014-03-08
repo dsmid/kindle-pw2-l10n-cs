@@ -1,0 +1,58 @@
+Achievements	
+Activity	
+Average Reading Time	
+Badges	
+Beat your daily reading goal.~~Congratulations, you’ve read more than your daily reading goal.	
+Beat your daily reading goal.~~{0, select, false{To earn this achievement, ask your parents to give you a daily reading goal.} other{Read for at least {1, plural, =0{{1, number, integer} minutes} one{{1, number, integer} minute} other{{1, number, integer} minutes}} today.}}	
+Books	
+Bookworm {0,choice,0#|2#({0,number,integer})}	
+Challenges ({0,number,integer})	
+Congratulations, you’ve finished a book.	
+Current Month	
+Day	
+Earned ({0,number,integer})	
+Elite Bookworm {0,choice,0#|2#({0,number,integer})}	
+Finish a book to earn this achievement.	
+High-Flyer {0,choice,0#|2#({0,number,integer})}	
+Just Getting Started {0,choice,0#|2#({0,number,integer})}	
+Kilo-Pages! {0,choice,0#|2#({0,number,integer})}	
+Looked-Up Words	
+Month	
+No Image	
+No Title	
+On a Roll {0,choice,0#|2#({0,number,integer})}	
+Progress	
+Reach your daily reading goal 30 days in a row.~~Youʼve reached your daily reading goal {0, plural, =0{{0, number, integer} days in a row.} one{{0, number, integer} day in a row.} other{{0, number, integer} days in a row.}} {1, plural, =0{Only {1, number, integer} more to go!} one{Only {1, number, integer} more to go!} other{Only {1, number, integer} more to go!}}	
+Reach your daily reading goal 7 days in a row.~~Youʼve reached your daily reading goal {0, plural, =0{{0, number, integer} days in a row.} one{{0, number, integer} day in a row.} other{{0, number, integer} days in a row.}} {1, plural, =0{Only {1, number, integer} more to go!} one{Only {1, number, integer} more to go!} other{Only {1, number, integer} more to go!}}	
+Reach your daily reading goal.~~Congratulations, you’ve reached your daily reading goal.	
+Reach your daily reading goal.~~{0, select, false{To earn this achievement, ask your parents to give you a daily reading goal.} other{Read for at least {1, plural, =0{{1, number, integer} minutes} one{{1, number, integer} minute} other{{1, number, integer} minutes}} today.}}	
+Read 1,000 pages.~~Congratulations, you’ve read 1,000 pages.	
+Read 1,000 pages.~~Youʼve read {0, number, integer} of 1,000 pages.	
+Read 10,000 pages.~~Congratulations, you’ve read 10,000 pages.	
+Read 10,000 pages.~~Youʼve read {0, number, integer} of 10,000 pages.	
+Read 100 pages.~~Congratulations, you’ve read 100 pages.	
+Read 100 pages.~~Youʼve read {0, number, integer} of 100 pages.	
+Read 50 pages.~~Congratulations, you’ve read 50 pages.	
+Read 50 pages.~~Youʼve read {0, number, integer} of 50 pages.	
+Read 500 pages.~~Congratulations, you’ve read 500 pages.	
+Read 500 pages.~~Youʼve read {0, number, integer} of 500 pages.	
+Read a Book {0,choice,0#|2#({0,number,integer})}	
+Reset Badges	
+Serious Reader {0,choice,0#|2#({0,number,integer})}	
+Super-Bookworm {0,choice,0#|2#({0,number,integer})}	
+Time	
+Total Reading Time	
+Total	
+Unstoppable! {0,choice,0#|2#({0,number,integer})}	
+{0, select, true{{1, select, true{Ask your parents to add books to your library so you can start reading.} other{Go to your Home screen, choose a book and start reading it. Then come back to this page to see your progress!}}} other{{1, select, true{Add books to your childʼs library so {2, select, Male{he} other{she}} can start reading.} other{Your child has not begun reading any of the books in {2, select, Male{his} other{her}} library yet.}}}}	
+{0,date,MMMM}	
+{0,date,medium}	
+{0,plural,=0{ACHIEVEMENTS} one{ACHIEVEMENT} other{ACHIEVEMENTS}}	
+{0,plural,=0{BOOKS FINISHED} one{BOOK FINISHED} other{BOOKS FINISHED}}	
+{0,plural,=0{LOOKED-UP WORDS} one{LOOKED-UP WORD} other{LOOKED-UP WORDS}}	
+{0,plural,=0{PAGES READ} one{PAGE READ} other{PAGES READ}}	
+{0,select,DAILY{{1,select,goalNotMet{{3,number,integer}} goalMet{{2,select,0{----} other{OK}}} goalOverMet{+{3,number,integer}} other{}}} other{{4}}}	
+{0,select,DAILY{{1,select,goalNotMet{{3,plural,=0{MINUTES LEFT TO DAILY GOAL} one{MINUTE LEFT TO DAILY GOAL} other{MINUTES LEFT TO DAILY GOAL}}} goalMet{{2,select,0{{5, select, false{NO ACTIVITY} other{NO GOALS SET}}} other{DAILY GOAL REACHED}}} goalOverMet{{3,plural,=0{MINUTES OVER DAILY GOAL} one{MINUTE OVER DAILY GOAL} other{MINUTES OVER DAILY GOAL}}} other{}}} other{{3,plural,=0{DAILY GOALS MET} one{DAILY GOAL MET} other{DAILY GOALS MET}}}}	
+{0,select,true{{1,number,integer}} other{{2}}}	
+{0,select,true{{1,plural,=0{MINUTES READ} one{MINUTE READ} other{MINUTES READ}}} other{{1,plural,=0{HOURS READ} one{HOUR READ} other{HOURS READ}}}}	
+{0}ʼs Progress	

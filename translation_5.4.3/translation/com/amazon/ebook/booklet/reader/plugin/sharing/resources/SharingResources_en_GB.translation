@@ -1,0 +1,26 @@
+A link to the book will be included with your message.	Odkaz na knihu bude zahrnut do vaší zprávy.
+A link to the passage will be included with your message.	Odkaz na úryvek bude zahrnut do vaší zprávy.
+Cancel	Zrušit
+Clipping Error	Chyba při vytváření výstřižku
+Close	Zavřít
+Communication Error	Chyba v komunikaci
+Enter Your Message	Zadejte zprávu
+Invalid Social Networks	Neplatná sociální síť
+Manage	Spravovat
+Message Shared	Zpráva nasdílena
+One or more of the social networks registered on your Kindle are not configured properly. Selecting Manage below will open the Manage Your Social Networks web page so you can enter your account information. When your changes are complete, select Continue Reading to return to this item.	Jedna nebo více sociálních sítí zaregistrovaných k vašemu Kindle není správně nastavena. Volbou Spravovat níže se otevře webová stránka správce vašich sociálních sítí, kam můžete zadat informace o svém účtu. Po dokončení registrace vyberte Pokračovat ve čtení pro návrat sem.
+Register	Registrovat
+Share	Sdílet
+Sharing Failed	Sdílení se nezdařilo
+Sharing Not Supported	Sdílení nepodporováno
+Sharing Unavailable	Sdílení je nedostupné
+Social Networks Not Registered	Nemáte zaregistrovány žádné sociální sítě
+The sharing service encountered a communication error. Please try again later.	Při sdílení došlo k chybě připojení. Zkuste to prosím později.
+The sharing service encountered an unrecoverable error. Sharing cancelled.	Služba sdílení narazila na neopravitelnou chybu. Sdílení bylo zrušeno.
+The sharing service is currently unavailable. Please try again later.	Služba sdílení není momentálně k dispozici. Zkuste to prosím později.
+This content does not support sharing.	Tento dokument nepodporuje sdílení.
+Unable to share. You have reached the clipping limit for this item set by the publisher, {0}.	Sdílení není možné. Dosáhli jste maximálního počtu výstřižků povolených pro tuto položku vydavatelem {0}.
+Unable to share. You have reached the clipping limit for this item set by the publisher.	Sdílení není možné. Dosáhli jste maximálního počtu výstřižků povolených pro tuto položku vydavatelem.
+Unable to share. You have reached the clipping limit for this item.	Sdílení není možné. Dosáhli jste maximálního počtu povolených výstřižků pro tuto položku.
+Your Kindle is not registered with any social networks. Selecting Register below will open the Manage Your Social Networks web page so you can enter your account information. When your registration is complete, select Continue Reading to return to this item.	Váš Kindle nemá zaregistrovány žádné sociální sítě. Volbou Registrovat níže se otevře webová stránka správce vašich sociálních sítí, kam můžete zadat informace o svém účtu. Po dokončení registrace vyberte Pokračovat ve čtení pro návrat sem.
+{0,select, left {{1,plural, =0 {No characters left} one {{1} character left} other {{1} characters left}}} over {{1,plural, one {{1} character over} other {{1} characters over}}} other {}}	{0,select, left {{1,plural, =0 {nezbývá už žádný znak} one {zbývá {1} znak} other {zbývá znaků: {1}}}} over {{1,plural, one {{1} znak navíc} other {znaků navíc: {1}}}} other {}}

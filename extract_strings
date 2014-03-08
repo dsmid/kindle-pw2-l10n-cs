@@ -2,5 +2,5 @@
 
 . config
 
-java -cp K3Translator.jar:bcel-5.2.jar  Translator es root_$VERSION/opt/amazon/ebook/booklet strings
-java -cp K3Translator.jar:bcel-5.2.jar  Translator es root_$VERSION/opt/amazon/ebook/lib strings
+java -cp K3Translator.jar:bcel-5.2.jar  Translator es root_${VERSION}$1/opt/amazon/ebook/booklet strings$1
+java -cp K3Translator.jar:bcel-5.2.jar  Translator es root_${VERSION}$1/opt/amazon/ebook/lib strings$1

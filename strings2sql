@@ -41,7 +41,7 @@ find . -name '*_en_GB.strings' -exec sh -c "../diffs '{}' | awk 'BEGIN {FS="'"'"
 #                continue
 #            fi
 
-	    echo "insert into trans values ('$src','', '$file', '$VER');" >> ../strings_$VERSION.sql
+	    echo "INSERT INTO trans VALUES('$src','','$file','$VER');" >> ../strings_$VERSION.sql
 #	    echo "insert into trans values ('$src','', '$file', '$VER');" | \
 #		sqlite3 ../kindle_loc.sqlite || \
 		    echo "             === insert into trans values ('$src','', '$file', '$VER');" >&2 
@@ -60,10 +60,10 @@ find . -name '*_en_GB.properties' -exec sh -c "native2ascii -reverse '{}' '{}.na
 #            then
 #                continue
 #            fi
-	    echo "insert into trans values ('$src','$tran', '$file', '$VER');"  >> ../strings_$VERSION.sql
+	    echo "INSERT INTO trans VALUES('$src','$tran','$file','$VER');"  >> ../strings_$VERSION.sql
 #	    echo "insert into trans values ('$src','$tran', '$file', '$VER');" | \
 #		sqlite3 ../kindle_loc.sqlite || \
-		    echo "             === insert trans strings values ('$src','$tran', '$file', '$VER');" >&2
+		    echo "             === insert into trans strings values ('$src','$tran', '$file', '$VER');" >&2
 	done
     )
 echo "commit;" >> ../strings_$VERSION.sql

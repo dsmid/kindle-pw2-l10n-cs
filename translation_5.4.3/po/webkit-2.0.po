@@ -1,0 +1,781 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: webkit HEAD\n"
+"Report-Msgid-Bugs-To: http://bugs.webkit.org/\n"
+"POT-Creation-Date: 2010-02-25 15:53-0300\n"
+"PO-Revision-Date: 2010-03-31 13:07+0100\n"
+"Last-Translator: Lucas Lommer <llommer@svn.gnome.org>\n"
+"Language-Team: Czech <gnome-cs-list@gnome.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+msgid " files"
+msgstr " soubory"
+
+msgid "(None)"
+msgstr "(Nic)"
+
+msgid "A bitmask representing the state of the modifier keys"
+msgstr "Bitová maska reprezentující stav modifikátorových kláves"
+
+msgid "A username and password are being requested by the site %s"
+msgstr "Požadované uživatelské jméno a heslo, které je vyžadováno stránkou %s"
+
+msgid "Alternate Title"
+msgstr "Alternativní nadpis"
+
+msgid "An associated WebKitWebSettings instance"
+msgstr "Asociovaná instance WebKitWebSettings"
+
+msgid "Auto Load Images"
+msgstr "Obrázky automaticky"
+
+msgid "Auto Resize Window"
+msgstr "Automatická změna velikosti okna"
+
+msgid "Auto Shrink Images"
+msgstr "Zmenšovat obrázky"
+
+msgid "Automatically resize the toplevel window when a page requests it"
+msgstr "Automaticky změnit velikost okna, pokud o to stránka požádá"
+
+msgid "Automatically shrink standalone images to fit."
+msgstr ""
+"Automaticky zmenšovat samostatně zobrazené obrázky tak, aby se vešly na "
+"obrazovku."
+
+msgid "Button"
+msgstr "Tlačítko"
+
+msgid "Check Spelling While _Typing"
+msgstr "_Kontrola pravopisu během psaní"
+
+msgid "Check _Grammar With Spelling"
+msgstr "Kontrolovat _gramatiku pomocí pravopisu"
+
+msgid "Choose File"
+msgstr "Vybrat soubor"
+
+msgid "Comma separated list of languages to use for spell checking"
+msgstr "Seznam jazyků použitých ke kontrole pravopisu, oddělený čárkami"
+
+msgid "Cop_y Image"
+msgstr "Ko_pírovat obrázek"
+
+msgid "Copy Link Loc_ation"
+msgstr "_Kopírovat adresu odkazu"
+
+msgid "Copy target list"
+msgstr "Seznam cílů kopírování"
+
+msgid "Current Size"
+msgstr "Aktuální velikost"
+
+msgid "Cursive Font Family"
+msgstr "Rodina písma kurzíva"
+
+msgid "Custom Encoding"
+msgstr "Vlastní kódování"
+
+msgid "Default Encoding"
+msgstr "Výchozí kódování"
+
+msgid "Default Font Family"
+msgstr "Výchozí rodina písma"
+
+msgid "Default Font Size"
+msgstr "Výchozí velikost písma"
+
+msgid "Default Monospace Font Size"
+msgstr "Výchozí velikost písma s pevnou šířkou"
+
+msgid "Destination URI"
+msgstr "Cílová adresa URI"
+
+msgid ""
+"Determines the current policy for the horizontal scrollbar of the frame."
+msgstr "Údaj o aktuální strategii horizontálního posuvníku rámce."
+
+msgid "Determines the current policy for the vertical scrollbar of the frame."
+msgstr "Údaj o aktuální strategii vertikálního posuvníku rámce."
+
+msgid "Determines the current progress of the download"
+msgstr "Údaj o aktuálním průběhu stahování"
+
+msgid "Determines the current status of the download"
+msgstr "Údaj o aktuálním stavu stahování"
+
+msgid "Editable"
+msgstr "Upravitelné"
+
+msgid "Editing behavior"
+msgstr "Chování při úpravách"
+
+msgid "Enable Caret Browsing"
+msgstr "Povolit prohlížení s kurzorem"
+
+msgid "Enable DOM paste"
+msgstr "Povolit vkládání DOM"
+
+msgid "Enable Default Context Menu"
+msgstr "Povolit výchozí kontextovou nabídku"
+
+msgid "Enable Developer Extras"
+msgstr "Povolit rozšíření pro vývojáře"
+
+msgid "Enable HTML5 Database"
+msgstr "Povolit databázi HTML5"
+
+msgid "Enable HTML5 Local Storage"
+msgstr "Povolit místní úložiště HTML5"
+
+msgid "Enable Java Applet"
+msgstr "Povolit applet jazyka Java"
+
+msgid "Enable JavaScript profiling"
+msgstr "Povolit profilování jazyka JavaScript"
+
+msgid "Enable Plugins"
+msgstr "Povolit zásuvné moduly"
+
+msgid "Enable Private Browsing"
+msgstr "Povolit soukromé prohlížení"
+
+msgid "Enable Scripts"
+msgstr "Povolit skripty"
+
+msgid "Enable Spell Checking"
+msgstr "Povolit kontrolu pravopisu"
+
+msgid "Enable Timeline profiling"
+msgstr "Povolit profilování časové osy"
+
+msgid "Enable XSS Auditor"
+msgstr "Povolit revizi XSS"
+
+msgid "Enable embedded plugin objects."
+msgstr "Povolit vložené objekty zásuvných modulů."
+
+msgid "Enable embedded scripting languages."
+msgstr "Povolit vložené skriptovací jazyky."
+
+msgid "Enable offline web application cache"
+msgstr "Povolit ukládání stránek do vyrovnávací paměti"
+
+msgid "Enable page cache"
+msgstr "Povolit vyrovnávací paměť stránky"
+
+msgid "Enable universal access from file URIs"
+msgstr "Povolit univerzální přístup ze souboru s URI"
+
+msgid "Enables private browsing mode"
+msgstr "Povolit režim soukromého prohlížení stránek"
+
+msgid "Enables special extensions that help developers"
+msgstr "Povolit zvláštní rozšíření pomáhající vývojářům"
+
+msgid "Enables spell checking while typing"
+msgstr "Povolit kontrolu pravopisu při psaní"
+
+msgid ""
+"Enables the handling of right-clicks for the creation of the default context "
+"menu"
+msgstr ""
+"Poboluje správu tvorby výchozí kontextové nabídky při klepnutí pravým "
+"tlačítkem"
+
+msgid "Enables the site-specific compatibility workarounds"
+msgstr "Povolit řešení komapatibility specifických stránek"
+
+msgid "Encoding"
+msgstr "Kódování"
+
+msgid "Enforce 96 DPI"
+msgstr "Vynutit 96 DPI"
+
+msgid "Enforce a resolution of 96 DPI"
+msgstr "Vynutit rozlišení 96 DPI"
+
+msgid "Fantasy Font Family"
+msgstr "Rodina písma Fantasy"
+
+msgid "Full content zoom"
+msgstr "Změna velikosti celého obsahu"
+
+msgid "Horizontal Scrollbar Policy"
+msgstr "Strategie pro vodorovný posuvník"
+
+msgid "Icon URI"
+msgstr "Adresa URI ikony"
+
+msgid "Ignore _Grammar"
+msgstr "Ignorovat _gramatiku"
+
+msgid "Input _Methods"
+msgstr "Vstupní _metody"
+
+msgid "Inspect _Element"
+msgstr "Zkoumat _prvek"
+
+msgid "Inspected URI"
+msgstr "Zkoumaná adresa URI"
+
+msgid "JavaScript can open windows automatically"
+msgstr "JavaScript smí automaticky otevírat okna"
+
+msgid "LRE Left-to-right _embedding"
+msgstr "LRE - _zapouzdření zleva doprava"
+
+msgid "LRM _Left-to-right mark"
+msgstr "LRM - značka z_leva doprava"
+
+msgid "LRO Left-to-right _override"
+msgstr "LRO - _přepisování zleva doprava"
+
+msgid "Languages to use for spell checking"
+msgstr "Jazyk, který použít ke kontrole pravopisu"
+
+msgid "Last visited Time"
+msgstr "Čas poslední návštěvy"
+
+msgid "Live Broadcast"
+msgstr "Živý přenos"
+
+msgid "Load images automatically."
+msgstr "Automatický načíst obrázky."
+
+msgid "Loading..."
+msgstr "Načítá se…"
+
+msgid "Minimum Font Size"
+msgstr "Minimální velikost písma"
+
+msgid "Minimum Logical Font Size"
+msgstr "Minimální logická velikost písma"
+
+msgid "Modifier state"
+msgstr "Stav modifikátoru"
+
+msgid "Monospace Font Family"
+msgstr "Rodina písma s pevnou šířkou"
+
+msgid "Name"
+msgstr "Název"
+
+msgid "Network Request"
+msgstr "Síťový požadavek"
+
+msgid "Network Response"
+msgstr "Síťová odpověď"
+
+msgid "No Guesses Found"
+msgstr "Nebyly nalezeny žádné návrhy"
+
+msgid "No recent searches"
+msgstr "Žádná nedávná hledání"
+
+msgid "Open Link in New _Window"
+msgstr "Otevřít odkaz v novém _okně"
+
+msgid "Open _Frame in New Window"
+msgstr "Otevřít _rám v novém okně"
+
+msgid "Open _Image in New Window"
+msgstr "Otevřít o_brázek v novém okně"
+
+msgid "Original URI"
+msgstr "Původní adresa URI"
+
+msgid "PDF _Pop directional formatting"
+msgstr "PDF - zrušení směrovaného _formátování"
+
+msgid "Password:"
+msgstr "Heslo:"
+
+msgid "Paste target list"
+msgstr "Seznam cílů vkládání"
+
+msgid "Play movie in fullscreen mode"
+msgstr "Přehrát video na celou obrazovku"
+
+msgid "Print Backgrounds"
+msgstr "Tisknout pozadí"
+
+msgid "Profile the executed JavaScript."
+msgstr "Profilovat spuštěné skripty jazyka JavaScript."
+
+msgid "Progress"
+msgstr "Průběh"
+
+msgid "RLE Right-to-left e_mbedding"
+msgstr "RLE - z_apouzdření zprava doleva"
+
+msgid "RLM _Right-to-left mark"
+msgstr "RLM - značka zp_rava doleva"
+
+msgid "RLO Right-to-left o_verride"
+msgstr "RLO - př_episování zprava doleva"
+
+msgid "Reason"
+msgstr "Důvod"
+
+msgid "Recent searches"
+msgstr "Nedávná hledání"
+
+msgid "Reset"
+msgstr "Reset"
+
+msgid "Resizable Text Areas"
+msgstr "Měnitelná velikost textového pole"
+
+msgid "Returns the @web_view's document title"
+msgstr "Vrací název dokumentu @web_view"
+
+msgid "Returns the current URI of the contents displayed by the @web_view"
+msgstr "Vrací aktuální adresu URI obsahu zobrazeného pomocí @web_view"
+
+msgid "Sa_ve Image As"
+msgstr "_Uložit obrázek jako"
+
+msgid "Sans Serif Font Family"
+msgstr "Rodina písem Sans Serif"
+
+msgid "Serif Font Family"
+msgstr "Rodina písma Sans Serif"
+
+msgid "Server message:"
+msgstr "Zpráva serveru:"
+
+msgid "Settings"
+msgstr "Nastavení"
+
+msgid "Spelling and _Grammar"
+msgstr "Kontrola pravopisu a _gramatiky"
+
+msgid "Status"
+msgstr "Stav"
+
+msgid "Submit"
+msgstr "Potvrdit"
+
+msgid "Suggested Filename"
+msgstr "Navrhovaný název souboru"
+
+msgid "Tab key cycles through elements"
+msgstr "Tabulátor cyklicky prochází prvky"
+
+msgid "Target frame"
+msgstr "Cílový rám"
+
+msgid "The URI for the favicon for the #WebKitWebView."
+msgstr "Adresa URI ikony stránky pro #WebKitWebView."
+
+msgid "The URI of a stylesheet that is applied to every page."
+msgstr ""
+"Adresa URI, kde se nachází předpis vzhledu, který bude aplikován na každou "
+"stránku."
+
+msgid "The URI of the history item"
+msgstr "Adresa URI položky historie"
+
+msgid "The URI that is currently being inspected"
+msgstr "Adresa URI, která je právě zkoumána"
+
+msgid "The URI that was requested as the target for the navigation"
+msgstr "Adresa URI, která byla požadována jako cíl navigace"
+
+msgid "The User-Agent string used by WebKitGtk"
+msgstr "Řetězec identifikace prohlížeče (User agent), který WebKitGtk použije"
+
+msgid "The Web View that renders the Web Inspector itself"
+msgstr "Zobrazení WWW, které vykresluje samotné Zkoumání WWW"
+
+msgid "The alternate title of the history item"
+msgstr "Alternativní nadpis položky historie"
+
+msgid "The associated WebKitWebInspector instance"
+msgstr "Asociovaná instance WebKitWebInspector"
+
+msgid "The behavior mode to use in editing mode"
+msgstr "Režim chování v režimu úprav"
+
+msgid "The button used to click"
+msgstr "Tlačítko používané ke klepnutí"
+
+msgid "The current URI of the contents displayed by the frame"
+msgstr "Aktuální adresa URI obsahu zobrazeného v rámci"
+
+msgid "The custom encoding of the web view"
+msgstr "Vlastní kódování zobrazení WWW"
+
+msgid "The default Cursive font family used to display text."
+msgstr "Výchozí písmo z rodiny kurzíva použité k zobrazení textu."
+
+msgid "The default Fantasy font family used to display text."
+msgstr "Výchozí rodina písma Fantasy použitého k zobrazení textu."
+
+msgid "The default Sans Serif font family used to display text."
+msgstr "Výchozí písmo z rodiny Sans Serif použité k zobrazení textu."
+
+msgid "The default Serif font family used to display text."
+msgstr "Výchozí písmo z rodiny Serif použité k zobrazení textu."
+
+msgid "The default encoding of the web view"
+msgstr "Výchozí kódování zobrazení WWW"
+
+msgid "The default encoding used to display text."
+msgstr "Výchozí kódování textu použité k zobrazení textu."
+
+msgid "The default font family used to display monospace text."
+msgstr "Výchozí rodina písma použitého k zobrazení textu s pevnou šířkou."
+
+msgid "The default font family used to display text."
+msgstr "Výchozí rodina písma použitého k zobrazení textu."
+
+msgid "The default font size used to display monospace text."
+msgstr "Výchozí velikost písma použitá k zobrazení textu s pevnou šířkou."
+
+msgid "The default font size used to display text."
+msgstr "Výchozí velikost písma použitá k zobrazení textu."
+
+msgid "The destination URI where to save the file"
+msgstr "Cílová adresa URI, kam soubor uložit"
+
+msgid "The document title of the frame"
+msgstr "Nadpis dokumentu rámu"
+
+msgid "The filename suggested as default when saving"
+msgstr "Výchozí název souboru při uložení"
+
+msgid "The length of the data already downloaded"
+msgstr "Objem již stažených dat"
+
+msgid "The level of zoom of the content"
+msgstr "Úroveň zvětšení obsahu"
+
+msgid "The list of targets this web view supports for clipboard copying"
+msgstr ""
+"Seznam cílů, které zobrazení stránky podporuje pro operace kopírování pomocí "
+"schránky"
+
+msgid "The list of targets this web view supports for clipboard pasting"
+msgstr ""
+"Seznam cílů, které zobrazení stránky podporuje pro operace vkládání pomocí "
+"schránky"
+
+msgid "The minimum font size used to display text."
+msgstr "Minimální velikost písma použitá k zobrazení textu."
+
+msgid "The minimum logical font size used to display text."
+msgstr "Minimální logická velikost písma použítá k zobrazení textu."
+
+msgid "The name of the frame"
+msgstr "Název rámu"
+
+msgid "The network request for the URI that should be downloaded"
+msgstr "Síťový požadavek na adresu URI, která má být stažena"
+
+msgid "The network response for the URI that should be downloaded"
+msgstr "Síťová odpověď na adresu URI, která má být stažena"
+
+msgid "The original URI of the history item"
+msgstr "Původní adresa URI položky historie"
+
+msgid "The reason why this navigation is occurring"
+msgstr "Důvod, proč se objevila tato navigace"
+
+msgid "The target frame for the navigation"
+msgstr "Cílový rám navigace"
+
+msgid "The time at which the history item was last visited"
+msgstr "Čas, kdy byla položka historie naposledy navštívena"
+
+msgid "The title of the history item"
+msgstr "Nadpis položky historie"
+
+msgid "The total size of the file"
+msgstr "Celková velikost souboru"
+
+msgid "The value by which the zoom level is changed when zooming in or out."
+msgstr "Hodnota změn velikosti jednotlivých kroků při zmenšování a zvětšování."
+
+msgid "This is a searchable index. Enter search keywords: "
+msgstr "Tento seznam lze prohledávat. Zadejte klíčová slova hledání:"
+
+msgid "Title"
+msgstr "Nadpis"
+
+msgid "Total Size"
+msgstr "Celková velikost"
+
+msgid "Transparent"
+msgstr "Průhledné"
+
+msgid "URI"
+msgstr "Adresa URI"
+
+msgid "Unknown"
+msgstr "Neznámé"
+
+msgid "Upload File"
+msgstr "Nahrát soubor"
+
+msgid "User Agent"
+msgstr "Identifikace prohlížeče"
+
+msgid "User Stylesheet URI"
+msgstr "Cesta k předpisu vzhledu uživatele"
+
+msgid "User cancelled the download"
+msgstr "Stahování zrušeno uživatelem"
+
+msgid "Username:"
+msgstr "Uživatelské jméno:"
+
+msgid "Vertical Scrollbar Policy"
+msgstr "Strategie pro svislý posuvník"
+
+msgid "Web Inspector"
+msgstr "Zkoumání WWW"
+
+msgid "Web View"
+msgstr "Zobrazení WWW"
+
+msgid "Whether Java Applet support through <applet> should be enabled"
+msgstr "Jestli má být povolena podpora jazyka JavaScript skrze značku <applet>"
+
+msgid "Whether JavaScript can open windows automatically"
+msgstr "Jestli smí JavaScript automaticky otevírat okna"
+
+msgid "Whether background images should be printed."
+msgstr "Zda mají být tisknuty obrázky na pozadí."
+
+msgid "Whether content can be modified by the user"
+msgstr "Jestli uživatel může upravovat obsah"
+
+msgid "Whether content has a transparent background"
+msgstr "Jestli má obsah průhledné pozadí"
+
+msgid "Whether text areas are resizable."
+msgstr "Jestli je možno měnit velikost textového pole."
+
+msgid "Whether the full content is scaled when zooming"
+msgstr "Jestli má být prováděna změna velikosti celého obsahu"
+
+msgid "Whether the page cache should be used"
+msgstr "Jestli použít vyrovnávací paměť pro stránky"
+
+msgid "Whether the tab key cycles through elements on the page."
+msgstr "Jestli klávesa tabulátoru prochází cyklicky prvky stránky."
+
+msgid "Whether to allow universal access from file URIs"
+msgstr "Povolit univerzální přístup ze souboru s adresami URI"
+
+msgid "Whether to enable DOM paste"
+msgstr "Jestli povolit vkládání DOM"
+
+msgid "Whether to enable HTML5 Local Storage support"
+msgstr "Jestli má být povolena podpora místního úložiště HTML5"
+
+msgid "Whether to enable HTML5 database support"
+msgstr "Jeslti povolit podporu pro databázi HTML5"
+
+msgid "Whether to enable accessibility enhanced keyboard navigation"
+msgstr "Jestli povolit zpřístupnění pomocí navigace klávesnicí"
+
+msgid "Whether to enable offline web application cache"
+msgstr "Povolit ukládání stránek do vyrovnávací paměti k použití při odpojení"
+
+msgid "Whether to enable teh XSS auditor"
+msgstr "Jestli povolit revizi XSS"
+
+msgid "ZWJ Zero width _joiner"
+msgstr "ZWJ - _spojovač nulové šířky"
+
+msgid "ZWNJ Zero width _non-joiner"
+msgstr "ZWNJ - nespojovač n_ulové šířky"
+
+msgid "ZWS _Zero width space"
+msgstr "ZWS - mezera _nulové šířky"
+
+msgid "Zoom Stepping Value"
+msgstr "Hodnota kroků změn velikosti"
+
+msgid "Zoom level"
+msgstr "Úroveň zvětšení"
+
+msgid "_Check Document Now"
+msgstr "_Zkontrolovat dokument"
+
+msgid "_Clear recent searches"
+msgstr "_Vymazat nedávná hledání"
+
+msgid "_Download Linked File"
+msgstr "_Uložit odkazovaný soubor"
+
+msgid "_Font"
+msgstr "_Písmo"
+
+msgid "_Hide Spelling and Grammar"
+msgstr "_Skrýt kontrolu pravopisu a gramatiky"
+
+msgid "_Ignore Spelling"
+msgstr "_Ignorovat kontrolu pravopisu"
+
+msgid "_Insert Unicode Control Character"
+msgstr "Vloži_t řídící znak Unicode"
+
+msgid "_Learn Spelling"
+msgstr "_Učit se kontrolu pravopisu"
+
+msgid "_Look Up in Dictionary"
+msgstr "Vyh_ledat ve slovníku"
+
+msgid "_Open Link"
+msgstr "_Otevřít odkaz"
+
+msgid "_Outline"
+msgstr "K_ontury"
+
+msgid "_Reload"
+msgstr "_Obnovit"
+
+msgid "_Remember password"
+msgstr "Za_pamatovat si heslo"
+
+msgid "_Search the Web"
+msgstr "_Vyhledat na WWW"
+
+msgid "_Show Spelling and Grammar"
+msgstr "_Zobrazit kontrolu pravopisu a gramatiky"
+
+msgid "activate"
+msgstr "aktivovat"
+
+msgid "audio element controller"
+msgstr "ovladač prvku zvuku"
+
+msgid "audio element playback controls and status display"
+msgstr "zobrazení ovládacích prvků a stavu prvku zvuku"
+
+msgid "back 30 seconds"
+msgstr "zpět 30 sekund"
+
+msgid "begin playback"
+msgstr "začít přehrávání"
+
+msgid "check"
+msgstr "kontrola"
+
+msgid "current movie status"
+msgstr "aktuální stav videa"
+
+msgid "current movie time in seconds"
+msgstr "čas aktuálního videa v sekundách"
+
+msgid "definition"
+msgstr "definice"
+
+msgid "elapsed time"
+msgstr "uplynulý čas"
+
+msgid "fast forward"
+msgstr "rychle vpřed"
+
+msgid "fast reverse"
+msgstr "rychle zpět"
+
+msgid "fullscreen"
+msgstr "celá obrazovka"
+
+msgid "indefinite time"
+msgstr "Nejasný čas"
+
+msgid "jump"
+msgstr "přeskočit"
+
+msgid "movie time"
+msgstr "čas videa"
+
+msgid "mute"
+msgstr "ztlumení"
+
+msgid "mute audio tracks"
+msgstr "ztlumit hudební stopy"
+
+msgid "number of seconds of movie remaining"
+msgstr "počet zbývajících vteřin videa"
+
+msgid "pattern mismatch"
+msgstr "vzor nesouhlasí"
+
+msgid "pause"
+msgstr "pozastavit"
+
+msgid "pause playback"
+msgstr "pozastavit přehrávání"
+
+msgid "play"
+msgstr "přehrát"
+
+msgid "press"
+msgstr "stisknutí"
+
+msgid "range overflow"
+msgstr "příliš velký rozsah"
+
+msgid "range underflow"
+msgstr "nedostatečně velký rozsah"
+
+msgid "remaining time"
+msgstr "zbývající čas"
+
+msgid "return streaming movie to real time"
+msgstr "vrátit se v promítání videa do reálného šasu"
+
+msgid "return to realtime"
+msgstr "vrátit se do reálného času"
+
+msgid "seek movie back 30 seconds"
+msgstr "přeskočit ve videu 30 sekund zpět"
+
+msgid "seek quickly back"
+msgstr "rychlý přechod zpět"
+
+msgid "seek quickly forward"
+msgstr "rychlý přechod vpřed"
+
+msgid "select"
+msgstr "výběr"
+
+msgid "status"
+msgstr "stav"
+
+msgid "term"
+msgstr "výraz"
+
+msgid "too long"
+msgstr "příliš dlouhé"
+
+msgid "type mismatch"
+msgstr "typ nesouhlasí"
+
+msgid "uncheck"
+msgstr "zrušení výběru"
+
+msgid "unmute"
+msgstr "zrušit ztlumení"
+
+msgid "unmute audio tracks"
+msgstr "zrušit ztlumení hudebních stop"
+
+msgid "value missing"
+msgstr "chybějící hodnota"
+
+msgid "video element controller"
+msgstr "ovladač prvku videa"
+
+msgid "video element playback controls and status display"
+msgstr "zobrazení ovládacích prvků a stavu prvku videa"

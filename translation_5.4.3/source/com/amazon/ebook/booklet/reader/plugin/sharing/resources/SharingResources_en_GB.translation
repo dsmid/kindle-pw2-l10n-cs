@@ -1,0 +1,26 @@
+A link to the book will be included with your message.	
+A link to the passage will be included with your message.	
+Cancel	
+Clipping Error	
+Close	
+Communication Error	
+Enter Your Message	
+Invalid Social Networks	
+Manage	
+Message Shared	
+One or more of the social networks registered on your Kindle are not configured properly. Selecting Manage below will open the Manage Your Social Networks web page so you can enter your account information. When your changes are complete, select Continue Reading to return to this item.	
+Register	
+Share	
+Sharing Failed	
+Sharing Not Supported	
+Sharing Unavailable	
+Social Networks Not Registered	
+The sharing service encountered a communication error. Please try again later.	
+The sharing service encountered an unrecoverable error. Sharing cancelled.	
+The sharing service is currently unavailable. Please try again later.	
+This content does not support sharing.	
+Unable to share. You have reached the clipping limit for this item set by the publisher, {0}.	
+Unable to share. You have reached the clipping limit for this item set by the publisher.	
+Unable to share. You have reached the clipping limit for this item.	
+Your Kindle is not registered with any social networks. Selecting Register below will open the Manage Your Social Networks web page so you can enter your account information. When your registration is complete, select Continue Reading to return to this item.	
+{0,select, left {{1,plural, =0 {No characters left} one {{1} character left} other {{1} characters left}}} over {{1,plural, one {{1} character over} other {{1} characters over}}} other {}}	

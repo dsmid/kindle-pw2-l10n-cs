@@ -1,0 +1,26 @@
+Access to Cloud.	Přístup k internetovému úložišti.
+Access to Experimental Web Browser.	Přístup k internetovému prohlížeči.
+Access to Kindle Store.	Přístup do obchodu Kindle Store.
+Access to the Goodreadsʼ network of readers.	Přístup k čtenářské síti Goodreads.
+Cancel	Zrušit
+Change Password	Změnit heslo
+Cloud	Internetové úložiště
+Confirm Password:	Potvrďte heslo:
+Current Parental Controls Password:	Stávající heslo pro rodičovský zámek:
+Enter Parental Controls Password:	Zadejte heslo pro rodičovský zámek:
+Enter Password Hint: Enter a phrase that can help you remember your password.	Zadejte pomůcku hesla: Zadejte slovní spojení, jenž vám připomene vaše heslo.
+Goodreads on Kindle	Síť Goodreads
+Incorrect Password	Nesprávné heslo
+Incorrect password. Please try again:	Nesprávné heslo. Prosím zkuste to znovu:
+Invalid Password	Neplatné heslo
+Kindle Store	Kindle store
+New Parental Controls Password:	Nové heslo pro rodičovský zámek:
+Parental Controls	Rodičovská nastavení
+Passwords Do Not Match. Please try again.	Zadaná hesla jsou různá. Prosím zkuste to znovu.
+Please enter a valid password.	Zadejte prosím platné heslo.
+Restrictions	Omezení
+Set Parental Controls Password:	Nastavte heslo pro rodičovský zámek:
+Web Browser	Webový prohlížeč
+When Parental Controls are enabled, Deregistration and Reset Device are disabled.	Při aktivním rodičovském zámku není povolena odregistrace ani návrat do továrního nastavení.
+When Parental Controls are enabled, Deregistration and Reset Device are disabled.~~~~When the Kindle Store is locked, you can continue buying books from your computer and send them to your Kindle.	Při aktivním rodičovském zámku není povolena odregistrace ani návrat do továrního nastavení.~~~~Pokud je přístup do Kindle Store uzamčen, můžete pokračovat v nákupu knih na počítači a posílat je do Kindlu.
+{0,select, has_hint {Hint: {1}} other {}}~~~~If you have forgotten your password, please contact Kindle Customer Service at www.kindle.com/support to receive help resetting your device.	{0,select, has_hint {Pomůcka: {1}} other {}}~~~~Pokud jste zapomněli své heslo, kontaktujte prosím oddělení péče o zákazníky na www.kindle.com/support, kde vám pomohou s návratem Kindlu do továrního nastavení.

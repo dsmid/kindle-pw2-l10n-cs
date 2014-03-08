@@ -1,0 +1,11 @@
+About Vocabulary Builder	
+Books	
+Flashcards	
+Learning ({0,number,integer})	
+Mastered ({0,number,integer})	
+Vocabulary Builder	
+Words mastered: {0}	
+Words	
+{0,select,true {Learning ({1,number,integer}) } false {Learning ({1,number,integer})} other {}}	
+{0,select,true {Mastered ({1,number,integer}) } false {Mastered ({1,number,integer})} other {}}	
+ Any Book	

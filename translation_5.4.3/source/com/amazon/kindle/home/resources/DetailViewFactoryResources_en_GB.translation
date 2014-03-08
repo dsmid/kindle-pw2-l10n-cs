@@ -1,0 +1,22 @@
+About Vocabulary Builder	
+Add To Home	
+Add/Remove Items	
+Date: 	
+Delete	
+Edit Child Profiles	
+Edit Pronunciation	
+In Cloud: {0,plural,=0 {No Items} one {{0,number,integer} Item} other {{0,number,integer} Items} }	
+Learn more	
+Manage FreeTime Items	
+Narrator: 	
+On Device: {0,plural,=0 {No Items} one {{0,number,integer} Item} other {{0,number,integer} Items} }	
+Rename	
+Show Only in Collections View	
+Show in All Views	
+Total: {0,plural,=0 {No Items} one {{0,number,integer} Item} other {{0,number,integer} Items} }	
+Turn Off FreeTime	
+Turn Off Vocabulary Builder	
+Unknown	
+View Achievements	
+{0,plural,=0 {Learning {0,number,integer} words} one {Learning {0,number,integer} word} other {Learning {0,number,integer} words} }	
+{0,plural,=0 {Mastered {0,number,integer} words} one {Mastered {0,number,integer} word} other {Mastered {0,number,integer} words} }	

@@ -1,0 +1,17 @@
+{0,choice,0#{1,plural,=0{{1,number,0} mins.} one{{1,number,0} min.} other{{1,number,0} mins.}} {2,plural,=0{{2,number,00} secs.} one{{2,number,00} sec.} other{{2,number,00} secs.}}|0<{0,plural,=0{} one{{0,number,0} hr.} other{{0,number,0} hrs.}} {1,plural,=0{{1,number,0} mins.} one{{1,number,0} min.} other{{1,number,0} mins.}} {2,plural,=0{{2,number,00} secs.} one{{2,number,00} sec.} other{{2,number,00} secs.}}}	
+{0,select,year {{1,plural,=0 {this year} one {{1,number,integer} a year ago} other {{1,number,integer} years ago}}} month {{2,plural,=0 {this month} one {a month ago} other {{2,number,integer} months ago}}}  week {{3,plural,=0 {this week} one {a week ago} other {{3,number,integer} weeks ago}}} day {{4,plural,=0 {today} one {yesterday} other {{4,number,integer} days ago}}} hour {{5,plural,=0 {recently} one {an hour ago} other {{5,number,integer} hours ago}}} minute {{6,plural,=0 {just now} one {a minute ago} other {{6,number,integer} minutes ago}}} now {just now} other {recently}}	
+{1,plural,=0{{1,number,integer} years} one{{1,number,integer} year} other{{1,number,integer} years}}	
+{2,plural,=0{{2,number,integer} months} one{{2,number,integer} month} other{{2,number,integer} months}}	
+{3,plural,=0{{3,number,integer} days} one{{3,number,integer} day} other{{3,number,integer} days}}	
+{4,number,0}{7}{5,number,00}{7}{6,number,00}	
+{4,plural,=0{{4,number,integer} hours} one{{4,number,integer} hour} other{{4,number,integer} hours}}, {5,plural,=0{{5,number,integer} minutes} one{{5,number,integer} minute} other{{5,number,integer} minutes}}, and {6,plural,=0{{6,number,integer} seconds} one{{6,number,integer} second} other{{6,number,integer} seconds}}	
+{4,plural,=0{{4,number,integer} hrs.} one{{4,number,integer} hr.} other{{4,number,integer} hrs.}} {5,plural,=0{{5,number,integer} mins.} one{{5,number,integer} min.} other{{5,number,integer} mins.}} {6,plural,=0{{6,number,integer} secs.} one{{6,number,integer} sec.} other{{6,number,integer} secs.}}	
+{4,plural,=0{{4,number,integer} h} one{{4,number,integer} h} other{{4,number,integer} h}} {5,plural,=0{{5,number,integer} m} one{{5,number,integer} m} other{{5,number,integer} m}}	
+{4,plural,=0{{4,number,integer} h} one{{4,number,integer} h} other{{4,number,integer} h}} {5,plural,=0{{5,number,integer}m} one{{5,number,integer} m} other{{5,number,integer} m}}	
+{5,number,00}{7}{6,number,00}	
+{5,plural,=0{{5,number,integer} mins.} one{{5,number,integer} min.} other{{5,number,integer} mins.}} {6,plural,=0{{6,number,integer} secs.} one{{6,number,integer} sec.} other{{6,number,integer} secs.}}	
+{5,plural,=0{{5,number,integer} minutes} one{{5,number,integer} minute} other{{5,number,integer} minutes}} and {6,plural,=0{{6,number,integer} seconds} one{{6,number,integer} second} other{{6,number,integer} seconds}}	
+{5,plural,=0{{5,number,integer} m} one{{5,number,integer} m} other{{5,number,integer} m}}	
+{6,plural,=0{0 m} one{0 m} other{0 m}}	
+{6,plural,=0{{6,number,integer} seconds} one{{6,number,integer} second} other{{6,number,integer} seconds}}	
+{6,plural,=0{{6,number,integer} secs.} one{{6,number,integer} sec.} other{{6,number,integer} secs.}}	

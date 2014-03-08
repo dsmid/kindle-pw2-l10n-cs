@@ -1,0 +1,20 @@
+411 Page	
+611 Page	
+711 Page	
+Available Wireless Providers	
+Cancel	
+Close	
+Currently you are connected to: {0}~~Select Switch Automatically to allow your Kindle to automatically choose the best wireless provider (default).	
+Page {0,number,integer} of {1,number,integer}	
+Retrieving data…	
+Scanning for available wireless providers. This may take several minutes...	
+Switch automatically (recommended)	
+Switching Wireless Providers	
+Tcpdump is not running	
+Tcpdump is running	
+URL to download file from	
+URL to ping	
+URL to traceroute	
+Unknown	
+Your Kindle will lose its connection during this process. Manually switching wireless providers may take several minutes to complete, and your Kindle may not reconnect successfully to the Amazon Whispernet network.~~~~Do you wish to continue?	
+{0,date,full} {1,time,full}~~Downloading from {2}	

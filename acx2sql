@@ -12,12 +12,7 @@ root=$PWD
 
 echo "begin;" > $root/../acxstrings_$VERSION.sql.temp
 
-while read orig overlay
-do
-    if [[ "$orig" =~  /acw ]]
-    then
-	orig=./${orig#/}
-	echo Overlay item: $orig $overlay
+	orig=./opt/amazon/acw
 	while read acx
 	do
 		echo ACX: $acx
@@ -44,7 +39,7 @@ do
 		    while read file src
     		    do
         		export src
-	                echo "insert into trans values ('$src','', '$file', '$VER');" >> $root/../acxstrings_$VERSION.sql.temp
+	                echo "INSERT INTO trans VALUES('$src','','$file','$VER');" >> $root/../acxstrings_$VERSION.sql.temp
         	        echo "             === insert into trans values ('$src','', '$file', '$VER');" >&2
         	    done
 		)
@@ -58,14 +53,12 @@ do
     		    do
         		export src
 			[ -n "$src" ] || continue
-	                echo "insert into trans values ('$src','', '$file', '$VER');" >> $root/../acxstrings_$VERSION.sql.temp
+	                echo "INSERT INTO trans VALUES('$src','','$file','$VER');" >> $root/../acxstrings_$VERSION.sql.temp
         	        echo "             === insert into trans values ('$src','', '$file', '$VER');" >&2
         	    done
 		)
 	cd $root
-    fi
-    cd $root
-done < ../overlay.list
+
 echo "commit;" >> $root/../acxstrings_$VERSION.sql.temp
 native2ascii -reverse $root/../acxstrings_$VERSION.sql.temp $root/../acxstrings_$VERSION.sql
 rm -f $root/../acxstrings_$VERSION.sql.temp

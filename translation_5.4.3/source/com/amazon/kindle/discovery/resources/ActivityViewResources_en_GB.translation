@@ -1,0 +1,19 @@
+Add Comment	
+Also share on:	
+Comment	
+Loading…	
+Request Failed	
+This update was deleted.	
+We canʼt seem to find this comment.	
+We canʼt seem to find this update.	
+{0,select, BookRating {'{0}' liked a rating} BookStatusReading {'{0}' liked an update} BookStatusRead {'{0}' liked an update} BookStatusWantToRead {'{0}' liked an update} Comment {'{0}' liked a comment} GoodreadsReview {'{0}' liked a review} Like {'{0}' liked a comment} Note {'{0}' liked a note} QuoteWithNote {'{0}' liked a quote} Quote {'{0}' liked a quote} ReadingProgressWithNote {'{0}' liked an update} ReadingProgress {'{0}' liked an update} Recommend {'{0}' liked a recommendation} other {'{0}' liked an update}}	
+{0,select, BookStatusReading {'{0}' is currently reading~~'{1}'} BookStatusRead {'{0}' read~~'{1}'} other {'{0}' wants to read~~'{1}'}}	
+{0,select, amazon {Comment deleted by Amazon {1}.} comment_creator {Comment deleted by the author {1}.} other {Comment deleted {1}.}}	
+{0} by {1}	
+{0} is currently reading~~{1}	
+{0} made a comment	
+{0} rated it {1}~~{2}	
+{0} recommended to {1}~~{2}	
+{0} shared a note	
+{0} shared a quote	
+{0} wrote a review	

@@ -1,0 +1,100 @@
++ Add Friend	
++ Follow	
+About Me	
+Add Amazon Books to Goodreads	
+Add Friends 	
+Add a comment…	
+Add physical and digital Amazon book purchases to Goodreads by rating them or adding them to a shelf.	
+Are you sure you would like to remove {0} from your friend list? Friends arenʼt notified when you remove them.	
+By connecting, you will enable Goodreads to access your public profile, friend list, e-mail address, and likes from Facebook. Additionally, Goodreads will be able to send posts to your friends on your behalf. By proceeding, you agree to the Goodreadsʼ Terms of Service and Privacy Policy.	
+By connecting, you will enable Goodreads to access your public profile, friend list, e-mail address, and likes from Facebook. Additionally, Goodreads will be able to send posts to your friends on your behalf.	
+By {0}	
+Cancel Request	
+Currently Reading ({0,number,integer})	
+Currently Reading ({0})	
+Currently Reading	
+Done	
+Edit About Me (modified) 	
+Edit About Me 	
+Edit Profile	
+Enter your full name or your first name here. This will be the name that appears on your public Amazon and Goodreads profiles.	
+Facebook E-mail	
+Facebook Password	
+Follow these notable readers to view their reviews and recommendations{0,select, with_connect_message {, or connect with friends from Facebook.} other {.}}	
+Followers ({0})	
+Following ({0})	
+Friends ({0})	
+Get Started	
+Goodreads E-mail	
+Goodreads Password	
+Hide Password	
+Loading…	
+Mark as:	
+My Rating	
+Name for Friends	
+Name	
+Next	
+Public Name	
+Rate this Book	
+Rate this book	
+Read ({0,number,integer})	
+Read ({0})	
+Read Now	
+Read	
+Readers to Follow	
+Remove Friend	
+Remove from Shelf	
+Save	
+Search Store	
+See what your friends are reading and share your reading activity on Facebook.	
+Shelved Books ({0,number,integer})	
+Shelved Books ({0})	
+Skip	
+Start Following	
+Stop Following	
+Tap here to connect to a Wi-Fi network~~to see the most recent activity.	
+To update your name, sign in at Goodreads.com and select Edit Profile.	
+View Reviews	
+View in Store	
+Want to Read ({0,number,integer})	
+Want to Read ({0})	
+Want to Read	
+We canʼt seem to find this book.	
+We canʼt seem to find this person.	
+We canʼt seem to find this review.	
+Welcome to the worldʼs largest network of readers, where you can find book recommendations to find and share the books you love with your friends.	
+You are currently offline.	
+by {0}	
+commented on an activity	
+finished reading	
+shared a book	
+shared a highlight	
+shared a note	
+shared an activity	
+{0,choice,0#{0,plural,=0 {{0,number,integer} friends} one {{0,number,integer} friend} other {{0,number,integer} friends}}|1000#999+ friends}	
+{0,plural,=0 {{0,number,integer} books} one {{0,number,integer} book} other {{0,number,integer} books}} | {1,choice,0#{1,plural,=0 {{1,number,integer} followers} one {{1,number,integer} follower} other {{1,number,integer} followers}}|1000#999+ followers}	
+{0,plural,=0 {{0,number,integer} books} one {{0,number,integer} book} other {{0,number,integer} books}} | {1,choice,0#{1,plural,=0 {{1,number,integer} friends} one {{1,number,integer} friend} other {{1,number,integer} friends}}|1000#999+ friends}	
+{0,plural,=0 {{0,number,integer} books} one {{0,number,integer} book} other {{0,number,integer} books}}	
+{0,plural,=0 {} one {Following {0,number,integer} new reader} other {Following {0,number,integer} new readers}}	
+{0,plural,=0 {} one {{0,number,integer} book shelved} other {{0,number,integer} books shelved}}	
+{0,select,empty {Be the first to follow {1} } empty_existing_friend {No followers yet.} unknown {Loading…} other {}}	
+{0,select,empty {No books have been added yet.} unknown {Loading…} other {}}	
+{0,select,empty {No comments have been posted yet. Be the first to comment } unknown {Loading comments…} other {}}	
+{0,select,empty {No recent updates.} unknown {Loading…} other {}}	
+{0,select,empty {No updates have been posted yet.~~Tap here to follow suggested readers or add Facebook friends on Goodreads } unknown {Loading updates…} other {}}	
+{0,select,empty {Not following any readers yet.} unknown {Loading…} other {}}	
+{0,select,empty {Start interacting with other readers by sharing your books, notes and highlights.} unknown {Loading…} other {}}	
+{0,select,empty {Tap here to add books from your Amazon library } unknown {Loading…} other {}}	
+{0,select,empty {Tap here to be the first to add {1} as friend } empty_pending_friend {No friends yet.} unknown {Loading…} other {}}	
+{0,select,empty {Tap here to follow suggested readers or add Facebook friends } unknown {Loading…} other {}}	
+{0,select,empty {There arenʼt any books in your library yet.~~See what your friends are reading } unknown {Loading Amazon books…} other {}}	
+{0,select,empty {There arenʼt any books in your library. You can always add some later.} unknown {Loading Amazon books…} other {}}	
+{0,select,empty {There arenʼt currently any new readers for you to follow. Please try again later.} facebook_not_connected {There arenʼt currently any new readers for you to follow. Add your friends from Facebook to Goodreads } unknown {Loading suggested readers…} other {}}	
+{0,select,empty {There arenʼt currently any reviews. Please try again later.} unknown {Loading Reviews…} other {}}	
+{0,select,empty {You are not following any readers yet.~~Tap here to follow suggested readers or to add Facebook friends } unknown {Loading Following…} other {}}	
+{0,select,empty {You do not have any followers yet.} unknown {Loading…} other {}}	
+{0,select,empty {You do not have any friends yet.~~Tap here to follow suggested readers or to add Facebook friends } unknown {Loading Friends…} other {}}	
+{0,select,empty {You donʼt currently have any followers.} unknown {Loading Followers…} other {}}	
+{0,select,empty {You have not shelved any books yet. View your Amazon book purchases to add books to Goodreads } unknown {Loading books…} other {}}	
+{0} by {1}	
+{0} 	

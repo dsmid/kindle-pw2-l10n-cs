@@ -1,0 +1,16 @@
+Chapter	Kapitola
+Delete	Smazat
+Edit	Upravit
+Go to Location	Přejít na pozici
+Note	Poznámka
+Notes	Poznámky
+Popular	Oblíbené
+Public	Veřejné
+Share	Sdílet
+View	Zobrazit
+You do not have any notes or highlights.	Nemáte žádné poznámky ani zvýraznění.
+Yours	Vaše
+{0,plural,=0 {} =1 {1 highlighter} other {{0,number,integer} highlighters}}	{0,plural,=0 {} =1 {zvýraznil jeden člověk} other {zvýraznilo lidí: {0,number,integer}}}
+{0,select, false{Page {1}} true{Loc {1}} other {}}	{0,select, false{Strana {1}} true{Poz. {1}} other {}}
+{0}’s Highlight	Zvýraznění od {0}
+{0}’s Note	Poznámka od {0}

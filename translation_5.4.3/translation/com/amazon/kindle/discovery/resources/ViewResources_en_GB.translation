@@ -1,0 +1,100 @@
++ Add Friend	+ Přidat přítele
++ Follow	+ Sledovat
+About Me	O mé osobě
+Add Amazon Books to Goodreads	Přidat knihy od Amazonu do Goodreads
+Add Friends 	Přidat přátele 
+Add a comment…	Přidat komentář…
+Add physical and digital Amazon book purchases to Goodreads by rating them or adding them to a shelf.	Přidejte papírové a digitální knihy, které jste zakoupili na Amazonu do Goodreads tím, že je ohodnotíte nebo přidáte do regálu.
+Are you sure you would like to remove {0} from your friend list? Friends arenʼt notified when you remove them.	Skutečně si přejete odebrat čtenáře {0} ze seznamu vašich přátel? Přátelé nejsou o odebrání informováni.
+By connecting, you will enable Goodreads to access your public profile, friend list, e-mail address, and likes from Facebook. Additionally, Goodreads will be able to send posts to your friends on your behalf. By proceeding, you agree to the Goodreadsʼ Terms of Service and Privacy Policy.	Po připojení umožníte Goodreads přistupovat k vašemu veřejnému profilu, seznamu přátel, e-mailové adrese a lajkům z Facebooku. Kromě toho budou Goodreads moci vaším jménem posílat příspěvky vašim přátelům. Pokud budete pokračovat, souhlasíte s podmínkami služby Goodreads a zásadami ochrany osobních údajů.
+By connecting, you will enable Goodreads to access your public profile, friend list, e-mail address, and likes from Facebook. Additionally, Goodreads will be able to send posts to your friends on your behalf.	Po připojení umožníte Goodreads přistupovat k vašemu veřejnému profilu, seznamu přátel, e-mailové adrese a lajkům z Facebooku. Kromě toho budou Goodreads moci vaším jménem posílat příspěvky vašim přátelům.
+By {0}	Podle {0}
+Cancel Request	Zrušit požadavek
+Currently Reading ({0,number,integer})	Rozečtené ({0,number,integer})
+Currently Reading ({0})	Rozečtené ({0})
+Currently Reading	Rozečtené
+Done	Hotovo
+Edit About Me (modified) 	Upravit informace o mé osobě (změněno) 
+Edit About Me 	Upravit informace o mé osobě
+Edit Profile	Upravit profil
+Enter your full name or your first name here. This will be the name that appears on your public Amazon and Goodreads profiles.	Zadejte své celé jméno nebo křestní jméno. Toto jméno se bude ukazovat ve vašem veřejném profilu na Amazonu a na Goodreads.
+Facebook E-mail	E-mail pro Facebook
+Facebook Password	Heslo do Facebooku
+Follow these notable readers to view their reviews and recommendations{0,select, with_connect_message {, or connect with friends from Facebook.} other {.}}	Sledujte tyto čtenáře, abyste mohli prohlížet jejich recenze a doporučení{0,select, with_connect_message { nebo se spojte s přáteli na Facebooku.} other {.}}
+Followers ({0})	Sledující ({0})
+Following ({0})	Sledovaní ({0})
+Friends ({0})	Přátelé ({0})
+Get Started	Začínáme
+Goodreads E-mail	Goodreads e-mail
+Goodreads Password	Heslo do Goodreads
+Hide Password	Skrýt heslo
+Loading…	Nahrávám…
+Mark as:	Označit jako:
+My Rating	Moje hodnocení
+Name for Friends	Jméno pro přátele
+Name	Jméno
+Next	Další
+Public Name	Veřejné jméno
+Rate this Book	Ohodnotit tuto knihu
+Rate this book	Ohodnoťte tuto knihu
+Read ({0,number,integer})	Přečtené ({0,number,integer})
+Read ({0})	Přečtené ({0})
+Read Now	Pustit se do čtení
+Read	Přečtené
+Readers to Follow	Čtenáři ke sledování
+Remove Friend	Odebrat přítele
+Remove from Shelf	Odebrat z regálu
+Save	Uložit
+Search Store	Hledat v obchodě
+See what your friends are reading and share your reading activity on Facebook.	Podívejte se, co čtou vaši přátelé na Facebooku a sdílejte své čtenářské aktivity.
+Shelved Books ({0,number,integer})	Knihy v regálu ({0,number,integer})
+Shelved Books ({0})	Knihy v regálu ({0})
+Skip	Přeskočit
+Start Following	Začít sledovat
+Stop Following	Přestat sledovat
+Tap here to connect to a Wi-Fi network~~to see the most recent activity.	Klikněte sem pro připojení k Wi-Fi~~abyste mohli vidět nedávnou aktivitu.
+To update your name, sign in at Goodreads.com and select Edit Profile.	Pro změnu jména se přihlašte na Goodreads a vyberte Edit Profile.
+View Reviews	Zobrazit recenze
+View in Store	Ukázat v obchodě
+Want to Read ({0,number,integer})	K přečtení ({0,number,integer})
+Want to Read ({0})	K přečtení ({0})
+Want to Read	K přečtení
+We canʼt seem to find this book.	Nemůžeme nalézt tuto knihu.
+We canʼt seem to find this person.	Nemůžeme nalézt tuto osobu.
+We canʼt seem to find this review.	Nemůžeme nalézt tuto recenzi.
+Welcome to the worldʼs largest network of readers, where you can find book recommendations to find and share the books you love with your friends.	Vítejte v největší světové síti čtenářů, kde můžete najít různá doporučení a sdílet knihy, které milujete, s vašimi přáteli.
+You are currently offline.	Nejste připojeni k Internetu.
+by {0}	od {0}
+commented on an activity	okomentoval(a) aktivitu
+finished reading	přečetl(a) knihu
+shared a book	sdílel(a) knihu
+shared a highlight	sdílel(a) zvýraznění
+shared a note	sdílel(a) poznámku
+shared an activity	sdílel(a) aktivitu
+{0,choice,0#{0,plural,=0 {{0,number,integer} friends} one {{0,number,integer} friend} other {{0,number,integer} friends}}|1000#999+ friends}	{0,choice,0#{0,plural,=0 {{0,number,integer} přátel} one {{0,number,integer} přítel} other {{0,number,integer} přátel}}|1000#999+ přátel}
+{0,plural,=0 {{0,number,integer} books} one {{0,number,integer} book} other {{0,number,integer} books}} | {1,choice,0#{1,plural,=0 {{1,number,integer} followers} one {{1,number,integer} follower} other {{1,number,integer} followers}}|1000#999+ followers}	{0,plural,=0 {{0,number,integer} knih} one {{0,number,integer} kniha} other {{0,number,integer} knih}} | {1,choice,0#{1,plural,=0 {{1,number,integer} sledujících} one {{1,number,integer} sledující} other {{1,number,integer} sledujících}}|1000#999+ sledujících}
+{0,plural,=0 {{0,number,integer} books} one {{0,number,integer} book} other {{0,number,integer} books}} | {1,choice,0#{1,plural,=0 {{1,number,integer} friends} one {{1,number,integer} friend} other {{1,number,integer} friends}}|1000#999+ friends}	{0,plural,=0 {{0,number,integer} knih} one {{0,number,integer} kniha} other {{0,number,integer} knih}} | {1,choice,0#{1,plural,=0 {{1,number,integer} přátel} one {{1,number,integer} přítel} other {{1,number,integer} přátel}}|1000#999+ přátel}
+{0,plural,=0 {{0,number,integer} books} one {{0,number,integer} book} other {{0,number,integer} books}}	{0,plural,=0 {{0,number,integer} knih} one {{0,number,integer} kniha} other {{0,number,integer} knih}}
+{0,plural,=0 {} one {Following {0,number,integer} new reader} other {Following {0,number,integer} new readers}}	{0,plural,=0 {} one {Sledujete {0,number,integer} nového čtenáře} other {Sledujete {0,number,integer} nových čtenářů}}
+{0,plural,=0 {} one {{0,number,integer} book shelved} other {{0,number,integer} books shelved}}	{0,plural,=0 {} one {{0,number,integer} kniha přibyla do regálu} other {{0,number,integer} knih přibylo do regálu}}
+{0,select,empty {Be the first to follow {1} } empty_existing_friend {No followers yet.} unknown {Loading…} other {}}	{0,select,empty {Buďte první, kdo sleduje čtenáře {1} } empty_existing_friend {Nikdo zatím nesleduje.} unknown {Nahrávám…} other {}}
+{0,select,empty {No books have been added yet.} unknown {Loading…} other {}}	{0,select,empty {Ještě nebyly přidány žádné knihy.} unknown {Nahrávám…} other {}}
+{0,select,empty {No comments have been posted yet. Be the first to comment } unknown {Loading comments…} other {}}	{0,select,empty {Zatím nebyly přidány žádné komentáře. Buďte první } unknown {Nahrávám komentáře…} other {}}
+{0,select,empty {No recent updates.} unknown {Loading…} other {}}	{0,select,empty {Žádné nedávné aktualizace.} unknown {Nahrávám…} other {}}
+{0,select,empty {No updates have been posted yet.~~Tap here to follow suggested readers or add Facebook friends on Goodreads } unknown {Loading updates…} other {}}	{0,select,empty {Nebyly ještě odeslány žádné aktualizace.~~Klikněte sem pro přidání navrhovaných čtenářu nebo pro přidání přátel z Facebooku do Goodreads } unknown {Nahrávám aktualizace…} other {}}
+{0,select,empty {Not following any readers yet.} unknown {Loading…} other {}}	{0,select,empty {Zatím nesledujete žádného čtenáře.} unknown {Nahrávám…} other {}}
+{0,select,empty {Start interacting with other readers by sharing your books, notes and highlights.} unknown {Loading…} other {}}	{0,select,empty {Začněte komunikovat s ostatními čtenáři sdílením knih, poznámek a zvýraznění.} unknown {Nahrávám…} other {}}
+{0,select,empty {Tap here to add books from your Amazon library } unknown {Loading…} other {}}	{0,select,empty {Klikněte zde pro přidání vašich knih z knihovny na Amazonu } unknown {Nahrávám…} other {}}
+{0,select,empty {Tap here to be the first to add {1} as friend } empty_pending_friend {No friends yet.} unknown {Loading…} other {}}	{0,select,empty {Klikněte sem a buďte první kdo si přidá čtenáře {1} jako přítele } empty_pending_friend {Zatím žádní přátelé.} unknown {Nahrávám…} other {}}
+{0,select,empty {Tap here to follow suggested readers or add Facebook friends } unknown {Loading…} other {}}	{0,select,empty {Klikněte zde pro přidání navrhovaných čtenářu nebo pro přidání přátel z Facebooku } unknown {Nahrávám…} other {}}
+{0,select,empty {There arenʼt any books in your library yet.~~See what your friends are reading } unknown {Loading Amazon books…} other {}}	{0,select,empty {Ve vaší knihovně zatím nejsou žádné knihy.~~Podívejte se, co čtou vaši přátelé } unknown {Nahrávám knihy z Amazonu…} other {}}
+{0,select,empty {There arenʼt any books in your library. You can always add some later.} unknown {Loading Amazon books…} other {}}	{0,select,empty {Ve vaší knihovně nejsou žádné knihy. Můžete později nějaké přidat.} unknown {Nahrávám knihy z Amazonu…} other {}}
+{0,select,empty {There arenʼt currently any new readers for you to follow. Please try again later.} facebook_not_connected {There arenʼt currently any new readers for you to follow. Add your friends from Facebook to Goodreads } unknown {Loading suggested readers…} other {}}	{0,select,empty {Aktuálně nejsou žádní čtenáři, které byste mohli sledovat. Prosím zkuste to později.} facebook_not_connected {Aktuálně nejsou žádní čtenáři, které byste mohli sledovat. Přidejte přátele z Facebooku do Goodreads } unknown {Nahrávám navržené čtenáře…} other {}}
+{0,select,empty {There arenʼt currently any reviews. Please try again later.} unknown {Loading Reviews…} other {}}	{0,select,empty {Aktuálně zde nejsou žádné recenze. Prosím zkuste to později.} unknown {Nahrávám recenze…} other {}}
+{0,select,empty {You are not following any readers yet.~~Tap here to follow suggested readers or to add Facebook friends } unknown {Loading Following…} other {}}	{0,select,empty {Zatím nesledujete žádného čtenáře.~~Klikněte sem pro přidání navrhovaných čtenářu nebo pro přidání přátel z Facebooku } unknown {Nahrávám sledované…} other {}}
+{0,select,empty {You do not have any followers yet.} unknown {Loading…} other {}}	{0,select,empty {Zatím není nikdo, kdo by vás sledoval.} unknown {Nahrávám…} other {}}
+{0,select,empty {You do not have any friends yet.~~Tap here to follow suggested readers or to add Facebook friends } unknown {Loading Friends…} other {}}	{0,select,empty {Nemáte zatím žádné přátele.~~Klikněte sem pro přidání navrhovaných čtenářu nebo pro přidání přátel z Facebooku } unknown {Nahrávám přátele…} other {}}
+{0,select,empty {You donʼt currently have any followers.} unknown {Loading Followers…} other {}}	{0,select,empty {Nikdo vás nesleduje.} unknown {Nahrávám sledující…} other {}}
+{0,select,empty {You have not shelved any books yet. View your Amazon book purchases to add books to Goodreads } unknown {Loading books…} other {}}	{0,select,empty {Zatím jste nepřidali žádnou knihu do regálu. Přidejte do Goodreads knihy, které jste zakoupili u Amazonu } unknown {Nahrávám knihy…} other {}}
+{0} by {1}	{0} od {1}
+{0} 	{0} 

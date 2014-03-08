@@ -1,0 +1,36 @@
+<html><b>Wi-Fi MAC Address:</b>&nbsp;{1}<br/><b>Serial Number:</b>&nbsp;{2}<br/><b>Network Capability:</b>&nbsp;{3}<br/><b>Firmware Version:</b>&nbsp;{4}<br/><b>Space Available:</b>&nbsp;{0,choice, -1#Unknown|0#{0,number,integer} MB free}{5,select, 0 {} 1 {<br/><b>Policy ID:</b>&nbsp;{6}} other{}}</html>	
+Cancel	
+Close	
+Deregister Your Kindle	
+Deregister	
+Deregistering Your Kindle…	
+Device Info	
+Device Name	
+Enter your Amazon account information.	
+First Name	
+Gender	
+Hide Password	
+Login ID	
+Password	
+Personalise your Kindle by giving it a name that appears on the Home screen.	
+Please visit goodreads.com/settings to unlink your Facebook account from your Goodreads account.	
+Register Your Kindle	
+Register	
+Registering Your Kindle…	
+Registration Failed	
+Registration Help	
+Save	
+The login ID and password you entered do not match any Amazon accounts on record. Please make sure that you have correctly entered the login ID (e-mail address or phone number) associated with your Amazon account. For further details please contact Kindle Customer Service at www.kindle.com/support.	
+There was an error whilst deregistering your device. Please try again later.	
+There was an error whilst registering your Kindle. Please try again later.	
+Try Again	
+Unable to Connect	
+Unavailable	
+Unlink	
+Your Amazon account will no longer be linked with your Facebook account.	
+Your Amazon account will no longer be linked with your Goodreads account.	
+Your Amazon account will no longer be linked with your Twitter account.	
+Your Amazon account will no longer be linked with your Weibo account.	
+Your Kindle is currently unable to connect. Please make sure you are within wireless range and try again. If the problem persists, restart your Kindle from Menu in Settings and try again.	
+Your Kindle will be deregistered from your Amazon account, some features will not work, and some settings, such as those for viewing Cloud Collections, may not be saved. After deregistering, you can register your Kindle with another Amazon account.~~Are you sure you want to deregister?	
+{0,select, facebook {Unlink Facebook} twitter {Unlink Twitter} goodreads {Unlink Goodreads} weibo {Unlink Sina Weibo} other {}}	

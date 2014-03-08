@@ -1,0 +1,19 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kb-en_US 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-01-27 15:40-0800\n"
+"PO-Revision-Date: 2012-01-27 15:40-0800\n"
+"Last-Translator: Mathias Mosinski <mosinski@amazon.com>\n"
+"Language-Team: en <kindle-i18n-team@lab126.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+
+msgid "Simplified-Chinese"
+msgstr "Čínská (zjednodušená)"
+# msgstr "Chinese (Simplified)"
+
+

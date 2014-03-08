@@ -35,22 +35,24 @@ then
     echo "val: $val";
     [ -n "$src" ] || continue;
     tran=$(sqlite3 ../../kindle_loc.sqlite "select tran from trans where src='"'"'$src'"'"' and file='"'"'{}'"'"' and ver='"'"''$VERSION''"'"' ;" );
+    [ -n "$tran" ] || tran=$(sqlite3 ../../kindle_loc.sqlite "select tran from trans where src='"'"'$src'"'"' and file='"'"'{}'"'"' and ver='"'"'5.4.2'"'"' ;" );
     [ -n "$tran" ] || tran=$(sqlite3 ../../kindle_loc.sqlite "select tran from trans where src='"'"'$src'"'"' and file='"'"'{}'"'"' and ver='"'"'4.1'"'"' ;" );
     [ -n "$tran" ] || tran=$(sqlite3 ../../kindle_loc.sqlite "select tran from trans where src='"'"'$src'"'"' and file='"'"'{}'"'"' and ver='"'"'3.4'"'"' ;" );
     [ -n "$tran" ] || tran=$(sqlite3 ../../kindle_loc.sqlite "select tran from trans where src='"'"'$src'"'"' and file='"'"'{}'"'"' and ver='"'"'3.1'"'"' ;" );
     [ -n "$tran" ] || tran=$(sqlite3 ../../kindle_loc.sqlite "select tran from trans where src='"'"'$src'"'"' and file='"'"'{}'"'"' and ver='"'"'3.0'"'"' ;" );
-    [ -n "$tran" ] || tran=$(sqlite3 ../../kindle_loc.sqlite "select tran from trans where src='"'"'$src'"'"' and ver='"'"'3.4'"'"' ;" | sort -u | sed  "s/$/#or#/g" | tr -d '"'"'\n'"'"');
+    [ -n "$tran" ] || tran=$(sqlite3 ../../kindle_loc.sqlite "select tran from trans where src='"'"'$src'"'"' and ver='"'"'5.4.2'"'"' ;" | sort -u | sed  "s/$/#or#/g" | tr -d '"'"'\n'"'"');
     [ -n "$tran" ] || tran=$(sqlite3 ../../kindle_loc.sqlite "select tran from trans where src='"'"'$src'"'"' and ver not like '"'"'strings_%'"'"' ;" | sort -u | sed  "s/$/#or#/g" | tr -d '"'"'\n'"'"');
     src="$val";
     [ -n "$tran" ] || tran=$(sqlite3 ../../kindle_loc.sqlite "select tran from trans where src='"'"'$src'"'"' and ver not like '"'"'strings_%'"'"' ;" | sort -u | sed  "s/$/#or#/g" | tr -d '"'"'\n'"'"');
     [ -n "$tran" ] || tran="$val";
 else
     tran=$(sqlite3 ../../kindle_loc.sqlite "select tran from trans where src='"'"'$src'"'"' and file='"'"'{}'"'"' and ver='"'"''$VERSION''"'"' ;" );
+    [ -n "$tran" ] || tran=$(sqlite3 ../../kindle_loc.sqlite "select tran from trans where src='"'"'$src'"'"' and file='"'"'{}'"'"' and ver='"'"'5.4.2'"'"' ;" );
     [ -n "$tran" ] || tran=$(sqlite3 ../../kindle_loc.sqlite "select tran from trans where src='"'"'$src'"'"' and file='"'"'{}'"'"' and ver='"'"'4.1'"'"' ;" );
     [ -n "$tran" ] || tran=$(sqlite3 ../../kindle_loc.sqlite "select tran from trans where src='"'"'$src'"'"' and file='"'"'{}'"'"' and ver='"'"'3.4'"'"' ;" );
     [ -n "$tran" ] || tran=$(sqlite3 ../../kindle_loc.sqlite "select tran from trans where src='"'"'$src'"'"' and file='"'"'{}'"'"' and ver='"'"'3.1'"'"' ;" );
     [ -n "$tran" ] || tran=$(sqlite3 ../../kindle_loc.sqlite "select tran from trans where src='"'"'$src'"'"' and file='"'"'{}'"'"' and ver='"'"'3.0'"'"' ;" );
-    [ -n "$tran" ] || tran=$(sqlite3 ../../kindle_loc.sqlite "select tran from trans where src='"'"'$src'"'"' and ver='"'"'3.4'"'"' ;" | sort -u | sed  "s/$/#or#/g" | tr -d '"'"'\n'"'"');
+    [ -n "$tran" ] || tran=$(sqlite3 ../../kindle_loc.sqlite "select tran from trans where src='"'"'$src'"'"' and ver='"'"'5.4.2'"'"' ;" | sort -u | sed  "s/$/#or#/g" | tr -d '"'"'\n'"'"');
     [ -n "$tran" ] || tran=$(sqlite3 ../../kindle_loc.sqlite "select tran from trans where src='"'"'$src'"'"' and ver not like '"'"'strings_%'"'"' ;" | sort -u | sed  "s/$/#or#/g" | tr -d '"'"'\n'"'"');
 fi;
 trantr=${tran###or#}

@@ -1,0 +1,2 @@
+{0,select, location {Back to loc {1}} page {Back to page {1}} other {Back to {1}}}	{0,select, location {Zpět na poz. {1}} page {Zpět na stranu {1}} other {Zpět na {1}}}
+{0,select, location {Forward to loc {1}} page {Forward to page {1}} other {Forward to {1}}}	{0,select, location {Vpřed na poz. {1}} page {Vpřed na stranu {1}} other {Vpřed na {1}}}

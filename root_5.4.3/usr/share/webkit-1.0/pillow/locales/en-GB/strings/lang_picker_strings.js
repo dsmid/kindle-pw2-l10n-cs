@@ -1,0 +1,3 @@
+var nextButtonStringTable = {
+	'displayname': 'Next'
+};

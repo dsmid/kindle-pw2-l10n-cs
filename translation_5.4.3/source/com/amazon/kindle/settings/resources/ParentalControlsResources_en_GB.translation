@@ -1,0 +1,7 @@
+Change Password	
+Change your Parental Controls password.	
+Parental Controls	
+Restrictions	
+{0, select, true {Create personalised profiles for your children. FreeTime automatically blocks access to the Experimental Web Browser, Kindle Store, Goodreads on Kindle, and Wikipedia.} other {Create personalised profiles for your children. FreeTime automatically blocks access to the Experimental Web Browser, Kindle Store, and Wikipedia.}}	
+{0, select, true {Enabled} other {Not Enabled}}	
+{0, select, true {Restrict access to the Experimental Web Browser, Kindle Store, Cloud, and Goodreads on Kindle.} other {Restrict access to the Experimental Web Browser, Kindle Store, and Cloud.}}	

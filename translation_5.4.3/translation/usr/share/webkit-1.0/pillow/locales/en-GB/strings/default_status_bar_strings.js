@@ -1,0 +1,3 @@
+Connected	Připojeno
+Connecting	Připojuji
+ · 	 · 

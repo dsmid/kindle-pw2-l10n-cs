@@ -1,0 +1,7 @@
+Change Password	Změnit heslo
+Change your Parental Controls password.	Změňte heslo pro rodičovský zámek.
+Parental Controls	Rodičovská nastavení
+Restrictions	Omezení
+{0, select, true {Create personalised profiles for your children. FreeTime automatically blocks access to the Experimental Web Browser, Kindle Store, Goodreads on Kindle, and Wikipedia.} other {Create personalised profiles for your children. FreeTime automatically blocks access to the Experimental Web Browser, Kindle Store, and Wikipedia.}}	{0, select, true {Vytvořte pro své děti osobní profily. FreeTime automaticky blokuje přístup k internetovému prohlížeči, ke Kindle Store, k síti Goodreads a k Wikipedii.} other {Vytvořte pro své děti osobní profily. FreeTime automaticky blokuje přístup k internetovému prohlížeči, ke Kindle Store a k Wikipedii.}}
+{0, select, true {Enabled} other {Not Enabled}}	{0, select, true {Povoleno} other {Nepovoleno}}
+{0, select, true {Restrict access to the Experimental Web Browser, Kindle Store, Cloud, and Goodreads on Kindle.} other {Restrict access to the Experimental Web Browser, Kindle Store, and Cloud.}}	{0, select, true {Omezte přístup k internetovému prohlížeči, ke Kindle Store, k internetovému úložišti a k síti Goodreads.} other {Omezte přístup k internetovému prohlížeči, ke Kindle Store a k internetovému úložišti.}}
