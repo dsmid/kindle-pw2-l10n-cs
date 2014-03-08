@@ -103,11 +103,8 @@ EOF
 
 install_pw2_exec_userstore_flag()
 {
-	# PW2 only...
-	if [ "${IS_PW2}" == "true" ] ; then
-		logmsg "I" "install_pw2_exec_userstore_flag" "Creating the userstore exec flag file"
-		touch "/MNTUS_EXEC"
-	fi
+	logmsg "I" "install_pw2_exec_userstore_flag" "Creating the userstore exec flag file"
+	touch "/MNTUS_EXEC"
 }
 
 install_bridge()
