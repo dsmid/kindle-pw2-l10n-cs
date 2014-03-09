@@ -1,5 +1,5 @@
 About Vocabulary Builder	O Procvičování slov ze slovníku
-Add To Home	Přidat na dom.stránku
+Add To Home	Přidat na dom. stránku
 Add/Remove Items	Přidat/odstranit položky
 Date: 	Datum:
 Delete	Smazat
@@ -10,9 +10,9 @@ Learn more	Více informací
 Manage FreeTime Items	Spravovat položky pro FreeTime
 Narrator: 	Vypravěč:
 On Device: {0,plural,=0 {No Items} one {{0,number,integer} Item} other {{0,number,integer} Items} }	V Kindlu: {0,plural,=0 {žádné položky} one {{0,number,integer} položka} other {položek: {0,number,integer}} }
-Rename	
-Show Only in Collections View	
-Show in All Views	
+Rename	Přejmenovat
+Show Only in Collections View	Zobrazovat pouze v režimu zobrazení Kolekce
+Show in All Views	Zobrazovat ve všech režimech zobrazení
 Total: {0,plural,=0 {No Items} one {{0,number,integer} Item} other {{0,number,integer} Items} }	Celkem: {0,plural,=0 {žádné požky} one {{0,number,integer} položka} other {položek: {0,number,integer}} }
 Turn Off FreeTime	Vypnout FreeTime
 Turn Off Vocabulary Builder	Vypnout Procvičování slov ze slovníku

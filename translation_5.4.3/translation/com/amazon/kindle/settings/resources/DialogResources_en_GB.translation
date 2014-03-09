@@ -10,27 +10,27 @@ Enter your Amazon account information.	Zadejte informace o vašem účtu u Amazo
 First Name	Křestní jméno
 Gender	Pohlaví
 Hide Password	Skrýt heslo
-Login ID	
+Login ID	Přihlašovací jméno
 Password	Heslo
 Personalise your Kindle by giving it a name that appears on the Home screen.	Poznačte si svůj Kindle - dejte mu jméno, jenž se bude objevovat na domovské obrazovce.
-Please visit goodreads.com/settings to unlink your Facebook account from your Goodreads account.	
+Please visit goodreads.com/settings to unlink your Facebook account from your Goodreads account.	Pro zrušení propojení vašeho facebookového účtu s účtem na Goodreads prosím navštivte goodreads.com/settings.
 Register Your Kindle	Zaregistrujte svůj Kindle
 Register	Registrovat
 Registering Your Kindle…	Registruji váš Kindle…
 Registration Failed	Registrace se nezdařila
 Registration Help	Pomoc při registraci
 Save	Uložit
-The login ID and password you entered do not match any Amazon accounts on record. Please make sure that you have correctly entered the login ID (e-mail address or phone number) associated with your Amazon account. For further details please contact Kindle Customer Service at www.kindle.com/support.	
+The login ID and password you entered do not match any Amazon accounts on record. Please make sure that you have correctly entered the login ID (e-mail address or phone number) associated with your Amazon account. For further details please contact Kindle Customer Service at www.kindle.com/support.	Přihlašovací jméno a heslo, které jste zadali, neodpovídá žádnému účtu u Amazonu. Prosím, zkontrolujte, zda jste správně zadali své přihlašovací jméno (vaše e-mailová adresa nebo telefonní číslo). Pro další podrobnosti, prosím, kontaktujte Kindle Customer Service na www.kindle.com/support.
 There was an error whilst deregistering your device. Please try again later.	Vyskytla se chyba během odregistrování vašeho Kindlu. Prosím zkuste to později znovu.
 There was an error whilst registering your Kindle. Please try again later.	Vyskytla se chyba během registrace vašeho Kindlu. Prosím zkuste to později znovu.
 Try Again	Zkusit znovu
 Unable to Connect	Není možné se připojit
 Unavailable	Nedostupné
 Unlink	Zrušit propojení
-Your Amazon account will no longer be linked with your Facebook account.	
-Your Amazon account will no longer be linked with your Goodreads account.	
-Your Amazon account will no longer be linked with your Twitter account.	
-Your Amazon account will no longer be linked with your Weibo account.	
+Your Amazon account will no longer be linked with your Facebook account.	Propojení vašeho účtu u Amazonu s Facebookem bude zrušeno.
+Your Amazon account will no longer be linked with your Goodreads account.	Propojení vašeho účtu u Amazonu s Goodreads bude zrušeno.
+Your Amazon account will no longer be linked with your Twitter account.	Propojení vašeho účtu u Amazonu s Twitterem bude zrušeno.
+Your Amazon account will no longer be linked with your Weibo account.	Propojení vašeho účtu u Amazonu s Weibo bude zrušeno.
 Your Kindle is currently unable to connect. Please make sure you are within wireless range and try again. If the problem persists, restart your Kindle from Menu in Settings and try again.	Váš Kindle se nemůže připojit. Prosím ujistěte se, že jste v dosahu bezdrátové sítě a zkuste to znovu. Pokud problém přetrvá, restartujte svůj Kindle pomocí menu na stránce Nastavení a zkuste to znovu.
-Your Kindle will be deregistered from your Amazon account, some features will not work, and some settings, such as those for viewing Cloud Collections, may not be saved. After deregistering, you can register your Kindle with another Amazon account.~~Are you sure you want to deregister?	
-{0,select, facebook {Unlink Facebook} twitter {Unlink Twitter} goodreads {Unlink Goodreads} weibo {Unlink Sina Weibo} other {}}	
+Your Kindle will be deregistered from your Amazon account, some features will not work, and some settings, such as those for viewing Cloud Collections, may not be saved. After deregistering, you can register your Kindle with another Amazon account.~~Are you sure you want to deregister?	Registrace vašeho Kindlu k účtu u Amazonu bude zrušena, některé věci přestanou fungovat a některá nastavení, jako nastavení Internetových kolekcí, nemusí být uložena. Po odregistraci můžete Kindle zaregistrovat k jinému účtu u Amazonu.~~Skutečně chcete Kindle odregistrovat?
+{0,select, facebook {Unlink Facebook} twitter {Unlink Twitter} goodreads {Unlink Goodreads} weibo {Unlink Sina Weibo} other {}}	{0,select, facebook {Zrušit propojení s Facebookem} twitter {Zrušit propojení s Twitterem} goodreads {Zrušit propojení s Goodreads} weibo {Zrušit propojení s Weibo} other {}}
