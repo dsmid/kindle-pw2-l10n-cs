@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="kindle/core/kindle.css" />
+        <link rel="stylesheet" type="text/css" href="style/translator.css" />
+    </head>
+
+    <body style="display:none;">
+        <div class="kindle-dialog-body" id="translator-main">
+            <div class="kindle-dialog-content">
+                <div>
+                    <div id="table-container" class="table-container">
+                        <div class="table-row">
+                            <div class="table-cell"><label class="lang-label" for="source-lang" id="from-label"></label></div>
+                            <div class="table-cell"><select class="lang-select ui_widget" id="source-lang" name="source-lang"></select></div>
+                            <div class="table-cell">&nbsp;</div>
+                            <div class="table-cell"><label class="lang-label" for="destination-lang" id="to-label"></label></div>
+                            <div class="table-cell"><select class="lang-select ui_widget" id="destination-lang" name="destination-lang"></select></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content" id="content">
+                    <div class="kindle-scroll-area" id="scrollArea">
+                        <div class="result-container">
+                            <div id="message" class="ui_widget"></div>
+                            <div id="destination-text" class="ui_widget"></div>
+                            <div id="warning-message" class="kindle-dialog-byline ui_widget"></div>
+                            <span id="about-link-message" class="kindle-dialog-byline underline ui_widget"></span>
+                        </div>
+                    </div>
+                    <div class="kindle-scroll-bar">
+                        <div class="kindle-scroll-thumb"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="wireless"></div>
+        <div id="about-message-div" class="kindle-dialog-body">
+             <div id="about-message" class="ui_widget"></div>
+             <div id="spacer"></div>
+             <span id="back-link-message" class="underline ui_widget"></span>
+        </div>
+        <script type="text/javascript" src="kindle/core/core.js"></script>
+        <script type="text/javascript" src="kindle/features/reader/reader.js"></script>
+        <script type="text/javascript" src="kindle/features/DeviceEventTracking/DeviceEventTracking.js"></script>
+        <script type="text/javascript" src="kindle/features/connectivity/Connectivity.js"></script>
+        <script type="text/javascript" src="kindle/features/Marketplace/Marketplace.js"></script>
+        <script type="text/javascript" src="kindle/features/pagination/pagination-lite.js"></script>
+        <script type="text/javascript" src="kindle/features/gestures/gestures.js"></script>
+        <script type="text/javascript" src="kindle/features/webstorage/storage.js"></script>
+        <script type="text/javascript" src="kindle/shared/onSelect.js"></script>
+        <script type="text/javascript" src="kindle/features/uitest/uitest.js"></script>
+        <script type="text/javascript" src="script/strings.js"></script>
+        <script type="text/javascript" src="script/translator.js"></script>
+    </body>
+</html>

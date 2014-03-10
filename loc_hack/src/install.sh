@@ -41,6 +41,8 @@ then
     progress 35 "Resetting bookmarks"
     rm -f $bookmarks
 fi
+mntus umount
+mntus mount
 
 progress 40 "Setting system locale"
 echo -e "LANG=en_GB.UTF-8\nLC_ALL=en_GB.UTF-8" > /var/local/system/locale
@@ -90,5 +92,5 @@ chmod 755 /etc/upstart/debrick || fail "Unable to chmod 755 debrick"
 cp debrick.conf /etc/upstart/ || fail "Unable to copy debrick.conf"
 chmod 644 /etc/upstart/debrick.conf || fail "Unable to chmod 644 debrick.conf"
 
+sync
 progress 100 "Installation complete."
-
