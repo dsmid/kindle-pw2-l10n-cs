@@ -467,7 +467,7 @@ var onLookupCallback = function(json) {
         elementWikiContent.innerHTML = json.articleHtml;
     } else {
         if (json.errorMessage) {
-            elementWikiContent.innerHTML = json.errorMessage;
+            elementWikiContent.innerHTML = convertStringToHtmlEntities(stringLoader.findString("wiki_no_article_found"));
         } else {
             elementWikiContent.innerHTML = convertStringToHtmlEntities(stringLoader.findString("unknown_error"));
         }
