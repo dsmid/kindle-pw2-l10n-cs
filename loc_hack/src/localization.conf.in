@@ -1,5 +1,5 @@
-start on ( started filesystems_userstore and started filesystems_var_local ) or starting x
-stop on stopping filesystems_userstore or stopping filesystems_var_local
+start on started filesystems_userstore and started filesystems_var_local and starting dbus
+stop on stopping filesystems_userstore or stopping filesystems_var_local or stopping dbus
 
 export LANG LC_ALL
 
@@ -194,7 +194,19 @@ pre-start script
             [ -d /mnt/base-us/documents/Kindle_Users_Guide.sdr ] && rm -rf /mnt/base-us/documents/Kindle_Users_Guide.sdr || true
         fi
 
+        rm -f /mnt/base-us/system/acw/stock-* || true
+
         /usr/sbin/mntroot ro || true
+    fi
+
+    bookmarks=/mnt/us/.active_content_sandbox/browser/resource/LocalStorage/file__0.localstorage
+    if [ -f $bookmarks ]
+    then
+        md5=$(md5sum $bookmarks 2>/dev/null | (read md file; echo $md) || true)
+    fi
+    if [ "$md5" == "e97836b4b5a37a608ff01208542ac870" -o "$md5" == "6a5d715e7411f4958da84927fbbc100b" ]
+    then
+        rm -f $bookmarks || true
     fi
 
     if [ -f "$USERROOT"/original_margins -a ! -f "$BACKUPROOT"/original_margins ]
