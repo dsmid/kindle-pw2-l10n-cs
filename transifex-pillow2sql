@@ -17,10 +17,10 @@ VER="5.0.3"
 cd transifex/src/$VER/pillow
 
 echo "begin;" > ../../../../pillow_$VER.sql
-find . -name "*.properties" -path './cs/*' | while read item
+find . -name "*.properties" -path "./$HACKLANG/*" | while read item
 do
     cs="$item"
-    en=${cs//cs/en_US}
+    en=${cs//\/$HACKLANG\//\/en_US\/}
     engb=./usr/share/webkit-1.0/pillow/locales/en-GB/${en#./en_US/}
     engb=${engb%.properties}.js
     OLDIFS=$IFS
