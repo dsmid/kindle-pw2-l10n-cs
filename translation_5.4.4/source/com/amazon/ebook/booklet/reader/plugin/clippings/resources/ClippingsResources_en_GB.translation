@@ -1,0 +1,6 @@
+{0,select, location {Your Bookmark at location {1}} page {Your Bookmark on page {1} | location {2}} pdf {Your Bookmark on page {1}}other {Your Bookmark on {1}}}	
+{0,select,location {Clip This Article at Location {1}}page {Clip This Article on page {1} | Location {2}}pdf {Clip This Article on page {1}}other {Clip This Article on {1}}}	
+{0,select,location {Your Highlight at location {1}}page {Your Highlight on page {1} | location {2}}pdf {Your Highlight on page {1}}other {Your Highlight on {1}}}	
+{0,select,location {Your Note at location {1}}page {Your Note on page {1} | location {2}}pdf {Your Note on page {1}}other {Your Note on {1}}}	
+{0} {1,choice,0# |1#({2})}$$~~- {3} | Added on {4,date,full} {4,time,medium}$$~~$$~~{5}$$~~==========$$~~	
+{3,plural,=0 {} other {{0}}} <{1,select,passwordProtected {This item is password-protected} noPublisher {You have reached the clipping limit for this item} other {You have reached the clipping limit set by the publisher, {2}}}>	

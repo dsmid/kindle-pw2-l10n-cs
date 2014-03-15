@@ -1,0 +1,7 @@
+Limit Reached	
+Server Error	
+The name you entered included characters that are not supported. Please enter the name again.	
+Unsupported Characters	
+You have reached the limit on the number of adult profiles allowed for FreeTime.	
+You have reached the limit on the number of children who can register with FreeTime.	
+{0, select, create { Weʼre currently experiencing problems creating new profiles. Please try again later.}  udpate { Weʼre currently experiencing problems editing profiles. Please try again later.} remove { Weʼre currently experiencing problems deleting profiles. Please try again later.}  other { Weʼre currently experiencing problems editing profiles. Please try again later.} }	

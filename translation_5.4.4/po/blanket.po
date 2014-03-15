@@ -1,0 +1,304 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: blanket 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-03-23 15:43-0700\n"
+"PO-Revision-Date: 2011-03-23 15:43-0700\n"
+"Last-Translator: kinloc-eink <kinloc-eink@amazon.com>\n"
+"Language-Team: en_GB <kinloc@amazon.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "adtcp.active.backup.path"
+msgstr "/opt/amazon/dtcp_backups/ov_default_activebutton.png"
+
+msgid "adtcp.backup.path"
+msgstr "/opt/amazon/dtcp_backups/active_screensvr.png"
+
+msgid "adtcp.button.unlock"
+msgstr "Přejeďte prstem pro odemčení"
+
+msgid "adtcp.button.unlock.fontsize"
+msgstr "10"
+
+msgid "adtcp.button.unlock.rect"
+msgstr "0,306,257.5,42"
+
+msgid "blanket.font.name"
+msgstr "dialog"
+
+msgid "langpicker.arrow.offset"
+msgstr "27.53"
+
+msgid "langpicker.cancel.label"
+msgstr "Zrušit"
+
+msgid "langpicker.cell.height"
+msgstr "30.30"
+
+msgid "langpicker.cell.leftindent"
+msgstr "20"
+
+msgid "langpicker.confirm.button.selectedinset"
+msgstr "1.36"
+
+msgid "langpicker.confirm.button.spacebetween"
+msgstr "0"
+
+msgid "langpicker.confirm.button.start"
+msgstr "37.96"
+
+msgid "langpicker.confirm.buttons.height"
+msgstr "27.08"
+
+msgid "langpicker.confirm.buttons.top"
+msgstr "199.14"
+
+msgid "langpicker.confirm.buttons.width"
+msgstr "93.56"
+
+msgid "langpicker.confirm.message %s"
+msgstr "Použít jazyk %s jako jazyk vašeho Kindlu?"
+
+msgid "langpicker.confirm.message.left"
+msgstr "9.89"
+
+msgid "langpicker.confirm.message.leftindent"
+msgstr "12.98"
+
+msgid "langpicker.confirm.message.rightmargin"
+msgstr "12.98"
+
+msgid "langpicker.confirm.message.top"
+msgstr "6.73"
+
+msgid "langpicker.confirm.message.verticalspacing"
+msgstr "25.96"
+
+msgid "langpicker.font.dialogbody"
+msgstr "9"
+
+msgid "langpicker.font.normal"
+msgstr "9"
+
+msgid "langpicker.list.topmargin"
+msgstr "30.30"
+
+msgid "langpicker.ok.label"
+msgstr "OK"
+
+msgid "ota.overlay.y_off"
+msgstr "52.60"
+
+msgid "ota.update.errorcode %s"
+msgstr "Chyba aktualizace: %s"
+
+msgid "ota.update.errorcode %s.fontsize"
+msgstr "14"
+
+msgid "ota.update.errorcode %s.rect"
+msgstr "0,64.67,258.68,100.88"
+
+msgid "ota.update.failed"
+msgstr ""
+"Aktualizace neproběhla správně.\n"
+"\n"
+"Pokud potřebujete pomoc navštivte www.kindle.com/support.\n"
+"\n"
+"Pro pokračování práce s Kindlem stiskněte vypínací tlačítko."
+
+msgid "ota.update.failed.fontsize"
+msgstr "12"
+
+msgid "ota.update.failed.rect"
+msgstr "29.31,165.55,200.05,86.22"
+
+msgid "ota.update.failed.spacing"
+msgstr "2.5"
+
+msgid "ota.update.header"
+msgstr "Aktualizace softwaru"
+
+msgid "ota.update.header.fontsize"
+msgstr "12"
+
+msgid "ota.update.header.rect"
+msgstr "0,14.65,258.68,12.07"
+
+msgid "ota.update.initial"
+msgstr ""
+"Váš Kindle se aktualizuje. To může chvíli trvat.\n"
+"\n"
+"NEVYPÍNEJTE Kindle během procesu aktualizace.\n"
+"\n"
+"Váš Kindle se po dokončení aktualizace automaticky sám restartuje."
+
+msgid "ota.update.initial.fontsize"
+msgstr "12"
+
+msgid "ota.update.initial.rect"
+msgstr "29.31,165.55,200.05,86.22"
+
+msgid "ota.update.initial.spacing"
+msgstr "2.5"
+
+msgid "ota.update.success"
+msgstr ""
+"Aktualizace proběhla úspěšně.\n"
+"\n"
+"Váš Kindle se právě restartuje..."
+
+msgid "ota.update.success.fontsize"
+msgstr "12"
+
+msgid "ota.update.success.rect"
+msgstr "29.31,165.55,200.05,86.22"
+
+msgid "ota.update.success.spacing"
+msgstr "2.5"
+
+msgid "progress_bar.border"
+msgstr "2"
+
+msgid "progress_bar.rect"
+msgstr "43.11,64.67,172.45,12.93"
+
+msgid "shutdown.cust_service.header"
+msgstr "Kindle je třeba opravit"
+
+msgid "shutdown.cust_service.header.fontsize"
+msgstr "12"
+
+msgid "shutdown.cust_service.header.rect"
+msgstr "0,14.65,258.68,12.07"
+
+msgid "shutdown.cust_service.message"
+msgstr ""
+"Váš Kindle potřebuje opravit.\n"
+"\n"
+"Prosím kontaktujte službu péče o zákazníky na \n"
+"http://www.kindle.com/support.\n"
+"Kód opravy:%d\n"
+"Verze:%lld\n"
+"DSN:%s"
+
+msgid "shutdown.cust_service.message.fontsize"
+msgstr "12"
+
+msgid "shutdown.cust_service.message.rect"
+msgstr "29.31,165.55,200.05,179.35"
+
+msgid "shutdown.cust_service.message.spacing"
+msgstr "2.5"
+
+msgid "shutdown.fontupdate.message"
+msgstr ""
+"Prosím počkejte, než nainstalujeme aktualizovaná písma. To může trvat několik minut."
+
+msgid "shutdown.fontupdate.message.fontsize"
+msgstr "12"
+
+msgid "shutdown.fontupdate.message.rect"
+msgstr "0,270.92,260,80.98"
+
+msgid "shutdown.fontupdate.message.spacing"
+msgstr "2.5"
+
+msgid "shutdown.reboot.message"
+msgstr "Prosím počkejte, než váš Kindle naběhne."
+
+msgid "shutdown.reboot.message.fontsize"
+msgstr "12"
+
+msgid "shutdown.reboot.message.rect"
+msgstr "43.11,275.92,172.45,68.98"
+
+msgid "shutdown.reboot.message.spacing"
+msgstr "2.5"
+
+msgid "test.draw.defaults"
+msgstr "Test Draw Defaults"
+
+msgid "test.draw.defaults.fontsize"
+msgstr "11"
+
+msgid "test.draw.defaults.rect"
+msgstr "0,34,600,28"
+
+msgid "test.draw.defaults.spacing"
+msgstr "2.5"
+
+msgid "test.no.fontsize"
+msgstr "No fontsize entry"
+
+msgid "test.no.fontsize.rect"
+msgstr "0,34,600,28"
+
+msgid "test.no.fontsize.spacing"
+msgstr "2.5"
+
+msgid "test.no.rect"
+msgstr "No rect entry"
+
+msgid "test.no.rect.fontsize"
+msgstr "11"
+
+msgid "test.no.rect.spacing"
+msgstr "2.5"
+
+msgid "test.no.spacing"
+msgstr "No fontsize entry"
+
+msgid "test.no.spacing.fontsize"
+msgstr "11"
+
+msgid "test.no.spacing.rect"
+msgstr "0,34,600,28"
+
+msgid "test.screen.header"
+msgstr "Test Mode"
+
+msgid "test.screen.header.rect"
+msgstr "10,42,580,32"
+
+msgid "usb.screen.charging.y_offset"
+msgstr "8.6"
+
+msgid "usb.screen.header"
+msgstr "Mód USB disku"
+
+msgid "usb.screen.header.fontsize"
+msgstr "12"
+
+msgid "usb.screen.header.rect"
+msgstr "0,14.65,258.68,12.07"
+
+msgid "usb.screen.message"
+msgstr ""
+"Pokud chcete číst nebo nakupovat během nabíjení přes USB, prosím nechte "
+"USB kabel připojený, ale odeberte Kindle ve svém počítači."
+
+msgid "usb.screen.message.fontsize"
+msgstr "12"
+
+msgid "usb.screen.message.rect"
+msgstr "29.31,165.55,200.05,86.22"
+
+msgid "usb.screen.message.spacing"
+msgstr "2.5"
+
+msgid "usb.screen.message_nc"
+msgstr ""
+"Pokud si přejete pracovat s svým Kindlem, odeberte jej v počítači.\n"
+"\n"
+"Kindle se nenabíjí."
+
+msgid "usb.screen.message_nc.fontsize"
+msgstr "12"
+
+msgid "usb.screen.message_nc.rect"
+msgstr "29.31,165.55,200.05,86.22"
+
+msgid "usb.screen.message_nc.spacing"
+msgstr "2.5"

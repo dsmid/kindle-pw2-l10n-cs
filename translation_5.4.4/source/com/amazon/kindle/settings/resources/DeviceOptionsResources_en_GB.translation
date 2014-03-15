@@ -1,0 +1,17 @@
+Device Options	
+Device Passcode	
+Device Time	
+Enabled	
+Front Light	
+Language and Dictionaries	
+Manage your Kindle language, keyboards and dictionaries.	
+Manage your Kindleʼs brightness and Night Light.	
+Manage your device name, personal info and content recommendations, and view your Send-to-Kindle e-mail address.	
+Not Enabled	
+Parental Controls Locked	
+Parental Controls	
+Personalise Your Kindle	
+Set a passcode to protect the content on your Kindle.	
+Set the local time on your Kindle.	
+This is a managed device. Parental Controls are locked. For information, contact: {0}.	
+{0, select, true {Set up Kindle FreeTime and restrict access to {1, select, true {Experimental Web Browser, Kindle Store, Cloud, and Goodreads on Kindle.} other {Experimental Web Browser, Kindle Store, and Cloud.}}} other {Restrict access to {1, select, true {Experimental Web Browser, Kindle Store, Cloud, and Goodreads on Kindle.} other {Experimental Web Browser, Kindle Store, and Cloud.}}}}	

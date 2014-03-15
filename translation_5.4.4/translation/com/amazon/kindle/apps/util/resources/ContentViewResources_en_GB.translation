@@ -1,0 +1,27 @@
+Active	Aplikace
+Archived Items	Archivované položky
+Archived	Archivováno
+Book	Kniha
+Collection	Kolekce
+Dev	Dev
+Dictionaries	Slovníky
+Dictionary	Slovník
+Expired	Prošlé
+Expiring	Vyprší
+Images	Obrázky
+Keep	Uchovat
+Letter	Dopis
+Magazine	Časopis
+Music	Hudba
+My Clippings	Mé výstřižky
+New	Nové
+Newspaper	Noviny
+Notice	Oznámení
+On Loan	Zapůjčené
+Opening...	Otevírám...
+Periodical Back Issues	Starší vydání periodik
+Personal	Osobní
+Receipt	Potvrzení
+Rental	Půjčené
+Sample	Ukázka
+{0,plural,=0 {No Items} one {{0,number,integer} Item} other {{0,number,integer} Items}}	Počet položek: {0}

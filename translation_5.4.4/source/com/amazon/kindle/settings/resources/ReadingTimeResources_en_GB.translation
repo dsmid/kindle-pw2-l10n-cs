@@ -1,0 +1,9 @@
+({0,plural,=0{{1} books} one {{1} book} other {{1} books}})	
+Add New Profile	
+Add books from your library that are great for children. Parents can set reading goals and track progress while children earn badges and awards for reading. <ul>Learn More</ul>	
+Get Started	
+Get started in 4 steps:	
+Start	
+{0} {1, plural, =0 {({1, number, integer} books)} one {({1, number, integer} book)} other {({1, number, integer} books)} }	
+• Create a password.~~• Add a profile.~~• Fill it up with books.~~• Set a reading goal for your child.	
+• Enter your password.~~• Add a profile.~~• Fill it up with books.~~• Set a reading goal for your child.	

@@ -3,13 +3,14 @@
 . config
 
 cp -f kindle_loc.sqlite kindle_loc.sqlite.old
-cp -f kindle_loc.sqlite.base kindle_loc.sqlite
+#cp -f kindle_loc.sqlite.base kindle_loc.sqlite
 
 cd translation_$VERSION
 
 VER="$VERSION"
 cd translation
 echo "begin;" > ../../trans_$VERSION.sql
+echo "delete from trans where ver = '$VER';" >> ../../trans_$VERSION.sql
 find . \( -name '*.translation' -or -name '*.js' -or -name '*.xml' \) -exec sh -c "awk 'BEGIN {FS="'"'"\\t|\\r"'"'"} { print "'"'"{}\t"'"'" \$1 "'"'"\t"'"'" \$2}' < {}" \; | \
     sed "s/'/''/g" | \
     (

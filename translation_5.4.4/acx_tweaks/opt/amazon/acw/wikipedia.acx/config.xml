@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget xmlns       = "http://www.w3.org/ns/widgets"
+        id          = "http://kindle.amazon.com/ns/widgets/wikipedia"
+        version     = "1.9.3"
+        viewmodes   = "windowed"
+        xmlns:kindle  = "http://kindle.amazon.com"
+        xmlns:ui    = "http://kindle.amazon.com/ns/ui">
+
+    <name short="Wikipedia">Wikipedia</name>
+    <name short="维基百科" xml:lang="zh-cn">&#32500;&#22522;&#30334;&#31185;</name>
+    <name short="Wikipedia" xml:lang="de">Wikipedia</name>
+    <name short="Wikipedia" xml:lang="en-gb">Wikipedia</name>
+    <name short="Wikipedia" xml:lang="es">Wikipedia</name>
+    <name short="Wikipédia" xml:lang="fr">Wikip&#233;dia</name>  
+    <name short="Wikipedia" xml:lang="it">Wikipedia</name>
+    <name short="Википедия" xml:lang="ru">&#1042;&#1080;&#1082;&#1080;&#1087;&#1077;&#1076;&#1080;&#1103;</name>
+    <name short="Wikipedia" xml:lang="ja">Wikipedia</name>
+    <name short="Wikipédia" xml:lang="pt-br">Wikip&#233;dia</name>
+
+    <feature name="http://kindle.amazon.com/features/reader" required="true"></feature>
+    <feature name="http://kindle.amazon.com/features/connectivity" required="true">
+        <param name="networkAccessGrants" value="sponsored, userSupplied" />
+        <param name="canForceConnect" value="true" />
+    </feature>
+    <feature name="http://kindle.amazon.com/features/DeviceEventTracking" required="true">
+        <param name="metricComponentPrefix" value="ACX_" />
+        <param name="metricIdentifierSuffix" value="_wikipedia" />
+    </feature>
+    <feature name="http://kindle.amazon.com/features/ApplicationLauncher" required="true"></feature>
+    <!-- ACX-1.1-only -->    
+    <feature name="http://kindle.amazon.com/features/gestures" required="true" />
+    <feature name="http://kindle.amazon.com/features/marketplace" required="true"></feature>
+    <feature name="http://kindle.amazon.com/features/pagination" required="true"/>
+    <feature name="http://kindle.amazon.com/features/uitest" required="false"/>
+    <feature name="http://kindle.amazon.com/features/webstorage" required="false" />
+    <feature name="http://kindle.amazon.com/features/device" required="false" />
+
+    <description>Display Wikipedia articles for the selected content.</description>
+    <description xml:lang="zh-cn">&#26174;&#31034;&#36873;&#23450;&#20869;&#23481;&#30340;&#32500;&#22522;&#30334;&#31185;&#25991;&#31456;&#12290;</description>
+    <description xml:lang="de">Wikipedia-Artikel zum ausgew&#228;hlten Text anzeigen.</description>
+    <description xml:lang="it">Mostra gli articoli di Wikipedia riguardanti il contenuto selezionato.</description>
+    <description xml:lang="es">Mostrar art&#237;culos de Wikipedia para el contenido seleccionado.</description>
+    <description xml:lang="en-gb">Display Wikipedia articles for the selected content.</description>
+    <description xml:lang="fr">Afficher les articles Wikip&#233;dia correspondant au contenu s&#233;lectionn&#233;.</description>
+    <description xml:lang="ru">&#1055;&#1086;&#1082;&#1072;&#1079;&#1072;&#1090;&#1100; &#1089;&#1090;&#1072;&#1090;&#1100;&#1080; &#1074; &#1042;&#1080;&#1082;&#1080;&#1087;&#1077;&#1076;&#1080;&#1080; &#1076;&#1083;&#1103; &#1074;&#1099;&#1073;&#1088;&#1072;&#1085;&#1085;&#1086;&#1075;&#1086; &#1089;&#1086;&#1076;&#1077;&#1088;&#1078;&#1080;&#1084;&#1086;&#1075;&#1086;.</description>
+    <description xml:lang="ja" >&#36984;&#25246;&#12375;&#12383;&#20869;&#23481;&#12395;&#38306;&#12377;&#12427;Wikipedia&#12398;&#35352;&#20107;&#12434;&#34920;&#31034;&#12375;&#12414;&#12377;&#12290;</description>
+    <description xml:lang="pt-br">Exibir artigos da Wikip&#233;dia para o conte&#250;do selecionado.</description>
+    
+    <author href="http://www.amazon.com/">Amazon.com, Inc.</author>
+    
+    <access origin="https://wiki-acx.amazon.com" subdomains="false" kindle:authentication="token" />
+    <access origin="https://wiki-acx.amazon.co.uk" subdomains="false" kindle:authentication="token" />
+    <access origin="https://www.google.cz" subdomains="true" kindle:authentication="token" />
+    <ui:uicontext name="selection" view="content" priority="500" />
+    
+    <!-- don't show Wikipedia when it's used in China -->
+    <ui:hideIfEquals key="kindle.marketplace.obfuscatedId" value="AAHKV2X7AFYLW" />
+    <!-- disable if in freetime -->
+    <ui:disableIfEquals key="kindle.device.settings.policy.wikipedia" value="freetimeControls" />
+    <!-- disable Wikipedia when only an image (no text) is selected -->
+    <ui:disableIfEquals key="kindle.reader.selection.targetTypes" value="imageOnly" />
+
+    <kindle:eventTypes>onbutton</kindle:eventTypes>
+    <kindle:requiresRegistration>true</kindle:requiresRegistration>
+    <!--<preference name='logging' value='enabled'/>-->
+</widget>

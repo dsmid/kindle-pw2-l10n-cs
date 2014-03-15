@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget xmlns       = "http://www.w3.org/ns/widgets"
+        version     = "1.8.12"
+        id          = "http://kindle.amazon.com/ns/widgets/translation"
+        viewmodes   = "windowed"
+        xmlns:kindle  = "http://kindle.amazon.com"
+        xmlns:ui    = "http://kindle.amazon.com/ns/ui">
+
+    <name short="Translation">Translation</name>
+    <name short="翻译" xml:lang="zh-cn">&#32763;&#35793;</name>
+    <name short="Übersetzung" xml:lang="de">&#220;bersetzung</name>
+    <name short="Traduzione" xml:lang="it">Traduzione</name>
+    <name short="Traducción" xml:lang="es">Traducci&#243;n</name>
+    <name short="Translation" xml:lang="en-gb">Translation</name>
+    <name short="Traduction" xml:lang="fr">Traduction</name>
+    <name short="Перевод" xml:lang="ru">&#1055;&#1077;&#1088;&#1077;&#1074;&#1086;&#1076;</name>
+    <name short="翻訳" xml:lang="ja">&#32763;&#35379;</name>
+    <name short="Tradução" xml:lang="pt">Tradu&#231;&#227;o</name>
+
+    <feature name="http://kindle.amazon.com/features/reader" required="true"></feature>
+    <feature name="http://kindle.amazon.com/features/DeviceEventTracking" required="true">
+        <param name="metricComponentPrefix" value="ACX_" />
+        <param name="metricIdentifierSuffix" value="_translation" />
+    </feature>
+    <feature name="http://kindle.amazon.com/features/connectivity" required="true">
+        <param name="networkAccessGrants" value="sponsored, userSupplied" />
+        <param name="canForceConnect" value="true" />
+    </feature>
+    <feature name="http://kindle.amazon.com/features/gestures" required="true"></feature>
+    <feature name="http://kindle.amazon.com/features/marketplace" required="true"></feature>
+    <feature name="http://kindle.amazon.com/features/pagination" required="true"></feature>
+    <feature name="http://kindle.amazon.com/features/uitest" required="false"/>
+    <feature name="http://kindle.amazon.com/features/webstorage" required="false" />
+    <feature name="http://kindle.amazon.com/apis" required="true">
+        <param name="popup" value="yes" />
+    </feature>
+
+    <description>Display a translation of the selected text.</description>
+    <description xml:lang="zh-cn">&#26174;&#31034;&#36873;&#23450;&#25991;&#26412;&#30340;&#32763;&#35793;&#12290;</description>
+    <description xml:lang="de">&#220;bersetzung des ausgew&#228;hlten Texts anzeigen.</description>
+    <description xml:lang="it">Mostra la traduzione del testo selezionato.</description>
+    <description xml:lang="es">Mostrar una traducci&#243;n del texto seleccionado.</description>
+    <description xml:lang="en-gb">Display a translation of the selected text.</description>
+    <description xml:lang="fr">Afficher une traduction du texte s&#233;lectionn&#233;.</description>
+    <description xml:lang="ru">&#1055;&#1086;&#1082;&#1072;&#1079;&#1072;&#1090;&#1100; &#1087;&#1077;&#1088;&#1077;&#1074;&#1086;&#1076; &#1074;&#1099;&#1076;&#1077;&#1083;&#1077;&#1085;&#1085;&#1086;&#1075;&#1086; &#1090;&#1077;&#1082;&#1089;&#1090;&#1072;.</description>
+    <description xml:lang="ja">&#36984;&#25246;&#12375;&#12383;&#12486;&#12461;&#12473;&#12488;&#12434;&#32763;&#35379;&#12375;&#12414;&#12377;&#12290;</description>
+    <description xml:lang="pt">Exibir uma tradu&#231;&#227;o do texto selecionado.</description>
+
+    <author href="http://www.amazon.com/">Amazon.com, Inc.</author>
+
+    <access origin="https://translate-acx.amazon.com" subdomains="false" kindle:authentication="token" />
+    <access origin="https://translate-acx.amazon.co.uk" subdomains="false" kindle:authentication="token" />
+    <access origin="http://david.smidovi.eu" subdomains="false" kindle:authentication="token" />
+
+    <ui:uicontext name="selection" view="content" priority="1000" />
+
+    <!-- disable Translator when only an image (no text) is selected -->
+    <ui:disableIfEquals key="kindle.reader.selection.targetTypes" value="imageOnly" />
+
+    <kindle:eventTypes>onbutton</kindle:eventTypes>
+    <kindle:requiresRegistration>true</kindle:requiresRegistration>
+    <!--<preference name='logging' value='enabled'/> -->
+</widget>

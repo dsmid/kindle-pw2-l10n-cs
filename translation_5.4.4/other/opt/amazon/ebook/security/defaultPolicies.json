@@ -1,0 +1,315 @@
+{
+    "AmazonActiveContentExtensions" : {
+        "type" : "WidgetPolicy",
+        "version" : 1.0,
+        "isProductionKey" : true,
+        "permissions" : [
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/jquery",
+                "allowed" : true
+            },
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/JQueryPaginate",
+                "allowed" : true
+            },
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/ApplicationLauncher",
+                "allowed" : true
+            },
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/messenger",
+                "allowed" : true
+            },
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/odot",
+                "allowed" : true
+            },
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/SidecarAccess",
+                "allowed" : true
+            },
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/DeviceEventTracking",
+                "allowed" : true
+            },
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/gestures",
+                "allowed" : true
+            },
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/pagination",
+                "allowed" : true
+            },
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/reader",
+                "allowed" : true
+            },
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/connectivity",
+                "allowed" : true
+            },
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/marketplace",
+                "allowed" : true
+            },                
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/uitest",
+                "allowed" : true
+            },
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/windowextensions",
+                "allowed" : true
+            },
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/webstorage",
+                "allowed" : true                
+            },
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/device",
+                "allowed" : true                
+            }
+        ]
+    }
+,
+    "HomebrewActiveContentExtensions" : {
+        "type" : "WidgetPolicy",
+        "version" : 1.0,
+        "isProductionKey" : true,
+        "permissions" : [
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/jquery",
+                "allowed" : true
+            },
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/JQueryPaginate",
+                "allowed" : true
+            },
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/ApplicationLauncher",
+                "allowed" : true
+            },
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/messenger",
+                "allowed" : true
+            },
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/odot",
+                "allowed" : true
+            },
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/SidecarAccess",
+                "allowed" : true
+            },
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/DeviceEventTracking",
+                "allowed" : true
+            },
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/gestures",
+                "allowed" : true
+            },
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/pagination",
+                "allowed" : true
+            },
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/reader",
+                "allowed" : true
+            },
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/connectivity",
+                "allowed" : true
+            },
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/marketplace",
+                "allowed" : true
+            },                
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/uitest",
+                "allowed" : true
+            },
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/windowextensions",
+                "allowed" : true
+            },
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/webstorage",
+                "allowed" : true                
+            },
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/device",
+                "allowed" : true                
+            }
+        ]
+    }
+,
+    "wuaexternal" : {
+        "type" : "WidgetPolicy",
+        "version" : 1.0,
+        "isProductionKey" : true,
+        "permissions" : [
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/jquery",
+                "allowed" : true
+            },
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/JQueryPaginate",
+                "allowed" : true
+            },
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/connectivity",
+                "allowed" : false
+            }
+        ]
+    }
+,
+    "kindlet" : {
+        "type" : "WidgetPolicy",
+        "version" : 1.0,
+        "permissions" : [
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/jquery",
+                "allowed" : true
+            },
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/JQueryPaginate",
+                "allowed" : true
+            },
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/ApplicationLauncher",
+                "allowed" : true
+            },
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/messenger",
+                "allowed" : true
+            },
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/odot",
+                "allowed" : true
+            },
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/SidecarAccess",
+                "allowed" : true
+            },
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/DeviceEventTracking",
+                "allowed" : true
+            },
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/gestures",
+                "allowed" : true
+            },
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/pagination",
+                "allowed" : true
+            },
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/reader",
+                "allowed" : true
+            },
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/connectivity",
+                "allowed" : true
+            },
+            {
+                "type" : "WidgetFeaturePermission",
+                "version" : 1.0,
+                "name" : "http://kindle.amazon.com/features/windowextensions",
+                "allowed" : true                
+            }
+        ]
+    }
+}
+

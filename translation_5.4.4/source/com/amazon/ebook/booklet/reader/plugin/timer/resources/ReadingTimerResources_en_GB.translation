@@ -1,0 +1,20 @@
+Learning reading speed ({0, number, percent})	
+Learning reading speed...	
+Loc {0} of {1}	
+Location in book	
+None	
+Page in book	
+Page {0} of {1}	
+Page {0}	
+Reading Progress	
+Reset Reading Timer	
+Select Reading Progress	
+Time left in book	
+Time left in chapter	
+Turn Off Reading Timer	
+Turn On Reading Timer	
+Updating...	
+section	
+{0, plural,=0 {Book completed} one {Time left in book: {1}} other {Time left in book: {1}}}	
+{0, plural,=0 {Chapter completed} one {Time left in chapter: {1}} other {Time left in chapter: {1}}}	
+{0,select,TimeLeftInGoal {{1, plural,=0 {You have reached the goal} one {{1,number,integer} min left until you reach your reading goal} other {{1,number,integer} mins left until you reach your reading goal}}} GoalReached {You have reached the goal} other {{1, plural,=0{You have reached the goal} one{Daily goal reached {1,number,integer} min ago} other{Daily goal reached {1,number,integer} mins ago}}}}	

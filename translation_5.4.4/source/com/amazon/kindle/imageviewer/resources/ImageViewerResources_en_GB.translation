@@ -1,0 +1,2 @@
+Images	
+{0,choice,0#Page 1 of 1|1#Page {1,number,integer} of {2,number,integer}}	

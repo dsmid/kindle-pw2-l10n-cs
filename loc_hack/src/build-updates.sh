@@ -16,11 +16,11 @@ sed "s/%VERSION%/${VERSION}/g;s/%INSTALLKUG%/${INSTALLKUG}/g" < localization.con
 
 # Build install update
 cp -f install.sh run.ffs
-./kindletool create ota2 --device paperwhite2 run.ffs localization.conf localization.pack debrick debrick.conf dropbear_dss_host_key dropbear_rsa_host_key dropbearmulti version.txt Update_${ARCH}_install.bin
+./kindletool create ota2 --device $DEVICE run.ffs localization.conf localization.pack debrick debrick.conf dropbear_dss_host_key dropbear_rsa_host_key dropbearmulti version.txt Update_${ARCH}_install.bin
 
 # Build uninstall update
 cp -f uninstall.sh run.ffs
-./kindletool create ota2 --device paperwhite2 run.ffs Update_${ARCH}_uninstall.bin
+./kindletool create ota2 --device $DEVICE run.ffs Update_${ARCH}_uninstall.bin
 
 rm -f run.ffs
 rm -f localization.pack

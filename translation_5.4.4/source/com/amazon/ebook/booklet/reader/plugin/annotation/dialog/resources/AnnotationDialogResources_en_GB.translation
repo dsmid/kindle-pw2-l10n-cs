@@ -1,0 +1,16 @@
+Chapter	
+Delete	
+Edit	
+Go to Location	
+Note	
+Notes	
+Popular	
+Public	
+Share	
+View	
+You do not have any notes or highlights.	
+Yours	
+{0,plural,=0 {} =1 {1 highlighter} other {{0,number,integer} highlighters}}	
+{0,select, false{Page {1}} true{Loc {1}} other {}}	
+{0}’s Highlight	
+{0}’s Note	

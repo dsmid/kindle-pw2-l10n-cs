@@ -1,0 +1,1 @@
+{0,plural,=0 {} one {{1,number,integer} of {3,number,integer}} other {{1,number,integer} - {2,number,integer} of {3,number,integer}}}	
