@@ -1,7 +1,7 @@
-Czech localization for Kindle Paperwhite 2
-============================================
+Czech localization for Kindle Paperwhite 2 and Kindle Paperwhite 1
+==================================================================
 
-This repository contains all that is needed to build a Czech localization package for Kindle PW2.
+This repository contains all that is needed to build a Czech localization package for Kindle PW2 and Kindle PW1.
 It allows submitting translation in pure text files and using SQLite database to adapt the tree for a new
 firmware version.
 
@@ -15,11 +15,7 @@ I've used Sir Alex' K3Translator to inject Czech phrases into the JARs instead o
 very similar to K3 localization process.
 An upstart config file unpacks localized files on boot, making backup when needed.
 
-This approach should work on any Kindle model with touch screen, even Touch and Paperwhite 1 but I can't localize these
-because I don't own any of them.
-
-I'm looking for volunteers brave enough to test the localization or able to help with translation.
-When the Czech localization is ready I will be prepared to help with localizing to other languages.
+This approach should work on any Kindle model with touch screen, even Touch.
 
 
 Here's a FAQ in Czech, you can safely ignore it if you can't speak Czech:
