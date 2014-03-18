@@ -15,7 +15,7 @@ I've used Sir Alex' K3Translator to inject Czech phrases into the JARs instead o
 very similar to K3 localization process.
 An upstart config file unpacks localized files on boot, making backup when needed.
 
-This approach should work on any Kindle model with touch screen, even Touch.
+This approach should work on any Kindle model with touch screen, even Kindle Touch.
 
 
 Here's a FAQ in Czech, you can safely ignore it if you can't speak Czech:
