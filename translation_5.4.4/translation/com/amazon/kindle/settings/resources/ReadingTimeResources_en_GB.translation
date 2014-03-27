@@ -1,4 +1,5 @@
 ({0,plural,=0{{1} books} one {{1} book} other {{1} books}})	({0,plural,=0{{1} knih} one {{1} knih} other {{1} knih}})
+ ({0,plural,=0{{1} books} one {{1} book} other {{1} books}})	 ({0,plural,=0{{1} knih} one {{1} knih} other {{1} knih}})
 Add New Profile	Přidat nový profil
 Add books from your library that are great for children. Parents can set reading goals and track progress while children earn badges and awards for reading. <ul>Learn More</ul>	Přidejte z vaší knihovny knihy vhodné pro děti. Rodiče mohou stanovit čtenářské cíle a sledovat pokroky svých dětí, zatímco ty získávají za čtení hodnosti a odměny. <ul>Více informací</ul>
 Get Started	Začínáme
