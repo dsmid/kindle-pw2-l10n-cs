@@ -42,12 +42,12 @@ do
     while read src tran
     do
         tran=$(sed 's|&|\\&|g' <<<"$tran")
-        [ -n "$tran" ] && sed -i "s|'$src'|'$tran'|g; s|"'"'"$src"'"'"|"'"'"$tran"'"'"|g;" "$jsfile.native"
+        [ -n "$tran" ] && sed -i "s|:[[:space:]]*'$src'|: '$tran'|g; s|:[[:space:]]*"'"'"$src"'"'"|: "'"'"$tran"'"'"|g;" "$jsfile.native"
     done < <(sqlite3 -separator "	" $root/../kindle_loc.sqlite "select src,tran from trans where file='""$jsfile""' and ver='""$VER""' ;")
     IFS=$OLDIFS
     native2ascii "$jsfile.native" "$jsfile"
     rm -f "$jsfile.native"
-done < <(find $orig -path '*/locales/en-gb/*.js' -exec bash -c 'js={}; mv -f {} {}.ee; js-beautify -o {} {}.ee; rm -f {}.ee' \; -print)
+done < <(find $orig \( -path '*/locales/en-gb/*.js' -or -path '*/endactions.acx/Strings.js' \) -exec bash -c 'js={}; mv -f {} {}.ee; js-beautify -o {} {}.ee; rm -f {}.ee' \; -print)
 cd $root/../build/acx
 while read xml
 do
@@ -57,7 +57,12 @@ do
     while read src tran
     do
         tran=$(sed 's|&|&amp;|g' <<<"$tran")
-        [ -n "$tran" ] && sed -i "s|\"en-gb\">$src</name>|\"en-gb\">$tran</name>|g;" "$xml"
+        if [ "$VER" == "5.3.7" ]
+        then
+            [ -n "$tran" ] && sed -i "s|>$src</name>|>$tran</name>|g;s|<description>$src</description>|<description>$tran</description>|g;" "$xml"
+        else
+            [ -n "$tran" ] && sed -i "s|\"en-gb\">$src</name>|\"en-gb\">$tran</name>|g;" "$xml"
+        fi
     done < <(sqlite3 -separator "	" $root/../kindle_loc.sqlite "select src,tran from trans where file='""$xml""' and ver='""$VER""' ;")
     IFS=$OLDIFS
 done < <(find $orig -path '*/config.xml' -print)

@@ -1,2 +1,4 @@
+#!/bin/bash
 
-java -jar widgetsigner.jar -w "$1" -s 0 -k author.p12 -a 'HomebrewActiveContentExtensions' -p ''
+BASE=$(dirname "$(readlink -f "$0")")
+java -jar $BASE/widgetsigner.jar -w "$1" -s 0 -k $BASE/author.p12 -a 'HomebrewActiveContentExtensions' -p ''
