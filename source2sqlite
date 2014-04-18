@@ -1,0 +1,43 @@
+#!/bin/bash
+
+. config
+
+cp -f kindle_loc.sqlite kindle_loc.sqlite.old
+#cp -f kindle_loc.sqlite.base kindle_loc.sqlite
+
+cd translation_$VERSION
+
+VER="strings_$VERSION"
+cd source
+echo "begin;" > ../../source_$VERSION.sql
+echo "delete from trans where ver = '$VER';" >> ../../source_$VERSION.sql
+find . \( -name '*.translation' -or -name '*.js' -or -name '*.xml' \) -exec sh -c "awk 'BEGIN {FS="'"'"\\t|\\r"'"'"} { print "'"'"{}\t"'"'" \$1 "'"'"\t"'"'" \$2}' < {}" \; | \
+    sed "s/'/''/g" | \
+    (
+	printf -v IFS "\t"
+	while read file src tran
+	do
+	    echo "insert into trans values ('$src','$tran', '$file', '$VER');" >> ../../source_$VERSION.sql
+#	    echo "insert into trans values ('$src','$tran', '$file', '$VER');" | \
+#		sqlite3 ../../kindle_loc.sqlite || \
+		    echo "             === insert into trans values ('$src','$tran', '$file', '$VER');"
+	done
+    )
+
+find . -name '*.properties' -exec sh -c "awk 'BEGIN {FS="'"'"([[:space:]]*=[[:space:]]*)|\\r"'"'"} { print "'"'"{}\t"'"'" \$1 "'"'"\t"'"'" \$2}' < {}" \; | \
+    sed "s/'/''/g" | \
+    (
+	printf -v IFS "\t"
+	while read file src tran
+	do
+	    [ -z "$src" ] && continue
+	    [ -z "$tran" ] && continue
+	    echo "insert into trans values ('$src','$tran', '$file', '$VER');"  >> ../../source_$VERSION.sql
+#	    echo "insert into trans values ('$src','$tran', '$file', '$VER');" | \
+#		sqlite3 ../../kindle_loc.sqlite || \
+		    echo "             === insert into trans values ('$src','$tran', '$file', '$VER');"
+	done
+    )
+echo "commit;" >> ../../source_$VERSION.sql
+sqlite3 ../../kindle_loc.sqlite < ../../source_$VERSION.sql
+rm -f ../../source_$VERSION.sql

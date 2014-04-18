@@ -91,7 +91,8 @@ pre-start script
     fi
 
     V=$(awk 'BEGIN {FS="[. ]"} {print $2 "." $3 "." $4}' < /etc/prettyversion.txt || true)
-    if [ "$V" != "%VERSION%" ]
+    MYV=$(echo "%VERSION%" | awk 'BEGIN {FS="[.]"} {print $1 "." $2 "." $3}' || true)
+    if [ "$V" != "$MYV" ]
     then
         echo "[$(date +'%F %T')] Incorrect firmware version $V, exiting to prevent unexpected results" >> "$USERROOT"/error.log
         echo "[$(date +'%F %T')] This localization pack is for firmware %VERSION% only" >> "$USERROOT"/error.log
